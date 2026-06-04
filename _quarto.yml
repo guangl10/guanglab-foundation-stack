@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Foundation Stack"
+  site-url: "https://fs.guanglab.org"
+  description: "52-week structured series on adolescent PPCS aerobic exercise prescription."
+  navbar:
+    left:
+      - text: "Series Hub"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - text: "Guang Li"
+        href: https://guanglab.org/
+      - text: "ORCID"
+        href: https://orcid.org/0009-0004-2807-9029
+  page-footer:
+    left: "© 2026 Foundation Stack · Guang Li"
+    right:
+      - text: "RSS"
+        href: index.xml
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

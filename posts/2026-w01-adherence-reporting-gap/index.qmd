@@ -1,0 +1,83 @@
+---
+title: "Week 1 — Heart Rate Monitors in Methods, Silence in Results"
+description: "A pilot audit of 63 PPCS aerobic-exercise papers shows a 23.8-point gap between hardware mentioned in Methods and quantified adherence reported in Results."
+date: "2026-06-04"
+series: "Foundation Stack"
+week: 1
+pillar: methods
+pmid_count: 63
+audience: [clinician, researcher, parent]
+status: published
+categories: [foundation-stack, PPCS, adherence, methods]
+---
+
+## 1. Problem
+
+Clinicians prescribing **sub-symptom threshold aerobic exercise (SSTAE)** need to know whether patients actually performed the dose. Consensus guidelines assume dose–response logic — yet in the concussion literature, **heart-rate monitors, treadmills, and cycle ergometers often appear only in Methods**, while **Results sections omit quantified adherence**.
+
+If we cannot verify dose, we cannot verify whether recovery claims are independent of self-report. This week asks: **how often does the literature report objective adherence in Results, among papers that sound objective in Methods?**
+
+## 2. Comparison table
+
+Pilot corpus: **63 full-text papers** (aerobic-exercise PPCS subset retrieved to date; not the final 141-study SR pool). Labels from manual full-text verification.
+
+| Gap 1 category (Results) | *n* | % | Plain meaning |
+|--------------------------|-----|---|----------------|
+| **Truly objective** | 11 | 17.5% | Adherence %, logs, or device-derived compliance in **Results** |
+| **Truly not reported** | 40 | 63.5% | No adherence metric in Results (hardware may be intensity-only) |
+| **Explicitly not measured** | 8 | 12.7% | Authors state adherence was not assessed |
+| **Subjective only** | 4 | 6.3% | Diary / self-report without objective denominator |
+
+| First-pass (automated) vs manual | First pass | After manual verification |
+|--------------------------------|------------|-----------------------------|
+| Flagged **`objective`** (hardware signal in Methods) | 26 (41.3%) | 11 truly objective (17.5%) |
+| Downgraded to **not reported** | — | 19 of 26 former `objective` → `truly_not_reported` |
+
+**Pseudo-objectivity gap:** 41.3% − 17.5% = **23.8 percentage points**.
+
+## 3. Points of disagreement
+
+- **Surface reading:** “They used Polar / treadmill / BCTT → the study is objective.”
+- **Manual reading:** Device role is often **intensity prescription only**, not adherence analytics in Results.
+- **Clinical inference conflict:** Meta-analyses and CATs pool “exercise works” without harmonizing whether **dose performed** was measured consistently.
+- **Field norm:** Symptom scales dominate recovery endpoints; adherence silence (Gap 1) is rarely discussed alongside outcome measurement — yet **24/63** papers show weak structure on **both** dimensions ([public summary](/resources/pilot-measurement-summary.html#co-occurrence-largest-cells)).
+
+## 4. Methods
+
+1. **Corpus:** 63 aerobic PPCS PDFs at pilot close (convenience-complete downloads).
+2. **First pass:** Automated screen (Methods + Results only) → suggested adherence labels.
+3. **Gold standard:** Manual full-text coding (Gap 1 / Gap 2); BCTT with symptom stop → `partially_objective` for outcomes.
+4. **Public tables:** [Pilot measurement summary](/resources/pilot-measurement-summary.html) on this site.
+
+Formal systematic-review extraction will use established platforms (ReviewAid, RevMan); custom pilot tools were calibration-only and are not part of citable SR methodology.
+
+## 5. SOP (clinical)
+
+::: {.callout-tip}
+## For AT / PT — before trusting a paper’s “exercise dose”
+
+1. **Read Results first:** Is there a number for sessions completed, minutes/week, or device-derived compliance?
+2. **If only Methods mention HR:** Treat dose as **unknown**, not “monitor-verified.”
+3. **When prescribing SSTAE:** Document **your** adherence (minutes, HR zone, symptom stop rule).
+4. **When comparing trials:** Flag studies that omit adherence but use symptom-only recovery endpoints.
+:::
+
+::: {.callout-caution}
+## For parents / athletes
+
+- A study mentioning a supervised treadmill test does **not** mean home exercise was tracked.
+- Ask your clinician: *“How will we track minutes and heart rate this week?”*
+:::
+
+## 6. Limitations
+
+- **Pilot *n* = 63**; not a random sample of all PPCS exercise literature.
+- **Not a treatment-effect meta-analysis** — measurement audit only.
+- **pmid_count** in metadata = papers reviewed in this pilot week, not a formal PMID bibliography table.
+- Does not replace IRB-approved research or individual medical advice.
+
+---
+
+**Series:** [Foundation Stack](/index.html) · **Week 1** · **Pillar:** methods
+
+*Summary tables:* [Pilot measurement summary](/resources/pilot-measurement-summary.html) · *Figures:* [guanglab.org/labs](https://guanglab.org/labs/lollipop_gap.html)

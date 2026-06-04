@@ -1,0 +1,6 @@
+_site/
+.quarto/
+**/index_cache/
+
+/.quarto/
+**/*.quarto_ipynb

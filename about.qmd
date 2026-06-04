@@ -1,0 +1,34 @@
+---
+title: "About Foundation Stack"
+---
+
+## What this site is
+
+**Foundation Stack** is a **52-week, continuously updated** publication on **aerobic exercise prescription for adolescents with persistent post-concussive symptoms (PPCS)**. Each week follows the same structure: problem → comparison table → disagreements → methods → clinical SOP → limitations.
+
+## Who it is for
+
+- Athletic trainers and physical therapists  
+- Sport medicine and rehabilitation researchers  
+- Parents and athletes navigating prolonged recovery  
+
+## Four pillars
+
+| Code | Focus |
+|------|--------|
+| `reproduce` | Landmark trial dose–outcome logic |
+| `methods` | Measurement, adherence, endpoint coding |
+| `synth` | Priors, dashboards, thought experiments |
+| `sop` | Pitfalls and Monday-morning checklists |
+
+## Author
+
+**Guang Li (Jack)** — graduate researcher in athletic training, Idaho State University. Personal site: [guanglab.org](https://guanglab.org/).
+
+## Privacy note
+
+This site is **public**. Internal dissertation workflows, advisor materials, and restricted project hubs are **not** linked here.
+
+## Subscribe
+
+Use the **RSS feed** linked from the [series hub](/index.html) listing page.

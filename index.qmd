@@ -1,0 +1,70 @@
+---
+title: "Foundation Stack"
+pagetitle: "Foundation Stack"
+description: "52-week structured series on adolescent PPCS aerobic exercise prescription — PMID-backed tables, methods, and clinical SOPs."
+page-layout: full
+listing:
+  contents:
+    - "posts/2026-*/index.qmd"
+  sort: "week asc"
+  type: table
+  fields: [week, date, title, pillar, pmid_count, audience]
+  field-display-names:
+    week: Week
+    date: Published
+    title: Title
+    pillar: Pillar
+    pmid_count: PMIDs
+    audience: Audience
+  feed: true
+  categories: false
+  sort-ui: false
+  filter-ui: true
+format:
+  html:
+    toc: false
+---
+
+::: {.fs-hero}
+## Foundation Stack
+
+**52 weeks · one topic · four pillars**
+
+Long-form, citable knowledge on **adolescent PPCS aerobic prescription** — for clinicians, researchers, and families. Hosted at **fs.guanglab.org** as a dedicated public series (separate from personal site tools and any private research operations).
+
+**Progress:** **1 / 52** published · Next: Week 2 (scheduled)
+:::
+
+## Why this series exists
+
+In the AI era, short posts disappear; **depth with citations compounds**. Weekly installments build PMID-supported tables and SOPs so this URL becomes the reference surface for the niche — portable for citation, teaching, and long-term portfolio evidence.
+
+::: {.callout-note}
+**Not a blog roll.** Shared template and metadata (`pillar`, `pmid_count`, `audience`, `week`). Table below = canonical index; **RSS enabled**.
+:::
+
+## Four pillars
+
+| Pillar | Code | What you get |
+|--------|------|----------------|
+| **Top-journal reproduction** | `reproduce` | Audit landmark RCTs: dose reported vs dose performed |
+| **Methods comparison** | `methods` | Adherence vs outcome measurement; coding rules |
+| **Synthetic experiments** | `synth` | Priors, dashboards, dose–heterogeneity experiments |
+| **Pitfalls & SOP** | `sop` | Checklists for AT/PT; plain-language notes for parents |
+
+## Fixed article structure (every week)
+
+1. **Problem** · 2. **Comparison table** · 3. **Disagreements** · 4. **Methods** · 5. **SOP** · 6. **Limitations**
+
+## Published installments
+
+## Public companion links (non-confidential)
+
+- **Author home:** [guanglab.org](https://guanglab.org/)  
+- **PPCS SR overview (public page):** [guanglab.org/ppcs-sr](https://guanglab.org/ppcs-sr/)  
+- **Open analysis figures:** [guanglab.org/labs/data/ppcs-sr](https://guanglab.org/labs/data/ppcs-sr/)  
+- **Pilot gap summary (this site):** [Measurement audit summary](/resources/pilot-measurement-summary.html)
+
+---
+
+[About this series](/about.html)

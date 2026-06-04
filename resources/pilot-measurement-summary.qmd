@@ -1,0 +1,47 @@
+---
+title: "Pilot measurement summary (public)"
+subtitle: "Gap 1 & Gap 2 · n = 63 · pre-extraction calibration"
+description: "Public summary statistics from the PPCS aerobic pilot audit. No restricted links."
+---
+
+Summary for **Foundation Stack Week 1** readers. This is **not** formal systematic-review pooling.
+
+## Gap 1 — adherence in Results
+
+| Category | *n* | % |
+|----------|-----|---|
+| Truly objective | 11 | 17.5% |
+| Truly not reported | 40 | 63.5% |
+| Explicitly not measured | 8 | 12.7% |
+| Subjective only | 4 | 6.3% |
+
+**Pseudo-objectivity gap:** automated first pass flagged **41.3%** as `objective` (hardware in Methods); manual verification left **17.5%** truly objective — **23.8 percentage points**.
+
+**Rule:** hardware in Methods ≠ adherence reported in Results.
+
+## Gap 2 — recovery endpoints
+
+| Finding | Count |
+|---------|-------|
+| Fully objective primary endpoint | **0 / 63** |
+| BCTT-class (`partially_objective`) | **10 / 63** (15.9%) |
+| Symptom scales / composite / unclear | **53 / 63** |
+
+## Co-occurrence (largest cells) {#co-occurrence}
+
+- **24 / 63:** no quantified adherence **and** unclear primary outcome structure  
+- **8 / 63:** no adherence + BCTT-class primary measure  
+- **6 / 63:** no adherence + symptom-scale primary  
+
+**8 of 11** papers with truly objective adherence used a **composite** primary outcome.
+
+## Open figures (guanglab.org)
+
+- [Adherence lollipop](https://guanglab.org/labs/lollipop_gap.html)  
+- [Thematic bubble chart](https://guanglab.org/labs/bubble_gap.html)  
+
+## Limitations
+
+Pilot *n* = 63 convenience-complete PDFs; ~78 additional full texts pending. Patterns may change when the full aerobic corpus is coded.
+
+[← Foundation Stack hub](/index.html)
