@@ -2,16 +2,17 @@
 
 **Canonical URL:** https://fs.guanglab.org/
 
-Public 52-week series on adolescent PPCS aerobic prescription. **Not** hosted on `projects.guanglab.org` (confidential dissertation / advisor operations).
+Public series on adolescent PPCS aerobic prescription. **Not** hosted on `projects.guanglab.org` (confidential dissertation / advisor operations).
 
-## Deploy
+## Local
 
 ```bash
-cd guanglab/foundation-stack
+cd ~/Documents/guanglab-foundation-stack
+quarto render
 bash deploy.sh
 ```
 
-## First-time server setup
+## Server setup
 
 1. **DNS:** `fs.guanglab.org` → same A record as `guanglab.org`
 2. **Directory:** `mkdir -p /home/ubuntu/projects/guanglab/foundation-stack`
@@ -19,21 +20,17 @@ bash deploy.sh
 4. **TLS:** `sudo certbot --nginx -d fs.guanglab.org` (expand cert SAN if needed)
 5. **Legacy redirect:** enable `foundation-stack-redirect` snippet on `guanglab.org` (see `nginx/guanglab-redirect-foundation-stack.conf`)
 
-## New week
+## New installment
 
-1. Copy `posts/2026-w01-adherence-reporting-gap/` → `posts/2026-wNN-<slug>/`
-2. Edit YAML + six sections
-3. `bash deploy.sh`
-4. Bump progress on `index.qmd` if needed
+1. Copy `posts/pillar2-001-six-protocols-comparison/` → `posts/pillar{N}-{seq}-{slug}/`
+2. YAML: `installment`, `pillar`, `audience`, `date`, `title`, `description`
+3. `quarto render` then `bash deploy.sh`
 
-## Repo layout
+## Layout
 
-```text
-guanglab/foundation-stack/
-├── _quarto.yml
-├── index.qmd
-├── about.qmd
-├── resources/
-├── posts/2026-wNN-<slug>/index.qmd
+```
+├── index.qmd          # Hub + listing
+├── posts/pillar{N}-{seq}-{slug}/index.qmd
+├── filters/fs-seo.lua
 └── deploy.sh
 ```

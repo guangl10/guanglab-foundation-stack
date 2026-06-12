@@ -2,9 +2,10 @@
 title: "Pilot measurement summary (public)"
 subtitle: "Gap 1 & Gap 2 · n = 63 · pre-extraction calibration"
 description: "Public summary statistics from the PPCS aerobic pilot audit. No restricted links."
+draft: true
 ---
 
-Summary for **Foundation Stack Week 1** readers. This is **not** formal systematic-review pooling.
+Summary for **Foundation Stack** readers (pilot calibration). This is **not** formal systematic-review pooling.
 
 ## Gap 1 — adherence in Results
 

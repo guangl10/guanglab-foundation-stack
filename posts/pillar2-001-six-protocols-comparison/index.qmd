@@ -1,0 +1,173 @@
+---
+title: "Six Protocols, One Condition: A Clinician's Guide to Adolescent PPCS Aerobic Exercise Prescription"
+description: "Six published protocols recommend sub-symptom-threshold aerobic exercise for adolescent PPCS—but they disagree on testing, formulae, and progression rules. This piece lays them side by side and asks which fits your setting."
+date: "2026-06-04"
+series: "Foundation Stack"
+installment: pillar2-001
+pillar: methods
+audience: [clinician, researcher, parent]
+categories: [foundation-stack, PPCS, methods, aerobic-prescription]
+---
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+Somewhere in my second pass through the PPCS aerobic exercise literature, I stopped taking notes on outcomes and started counting something else: how many different ways clinicians were being told to prescribe the same intervention.
+
+The Buffalo group measures a heart-rate threshold on a treadmill and prescribes at 80% of that number. Toronto tells athletes to walk or cycle at a slow to moderate pace and stop before breathlessness. NICE tells primary care clinicians not to provoke moderate symptom increase. Berlin gives six stages and a 24-hour rule. Pittsburgh SE uses graded aerobic rehabilitation under hospital PT for adolescents with prolonged symptoms (weeks, not days, post-injury). A symptom-limited approach skips the device entirely.
+
+Six protocols. One condition. No shared decision framework.
+
+For most adolescents moving through a school athletic trainer, a community PT, or a pediatrician's office, this fragmentation is invisible—until it isn't.
+
+#### 1. Why this fragmentation matters
+
+The standard reassurance about PPCS is that most adolescents recover within four weeks. That is true. The 15–30% who do not are the problem this literature is trying to solve [PMID: 35481264](https://pubmed.ncbi.nlm.nih.gov/35481264/).
+
+What the literature has not solved is the coordination problem that emerges the moment a slow-to-recover adolescent enters the care system. The athletic trainer clears the athlete for light aerobic work using symptom-limited rules. The pediatrician, trained on Buffalo, wants a formal BCTT before writing a prescription. The physical therapist uses a graded protocol borrowed from Pittsburgh SE. The parents have read something online about the Toronto return-to-sport stages. Everyone is following published guidance. No one is following the same guidance.
+
+This is not a knowledge gap in the traditional sense. The six protocols reviewed here are not competing theories about PPCS pathophysiology—they largely agree that sub-symptom-threshold aerobic exercise is beneficial, that strict rest is ineffective, and that individualization matters. The disagreement is operational: what test, what formula, what progression rule, what setting.
+
+The cost of that operational disagreement is borne by the adolescent. A 15-year-old with six weeks of post-concussive headache does not need a debate about whether 80% HR~t~ or a 2/10 symptom cap is theoretically superior. She needs the adults in her care team to be working from the same page.
+
+The protocols did not diverge because their authors disagreed about whether aerobic exercise helps PPCS. On that question, the evidence has grown substantially more consistent over the past decade. They diverged because they were solving different problems in different rooms.
+
+Leddy and the Buffalo group were asking: how do we safely titrate exercise for a patient who has been symptomatic for months and whose threshold we need to measure precisely? The answer required a treadmill, a trained observer, and a formal protocol. McCrory and the Berlin consensus were asking: what should every clinician worldwide do immediately after a sport-related concussion? The answer required simplicity and a six-stage framework that needed no equipment. NICE was asking: what guidance can emergency and primary care clinicians act on in a single visit, with no follow-up guaranteed?
+
+Each question produced a good answer. The problem is that a slow-to-recover 15-year-old moving through the care system encounters all of these answers simultaneously, delivered by different clinicians who do not know they are working from different frameworks.
+
+The fragmentation also matters for how the research base is interpreted. If six protocols are in active clinical use, the external validity of any single trial becomes harder to assess. A trial conducted under Buffalo-protocol conditions tells us something important about what happens when those conditions are met. It tells us less about what happens in a school setting where none of those conditions exist, even if the underlying intervention is nominally the same.
+
+Foundation Stack starts here—with the methods—because methods are the lens through which all subsequent evidence must be read.
+
+That is what this piece is for. Not to resolve the debate—the evidence does not yet support a definitive winner—but to lay the six approaches side by side so that the clinician, the parent, and the adolescent can see exactly where they agree, where they diverge, and which protocol fits which setting.
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+#### 2. Comparison of six published approaches
+
+*Table note:* All approaches emphasize individualization, sub-symptom thresholds, and symptom monitoring [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/). Foundation Stack value: collapse six clinical narratives into two decision trees—**measure HR~t~** or **track symptoms**.
+
+| Approach | Testing | Prescription intensity | Progression rule | Typical setting | Source |
+|----------|---------|----------------------|------------------|-----------------|--------|
+| Buffalo | BCTT treadmill: 3.2 mph start (≤5′10″), +1% grade/min | 80% HR~t~, 20 min/day | Weekly BCTT retest; advance when HR~t~ rises | Outpatient adolescent PPCS; precision titration | [31105634](https://pubmed.ncbi.nlm.nih.gov/31105634/) |
+| Symptom-limited | No device; subjective symptom monitoring | Symptom increase ≤2/10, RPE 11–14 | If no worsening over 24 h, add 5–10 min | Home/community; limited equipment | [30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/) |
+| Pittsburgh SE | Graded aerobic test + PT supervision | Individual sub-symptom threshold set on site | Increase load as tolerated | Prolonged PPCS (4–16 weeks post-injury); pediatric hospital PT | [26838933](https://pubmed.ncbi.nlm.nih.gov/26838933/) |
+| Toronto | Six-stage model; Stage 2 qualitative assessment | Slow to moderate pace; stop before breathlessness | Advance after ≥24 h asymptomatic per stage | Six-stage RTP derived from Berlin 2016 consensus; school return-to-play pathway | [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) |
+| UK NICE | Red-flag screen + light activity | Do not provoke moderate symptom increase | Step up as symptoms improve | Emergency/primary care triage | [NICE NG232](https://www.nice.org.uk/guidance/ng232) |
+| Berlin 2016 | Clinical assessment; no device required | Begin aerobic work without provoking symptoms | Six stages; ≥24 h asymptomatic per stage | Global sport-concussion consensus (McCrory 2017) | [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) |
+
+##### Reading the table
+
+Two patterns are worth noting before moving to the disagreements.
+
+First, the six approaches cluster into two families. Buffalo and Pittsburgh SE are anchored to physiological measurement—they require a test, produce a number, and build the prescription around that number. The remaining four—symptom-limited, Toronto, NICE, Berlin 2016—are anchored to symptom monitoring. They require observation rather than measurement, and they produce a qualitative threshold rather than a heart-rate target. The two families represent different points on a precision-versus-deployability tradeoff, not a better-versus-worse hierarchy.
+
+Second, the "Typical setting" column does more work than it might appear to. It is not merely descriptive—it is the column that should drive protocol selection. A clinician working in an emergency department should not default to Buffalo because it has the most published validation data. She should default to NICE because it was designed for her setting. A school athletic trainer without treadmill access should not feel she is using an inferior protocol when she applies symptom-limited rules. She is using the protocol that fits her constraints.
+
+The table is a matching tool. The question it answers is not "which approach is best?" but "which approach fits where I am?"
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+#### 3. Three points of disagreement
+
+**Disagreement 1: Heart-rate formulae vs symptom caps**
+
+The Buffalo approach uses BCTT-measured threshold heart rate (HR~t~), with exercise prescribed at 80% HR~t~ [PMID: 31105634](https://pubmed.ncbi.nlm.nih.gov/31105634/). Pittsburgh work also anchors prescription to BCTT [PMID: 26838933](https://pubmed.ncbi.nlm.nih.gov/26838933/). Symptom-limited, NICE, and Toronto protocols rely on **symptom caps** rather than formulae—typically a ≤2/10-point increase in symptoms [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/) [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/). Toronto Stage 2 describes only qualitative “slow to moderate” walking or cycling [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) (six-stage staging derived from the Berlin 2016 consensus, McCrory 2017). The split reflects setting: Buffalo targets outpatient PPCS and favors precision; NICE targets emergency and primary care and favors simplicity [NICE guideline NG232](https://www.nice.org.uk/guidance/ng232). Reviews suggest formula-based testing is useful for assessment but less deployable in community settings than symptom-based rules [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).
+
+The deeper issue is what each approach is actually measuring. Formula-based testing assumes that HR~t~ is a stable, quantifiable physiological parameter—that it can be measured reproducibly on a treadmill and that 80% of that number corresponds to a meaningful therapeutic target. Symptom-limited approaches make a different assumption: that the patient's real-time symptom report is a reliable enough signal to guide intensity, and that a 2/10 increase is clinically meaningful without knowing the underlying threshold.
+
+Both assumptions are partially supported by the evidence. Neither has been comprehensively validated in adolescent PPCS across the range of settings where clinicians are actually working. That gap—between what the formula assumes and what the evidence confirms—is one reason the protocols have not converged.
+
+**Disagreement 2: Progression criteria**
+
+Buffalo requires weekly BCTT retesting and advancement only after HR~t~ increases [PMID: 31105634](https://pubmed.ncbi.nlm.nih.gov/31105634/). Pittsburgh SE (Kurowski 2017) did not mandate weekly BCTT retesting; load was advanced as tolerated under PT supervision. In this pilot RCT of adolescents with prolonged PPCS (4–16 weeks post-injury), the aerobic training group showed significantly faster symptom improvement than a stretching control (group × time interaction, *p* = 0.044 on the PCSI), even though adherence in the aerobic group was lower than in the stretching group. Notably, the stretching group also improved relative to baseline—suggesting that any structured physical activity, not aerobic exercise specifically, may confer benefit in prolonged PPCS [PMID: 26838933](https://pubmed.ncbi.nlm.nih.gov/26838933/). Toronto return-to-sport staging and NICE align on ≥24 hours without symptom escalation before advancing [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) [NICE guideline NG232](https://www.nice.org.uk/guidance/ng232). The tension is physiological titration (Buffalo) versus time-plus-symptom rules (community guidelines). Pediatric reviews argue strict rest is ineffective and early activity is beneficial, so most guidance has shifted toward “24 h without worsening” as sufficient to progress [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).
+
+What the literature has not addressed directly is the cost of getting the progression rate wrong in either direction. Advancing too quickly risks symptom flare and psychological setback—a return to baseline after apparent progress is one of the most demoralizing experiences for adolescents and families already navigating prolonged recovery. Advancing too slowly risks deconditioning, increasing anxiety about exercise, and potentially extending the recovery timeline through inactivity.
+
+The 24-hour rule offers a practical middle ground, but it was not derived from a controlled comparison of progression rates. It represents expert consensus on what is safe rather than what is optimal. Whether a more aggressive or more conservative progression would produce meaningfully different outcomes in adolescent PPCS remains an open question that current trials are not powered to answer.
+
+**Disagreement 3: Environmental factors**
+
+Most RCTs were conducted in temperate climates. The Buffalo protocol uses treadmill testing in indoor, room-temperature conditions [PMID: 31105634](https://pubmed.ncbi.nlm.nih.gov/31105634/). Toronto and UK guidance mention walking and skating but do not quantify effects of cold, ice, or altitude on HR~t~ [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/). Systematic reviews call for individualized prescription yet offer little evidence for environmental correction [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/). Clinicians in high-altitude or heavy-snow regions therefore extrapolate published data without validated adjustment tools [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).
+
+The absence of environmental correction data is partly a consequence of how the evidence base was built. RCTs are expensive and logistically complex; researchers conduct them where infrastructure supports them, which typically means university sports medicine clinics in temperate urban settings. The resulting protocols carry implicit assumptions about temperature, altitude, and surface conditions that are rarely stated because they are rarely noticed in the environments where they were developed.
+
+There is a practical workaround worth naming, even without validated correction factors. Clinicians in high-altitude or cold-weather environments can apply a more conservative interpretation of any HR~t~-based threshold—treating the measured value as an upper bound rather than a target, and defaulting to symptom monitoring as the primary progression signal. This is not what the Buffalo protocol specifies, but it is consistent with the underlying principle: stay below the threshold that provokes symptoms.
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+#### 4. If your setting looks like this
+
+The six protocols were not designed for the same environment. Buffalo was developed and validated in a university sports medicine clinic with treadmill access, trained staff, and weekly follow-up capacity. That infrastructure is not universal.
+
+Consider a more common scenario: a 14-year-old presents to a school athletic trainer three weeks after a soccer collision. Symptoms have not resolved. There is no treadmill in the building. The nearest sports medicine physician is 45 minutes away. The next appointment is in two weeks. The parents work full-time and cannot supervise daily exercise sessions.
+
+In this setting, the BCTT-anchored Buffalo protocol is technically correct and practically inaccessible. The symptom-limited approach—no device, no formula, cap activity when symptoms rise more than 2/10 points—is what the evidence supports for exactly this scenario. Toronto's qualitative stage 2 description ("slow to moderate pace, stop before breathlessness") translates directly into language a parent can monitor from a text message.
+
+The environmental variable compounds this. Most RCTs generating the evidence base were conducted in temperate, low-altitude, indoor settings. Pocatello sits at 1,356 meters. Winter temperatures drop below −20°C. Ice and snow surfaces change gait mechanics and perceived exertion in ways the published correction literature has not addressed. A clinician in this environment applying Buffalo-derived HR~t~ values without adjustment is extrapolating beyond the data, whether they know it or not.
+
+None of this means Buffalo is wrong. It means protocol selection is a matching problem: match the protocol to the infrastructure, the supervision capacity, the climate, and the patient. The table in Section 2 is a matching tool, not a ranking.
+
+The honest answer for a resource-limited community setting is: start with symptom-limited, document carefully, and escalate to BCTT-anchored prescription if the patient has access to a facility that can support it.
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+#### 5. One-page SOP: clinician / parent / adolescent checklist
+
+The checklist below is designed for the resource-limited community setting described in Section 4. It is not a clinical protocol. It is a shared language document—a way for the clinician, the parent, and the adolescent to work from the same framework even when they are not in the same room.
+
+The three-column format is intentional. Most published protocols are written for clinicians. They describe what the clinician should measure, prescribe, and monitor. They say less about what the parent should watch for, and almost nothing about what the adolescent should understand about their own recovery. The gap between clinical prescription and family execution is where real-world adherence breaks down. This checklist attempts to close that gap by giving each party their own column.
+
+*Note:* This table synthesizes published Buffalo, Toronto, and NICE pathways for education only; it does not replace individual clinical care [PMID: 31105634](https://pubmed.ncbi.nlm.nih.gov/31105634/) [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) [NICE guideline NG232](https://www.nice.org.uk/guidance/ng232). Foundation Stack value: one shared sheet so clinician, parent, and adolescent follow the same decision tree—reducing “clinician says exercise, parent hesitates, adolescent is unsure.”
+
+| Clinician | Parent | Adolescent |
+|-----------|--------|------------|
+| □ Screen red flags: vomiting, GCS \<15, focal neuro signs → emergency | □ Watch red flags: thunderclap headache, repeated vomiting, slurred speech → call emergency services | □ Learn 0–10 ratings for headache, dizziness, nausea; report morning, midday, evening |
+| □ Start BCTT or symptom assessment at 24–48 h; record HR~t~ | □ Relative rest first 48 h: light walking, chores; no exams or marathon gaming | □ 20 min/day aerobic (brisk walk or bike); able to speak full sentences without gasping |
+| □ Prescribe: BCTT → 80% HR~t~, 20 min/day; symptom-limited → stay ≤+2/10 vs baseline | □ Monitor RPE 11–14; stop if symptoms are +2/10 above session start | □ Hard stop: if symptoms are +2/10 vs start, stop immediately and tell an adult |
+| □ Progress: weekly BCTT with rising HR~t~, or 24 h without symptom escalation | □ Log date, duration, symptom scores; avoid “Can I play yet?” as the only metric | □ Schoolwork in blocks: 15 min study, 5 min break; stop and rest eyes if headache +2 |
+| □ Clearance: asymptomatic exam, exercise to RPE 19–20 without flare on ≥3 occasions | □ Return to school in stages: half day → full day; sport as spectator → non-contact → contact | □ Step back one level if symptoms return after return to school—do not push through |
+| □ Medical release: non-contact training ≥24 h symptom-free; signed note for school | □ Photograph signed clearance for records; reduces disputes with coaches | □ Do not enter contact sport or competition without written medical clearance |
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+#### 6. Limitations
+
+1. **Generalizability:** Evidence is drawn from adolescent PPCS. Children \<6 years, adults \>65 years, cervical spine injury, and severe anxiety are not validated here. BCTT requires a treadmill and is not applicable to wheelchair users [PMID: 31105634](https://pubmed.ncbi.nlm.nih.gov/31105634/).
+2. **Environment:** RCTs are largely room-temperature, low-altitude settings. For example, Pocatello (~1356 m) with winter ice near −20 °C lacks correction factors for HR~t~ drift [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).
+3. **Device error:** Wrist photoplethysmography (e.g., consumer wearables) may carry ±10 bpm error versus chest ECG used in BCTT; community devices risk overdosing intensity [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).
+4. **Long-term outcomes:** Endpoints are often symptom scales at 28–90 days. One-year academic performance and migraine recurrence are rarely reported [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).
+5. **Adherence:** Trial adherence often exceeds 80%; real-world parental supervision is often \<40%. This SOP does not solve unsupervised home exercise [PMID: 26838933](https://pubmed.ncbi.nlm.nih.gov/26838933/).
+6. **Legal scope:** This is an educational synthesis, not medical advice. F-1 trainees must not provide remote clinical care.
+
+##### What these limitations mean in practice
+
+These limitations do not invalidate the protocols reviewed here. They describe the boundary conditions under which published evidence applies—and beyond which clinical judgment must fill the gap.
+
+The most practically significant limitation for community settings is the gap between trial conditions (supervised visits, structured follow-up) and what families can sustain at home. This is not a reason to withhold exercise prescription. It is a reason to calibrate expectations, build the SOP around what parents can realistically do, and document execution in clinical notes—not assume trial conditions apply by default.
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+This is the first piece in Foundation Stack—a series working through unresolved operational problems in the PPCS aerobic exercise prescription literature, one at a time.
+
+The comparison above will not age well. New trials will shift the evidence. Protocols will be revised. When they are, this piece will be updated with a changelog note rather than quietly replaced—because the point is not to be permanently right, but to be consistently honest about what the evidence supports at a given moment.
+
+If you found the six-protocol comparison useful, the [RSS feed](../../index.xml) at the bottom of this page will notify you when the next piece publishes. The next installment works through a different unresolved problem in the same literature.
+
+---
+
+**Series:** [Foundation Stack](/index.html) · **pillar2-001** · **Pillar:** methods (methods comparison)

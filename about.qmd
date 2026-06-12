@@ -4,7 +4,7 @@ title: "About Foundation Stack"
 
 ## What this site is
 
-**Foundation Stack** is a **52-week, continuously updated** publication on **aerobic exercise prescription for adolescents with persistent post-concussive symptoms (PPCS)**. Each week follows the same structure: problem → comparison table → disagreements → methods → clinical SOP → limitations.
+**Foundation Stack** is a **continuously updated** publication on **aerobic exercise prescription for adolescents with persistent post-concussive symptoms (PPCS)**. Each installment follows the same structure: problem → comparison table → disagreements → methods → clinical SOP → limitations.
 
 ## Who it is for
 
@@ -14,12 +14,14 @@ title: "About Foundation Stack"
 
 ## Four pillars
 
-| Code | Focus |
-|------|--------|
-| `reproduce` | Landmark trial dose–outcome logic |
-| `methods` | Measurement, adherence, endpoint coding |
-| `synth` | Priors, dashboards, thought experiments |
-| `sop` | Pitfalls and Monday-morning checklists |
+| Code | Prefix | Focus |
+|------|--------|--------|
+| `reproduce` | `pillar1-` | Landmark trial dose–outcome logic |
+| `methods` | `pillar2-` | Protocol and measurement comparison |
+| `synth` | `pillar3-` | Priors, dashboards, thought experiments |
+| `sop` | `pillar4-` | Pitfalls and Monday-morning checklists |
+
+Installment folders: `posts/pillar{N}-{seq}-{slug}/`.
 
 ## Author
 

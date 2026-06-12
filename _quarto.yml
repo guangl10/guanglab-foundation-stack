@@ -2,10 +2,17 @@ project:
   type: website
   output-dir: _site
 
+filters:
+  - filters/fs-seo.lua
+
+fs-seo:
+  canonical-base: "https://guanglab.org/foundation-stack"
+
 website:
   title: "Foundation Stack"
   site-url: "https://fs.guanglab.org"
-  description: "52-week structured series on adolescent PPCS aerobic exercise prescription."
+  description: "Structured knowledge on adolescent PPCS aerobic exercise prescription."
+  draft-mode: gone
   navbar:
     left:
       - text: "Series Hub"
@@ -22,6 +29,13 @@ website:
     right:
       - text: "RSS"
         href: index.xml
+  plausible-analytics: |
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://plausible.io/js/pa-bpHHTwogSyqkWYSnIZ6d7.js"></script>
+    <script>
+      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+      plausible.init()
+    </script>
 
 format:
   html:
@@ -29,10 +43,15 @@ format:
       light: cosmo
       dark: darkly
     css: styles.css
+    mermaid:
+      theme: neutral
     toc: true
     toc-depth: 3
     smooth-scroll: true
     link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <meta name="google-site-verification" content="2GHSzIXJ8C7iKHTpM5GkBQu5msSa3N2bAHD3P3lu8Ac" />
 
 execute:
   freeze: auto

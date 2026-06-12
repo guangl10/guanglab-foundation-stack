@@ -1,0 +1,402 @@
+---
+title: "No Treadmill in the Room: Prescribing Sub-Symptom Aerobic Exercise Without BCTT"
+description: "When symptom-threshold treadmill testing is unavailable, published protocols fall back to bike tests, field exertion, age-predicted heart-rate bands, and RPE anchors—but they do not agree. This piece maps those paths and shows how one educational tool encodes the fallback logic."
+date: "2026-06-10"
+series: "Foundation Stack"
+installment: pillar2-002
+pillar: methods
+audience: [clinician, researcher, parent]
+categories: [foundation-stack, PPCS, methods, aerobic-prescription, no-bctt]
+---
+
+> Brief: [[_topic-brief]] · Evidence: [[../../research-notes/notebooklm-pillar2-002-refs]] · Live mirror: [[../../published/pillar2-002-no-bctt-prescription-paths/article]]
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+Reviewing which heart-rate percentages clinicians actually write when a treadmill is unavailable, I kept finding the same thing: not a number, but a range—and the ranges overlapped without converging. 50–60% in one review. 60–75% in a structured trial. Borg 11 on a bike in another. All cited as fallback. None citing each other.
+
+That is the problem this installment maps.
+
+The [first Foundation Stack installment](../pillar2-001-six-protocols-comparison/index.html) ended with six protocols that disagree on **testing**. Buffalo wants a treadmill. Toronto wants qualitative pacing. NICE wants symptom caps in primary care. Pittsburgh SE wants supervised graded work in hospital PT. Berlin wants six stages and a 24-hour rule. Symptom-limited approaches want observation, not equipment.
+
+The next question is the one that actually arrives in clinic: **what do you do when there is no treadmill in the room?**
+
+Not hypothetically. A school athletic trainer three weeks post-injury. A community pediatrician whose referral queue to sports medicine is measured in weeks. A rural PT with a bike ergometer but no Buffalo protocol training. A parent at home with a wrist-worn heart-rate monitor and a teenager who still has headache at the end of the school day.
+
+The literature does not answer with silence. It answers with a patchwork—bike protocols, field shuttle runs, YMCA branching tests, age-predicted heart-rate bands, Borg scales, and symptom caps that never required a device in the first place. None of these paths is “Buffalo without equipment.” They are **different compromises** between precision and deployability.
+
+This installment maps those compromises: what each path assumes, where the bands overlap, where they contradict each other, and how three common settings should choose among them. A short educational tool section shows how one published R package encodes the age-predicted fallback when HR~t~ is unknown—illustration only, with GRADE LOW certainty on the underlying evidence.
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+#### 1. Why “no BCTT” is a distinct problem—not a minor inconvenience
+
+Buffalo-style prescription assumes you can measure a symptom threshold heart rate (HR~t~) on a treadmill and prescribe at roughly 80% of that number [PMID: 31105634](https://pubmed.ncbi.nlm.nih.gov/31105634/). That assumption holds in university sports medicine clinics with trained staff, weekly follow-up, and a culture built around graded exertion testing. It often fails everywhere else.
+
+School athletic trainers, community pediatricians, and rural physical therapists frequently face the same patient profile: an adolescent with lingering post-concussive symptoms, parents asking when exercise can resume, and **no treadmill in the building**. Referral to a BCTT-capable center may mean weeks of delay. Meanwhile, published guidance still recommends sub-symptom-threshold aerobic exercise—not strict rest [PMID: 33147117](https://pubmed.ncbi.nlm.nih.gov/33147117/).
+
+The gap is not “does exercise help?” On that question, the adolescent PPCS literature has grown substantially more consistent over the past decade. The gap is **how to set the first target** when you cannot run the test that Buffalo, Pittsburgh SE, and much of the RCT literature were built around.
+
+Reviews acknowledge the problem directly. McIntyre et al. note that when graded exercise equipment is unavailable, targeting **50–60% of age-predicted maximum heart rate** appears safe and practical [PMID: 32079897](https://pubmed.ncbi.nlm.nih.gov/32079897/). That is useful—but it is not a unified standard. Hutchison’s structured aerobic exercise protocol (SAEP) progressed from **60% toward 75%** age-predicted maximum over eight sessions in the first week post-injury [PMID: 36256698](https://pubmed.ncbi.nlm.nih.gov/36256698/). Kurowski’s Pittsburgh SE work anchored prescription to Borg RPE ≈11 on a bike rather than a measured HR~t~ [PMID: 27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/). Micay began fixed bike work at **50%** and added **5% per session** [PMID: 30305924](https://pubmed.ncbi.nlm.nih.gov/30305924/).
+
+For the slow-to-recover adolescent in a resource-limited setting, the cost of this ambiguity is practical. The adults in the room must pick a path without a shared decision framework—exactly the fragmentation pillar2-001 described at the protocol level, now compressed into a single visit.
+
+There is a second layer that pillar2-001 only touched: **access inequality disguised as protocol choice**. When the “correct” protocol requires equipment and expertise that most adolescents cannot reach within two weeks of the decision point, the literature’s gold-standard path becomes a deferral strategy. The patient exercises under no protocol, or under whatever fragment a parent found online, while waiting for the appointment that may never be convenient. Mapping no-BCTT paths is therefore not an academic exercise in secondary options. It is the operational reality for a large fraction of real-world care.
+
+A third layer is **timing**. Chizuk et al. published a standardized aerobic program explicitly for adolescents **in the absence of graded exercise testing** [PMID: 36728783](https://pubmed.ncbi.nlm.nih.gov/36728783/)—acknowledging that many outpatient clinicians will never have a treadmill in the room but still need a defensible prescription on visit one. Teel et al.’s MOVE protocol pushes exertion grading into remote, bodyweight-based levels for settings where even bike ergometry is scarce [PMID: 36580652](https://pubmed.ncbi.nlm.nih.gov/36580652/). The literature is not waiting for universal BCTT access before it tells clinicians to act. It is offering parallel rails—each with different evidence weight, each with different supervision demands.
+
+Finally, there is a **communication** problem inside the no-BCTT cluster itself. Two clinicians can both reject Buffalo’s treadmill requirement and still disagree: one prescribes 55% age-predicted maximum with a chest strap; another prescribes Borg 11 on a bike; a third tells the family to walk until symptoms stay under a 2-point cap. All three can cite papers. None is necessarily wrong. The adolescent experiences that as whiplash—the same failure mode pillar2-001 diagnosed across six major protocols, now reproduced inside the fallback literature.
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+#### 2. Fallback paths compared
+
+*Table note:* Paths below are **substitute or fallback** routes when BCTT is unavailable or inappropriate—not a ranking. “Typical anchor” summarizes what each source actually prescribes; bands often overlap without agreeing on a single percentage.
+
+| Path | Test required | Typical intensity anchor | Progression | Typical setting | Source |
+|------|---------------|--------------------------|-------------|-----------------|--------|
+| **BCTT (reference)** | Treadmill, graded | 80% HR~t~, ~20 min/day | Weekly retest; advance when HR~t~ rises | Sports medicine clinic | [31105634](https://pubmed.ncbi.nlm.nih.gov/31105634/) |
+| **BCBT** | Stationary bike, graded | HR~t~ from bike test → ~80–90% prescription | Same logic as BCTT; head/neck more stable | Clinic; vestibular-sensitive patients | [31488375](https://pubmed.ncbi.nlm.nih.gov/31488375/) |
+| **YMCA branching bike** | Bike, submax protocol | Branching watts by % age-predicted HR | Fitness-adjusted stages | Cerebrovascular / research lab | [35489100](https://pubmed.ncbi.nlm.nih.gov/35489100/) |
+| **mSRT (field)** | Modified shuttle run | Exertion level vs prior BCTT validation | Field administration | School gym, large groups | [35894897](https://pubmed.ncbi.nlm.nih.gov/35894897/) |
+| **Age-%HRmax band** | None (formula) | **50–60%** to **60–75%** age-predicted max (studies disagree) | Fixed steps or time-based | Home, school, community | [32079897](https://pubmed.ncbi.nlm.nih.gov/32079897/) [36256698](https://pubmed.ncbi.nlm.nih.gov/36256698/) [29058559](https://pubmed.ncbi.nlm.nih.gov/29058559/) |
+| **RPE-anchored** | Often bike; no HR~t~ required | Borg ~11 (Kurowski); complement HR in reviews | PT-supervised titration | Hospital / outpatient PT | [27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/) [36940683](https://pubmed.ncbi.nlm.nih.gov/36940683/) |
+| **Symptom cap only** | None | ≤2/10 symptom increase vs baseline | ≥24 h without escalation | Any setting with observation | [30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/) |
+| **MOVE / remote grading** | Bodyweight levels | Graded exertion vs BCTT equivalence | Remote follow-up | Telehealth / home | [36580652](https://pubmed.ncbi.nlm.nih.gov/36580652/) |
+
+##### Reading the table: three clusters
+
+**Cluster A — Measured threshold, different equipment.** BCBT, YMCA branching bike, and mSRT still produce a physiological anchor. They change the **equipment and environment**, not the logic of threshold-based prescription. Haider et al. demonstrated that HR at symptom exacerbation on the BCBT is equivalent to the BCTT in acutely concussed adolescents—a clinically important finding for sites with bikes but no treadmills [PMID: 31488375](https://pubmed.ncbi.nlm.nih.gov/31488375/). Howell et al. explicitly chose stationary cycling because treadmill movement artifact and vestibular provocation can distort assessment in acute concussion [PMID: 35489100](https://pubmed.ncbi.nlm.nih.gov/35489100/). Miutz et al. position the modified shuttle run as a **field** alternative when lab BCTT is impractical at scale [PMID: 35894897](https://pubmed.ncbi.nlm.nih.gov/35894897/).
+
+**Cluster B — Formula fallback.** When no graded test is available, authors default to age-predicted percentages. The bands **overlap** (roughly 50–70%) but **do not converge** on one number. McIntyre: 50–60% [PMID: 32079897](https://pubmed.ncbi.nlm.nih.gov/32079897/). Montreal active rehabilitation (Dobney et al.): 50–60% target zone for 15 minutes on bike or treadmill [PMID: 29058559](https://pubmed.ncbi.nlm.nih.gov/29058559/) *(figure cited from full text; intensity data not in abstract)*. Hutchison SAEP: structured progression from 60% upward [PMID: 36256698](https://pubmed.ncbi.nlm.nih.gov/36256698/). Kozlowski: persistent PCS patients reached ~75% age-predicted maximum at symptom limit—supporting RTP guidance to stay **below 70%** when threshold is unknown [PMID: 23952041](https://pubmed.ncbi.nlm.nih.gov/23952041/).
+
+```{r}
+#| label: fig-hrmax-overlap
+#| fig-cap: "Published %HRmax recommendations for no-BCTT settings: ranges overlap without converging. Bars show reported targets or progression bands (not equivalent constructs). Micay: initial 50% with +5% per session (bar shows first-week span to ~65%). Kozlowski: RTP ceiling when HRt is unknown. Colors are illustrative clusters (conservative / moderate / progressive), not author-defined tiers."
+#| fig-width: 8
+#| fig-height: 4.5
+#| echo: false
+#| warning: false
+#| message: false
+
+library(ggplot2)
+
+hr_bands <- data.frame(
+  study = c(
+    "McIntyre 2019 (review)",
+    "Dobney 2017 (Montreal AR)",
+    "Hutchison SAEP",
+    "Micay fixed bike",
+    "Kozlowski RTP ceiling"
+  ),
+  xmin = c(50, 50, 60, 50, 50),
+  xmax = c(60, 60, 75, 65, 70),
+  cluster = factor(
+    c("Conservative", "Conservative", "Moderate", "Progressive", "Progressive"),
+    levels = c("Conservative", "Moderate", "Progressive")
+  ),
+  stringsAsFactors = FALSE
+)
+
+hr_bands$study <- factor(hr_bands$study, levels = rev(hr_bands$study))
+
+cluster_cols <- c(
+  Conservative = "#3b6ea8",
+  Moderate = "#3d8c40",
+  Progressive = "#d97b2b"
+)
+
+ggplot(hr_bands, aes(xmin = xmin, xmax = xmax, y = study, fill = cluster)) +
+  geom_rect(aes(xmin = xmin, xmax = xmax, ymin = as.numeric(study) - 0.35,
+                ymax = as.numeric(study) + 0.35),
+            color = "grey25", linewidth = 0.25) +
+  scale_fill_manual(values = cluster_cols, name = "Illustrative cluster") +
+  scale_x_continuous(
+    limits = c(40, 80),
+    breaks = seq(40, 80, by = 5),
+    expand = c(0, 0),
+    name = "% age-predicted HRmax"
+  ) +
+  labs(
+    title = "Published %HRmax recommendations for no-BCTT settings",
+    subtitle = "Ranges overlap without converging on one prescription number",
+    y = NULL
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor = element_blank(),
+    plot.title = element_text(face = "bold", size = 13),
+    legend.position = "bottom"
+  )
+```
+
+**Cluster C — Symptom-only.** The symptom-limited row from pillar2-001 remains the most deployable when neither equipment nor reliable heart-rate monitoring exists. It trades precision for accessibility.
+
+Castellana et al. offer a bridge between Buffalo and formula worlds: in adolescents, prescriptions at 80% vs 90% HR~t~ both mapped to “light effort” (about **50–63%** age-appropriate max HR) for 15-year-olds—suggesting measured and age-band approaches may land in a similar perceptual zone even when numerically different [PMID: 38980666](https://pubmed.ncbi.nlm.nih.gov/38980666/). That observation does not resolve the disagreement; it explains why clinicians sometimes report that formula-based home programs “feel about right” compared to clinic-derived Buffalo prescriptions.
+
+One row deserves explicit caution: **6MWT and distance walk tests**. A structured search of the PPCS aerobic library used for this series found **no six-minute walk test validation** in adolescent concussion prescription. Clinicians sometimes reach for field walks because they are familiar from cardiac rehab. That familiarity should not be mistaken for SRC-specific evidence. When a hallway is all you have, the honest mapping is to **symptom-capped walking** or structured remote grading (MOVE), not to an unvalidated distance target pulled from another discipline.
+
+##### Figure 3 — Evidence matrix (what each path actually requires)
+
+*Legend: ● = directly supported in adolescent SRC/PPCS literature; ◐ = partial / proxy evidence; — = not required*
+
+| Requirement | BCTT | BCBT | YMCA bike | mSRT | Age-% | RPE | Symptom only | MOVE |
+|-------------|:----:|:----:|:---------:|:----:|:-----:|:---:|:------------:|:----:|
+| Treadmill | ● | — | — | — | — | — | — | — |
+| Stationary bike | — | ● | ● | — | ◐ | ◐ | — | — |
+| Graded test staff | ● | ● | ● | ◐ | — | ◐ | — | ◐ |
+| HR monitor | ● | ● | ◐ | ◐ | ◐ | ◐ | — | — |
+| Age formula | ◐ | ◐ | ● | ◐ | ● | — | — | — |
+| Symptom diary | ● | ● | ● | ● | ● | ● | ● | ● |
+| Weekly clinic visit | ● | ● | ◐ | ◐ | — | ● | — | ◐ |
+
+::: {=html}
+<table class="fs-evidence-matrix">
+<caption><strong>Figure 3.</strong> Deployability matrix — equipment and supervision burden by path</caption>
+<thead>
+<tr><th>Requirement</th><th>BCTT</th><th>BCBT</th><th>YMCA bike</th><th>mSRT</th><th>Age-%</th><th>RPE</th><th>Symptom</th><th>MOVE</th></tr>
+</thead>
+<tbody>
+<tr><td>Treadmill</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-no">—</td><td class="fs-cell-no">—</td><td class="fs-cell-no">—</td><td class="fs-cell-no">—</td><td class="fs-cell-no">—</td><td class="fs-cell-no">—</td><td class="fs-cell-no">—</td></tr>
+<tr><td>Stationary bike</td><td class="fs-cell-no">—</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-no">—</td><td class="fs-cell-partial">Opt</td><td class="fs-cell-partial">Opt</td><td class="fs-cell-no">—</td><td class="fs-cell-no">—</td></tr>
+<tr><td>Trained tester</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-partial">◐</td><td class="fs-cell-no">—</td><td class="fs-cell-partial">◐</td><td class="fs-cell-no">—</td><td class="fs-cell-partial">◐</td></tr>
+<tr><td>HR monitor</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-partial">◐</td><td class="fs-cell-partial">◐</td><td class="fs-cell-partial">◐</td><td class="fs-cell-partial">◐</td><td class="fs-cell-no">—</td><td class="fs-cell-no">—</td></tr>
+<tr><td>Symptom diary</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-yes">Yes</td><td class="fs-cell-yes">Yes</td></tr>
+<tr><td>Adolescent validation</td><td class="fs-cell-yes">Strong</td><td class="fs-cell-yes">Strong</td><td class="fs-cell-partial">◐</td><td class="fs-cell-partial">◐</td><td class="fs-cell-partial">◐</td><td class="fs-cell-partial">◐</td><td class="fs-cell-partial">◐</td><td class="fs-cell-partial">◐</td></tr>
+</tbody>
+</table>
+:::
+
+The matrix is a **matching tool**, not a quality score. A school with a bike and a trained AT is not “failing” by using BCBT instead of BCTT; they are matching infrastructure to the patient. A home-only setting with unreliable monitoring is not “failing” by using symptom caps; they are acknowledging what can be observed.
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+#### 3. Three operational disagreements
+
+**Disagreement 1: Which %HRmax band when HR~t~ is unknown?**
+
+McIntyre’s review endorses **50–60%** age-predicted maximum when BCTT equipment is unavailable [PMID: 32079897](https://pubmed.ncbi.nlm.nih.gov/32079897/). Montreal active-rehabilitation work used a **50–60%** target zone on bike or treadmill for 15 minutes [PMID: 29058559](https://pubmed.ncbi.nlm.nih.gov/29058559/). Hutchison’s SAEP trial progressed from **60% toward 75%** over eight sessions in the first week post-injury [PMID: 36256698](https://pubmed.ncbi.nlm.nih.gov/36256698/). Micay’s fixed bike protocol began at **50%** and added **5% per session** [PMID: 30305924](https://pubmed.ncbi.nlm.nih.gov/30305924/).
+
+The disagreement is not whether sub-symptom aerobic exercise is reasonable—it is **which single number** a clinician should write down when the evidence supports a range. No adolescent PPCS trial validates one universal percentage against a gold-standard HR~t~ in community settings.
+
+Clinically, this matters because parents ask for a number. “Walk until symptoms stay under control” is correct but vague. “Keep heart rate around 130” is actionable but evidence-ambiguous. The honest clinical communication is a **band with a stop rule**, not false precision: start conservative (often the lower half of the published overlap zone), monitor symptoms every session, and advance only when the 24-hour rule is satisfied.
+
+**Disagreement 2: Which test substitute—bike, field, or neither?**
+
+Bike proponents emphasize vestibular and movement-artifact advantages [PMID: 35489100](https://pubmed.ncbi.nlm.nih.gov/35489100/) [PMID: 31488375](https://pubmed.ncbi.nlm.nih.gov/31488375/). Field proponents emphasize throughput and access [PMID: 35894897](https://pubmed.ncbi.nlm.nih.gov/35894897/). Symptom-cap proponents emphasize that parents already detect symptom flare without any test [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).
+
+Glendon et al.’s acute rugby cohort used **BCBT or BCTT** within a controlled early-exercise pathway [PMID: 38910338](https://pubmed.ncbi.nlm.nih.gov/38910338/). Early exercise intolerance in that study was associated with slower return to play and greater vestibular-ocular burden in the first days—supporting the value of some graded assessment, not necessarily the treadmill specifically.
+
+The operational question for a school AT is concrete: *Do I have a bike, a flat hallway, or only a symptom diary?* mSRT is not a license to send a concussed adolescent on an unsupervised beep test in the gym; it is a **validated field protocol** in research contexts [PMID: 35894897](https://pubmed.ncbi.nlm.nih.gov/35894897/). Home walking without structure is symptom-limited exercise—not mSRT.
+
+**Disagreement 3: Which age formula—and does it matter clinically?**
+
+Most fallback paths implicitly use **220 − age** as the denominator. The formula's limitations for youth populations are discussed in the section below.
+
+*See: [A note on the formula itself](#a-note-on-the-formula-itself).*
+
+Jaganathan et al. add a parallel axis: when any HR anchor exists, **Borg RPE should complement HR**, not replace symptom monitoring [PMID: 36940683](https://pubmed.ncbi.nlm.nih.gov/36940683/). That is particularly relevant after concussion, when HR and perceived exertion can dissociate during recovery [PMID: 27812398](https://pubmed.ncbi.nlm.nih.gov/27812398/).
+
+#### A note on the formula itself {#a-note-on-the-formula-itself}
+
+Most fallback paths inherit 220 − age as the denominator. Pediatric exercise literature—including work on active rehabilitation intensity bands in adolescent concussion [PMID: 29058559](https://pubmed.ncbi.nlm.nih.gov/29058559/) and reviews noting that **208 − 0.7 × age** fits youth better than 220 − age—suggests the classic formula can overestimate maximum heart rate in children and adolescents. At age 15, the difference is approximately 5–7 bpm: modest in absolute terms, but meaningful when the clinical goal is to prescribe a narrow band below symptom threshold.
+
+Neither formula has been validated in adolescent PPCS specifically. The practical implication: any age-predicted band should be treated as an upper bound, not a precision target. When 220 − age is the denominator, 50–60% of an inflated HR~max~ may still fall within a safe zone—but the margin for error is smaller than the formula implies, and clinicians in settings with unreliable monitoring should weight symptom response more heavily than the calculated number.
+
+**What would settle disagreement 1?** A pragmatic trial in slow-to-recover adolescents comparing (a) BCTT-anchored 80% HR~t~, (b) fixed 55% age-predicted band, and (c) symptom-cap-only progression—with adherence and symptom trajectory measured equally across arms. No such trial is available at the time of writing. Until it is, the defensible clinical posture is transparency: state which anchor you used, state that the band is consensus-adjacent rather than individually measured, and document symptom response session by session.
+
+**What would settle disagreement 2?** Head-to-head equivalence trials of BCBT vs BCTT vs mSRT in the **same** acute and PPCS cohorts with prespecified prescription rules—not only threshold detection. Haider’s equivalence work addresses threshold measurement [PMID: 31488375](https://pubmed.ncbi.nlm.nih.gov/31488375/); Miutz addresses field practicality [PMID: 35894897](https://pubmed.ncbi.nlm.nih.gov/35894897/). The prescription step after the test remains protocol-specific.
+
+**What would settle disagreement 3?** Reporting standards. If trials published the HR~max~ formula, device type, and whether parents supervised sessions, clinicians could map evidence to setting with less guesswork. Today, many abstracts present clean percentages without the engineering underneath.
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+#### 4. If your setting looks like this
+
+Foundation Stack value in this section: **match path to infrastructure**, not to whichever trial had the largest sample size.
+
+##### Figure 1 — Three settings, three default paths
+
+::: {=html}
+<div class="fs-scenario-grid">
+<div class="fs-scenario-card">
+<span class="fs-tag">Setting A</span>
+<h4>School athletic training room</h4>
+<ul>
+<li>No treadmill; referral wait 2–4 weeks</li>
+<li>Can supervise short sessions after school</li>
+<li>Often has bike or hallway access</li>
+</ul>
+<p class="fs-path">Default path: Symptom cap + age-% band, or BCBT if bike/staff available</p>
+</div>
+<div class="fs-scenario-card">
+<span class="fs-tag">Setting B</span>
+<h4>Outpatient PT / community clinic</h4>
+<ul>
+<li>Bike ergometer; periodic visits</li>
+<li>Can run submax or BCBT-style test</li>
+<li>May see PPCS at 4–16 weeks</li>
+</ul>
+<p class="fs-path">Default path: BCBT or RPE-anchored bike (Kurowski-style)</p>
+</div>
+<div class="fs-scenario-card">
+<span class="fs-tag">Setting C</span>
+<h4>Home / primary care only</h4>
+<ul>
+<li>No graded test; parent supervision</li>
+<li>Variable monitor quality</li>
+<li>Needs plain-language stop rules</li>
+</ul>
+<p class="fs-path">Default path: Symptom cap ≤2/10; optional 50–60% if monitor reliable</p>
+</div>
+</div>
+:::
+
+The decision tree below maps the same logic before the vignette walks through it step by step.
+
+```{mermaid}
+flowchart TD
+  A[No treadmill available] --> B{Graded test possible?}
+  B -->|Bike + staff| C[BCBT / submax bike → HRt prescription]
+  B -->|Field + trained staff| D[mSRT or structured field exertion]
+  B -->|Neither| E{Reliable HR monitor?}
+  E -->|Yes| F[Age-% band 50–60% start + symptom cap]
+  E -->|No| G[Symptom cap only ≤2/10]
+  C --> H[24h rule before advance]
+  D --> H
+  F --> H
+  G --> H
+  H --> I{BCTT later available?}
+  I -->|Yes| J[Re-anchor to 80% HRt]
+  I -->|No| K[Continue band + symptoms]
+```
+
+##### Vignette
+
+A **16-year-old midfielder** has headache and fog **35 days** after a collision. Your school has no treadmill. The nearest concussion clinic is three weeks out. Parents can supervise 20-minute walks after school. The athlete has no red flags; vestibular symptoms are mild and triggered mainly by rapid head turns in crowded hallways.
+
+This patient matches Setting A. The wrong move is to defer all exercise until BCTT. The literature supports structured sub-symptom activity in prolonged symptoms [PMID: 33147117](https://pubmed.ncbi.nlm.nih.gov/33147117/) [PMID: 29058559](https://pubmed.ncbi.nlm.nih.gov/29058559/). The right move is to pick the **highest-precision path available now**—not the path with the most PubMed citations.
+
+**Decision sequence:**
+
+1. **Graded test feasible this week?** Bike → BCBT or submax bike [31488375](https://pubmed.ncbi.nlm.nih.gov/31488375/). Gym only → mSRT only if staff trained; not unsupervised shuttle runs [35894897](https://pubmed.ncbi.nlm.nih.gov/35894897/). Neither → formula or symptom path.
+
+2. **No test:** Start conservative—**50–60%** age-predicted HR~max~ or symptom cap ≤2/10 [32079897](https://pubmed.ncbi.nlm.nih.gov/32079897/) [30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/). Prefer chest strap over wrist optical if available.
+
+3. **Progression:** **24 hours without symptom escalation** before advancing (pillar2-001 community cluster) unless a later HR~t~ enables Buffalo-style titration.
+
+4. **Stop rule:** Symptoms ≥2 points above session baseline → stop; do not push to hit a percentage target.
+
+**Environmental note:** Most validation data come from indoor, temperate, supervised settings. High altitude, cold, or ice surfaces change perceived exertion without published PPCS correction factors [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/). Treat any HR target as an upper bound; weight symptoms more heavily.
+
+**Parent-facing translation for this vignette:** “Walk briskly for 20 minutes after school. You should be able to talk in full sentences. If headache or fog jumps more than 2 points from when you started, stop and tell us. We are not trying to ‘build fitness’ this week—we are trying to find a dose your brain tolerates.” That language implements the symptom-cap row without requiring the family to understand HR~t~. If they have a chest strap, add: “Stay near the low end of what the clinician wrote down; the number is a ceiling, not a goal.”
+
+**When to escalate to measured testing:** Symptoms plateau beyond two weeks on a no-BCTT path; vestibular symptoms dominate and treadmill provocation is a concern (consider BCBT referral); or return-to-contact sport is approaching and the team wants a documented threshold. None of those scenarios invalidates the home path you started—they define when precision becomes worth the access cost.
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+#### 5. SOP checklist and educational tool layer
+
+##### One-page SOP (no-BCTT community default)
+
+*Synthesizes McIntyre, Dobney, Jaganathan, and pillar2-001 symptom-limited rules for education only [PMID: 32079897](https://pubmed.ncbi.nlm.nih.gov/32079897/) [PMID: 29058559](https://pubmed.ncbi.nlm.nih.gov/29058559/) [PMID: 36940683](https://pubmed.ncbi.nlm.nih.gov/36940683/) [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).*
+
+| Clinician | Parent | Adolescent |
+|-----------|--------|------------|
+| □ Red flags screened; no BCTT if acutely unstable | □ Know emergency signs: repeated vomiting, worst headache, slurred speech | □ Rate headache/dizziness/nausea 0–10 morning and after exercise |
+| □ Pick path from Figure 1 (bike / field / formula / symptom) | □ 20 min supervised aerobic if cleared; walk or easy bike | □ Stop if symptoms +2/10 vs session start |
+| □ Document which anchor used (% band, RPE, or cap only) | □ Log date, duration, peak symptoms—not only “felt fine” | □ Able to speak full sentences without gasping |
+| □ If HR monitor used: note device type (chest vs wrist) | □ Do not advance duration and intensity same day | □ Schoolwork in blocks; rest eyes if screen triggers fog |
+| □ Advance after ≥24 h without escalation | □ Escalate to clinician if 2 bad days in a row | □ No contact sport without written clearance |
+| □ Re-refer for BCTT/BCBT if plateau >2 weeks | □ Photo clearance letter for coach/school | □ Step back one level if symptoms return next morning |
+
+##### PPCSexRx — illustration only (Figure 2)
+
+::: {.callout-important}
+**Educational use only. GRADE: LOW certainty.** Outputs from the published CRAN package [PPCSexRx](https://cran.r-project.org/web/packages/PPCSexRx/index.html). Not clinical advice or a mandated protocol.
+:::
+
+The package **PPCSexRx** exposes a transparent fallback: with `hrst`, prescription uses BCTT-guided logic; without it, an age-predicted band. Public installment uses only `screen_ppcs()` and `prescribe_ppcs()`.
+
+```r
+library(PPCSexRx)
+screen_ppcs(age = 16, days_post_injury = 35)
+prescribe_ppcs(age = 16, days_post_injury = 35)
+prescribe_ppcs(age = 17, days_post_injury = 40, hrst = 160)
+```
+
+::: {=html}
+<div class="fs-rx-grid">
+<div class="fs-rx-card">
+<h4>Scenario A — No BCTT (age 16, day 35)</h4>
+<div class="fs-rx-stat"><strong>Target HR</strong><span>133 bpm</span></div>
+<div class="fs-rx-stat"><strong>Duration</strong><span>20 min/session</span></div>
+<div class="fs-rx-stat"><strong>Frequency</strong><span>5 sessions/week</span></div>
+<div class="fs-rx-stat"><strong>Method</strong><span>Age-predicted 60–70% HRmax</span></div>
+</div>
+<div class="fs-rx-card fs-rx-bctt">
+<h4>Scenario B — HR<sub>t</sub> = 160 bpm (age 17, day 40)</h4>
+<div class="fs-rx-stat"><strong>Target HR</strong><span>128 bpm</span></div>
+<div class="fs-rx-stat"><strong>Duration</strong><span>20 min/session</span></div>
+<div class="fs-rx-stat"><strong>Frequency</strong><span>5 sessions/week</span></div>
+<div class="fs-rx-stat"><strong>Method</strong><span>80% of symptom threshold HR</span></div>
+</div>
+</div>
+:::
+
+The pair is not a debate about which number is “correct.” It shows **what changes when HR~t~ enters the model.** Scenario A encodes the literature’s age-predicted compromise when testing is unavailable. Scenario B restores Buffalo logic once a threshold exists—even if that test happened at a referral center weeks into symptoms.
+
+Parents and athletes still need symptom caps from the SOP table. Package output does not replace observation. Jaganathan’s HR + RPE pairing remains relevant [PMID: 36940683](https://pubmed.ncbi.nlm.nih.gov/36940683/). Session logging across visits—useful when the prescription anchor changes after a late BCTT referral—is documented in the package vignette.
+
+Do not read the package as adjudicating between 50%, 60%, or 65% bands. It implements one published fallback encoding. Your clinical judgment—and the setting matrix in Figure 3—still determines whether a formula, RPE, or symptom-only path is appropriate before any code runs.
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+#### 6. Limitations
+
+1. **Validation gap:** Fallback percentages are assembled from reviews and heterogeneous trials—not one head-to-head RCT of “BCTT vs 60% age-predicted HR” in adolescent PPCS [PMID: 32079897](https://pubmed.ncbi.nlm.nih.gov/32079897/).
+
+2. **Formula uncertainty:** 220−age dominates the literature; youth-adjusted formulae are rarely specified in PPCS trials.
+
+3. **Setting transfer:** Bike and field substitutes are validated in specific cohorts; mSRT comparisons included recovered-history controls [PMID: 35894897](https://pubmed.ncbi.nlm.nih.gov/35894897/).
+
+4. **Device error:** Consumer wearables may mis-estimate intensity versus chest ECG in BCTT studies [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).
+
+5. **Tool layer:** PPCSexRx illustrates encoding of published fallback logic; it is not regulated medical device software.
+
+6. **Adherence:** Trial supervision often exceeds what home programs achieve; this SOP does not solve unsupervised execution [PMID: 26838933](https://pubmed.ncbi.nlm.nih.gov/26838933/).
+
+7. **Legal scope:** Educational synthesis only—not medical advice.
+
+##### What these limitations mean in practice
+
+The most significant limitation for community settings is the gap between trial conditions and family execution. That is not a reason to withhold exercise prescription when BCTT is inaccessible. It is a reason to **document the path chosen**, calibrate expectations, and build the SOP around what parents can sustain—not assume lab conditions apply by default.
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+When symptom-threshold treadmill testing is unavailable, the literature offers **multiple defensible paths**—but not a single defensible number. Bike tests, field tests, overlapping age-percentage bands, and symptom caps each trade precision for reach. Castellana et al. suggest measured Buffalo prescriptions and “light effort” age bands may land in a similar zone for adolescents—but that observation bridges two literatures; it does not merge them into one protocol [PMID: 38980666](https://pubmed.ncbi.nlm.nih.gov/38980666/).
+
+This is the second piece in Foundation Stack. If the [six-protocol comparison](../pillar2-001-six-protocols-comparison/index.html) helped you see fragmentation at the protocol level, this one narrows the lens to the moment Buffalo’s infrastructure is missing—and what to do anyway.
+
+The [RSS feed](../../index.xml) on the hub will notify readers when the next installment publishes. The next installment works through a different unresolved problem in the same literature.
+
+---
+
+**Series:** [Foundation Stack](/index.html) · **pillar2-002** · **Pillar:** methods (no-BCTT fallback paths)
