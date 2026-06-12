@@ -100,3 +100,86 @@
 .fs-evidence-matrix .fs-cell-yes { background: #d1e7dd; text-align: center; }
 .fs-evidence-matrix .fs-cell-partial { background: #fff3cd; text-align: center; }
 .fs-evidence-matrix .fs-cell-no { background: #f8f9fa; text-align: center; color: #868e96; }
+
+/* Foundation Stack clinical tools */
+.fs-tool-wrap {
+  margin: 1.5rem 0 2rem;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 1.25rem 1.35rem;
+  background: #fff;
+}
+.fs-tool-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+@media (max-width: 768px) {
+  .fs-tool-panel { grid-template-columns: 1fr; }
+}
+.fs-tool-controls { display: flex; flex-direction: column; gap: 1rem; }
+.fs-tool-field { margin: 0; }
+.fs-tool-label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.92rem;
+  margin-bottom: 0.35rem;
+}
+.fs-tool-field input[type="range"] {
+  width: 100%;
+  max-width: 100%;
+  margin: 0.25rem 0;
+}
+.fs-tool-value {
+  display: inline-block;
+  min-width: 2.5rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: #084298;
+}
+.fs-tool-formula {
+  border: none;
+  padding: 0;
+}
+.fs-tool-formula label {
+  display: block;
+  font-size: 0.9rem;
+  margin: 0.35rem 0;
+  font-weight: normal;
+}
+.fs-tool-results {
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  background: #f8f9fa;
+}
+.fs-tool-stat {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid #e9ecef;
+  font-size: 0.95rem;
+}
+.fs-tool-stat:last-child { border-bottom: none; }
+.fs-tool-stat-primary span {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #c92a2a;
+}
+.fs-tool-chart-wrap {
+  overflow-x: auto;
+  margin-top: 0.5rem;
+}
+.fs-tool-chart {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+}
+.fs-tool-foot {
+  font-size: 0.85rem;
+  color: #495057;
+  margin: 0.75rem 0 0;
+}

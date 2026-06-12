@@ -1,0 +1,44 @@
+---
+title: "Clinical tools"
+pagetitle: "Clinical tools — Foundation Stack"
+description: "Standalone helpers for adolescent PPCS aerobic prescription — educational only, linked from Foundation Stack installments."
+page-layout: full
+listing:
+  contents:
+    - "hr-calculator/index.qmd"
+  sort: "title asc"
+  type: table
+  fields: [title, description, tool_status, related_installments]
+  field-display-names:
+    title: Tool
+    description: Summary
+    tool_status: Status
+    related_installments: From installment
+  sort-ui: false
+  filter-ui: false
+format:
+  html:
+    toc: false
+---
+
+::: {.fs-hero}
+## Clinical tools
+
+**Action helpers · separate from installments**
+
+These pages convert published ranges into numbers you can use in clinic or at home. They are **not** medical advice and **do not** pick a single “correct” prescription—the [installments](/index.html) explain why the literature disagrees.
+:::
+
+## How tools relate to articles
+
+| Track | URL | Role |
+|-------|-----|------|
+| **Installments** | `/posts/…` | PMID-backed argument, tables, SOP prose |
+| **Tools** | `/tools/…` | Calculators and checklists with warnings up front |
+| **Pillar 4 (future)** | `/posts/pillar4-…` | Pitfalls and Monday-morning SOPs may link here |
+
+Installments **link out** to tools; tools **link back** to the installment that motivated them. Widgets are never embedded inside long-form posts.
+
+## Available tools
+
+[← Series hub](/index.html)

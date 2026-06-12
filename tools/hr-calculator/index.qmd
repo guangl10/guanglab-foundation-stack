@@ -1,0 +1,84 @@
+---
+title: "HR prescription helper"
+description: "Age, %HRmax, and formula → target bpm; see which published no-BCTT bands your choice overlaps."
+tool: true
+tool_status: beta
+related_installments: [pillar2-002]
+date: "2026-06-12"
+---
+
+::: {.callout-important}
+## Read this first
+
+**Not medical advice. Educational use only.**
+
+- This helper is for the **age-predicted % band path** when symptom-threshold testing (BCTT) is unavailable—not for symptom-only or RPE-only prescription.
+- The **bpm output is a ceiling**, not a goal. Stop if symptoms rise **≥2/10** from session baseline.
+- Published bands **overlap without converging**; matching a number to a paper does not validate it for your patient.
+- Formulae (220−age vs 208−0.7×age) are **not validated in adolescent PPCS** specifically.
+:::
+
+## Why this exists
+
+The installment [No treadmill in the room](/posts/pillar2-002-no-bctt-prescription-paths/index.html) argues that the literature does not give one universal %HRmax when BCTT is missing. Parents and clinicians still ask for a **watch-readable number**. This page separates that practical step from the article’s main claim.
+
+**Related reading:** [Figure 2 — overlapping %HRmax bands](/posts/pillar2-002-no-bctt-prescription-paths/index.html#fig-hrmax-overlap) · [A note on the formula](/posts/pillar2-002-no-bctt-prescription-paths/index.html#a-note-on-the-formula-itself)
+
+::: {#fs-hr-calculator .fs-tool-wrap}
+
+<div class="fs-tool-panel">
+<div class="fs-tool-controls">
+<label class="fs-tool-field">
+<span class="fs-tool-label">Age (years)</span>
+<input type="range" id="fs-age" min="12" max="18" step="1" value="16">
+<output id="fs-age-out" class="fs-tool-value">16</output>
+</label>
+<label class="fs-tool-field">
+<span class="fs-tool-label">Target % age-predicted HR<sub>max</sub></span>
+<input type="range" id="fs-pct" min="45" max="75" step="1" value="55">
+<output id="fs-pct-out" class="fs-tool-value">55%</output>
+</label>
+<fieldset class="fs-tool-field fs-tool-formula">
+<legend class="fs-tool-label">HR<sub>max</sub> formula</legend>
+<label><input type="radio" name="fs-formula" value="220-age" checked> 220 − age (common in literature)</label>
+<label><input type="radio" name="fs-formula" value="208-0.7age"> 208 − 0.7 × age (youth-adjusted)</label>
+</fieldset>
+</div>
+<div class="fs-tool-results" aria-live="polite">
+<div class="fs-tool-stat">
+<strong>Estimated HR<sub>max</sub></strong>
+<span id="fs-hrmax">—</span>
+</div>
+<div class="fs-tool-stat fs-tool-stat-primary">
+<strong>Target bpm (ceiling)</strong>
+<span id="fs-bpm">—</span>
+</div>
+<div class="fs-tool-stat">
+<strong>Overlaps published bands</strong>
+<span id="fs-overlap">—</span>
+</div>
+</div>
+</div>
+
+<div class="fs-tool-chart-wrap">
+<svg id="fs-band-chart" class="fs-tool-chart" role="img" aria-label="Published %HRmax bands with your selected percentage"></svg>
+</div>
+
+<p class="fs-tool-foot">Dashed brown line on Kozlowski row = ~75% symptom limit (observed); orange bar = RTP guidance &lt;70% when HR<sub>t</sub> is unknown.</p>
+
+:::
+
+## Boundaries
+
+| Topic | What this tool does / does not do |
+|-------|-----------------------------------|
+| **PPCSexRx** | The CRAN package encodes one published fallback. At age 16 and ~60–70% band its example lands near **133 bpm**—illustration only, not a mandated dose. |
+| **Symptom cap** | Always apply ≤2/10 rule from the [pillar2-002 SOP](/posts/pillar2-002-no-bctt-prescription-paths/index.html#sop-checklist-and-educational-tool-layer). |
+| **Device** | Wrist optical HR may misread vs chest strap in exercise testing contexts. |
+| **Pillar 4** | Fuller “ceiling not goal” checklists will live in future SOP installments; this page stays the calculator. |
+
+[← All tools](/tools/index.html) · [Series hub](/index.html)
+
+::: {=html}
+<script src="../_shared/fs-tools.js" defer></script>
+:::

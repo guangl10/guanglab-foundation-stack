@@ -35,6 +35,31 @@ Folder naming: `posts/pillar{N}-{seq}-{slug}/` (e.g. `pillar2-001-six-protocols-
 
 Posts under `posts/` get Google Scholar meta, JSON-LD (`ScholarlyArticle`), and canonical URLs via `filters/fs-seo.lua` (`fs-seo.canonical-base` in `_quarto.yml`). Defaults for `description` in `posts/_metadata.yml`.
 
+## Clinical tools (`tools/`)
+
+- **URL:** `https://fs.guanglab.org/tools/{slug}/` (e.g. `hr-calculator`)
+- **Role:** Standalone calculators/checklists; **never embed** widgets inside `posts/*.qmd`
+- **Linking:** Installments may link out in one sentence; tools link back to motivating installment
+- **SEO:** `fs-seo.lua` applies to `posts/` only—not tools
+- **Shared data:** `tools/_shared/` (e.g. `hrmax-bands.json` synced with pillar2-002 Figure 2)
+- **Registry:** Obsidian `_tools.md` (optional); hub at `tools/index.qmd`
+
+### Do not merge with `projects.guanglab.org` / SR repo tools
+
+On server (`alpha-x`), `isu/ppcs-sr-aerobic/_site/tools/` holds **SR extraction pipeline** utilities: Orchestrator (extraction schema), Literature Auditor (Gap 1/2 PDF extraction), Data Corrector (research CSV). These expose adherence/recovery coding schema and OpenRouter extraction workflow—**PROSPERO-confidential**. Public `https://projects.guanglab.org/tools/` currently returns **404** (good). Keep SR tools in the SR repo; keep FS clinical tools in this repo only. Never rsync or link SR tools onto `fs.guanglab.org`.
+
+### PROSPERO gate (author decision: hide until registration is public)
+
+**Keep public (FS only):** `fs.guanglab.org` installments + `fs.guanglab.org/tools/*` clinical helpers (e.g. `hr-calculator`). These are PMID/education-facing, not SR pipeline.
+
+**Keep non-public until PROSPERO is live:**
+
+- `projects.guanglab.org/tools/` — leave **404** or auth-only; do not nginx-route SR Orchestrator / Literature Auditor / Data Corrector.
+- SR hub screening stats on `projects.guanglab.org` (e.g. records screened / stage counts) — treat as SR-facing; reduce or gate if still visible pre-PROSPERO.
+- FS `resources/pilot-measurement-summary.qmd` — `draft: true`; no Hub links.
+
+**After PROSPERO registration is public:** revisit exposing SR tools and hub on `projects.guanglab.org` (separate repo/nginx); still do not merge SR tools into FS. FS may then link to `guanglab.org/ppcs-sr` per updated public policy.
+
 ## Drafts
 
 `website.draft-mode: gone` in `_quarto.yml`. Unpublished work: `draft: true` in YAML or do not create the post directory until ready.

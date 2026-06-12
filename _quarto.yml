@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - tools/_shared/**
 
 filters:
   - filters/fs-seo.lua
@@ -17,6 +19,8 @@ website:
     left:
       - text: "Series Hub"
         href: index.qmd
+      - text: "Tools"
+        href: tools/index.qmd
       - text: "About"
         href: about.qmd
     right:

@@ -58,4 +58,4 @@ Installment IDs use `pillar{N}-{seq}-{slug}` (e.g. `pillar2-001-six-protocols-co
 
 ## Published installments
 
-[Author home](https://guanglab.org/) · [About](/about.html)
+[Clinical tools](/tools/index.html) · [Author home](https://guanglab.org/) · [About](/about.html)

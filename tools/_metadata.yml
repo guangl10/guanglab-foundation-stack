@@ -1,0 +1,5 @@
+# Defaults for Foundation Stack clinical tools (not ScholarlyArticle installments)
+format:
+  html:
+    toc: true
+    toc-depth: 2

@@ -1,0 +1,57 @@
+{
+  "version": "2026-06-12",
+  "source": "pillar2-002 Figure 2; PMID-backed ranges",
+  "xmin": 40,
+  "xmax": 80,
+  "bands": [
+    {
+      "id": "mcintyre",
+      "label": "McIntyre 2019 (review)",
+      "xmin": 50,
+      "xmax": 60,
+      "cluster": "conservative",
+      "pmid": "32079897"
+    },
+    {
+      "id": "dobney",
+      "label": "Dobney 2017 (Montreal AR)",
+      "xmin": 50,
+      "xmax": 60,
+      "cluster": "conservative",
+      "pmid": "29058559"
+    },
+    {
+      "id": "hutchison",
+      "label": "Hutchison SAEP",
+      "xmin": 60,
+      "xmax": 75,
+      "cluster": "moderate",
+      "pmid": "36256698"
+    },
+    {
+      "id": "micay",
+      "label": "Micay fixed bike (wk 1 est.)",
+      "xmin": 50,
+      "xmax": 65,
+      "cluster": "progressive",
+      "pmid": "30305924",
+      "note": "Initial 50% +5%/session; bar = first-week span"
+    },
+    {
+      "id": "kozlowski",
+      "label": "Kozlowski",
+      "xmin": 50,
+      "xmax": 70,
+      "cluster": "progressive",
+      "pmid": "23952041",
+      "marker": 75,
+      "markerLabel": "~75% symptom limit",
+      "note": "Bar = RTP stay below 70% when HRt unknown"
+    }
+  ],
+  "clusters": {
+    "conservative": { "label": "Conservative", "color": "#3b6ea8" },
+    "moderate": { "label": "Moderate", "color": "#3d8c40" },
+    "progressive": { "label": "Progressive", "color": "#d97b2b" }
+  }
+}

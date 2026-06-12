@@ -76,11 +76,12 @@ Finally, there is a **communication** problem inside the no-BCTT cluster itself.
 
 **Cluster B — Formula fallback.** When no graded test is available, authors default to age-predicted percentages. The bands **overlap** (roughly 50–70%) but **do not converge** on one number. McIntyre: 50–60% [PMID: 32079897](https://pubmed.ncbi.nlm.nih.gov/32079897/). Montreal active rehabilitation (Dobney et al.): 50–60% target zone for 15 minutes on bike or treadmill [PMID: 29058559](https://pubmed.ncbi.nlm.nih.gov/29058559/) *(figure cited from full text; intensity data not in abstract)*. Hutchison SAEP: structured progression from 60% upward [PMID: 36256698](https://pubmed.ncbi.nlm.nih.gov/36256698/). Kozlowski: persistent PCS patients reached ~75% age-predicted maximum at symptom limit—supporting RTP guidance to stay **below 70%** when threshold is unknown [PMID: 23952041](https://pubmed.ncbi.nlm.nih.gov/23952041/).
 
+##### Figure 2 — Overlapping %HRmax bands (Cluster B)
+
 ```{r}
 #| label: fig-hrmax-overlap
-#| fig-cap: "Published %HRmax recommendations for no-BCTT settings: ranges overlap without converging. Bars show reported targets or progression bands (not equivalent constructs). Micay: initial 50% with +5% per session (bar shows first-week span to ~65%). Kozlowski: RTP ceiling when HRt is unknown. Colors are illustrative clusters (conservative / moderate / progressive), not author-defined tiers."
 #| fig-width: 8
-#| fig-height: 4.5
+#| fig-height: 4.8
 #| echo: false
 #| warning: false
 #| message: false
@@ -92,8 +93,8 @@ hr_bands <- data.frame(
     "McIntyre 2019 (review)",
     "Dobney 2017 (Montreal AR)",
     "Hutchison SAEP",
-    "Micay fixed bike",
-    "Kozlowski RTP ceiling"
+    "Micay fixed bike (wk 1 est.)",
+    "Kozlowski"
   ),
   xmin = c(50, 50, 60, 50, 50),
   xmax = c(60, 60, 75, 65, 70),
@@ -105,6 +106,7 @@ hr_bands <- data.frame(
 )
 
 hr_bands$study <- factor(hr_bands$study, levels = rev(hr_bands$study))
+koz_y <- which(levels(hr_bands$study) == "Kozlowski")
 
 cluster_cols <- c(
   Conservative = "#3b6ea8",
@@ -112,10 +114,28 @@ cluster_cols <- c(
   Progressive = "#d97b2b"
 )
 
-ggplot(hr_bands, aes(xmin = xmin, xmax = xmax, y = study, fill = cluster)) +
-  geom_rect(aes(xmin = xmin, xmax = xmax, ymin = as.numeric(study) - 0.35,
-                ymax = as.numeric(study) + 0.35),
-            color = "grey25", linewidth = 0.25) +
+ggplot(hr_bands, aes(y = study, fill = cluster)) +
+  geom_rect(
+    aes(
+      xmin = xmin, xmax = xmax,
+      ymin = as.numeric(study) - 0.35,
+      ymax = as.numeric(study) + 0.35
+    ),
+    color = "grey25", linewidth = 0.25
+  ) +
+  geom_segment(
+    aes(x = 75, xend = 75, y = koz_y - 0.35, yend = koz_y + 0.35),
+    inherit.aes = FALSE,
+    color = "#8b4513", linewidth = 0.7, linetype = "22"
+  ) +
+  annotate(
+    "text", x = 76.3, y = koz_y, label = "~75%\nsymptom limit",
+    size = 2.7, hjust = 0, vjust = 0.5, color = "#8b4513", lineheight = 0.9
+  ) +
+  annotate(
+    "text", x = 60, y = koz_y, label = "RTP <70%",
+    size = 2.8, color = "grey15", fontface = "italic"
+  ) +
   scale_fill_manual(values = cluster_cols, name = "Illustrative cluster") +
   scale_x_continuous(
     limits = c(40, 80),
@@ -136,6 +156,8 @@ ggplot(hr_bands, aes(xmin = xmin, xmax = xmax, y = study, fill = cluster)) +
     legend.position = "bottom"
   )
 ```
+
+**Figure 2.** Bars show published targets or progression bands (not equivalent constructs). Micay: initial 50% with +5% per session (bar = first-week span to ~65%). Kozlowski: orange bar = RTP guidance to stay **below 70%** when HR~t~ is unknown; dashed line = ~**75%** age-predicted maximum at symptom limit in persistent PCS [PMID: 23952041](https://pubmed.ncbi.nlm.nih.gov/23952041/). Colors = illustrative clusters (conservative / moderate / progressive), not author-defined tiers.
 
 **Cluster C — Symptom-only.** The symptom-limited row from pillar2-001 remains the most deployable when neither equipment nor reliable heart-rate monitoring exists. It trades precision for accessibility.
 
@@ -212,6 +234,8 @@ Most fallback paths inherit 220 − age as the denominator. Pediatric exercise l
 
 Neither formula has been validated in adolescent PPCS specifically. The practical implication: any age-predicted band should be treated as an upper bound, not a precision target. When 220 − age is the denominator, 50–60% of an inflated HR~max~ may still fall within a safe zone—but the margin for error is smaller than the formula implies, and clinicians in settings with unreliable monitoring should weight symptom response more heavily than the calculated number.
 
+For bpm conversion with published-band context, use the standalone [HR prescription helper](/tools/hr-calculator/) (ceiling not goal; does not resolve which % to choose).
+
 **What would settle disagreement 1?** A pragmatic trial in slow-to-recover adolescents comparing (a) BCTT-anchored 80% HR~t~, (b) fixed 55% age-predicted band, and (c) symptom-cap-only progression—with adherence and symptom trajectory measured equally across arms. No such trial is available at the time of writing. Until it is, the defensible clinical posture is transparency: state which anchor you used, state that the band is consensus-adjacent rather than individually measured, and document symptom response session by session.
 
 **What would settle disagreement 2?** Head-to-head equivalence trials of BCBT vs BCTT vs mSRT in the **same** acute and PPCS cohorts with prespecified prescription rules—not only threshold detection. Haider’s equivalence work addresses threshold measurement [PMID: 31488375](https://pubmed.ncbi.nlm.nih.gov/31488375/); Miutz addresses field practicality [PMID: 35894897](https://pubmed.ncbi.nlm.nih.gov/35894897/). The prescription step after the test remains protocol-specific.
@@ -226,7 +250,7 @@ Neither formula has been validated in adolescent PPCS specifically. The practica
 
 Foundation Stack value in this section: **match path to infrastructure**, not to whichever trial had the largest sample size.
 
-##### Figure 1 — Three settings, three default paths
+##### Figure 4 — Three settings, three default paths
 
 ::: {=html}
 <div class="fs-scenario-grid">
@@ -308,7 +332,7 @@ This patient matches Setting A. The wrong move is to defer all exercise until BC
 **Not medical advice. Educational use only. Data from published literature.**
 :::
 
-#### 5. SOP checklist and educational tool layer
+#### 5. SOP checklist and educational tool layer {#sop-checklist-and-educational-tool-layer}
 
 ##### One-page SOP (no-BCTT community default)
 
@@ -317,13 +341,13 @@ This patient matches Setting A. The wrong move is to defer all exercise until BC
 | Clinician | Parent | Adolescent |
 |-----------|--------|------------|
 | □ Red flags screened; no BCTT if acutely unstable | □ Know emergency signs: repeated vomiting, worst headache, slurred speech | □ Rate headache/dizziness/nausea 0–10 morning and after exercise |
-| □ Pick path from Figure 1 (bike / field / formula / symptom) | □ 20 min supervised aerobic if cleared; walk or easy bike | □ Stop if symptoms +2/10 vs session start |
+| □ Pick path from Figure 4 (bike / field / formula / symptom) | □ 20 min supervised aerobic if cleared; walk or easy bike | □ Stop if symptoms +2/10 vs session start |
 | □ Document which anchor used (% band, RPE, or cap only) | □ Log date, duration, peak symptoms—not only “felt fine” | □ Able to speak full sentences without gasping |
 | □ If HR monitor used: note device type (chest vs wrist) | □ Do not advance duration and intensity same day | □ Schoolwork in blocks; rest eyes if screen triggers fog |
 | □ Advance after ≥24 h without escalation | □ Escalate to clinician if 2 bad days in a row | □ No contact sport without written clearance |
 | □ Re-refer for BCTT/BCBT if plateau >2 weeks | □ Photo clearance letter for coach/school | □ Step back one level if symptoms return next morning |
 
-##### PPCSexRx — illustration only (Figure 2)
+##### PPCSexRx — illustration only (Figure 5)
 
 ::: {.callout-important}
 **Educational use only. GRADE: LOW certainty.** Outputs from the published CRAN package [PPCSexRx](https://cran.r-project.org/web/packages/PPCSexRx/index.html). Not clinical advice or a mandated protocol.
