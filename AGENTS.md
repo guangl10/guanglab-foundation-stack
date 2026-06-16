@@ -98,20 +98,37 @@ bash deploy.sh  # requires SSH host `alpha-x`
 
 Copy `posts/pillar2-001-six-protocols-comparison/` → `posts/pillar{N}-{seq}-{slug}/`, edit, deploy.
 
-## RAG / knowledge base context (2026-06-16)
+## RAG / knowledge base context (2026-06-16, updated)
 
 Jack wants this content searchable by his assistants. There are **two separate, unrelated RAG
 systems** on his machine — don't conflate them:
 
-1. **`qmd`** (coding-agent memory, used by Claude Code/Cursor for repo context) — embeds via
-   node-llama-cpp + embeddinggemma. OOMs on Metal on his 24GB Mac mini. A CPU fallback exists
-   (`NODE_LLAMA_CPP_GPU=disable`, plus an automatic retry-on-OOM already coded in
-   `flowstate-qmd/src/llm.ts`) but latency hasn't been measured. Not yet wired to this repo.
+1. **`qmd`** (coding-agent memory, used by Claude Code/Cursor for repo context) — **now live and
+   working for this repo's `guanglab-fs` collection.** 334 chunks across 128 docs embedded.
+   **Policy: no Chinese-origin models on this machine (Jack's explicit, durable rule — applies to
+   any tool, not just qmd).** All three of qmd's Qwen-lineage models (embedding, reranker, and the
+   query-expansion fine-tune) have been deleted from `~/.cache/qmd/models/`. Current config (set
+   in `~/.zshrc`):
+   - Embedding: `embeddinggemma-300M` (Google) via `QMD_EMBED_MODEL`
+   - Reranker: `jina-reranker-v2-base-multilingual` (Jina AI, Germany) via `QMD_RERANK_MODEL` —
+     not yet exercised end-to-end (only invoked when `rerank: true` or via `qmd query`)
+   - Query-expansion (used only by the standalone `qmd query` command, never by the MCP/agent
+     path): **no replacement configured** — this knob has no env var in `flowstate-qmd/src/llm.ts`
+     (hardcoded `DEFAULT_GENERATE_MODEL`). Prefer `qmd vsearch` / `qmd search` over `qmd query` for
+     now; if `qmd query` is run, expect it to try downloading a model.
+   - On this 24GB Mac mini, embedding/search runs CPU-only (`NODE_LLAMA_CPP_GPU=disable`) to avoid
+     Metal OOM — already the safe default; verified working at ~128 docs in ~2 min.
+   - If models are ever swapped again: `qmd`'s vector table is **global, single-dimension**
+     (`ensureVecTableInternal` in `flowstate-qmd/src/store.ts`) — changing the embedding model
+     drops and rebuilds vectors for **all** collections, not just `guanglab-fs`. Re-embed with
+     `qmd embed -f` (force flag, bypasses the hash-based "already has embeddings" skip-check).
+   - Governance: don't run `qmd collection add` / `qmd embed` / `qmd update` automatically — give
+     Jack the exact command and let him run it.
 2. **Open WebUI Knowledge** (`chat.guanglab.org`, jack/mae/aaliyah assistants) — embeds via
-   Ollama + `nomic-embed-text`. Already deployed and confirmed live (no OOM risk). This is the
-   one Jack most likely means when he says "knowledge base" for chat-facing use. Getting FS
-   articles in there is a manual upload into the `jack-knowledge` collection in the Open WebUI
-   UI — nothing in this repo needs to change for that to work.
+   Ollama + `nomic-embed-text` (already non-Chinese). Already deployed and confirmed live (no OOM
+   risk). This is the one Jack most likely means when he says "knowledge base" for chat-facing
+   use. Getting FS articles in there is a manual upload into the `jack-knowledge` collection in
+   the Open WebUI UI — nothing in this repo needs to change for that to work. Not yet done.
 
 Separately: **`projects.guanglab.org`** (the PPCS-SR proposal/meetings/plans site) is a different
 project entirely, has no local source repo found yet, and is gated behind an SSO proxy that
