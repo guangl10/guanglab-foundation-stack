@@ -97,3 +97,22 @@ bash deploy.sh  # requires SSH host `alpha-x`
 ## New installment
 
 Copy `posts/pillar2-001-six-protocols-comparison/` → `posts/pillar{N}-{seq}-{slug}/`, edit, deploy.
+
+## RAG / knowledge base context (2026-06-16)
+
+Jack wants this content searchable by his assistants. There are **two separate, unrelated RAG
+systems** on his machine — don't conflate them:
+
+1. **`qmd`** (coding-agent memory, used by Claude Code/Cursor for repo context) — embeds via
+   node-llama-cpp + embeddinggemma. OOMs on Metal on his 24GB Mac mini. A CPU fallback exists
+   (`NODE_LLAMA_CPP_GPU=disable`, plus an automatic retry-on-OOM already coded in
+   `flowstate-qmd/src/llm.ts`) but latency hasn't been measured. Not yet wired to this repo.
+2. **Open WebUI Knowledge** (`chat.guanglab.org`, jack/mae/aaliyah assistants) — embeds via
+   Ollama + `nomic-embed-text`. Already deployed and confirmed live (no OOM risk). This is the
+   one Jack most likely means when he says "knowledge base" for chat-facing use. Getting FS
+   articles in there is a manual upload into the `jack-knowledge` collection in the Open WebUI
+   UI — nothing in this repo needs to change for that to work.
+
+Separately: **`projects.guanglab.org`** (the PPCS-SR proposal/meetings/plans site) is a different
+project entirely, has no local source repo found yet, and is gated behind an SSO proxy that
+returns 404 to unauthenticated requests. Not related to Foundation Stack.
