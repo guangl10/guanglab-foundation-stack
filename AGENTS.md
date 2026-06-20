@@ -42,6 +42,7 @@ Posts under `posts/` get Google Scholar meta, JSON-LD (`ScholarlyArticle`), and 
 - **Linking:** Installments may link out in one sentence; tools link back to motivating installment
 - **SEO:** `fs-seo.lua` applies to `posts/` only—not tools
 - **Shared data:** `tools/_shared/` (e.g. `hrmax-bands.json` synced with pillar2-002 Figure 2)
+- **Shared ggplot:** `posts/_shared/fs-ggplot-theme.R` (`theme_fs()`, RTL/RTP colors; pillar2-004+ figures)
 - **Registry:** Obsidian `_tools.md` (optional); hub at `tools/index.qmd`
 
 ### Do not merge with `projects.guanglab.org` / SR repo tools
@@ -54,8 +55,7 @@ On server (`alpha-x`), `isu/ppcs-sr-aerobic/_site/tools/` holds **SR extraction 
 
 **Keep non-public until PROSPERO is live:**
 
-- `projects.guanglab.org/tools/` — leave **404** or auth-only; do not nginx-route SR Orchestrator / Literature Auditor / Data Corrector.
-- SR hub screening stats on `projects.guanglab.org` (e.g. records screened / stage counts) — treat as SR-facing; reduce or gate if still visible pre-PROSPERO.
+- `projects.guanglab.org` — **HTTP Basic Auth** (`/etc/nginx/guanglab.htpasswd` on `alpha-x`); entire subdomain private until PROSPERO policy changes. Root `/tools/` still 404; SR tools under `/isu/ppcs-sr-aerobic/tools/` require login.
 - FS `resources/pilot-measurement-summary.qmd` — `draft: true`; no Hub links.
 
 **After PROSPERO registration is public:** revisit exposing SR tools and hub on `projects.guanglab.org` (separate repo/nginx); still do not merge SR tools into FS. FS may then link to `guanglab.org/ppcs-sr` per updated public policy.
@@ -63,6 +63,22 @@ On server (`alpha-x`), `isu/ppcs-sr-aerobic/_site/tools/` holds **SR extraction 
 ## Drafts
 
 `website.draft-mode: gone` in `_quarto.yml`. Unpublished work: `draft: true` in YAML or do not create the post directory until ready.
+
+## Language — draft vs publish
+
+| Layer | Language | Path |
+|-------|----------|------|
+| Obsidian draft | English prose + optional inline Chinese glosses in parentheses | `MyVault/.../drafts/pillar{N}-{seq}/article.qmd` |
+| **Git publish** | **English only** — no CJK in body, titles, or descriptions | `posts/pillar{N}-{seq}-{slug}/index.qmd` |
+
+**Rules**
+
+- Never treat Obsidian `article.qmd` as the publish source without promote.
+- **Promote:** `bash ~/Documents/Obsidian/MyVault/research/foundation-stack/_system/sync-draft-to-git.sh pillar{N}-{seq}` — copies body into Git `index.qmd`, keeps Git Quarto YAML, strips `（…）` / `(…)` glosses that contain Chinese, drops Obsidian `> Brief:` wikilink line.
+- **Deploy gate:** `scripts/verify-publish-english.sh` runs before `quarto render` in `deploy.sh`; build fails if any publish-facing `.qmd` contains CJK.
+- Obsidian `published/` mirror is English-only (copied from Git after deploy).
+
+Authors may keep Chinese glosses in Obsidian for drafting; public `fs.guanglab.org` is always English.
 
 ## Obsidian (MyVault) — structured archive
 
@@ -78,6 +94,8 @@ Registry: `.../research/foundation-stack/_installments.md` (update on every publ
 | Mirror (sync only) | `published/<slug>/article.qmd` |
 
 Promote draft → `posts/pillar{N}-{seq}-{slug}/index.qmd`, deploy, sync, update `_installments.md`.
+
+**English-only publish:** Obsidian drafts may include inline Chinese glosses; Git `posts/**/index.qmd` must not. Always promote via `sync-draft-to-git.sh` (strips glosses). See **Language — draft vs publish** above.
 
 **Obsidian autosync (laptop):** MyVault `_system/auto-sync.sh` every 10 min → `jack-myvault` Git. Author drafts in Obsidian; agent reads same paths after pull on mini or from GitHub.
 
@@ -97,3 +115,27 @@ bash deploy.sh  # requires SSH host `alpha-x`
 ## New installment
 
 Copy `posts/pillar2-001-six-protocols-comparison/` → `posts/pillar{N}-{seq}-{slug}/`, edit, deploy.
+
+## 长文 Agent · 知识库用法
+
+**在 Cursor 里写新篇：直接读本 repo 源码即可，不必开本地 qmd UI。**
+
+| 用途 | 路径 |
+|------|------|
+| 边界、模板、部署 | `AGENTS.md`（本文件） |
+| pillar2-001（六协议对比） | `posts/pillar2-001-six-protocols-comparison/index.qmd` |
+| pillar2-002（无 BCTT 处方路径） | `posts/pillar2-002-no-bctt-prescription-paths/index.qmd` |
+| pillar2-004（RTL/RTP 双轨 staging） | `posts/pillar2-004-school-vs-sport-staging/index.qmd` |
+| HR 计算器（与 002 图 2 同步） | `tools/hr-calculator/index.qmd` · `tools/_shared/hrmax-bands.json` |
+| ggplot 共享主题 | `posts/_shared/fs-ggplot-theme.R` |
+| 站点 hub / about | `index.qmd` · `about.qmd` |
+| 内部草稿（勿公开链接） | `resources/pilot-measurement-summary.qmd`（`draft: true`） |
+
+**对齐旧文口径：** 在 repo 内搜关键词（如 `PPCS adherence`、`HR_t`、`BCTT`、`80%`），打开对应 `posts/*/index.qmd` 读全文，再写新篇。
+
+**新篇 checklist：** YAML 含 `installment` / `pillar` / `audience` / `date` / `title` / `description`；正文按 Problem → comparison table → disagreements → methods → SOP → limitations；`posts/pillar{N}-{seq}-{slug}/index.qmd` 里**不要**放 Obsidian wikilink（`[[...]]`），那些只留在 Obsidian `drafts/`；**发布稿全英文**（中文括注只留在 Obsidian 草稿，promote 时由 `sync-draft-to-git.sh` 剥除）。
+
+**边界：** 只在本 repo 编辑；不链接 `projects.guanglab.org`；PROSPERO 未公开前遵守上文 Boundaries 全文。
+
+（可选，作者本机）`qmd` collection `guanglab-fs` 与本地检索 UI 供人类用；Cursor Agent 不依赖。
+
