@@ -153,18 +153,18 @@ Section 1 showed that “twenty minutes” is **conventional**, not experimental
 
 The single most useful takeaway for prescribers is **Disagreement 2** from Section 2: **100 min/week** is what Howell *prescribed* (20 × 5, “consistent with prior studies” [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/)); **160 min/week** is what *separated* symptom-free adolescents in the same paper’s post hoc analysis. Those are not interchangeable targets—and collapsing them is how families inherit stopwatch guilt over a digit the literature never validated session-by-session.
 
-That distinction does not replace intensity rules from [pillar2-002](../pillar2-002-no-bctt-prescription-paths/index.html). It does mean the negotiable unit becomes **minutes × days per week**, logged honestly, with symptom caps intact. Section 4 walks through what that looks like when a parent texts *“We failed the protocol.”*
+That distinction does not replace intensity rules from [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html). It does mean the negotiable unit becomes **minutes × days per week**, logged honestly, with symptom caps intact. Section 4 walks through what that looks like when a parent texts *”We failed the protocol.”*
 
 
 #### 4. If your setting looks like this {#resource-limited-settings}
 
-pillar2-002 asked how to set **intensity** without BCTT. This installment asks how to set **volume** without worshipping a single session template—especially when pillar2-002’s Setting A (school AT) and Setting C (home / primary care) face different scheduling realities.
+[*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) asked how to set **intensity** without BCTT. This installment asks how to set **volume** without worshipping a single session template—especially when *No Treadmill in the Room*’s Setting A (school AT) and Setting C (home / primary care) face different scheduling realities.
 
 ##### Vignette
 
 A **14-year-old ninth grader** has headache and fatigue **six weeks** after a header in practice. Both parents work until 6 p.m. No treadmill at school; the athlete walks the family dog **alone after school**—about twenty minutes on most weekdays, unsupervised. The discharge sheet says “20 minutes aerobic exercise, 5 days per week.” Last Tuesday the walk was **eighteen minutes** because the dog stopped early; the mother texted the school nurse: *“We failed the protocol.”*
 
-This patient matches **pillar2-002 Setting C** (home / primary care supervision). Intensity was never BCTT-anchored; the family uses a **symptom cap** (stop if headache or fog rises **≥2/10** from walk start) and brisk walking pace—full sentences, no breathlessness.
+This patient matches the **Setting C** scenario from [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) (home / primary care supervision). Intensity was never BCTT-anchored; the family uses a **symptom cap** (stop if headache or fog rises **≥2/10** from walk start) and brisk walking pace—full sentences, no breathlessness.
 
 **Volume reframe applied:**
 
@@ -190,26 +190,26 @@ This patient matches **pillar2-002 Setting C** (home / primary care supervision)
 
 The table is **arithmetical**, not outcome-proven. It shows why a family that can only supervise **three after-school walks** might need **longer sessions** to approach observational bands—not because thirty minutes is magic, but because **100–160 min/week is a product**.
 
-For parents, the translation shifts from *“Was it exactly twenty minutes?”* to *“Did we accumulate roughly a hundred minutes this week without symptom spikes—and did every session stay sub-symptom?”* That pairs naturally with pillar2-002’s **≤2/10 stop rule** and 24-hour advancement logic.
+For parents, the translation shifts from *“Was it exactly twenty minutes?”* to *“Did we accumulate roughly a hundred minutes this week without symptom spikes—and did every session stay sub-symptom?”* That pairs naturally with *No Treadmill in the Room*’s **≤2/10 stop rule** and 24-hour advancement logic.
 
 
 #### 5. SOP checklist and weekly-dose tool {#sop-checklist-and-weekly-dose-tool}
 
 ##### One-page SOP (volume-aware community default)
 
-*Synthesizes Howell 2021 volume findings, Neely 2023 session-frequency data, and pillar2-001/002 symptom caps for education only [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/) [PMID: 36580488](https://pubmed.ncbi.nlm.nih.gov/36580488/) [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).*
+*Synthesizes Howell 2021 volume findings, Neely 2023 session-frequency data, and [*Six Protocols, One Condition*](../pillar2-001-six-protocols-comparison/index.html) / [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) symptom caps for education only [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/) [PMID: 36580488](https://pubmed.ncbi.nlm.nih.gov/36580488/) [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).*
 
 | Clinician | Parent | Adolescent |
 |-----------|--------|------------|
 | □ Document **minutes × days/week** achieved, not only “compliant yes/no” | □ Log **each session’s duration** and peak symptoms | □ Rate symptoms 0–10 before and after every walk or bike session |
-| □ Pair volume with **intensity path** from pillar2-002 (%, RPE, or symptom cap) | □ Weekly total matters more than one “failed” short session | □ Stop if symptoms +2/10 from session start—do not extend minutes to “hit twenty” |
+| □ Pair volume with **intensity path** from [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) (%, RPE, or symptom cap) | □ Weekly total matters more than one “failed” short session | □ Stop if symptoms +2/10 from session start—do not extend minutes to “hit twenty” |
 | □ Discuss **100 vs 160 min/wk** as observational bands, not guarantees | □ Shorter daily walks can equal one long Buffalo-style session across the week | □ Missing a day → recover schedule without doubling duration same day |
 | □ Use diary or wearable if available; actigraphy studies used objective totals [PMID: 36580488](https://pubmed.ncbi.nlm.nih.gov/36580488/) | □ Report **sessions >15 min** when updating clinician (Neely threshold) | □ School days count—commute walks can add volume if sub-symptom |
 | □ Revisit prescription if <100 min/wk persists two weeks with stalled symptoms | □ Ask whether fatigue is from **under-dosing** or **over-intensity**, not wrong clock time | □ No contact sport without written clearance |
 
 ##### Weekly-dose helper (educational tool)
 
-pillar2-002 deliberately did **not** embed a calculator: that installment’s claim was that **%HRmax bands do not converge**. This installment’s claim is different—**weekly totals may have observational thresholds** even when session length does not. The standalone [weekly dose helper](/tools/dose-calculator/) multiplies minutes per session by sessions per week and maps the product to published bands (Howell **100** and **160** min/week; sleep-related **150** min/week flagged separately).
+[*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) deliberately did **not** embed a calculator: that installment’s claim was that **%HRmax bands do not converge**. This installment’s claim is different—**weekly totals may have observational thresholds** even when session length does not. The standalone [weekly dose helper](/tools/dose-calculator/) multiplies minutes per session by sessions per week and maps the product to published bands (Howell **100** and **160** min/week; sleep-related **150** min/week flagged separately).
 
 Use it to compare schedules—for example, whether **15 minutes × 7 days** and **20 minutes × 5 days** land in the same weekly band—not to override symptom caps or intensity rules from prior installments.
 
@@ -226,11 +226,11 @@ Use it to compare schedules—for example, whether **15 minutes × 7 days** and 
 
 3. **Retrospective volume analyses:** Howell 2021’s **160 min/week** ROC and Neely 2023’s session counts are associative; directionality (exercise → symptoms vs symptoms → exercise) remains ambiguous.
 
-4. **Acute vs persistent populations:** Howell 2021 enrolled within **14 days** of injury; extrapolation to slow PPCS at six weeks requires caution—overlap with pillar2-002’s audience but not identical evidence.
+4. **Acute vs persistent populations:** Howell 2021 enrolled within **14 days** of injury; extrapolation to slow PPCS at six weeks requires caution—overlap with *No Treadmill in the Room*’s audience but not identical evidence.
 
 5. **Intensity unmeasured in volume bands:** Weekly minutes without sub-symptom intensity context can over-dose if walks are too fast or under-dose if sessions are symptom-limited but brief.
 
-6. **Adherence:** Wingerson 2024 links adherence and session duration to outcomes [PMID: 38109187](https://pubmed.ncbi.nlm.nih.gov/38109187/); a weekly-minute framework does not solve unsupervised execution—pillar2-001 limitation #5 still applies [PMID: 26838933](https://pubmed.ncbi.nlm.nih.gov/26838933/).
+6. **Adherence:** Wingerson 2024 links adherence and session duration to outcomes [PMID: 38109187](https://pubmed.ncbi.nlm.nih.gov/38109187/); a weekly-minute framework does not solve unsupervised execution—*Six Protocols, One Condition* limitation #5 still applies [PMID: 26838933](https://pubmed.ncbi.nlm.nih.gov/26838933/).
 
 7. **Legal scope:** Educational synthesis only—not medical advice.
 
@@ -243,7 +243,7 @@ Session duration is the most copied number in adolescent PPCS aerobic prescripti
 
 The field inherited both numbers the same way Howell admitted grouping them: *“20 min/d for 5 d/wk, consistent with prior studies.”* [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/) Session length circulated by citation; the weekly product followed. Volume observational work does not close that ring—it names what to **measure** until dose-manipulation trials exist.
 
-This is the third piece in Foundation Stack. If pillar2-001 mapped protocol fragmentation and pillar2-002 mapped intensity without treadmills, this one maps **time without superstition**—minutes per session as a variable you can trade against frequency when symptom rules and setting constraints demand it.
+This is the third piece in Foundation Stack. If [*Six Protocols, One Condition*](../pillar2-001-six-protocols-comparison/index.html) mapped protocol fragmentation and [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) mapped intensity without treadmills, this one maps **time without superstition**—minutes per session as a variable you can trade against frequency when symptom rules and setting constraints demand it.
 
 The [RSS feed](../../index.xml) on the hub will notify readers when the next installment publishes. The next installment works through a different unresolved problem in the same literature.
 
