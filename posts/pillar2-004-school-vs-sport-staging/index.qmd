@@ -1,12 +1,10 @@
 ---
 title: "Two Tracks, One Athlete: Return-to-School vs Return-to-Sport Staging"
-description: "Consensus guidelines run return-to-learn and return-to-sport as parallel tracks—but use conflicting abbreviations, different clocks, and asymmetric real-world implementation. This piece maps both checklists and where aerobic prescription must follow the school leg, not sport clearance alone."
+description: "I expected one recovery timeline—I found two vocabularies (RTS means school in one protocol and sport in Berlin) and clocks that do not compare. This installment maps parallel return-to-learn and return-to-sport checklists and where aerobic prescription must follow the school leg."
 date: "2026-06-19"
 series: "Foundation Stack"
 installment: pillar2-004
 pillar: methods
-audience: [clinician, researcher, parent]
-categories: [foundation-stack, PPCS, methods, rtl-rtp, staging]
 ---
 
 
@@ -90,10 +88,10 @@ Different research groups label the **same idea** differently—not because the 
 
 | Source | Parallel tracks? | School-before-contact rule | Evidence strength |
 |--------|------------------|----------------------------|-------------------|
-| **Amsterdam 2022** | RTL and RTP **may run in parallel** | **Complete full RTL** before **unrestricted** RTP; youth should reach **full-time school** before RTP **steps 4–6** | Consensus + systematic review [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) |
-| **Berlin 2017** | Early physical activity while symptomatic | **No sport** until **successful return to school** | Consensus [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) |
-| **DeMatteo 2019 cohort** | **Stages 1–3** of school (RTS) and activity (RTA) **simultaneously** | **RTA stage 6** (full contact) delayed until **full, successful school reintegration** (RTS) | Prospective cohort *n*=139 [31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/) |
-| **DeMatteo 2020 SR** | Protocols adopted in practice | **1–2 days** rest then graduated RTA/**RTS** (DeMatteo labels); **little paediatric efficacy evidence** for either protocol | Systematic review [32153982](https://pubmed.ncbi.nlm.nih.gov/32153982/) |
+| **Amsterdam 2022** | RTL and RTP **may run in parallel** | **Complete full RTL** before **unrestricted** RTP; youth should reach **full-time school** before RTP **steps 4–6** | Consensus + systematic review [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) |
+| **Berlin 2017** | Early physical activity while symptomatic | **No sport** until **successful return to school** | Consensus [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) |
+| **DeMatteo 2019 cohort** | **Stages 1–3** of school (RTS) and activity (RTA) **simultaneously** | **RTA stage 6** (full contact) delayed until **full, successful school reintegration** (RTS) | Prospective cohort *n*=139 [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/) |
+| **DeMatteo 2020 SR** | Protocols adopted in practice | **1–2 days** rest then graduated RTA/**RTS** (DeMatteo labels); **little paediatric efficacy evidence** for either protocol | Systematic review [PMID: 32153982](https://pubmed.ncbi.nlm.nih.gov/32153982/) |
 
 **Reading the overlap:** Amsterdam RTP **step 1** explicitly reintroduces daily activity—including school-related load—while RTL **steps 1–2** still cap screen time and homework tolerance. Sport **step 2** is where published **%HRmax bands** (pillar2-002) attach: light then moderate aerobic work. That can be **allowed on the sport checklist** while RTL **step 3** (partial school) is still active—precisely the zone where families need both labels on one plan.
 
@@ -105,11 +103,11 @@ Section 2 lists steps; the literature quantifying those steps uses **different r
 
 | Number (source) | What it actually measures | Common misread |
 |-----------------|---------------------------|----------------|
-| **Mean ~8.3 d to RTL** (athletes; meta-analysis) [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/) | Average **days until RTL** across heterogeneous studies | “Most kids are back to full school in eight days” |
-| **93% full RTL by 10 d** (same meta-analysis) [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/) | Proportion achieving **full RTL without new academic support** by day 10 | Same as row above—but endpoint is **full**, not first step |
-| **Median 35 d (school) / 38 d (sport)** (youth cohort; stage tracking) [31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/) | **Full** return on DeMatteo school (RTS) and activity (RTA) protocols | “Meta says 8 days; cohort says 35—someone is wrong” |
-| **43.5% / 44.7% returned too soon** (chart review) [24925965](https://pubmed.ncbi.nlm.nih.gov/24925965/) | **Marginal** proportion of all cases judged premature on RTP / RTL | “If we advance sport, 43% relapse” (not supported without a 2×2 table) |
-| **26.7% / 42.6% premature with relapse** (later chart review) [35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/) | **Marginal** counts of cases where premature RTP / RTL **and** relapse co-occur in chart documentation | Confused with **P(relapse \| premature)** |
+| **Mean ~8.3 d to RTL** (athletes; meta-analysis) [PMID: 37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/) | Average **days until RTL** across heterogeneous studies | “Most kids are back to full school in eight days” |
+| **93% full RTL by 10 d** (same meta-analysis) [PMID: 37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/) | Proportion achieving **full RTL without new academic support** by day 10 | Same as row above—but endpoint is **full**, not first step |
+| **Median 35 d (school) / 38 d (sport)** (youth cohort; stage tracking) [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/) | **Full** return on DeMatteo school (RTS) and activity (RTA) protocols | “Meta says 8 days; cohort says 35—someone is wrong” |
+| **43.5% / 44.7% returned too soon** (chart review) [PMID: 24925965](https://pubmed.ncbi.nlm.nih.gov/24925965/) | **Marginal** proportion of all cases judged premature on RTP / RTL | “If we advance sport, 43% relapse” (not supported without a 2×2 table) |
+| **26.7% / 42.6% premature with relapse** (later chart review) [PMID: 35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/) | **Marginal** counts of cases where premature RTP / RTL **and** relapse co-occur in chart documentation | Confused with **P(relapse \| premature)** |
 
 **Takeaway:** Means from meta-analyses, medians from single cohorts, and percentages from chart reviews answer **different questions** on **different endpoints**. Collapsing them into one “recovery timeline” is a methods error—not a disagreement among experts.
 
@@ -234,17 +232,17 @@ ggplot(carson_df, aes(x = track, y = pct, group = metric, fill = track, alpha = 
 
 Carson-style chart reviews are essential for showing **implementation gaps**, but their percentages are usually **of all concussion cases**, not **of athletes who were cleared early**.
 
-Without published cell counts (premature × relapse), you cannot invert a marginal percentage into a personal risk statement. A defensible clinical read is associative: **premature advance on either track still appears common**, and **relapse after premature advance still appears in charts** [24925965](https://pubmed.ncbi.nlm.nih.gov/24925965/) [35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/)—not that a specific RTL step confers a known relapse probability.
+Without published cell counts (premature × relapse), you cannot invert a marginal percentage into a personal risk statement. A defensible clinical read is associative: **premature advance on either track still appears common**, and **relapse after premature advance still appears in charts** [PMID: 24925965](https://pubmed.ncbi.nlm.nih.gov/24925965/) [PMID: 35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/)—not that a specific RTL step confers a known relapse probability.
 
 ##### Mean, median, and heavy tails
 
 Recovery days are typically **right-skewed**: most adolescents recover within weeks; a minority extend much longer. **Means** (meta-analysis) and **medians** (DeMatteo cohort) can both be correct yet far apart if long tails pull means or if cohorts define “return” differently.
 
-Putukian et al. also report **I² ≈ 99%** for days-to-RTL and days-to-RTS outcomes [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/)—meaning study definitions and populations differ enormously. Figure 1 shows why a single “days to return” number misleads: wide confidence intervals on a meta-analytic **mean** describe uncertainty about the **average across studies**, not the spread for **the next patient**. Individual clocks will often sit outside any single quoted band.
+Putukian et al. also report **I² ≈ 99%** for days-to-RTL and days-to-RTS outcomes [PMID: 37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/)—meaning study definitions and populations differ enormously. Figure 1 shows why a single “days to return” number misleads: wide confidence intervals on a meta-analytic **mean** describe uncertainty about the **average across studies**, not the spread for **the next patient**. Individual clocks will often sit outside any single quoted band.
 
 ##### Dual-track state is a cross-classification—not a single stage label
 
-An athlete at **RTL step 3** (partial school) and **RTP step 2B** (moderate aerobic) occupies one **cell** in a 4×6 grid, not “step 3 overall.” Guidelines permit some combinations; Amsterdam **restricts RTP steps 4–6** until symptom resolution with exertion and expects **full-time school** before those high-risk sport stages [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/).
+An athlete at **RTL step 3** (partial school) and **RTP step 2B** (moderate aerobic) occupies one **cell** in a 4×6 grid, not “step 3 overall.” Guidelines permit some combinations; Amsterdam **restricts RTP steps 4–6** until symptom resolution with exertion and expects **full-time school** before those high-risk sport stages [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/).
 
 | RTL (school) | RTP (sport) zone | Guideline read |
 |--------------|------------------|----------------|
@@ -257,19 +255,16 @@ Document **both coordinates**. “Cleared to exercise” without an RTL label is
 
 ##### Three operational disagreements (expanded)
 
-**Disagreement 1 — Sequence:** Consensus text emphasizes **school success before unrestricted sport** [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/). DeMatteo’s cohort shows **simultaneous early-stage progression** is common and can be safe for non-contact phases [31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/). Chart data suggest **RTP structured before RTL** in many offices [35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/). The disagreement is not “school first vs parallel ever”—it is **where the hard gate sits** (contact sport vs any activity) and **who documents the school leg**.
+**Disagreement 1 — Sequence:** Consensus text emphasizes **school success before unrestricted sport** [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/). DeMatteo’s cohort shows **simultaneous early-stage progression** is common and can be safe for non-contact phases [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/). Chart data suggest **RTP structured before RTL** in many offices [PMID: 35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/). The disagreement is not “school first vs parallel ever”—it is **where the hard gate sits** (contact sport vs any activity) and **who documents the school leg**.
 
-**Disagreement 2 — Clocks:** Meta means (~8 d RTL, ~20 d RTS) describe **aggregated study endpoints** in athletes [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/). Youth medians (~35 / ~38 d) describe **full protocol completion** in one prospective sample [31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/). Quoting the fast number to reassure families while the school still runs a six-week accommodation plan misaligns expectations.
+**Disagreement 2 — Clocks:** Meta means (~8 d RTL, ~20 d RTS) describe **aggregated study endpoints** in athletes [PMID: 37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/). Youth medians (~35 / ~38 d) describe **full protocol completion** in one prospective sample [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/). Quoting the fast number to reassure families while the school still runs a six-week accommodation plan misaligns expectations.
 
-**Disagreement 3 — Prescription attachment:** Sub-symptom **%HRmax** and **weekly minutes** (pillar2-002/003) attach naturally to **RTP step 2**. **Screen limits, exam deferrals, and partial days** attach to **RTL**. If only the sport prescription is updated at follow-up, the family may **stack** cognitive and aerobic load on the same afternoon—symptoms spike, and both tracks blame the wrong lever.
+**Disagreement 3 — Prescription attachment:** Sub-symptom **%HRmax** (pillar2-002) and **minutes × days / weekly volume** (pillar2-003’s **~100 min/wk** vs **≥160 min/wk** bands [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/)) attach naturally to **RTP step 2**. **Screen limits, exam deferrals, and partial days** attach to **RTL**. If only the sport prescription is updated at follow-up, the family may **stack** cognitive and aerobic load on the same afternoon—symptoms spike, and both tracks blame the wrong lever.
 
 **What would settle disagreement 1?** Pragmatic trials comparing coordinated dual-track documentation vs single-track RTP-focused follow-up, with **same-day** symptom and adherence reporting on **both** legs—not only sport clearance.
 
 **What would settle disagreement 2?** Standardized reporting in cohort studies: **date of RTL step 1–4** and **RTP step 1–6** in the same row, with **symptom scores after combined daily load**—not separate sport-only exertion tests.
 
-::: {.callout-caution}
-**Not medical advice. Educational use only. Data from published literature.**
-:::
 
 #### 4. If your setting looks like this {#resource-limited-settings}
 
@@ -295,7 +290,7 @@ pillar2-002 asked how to set **intensity** without BCTT. pillar2-003 asked how t
 <ul>
 <li>Visit note documents RTP; school forms lag</li>
 <li>May prescribe aerobic dose without calling school</li>
-<li>REAP / Living Guideline tools exist but are separate PDFs [26589561](https://pubmed.ncbi.nlm.nih.gov/26589561/) [34777657](https://pubmed.ncbi.nlm.nih.gov/34777657/)</li>
+<li>REAP / Living Guideline tools exist but are separate PDFs [PMID: 26589561](https://pubmed.ncbi.nlm.nih.gov/26589561/) [PMID: 34777657](https://pubmed.ncbi.nlm.nih.gov/34777657/)</li>
 </ul>
 <p class="fs-path">Default: export <strong>both</strong> step labels to school and coach same visit</p>
 </div>
@@ -324,13 +319,13 @@ A **15-year-old JV guard** took an elbow to the head under the basket **18 days*
 
 **Wednesday:** She completes a **solo 18-minute walk** after school (symptoms **2/10 → 3/10**, acceptable). That evening she makes up a **biology lab write-up** (~50 minutes, laptop, bright screen)—symptoms **3/10 → 6/10** until bedtime. Thursday AM fog is worse; she sits out conditioning. Coach says she “failed RTP”; teacher notes she “was fine in class until she overdid exercise.”
 
-The failure mode is **siloed narratives**, not a stopwatch error. Amsterdam’s mild-exacerbation rule applies to **each activity class**—but families experience **one cumulative day** [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/). DeMatteo’s cohort reported **64%** with school problems during recovery and **31%** with grade drops even as activity stages advanced [31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/)—the vignette pattern is common, not exotic.
+The failure mode is **siloed narratives**, not a stopwatch error. Amsterdam’s mild-exacerbation rule applies to **each activity class**—but families experience **one cumulative day** [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/). DeMatteo’s cohort reported **64%** with school problems during recovery and **31%** with grade drops even as activity stages advanced [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/)—the vignette pattern is common, not exotic.
 
 **Decision sequence:**
 
 1. **Write both coordinates on one line:** RTL **3** (full day + accommodations) · RTP **2A** (solo light aerobic, **not** team conditioning yet)—not “stage 2” in isolation.
 
-2. **Gate sport advance on combined load:** If **screen or homework** provokes **>2/10 for >1 hour**, **hold RTP advance** even when the walk was tolerated. Weekly volume from pillar2-003 still matters across the week—but **today’s ceiling** may be set by schoolwork, not minutes.
+2. **Gate sport advance on combined load:** If **screen or homework** provokes **>2/10 for >1 hour**, **hold RTP advance** even when the walk was tolerated. **Weekly product still matters** ([pillar2-003](../pillar2-003-twenty-minutes-from-where/index.html)): log **minutes × days**, not a ritual stopwatch—Howell’s **~100 min/wk** prescription band (**20 min × 5 d/wk**) and, in the same cohort’s volume analysis, **≥160 min/wk** as the stronger observational discriminator at one month [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/). An **18-minute** tolerated walk does not by itself miss those weekly bands. **Today’s ceiling** may still be schoolwork, not weekly math.
 
 3. **Separate exercise from team reintegration:** Team jogs and passing drills belong to **later RTP steps**. A walk prescription from clinic is not the same as **return to practice environment**.
 
@@ -338,15 +333,12 @@ The failure mode is **siloed narratives**, not a stopwatch error. Amsterdam’s 
 
 **Parent-facing translation:** “The walk after school was fine. The lab on the laptop was too much **the same day**. We are not failing sport—we are **pausing both tracks** until a day tolerates **walk + normal homework** without a late spike. Team practice waits.”
 
-**Clinician note:** Purcell et al. list symptom burden, rest, age/grade, and **course load** as core return-to-school factors [29500251](https://pubmed.ncbi.nlm.nih.gov/29500251/). Halstead emphasizes school environmental adjustments, not only attendance status [24163302](https://pubmed.ncbi.nlm.nih.gov/24163302/). Aerobic prescription without those variables is a **single-track note**.
+**Clinician note:** Purcell et al. list symptom burden, rest, age/grade, and **course load** as core return-to-school factors [PMID: 29500251](https://pubmed.ncbi.nlm.nih.gov/29500251/). Halstead emphasizes school environmental adjustments, not only attendance status [PMID: 24163302](https://pubmed.ncbi.nlm.nih.gov/24163302/). Aerobic prescription without those variables is a **single-track note**.
 
-::: {.callout-caution}
-**Not medical advice. Educational use only. Data from published literature.**
-:::
 
 #### 5. SOP checklist — dual-track documentation {#sop-checklist-dual-track}
 
-*Synthesizes CISG coordination rules, DeMatteo staging, Carson implementation warnings, and pillar2-002/003 intensity/volume rules for education only [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) [31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/) [35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/) [32079897](https://pubmed.ncbi.nlm.nih.gov/32079897/) [33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/).*
+*Synthesizes CISG coordination rules, DeMatteo staging, Carson implementation warnings, and pillar2-002/003 intensity/volume rules for education only [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/) [PMID: 35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/) [PMID: 32079897](https://pubmed.ncbi.nlm.nih.gov/32079897/) [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/).*
 
 ##### One-page SOP (community default)
 
@@ -355,7 +347,7 @@ The failure mode is **siloed narratives**, not a stopwatch error. Amsterdam’s 
 | **Clinician** | □ Record **RTL step (1–4)** and **RTP step (1–6)** on every note—not “progressing well” |
 | | □ State **which track is limiting** today (school / sport / both) |
 | | □ Pair RTP step 2 with **intensity path** from [pillar2-002](../pillar2-002-no-bctt-prescription-paths/index.html) (% band, RPE, or symptom cap) |
-| | □ Pair weekly **minutes × days** from [pillar2-003](../pillar2-003-twenty-minutes-from-where/index.html) when prescribing aerobic volume |
+| | □ Pair weekly **minutes × days** from [pillar2-003](../pillar2-003-twenty-minutes-from-where/index.html)—**~100 min/wk** prescribed (20 × 5); **≥160 min/wk** observational band [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/)—when prescribing aerobic volume |
 | | □ **Hold RTP 4–6** until full-time school **without** concussion accommodations (Amsterdam youth gate) |
 | | □ Send **one** clearance paragraph to school + coach + family with **both** labels |
 | **School / counselor** | □ Accommodation list maps to **RTL step**, not generic “concussion protocol” |
@@ -385,7 +377,7 @@ flowchart LR
  P1 -.->|overlap allowed early| R3
 ```
 
-*Diagram:* Early overlap (dotted) is permitted; **high-risk sport (steps 4–6)** waits on **full RTL (step 4)** per Amsterdam youth guidance [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/).
+*Diagram:* Early overlap (dotted) is permitted; **high-risk sport (steps 4–6)** waits on **full RTL (step 4)** per Amsterdam youth guidance [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/).
 
 Optional intensity helper: the standalone [HR calculator](/tools/hr-calculator/) from pillar2-002 encodes **% bands**—use as a **ceiling within RTP step 2**, not as permission to ignore RTL limits.
 
@@ -393,23 +385,20 @@ Optional intensity helper: the standalone [HR calculator](/tools/hr-calculator/)
 **Educational use only.** Staging labels summarize published consensus and chart-review literature—they do not replace local return-to-play law, school board policy, or individual medical judgment.
 :::
 
-::: {.callout-caution}
-**Not medical advice. Educational use only. Data from published literature.**
-:::
 
 #### 6. Limitations
 
 1. **Step text paraphrased from CISG appendices;** local policies and tools (REAP, SCHOOLFirst, Living Guideline) add detail not fully tabulated here [PMID: 34777657](https://pubmed.ncbi.nlm.nih.gov/34777657/) [PMID: 35292473](https://pubmed.ncbi.nlm.nih.gov/35292473/) [PMID: 26589561](https://pubmed.ncbi.nlm.nih.gov/26589561/).
 
-2. **North American chart-review dominance;** “premature” RTL/RTP definitions vary by chart auditor and era [24925965](https://pubmed.ncbi.nlm.nih.gov/24925965/) [35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/).
+2. **North American chart-review dominance;** “premature” RTL/RTP definitions vary by chart auditor and era [PMID: 24925965](https://pubmed.ncbi.nlm.nih.gov/24925965/) [PMID: 35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/).
 
 3. **Marginal proportions:** Carson relapse figures are not, in published form, a full set of conditional probabilities for individual counseling.
 
-4. **Abbreviation collision:** DeMatteo **RTS = school** vs CISG **RTS = sport** persists in the literature—readers must translate, not merge [31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/) [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/).
+4. **Abbreviation collision:** DeMatteo **RTS = school** vs CISG **RTS = sport** persists in the literature—readers must translate, not merge [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/) [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/).
 
 5. **No adolescent PPCS RCT** randomizing **dual-track coordination** vs sport-track-only follow-up with preregistered combined-load outcomes.
 
-6. **Aerobic PPCS evidence still sport-track weighted:** Leddy-style subsymptom trials enroll exercise arms without parallel school-load manipulation [30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/)—pillar2-002/003 prescriptions may outpace RTL documentation.
+6. **Aerobic PPCS evidence still sport-track weighted:** Leddy-style subsymptom trials enroll exercise arms without parallel school-load manipulation [PMID: 30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/)—pillar2-002/003 prescriptions may outpace RTL documentation.
 
 7. **Legal scope:** Educational synthesis only—not medical advice.
 
@@ -417,11 +406,8 @@ Optional intensity helper: the standalone [HR calculator](/tools/hr-calculator/)
 
 The most actionable gap is not missing a seventh RTP stage—it is missing a **shared row** in the chart. Until trials report **both** tracks with **combined daily symptoms**, clinics should treat dual-track staging as a **documentation and communication** problem first, and a **prescription** problem second. That is where pillar2-002’s bands and pillar2-003’s weekly minutes actually attach: inside labeled RTP steps, gated by RTL tolerance—not floating alone on a discharge sheet.
 
-::: {.callout-caution}
-**Not medical advice. Educational use only. Data from published literature.**
-:::
 
-Berlin paired **four RTL steps** with **six RTP steps** in one consensus document [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/). Amsterdam refined the symptom rules and made the parallel-track logic explicit [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/). Canadian charts still show **both** tracks released too early, with **RTL improvements lagging RTP** [35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/). The literature is not silent on coordination—it is **easy to read one column and call it recovery**.
+Berlin paired **four RTL steps** with **six RTP steps** in one consensus document [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/). Amsterdam refined the symptom rules and made the parallel-track logic explicit [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/). Canadian charts still show **both** tracks released too early, with **RTL improvements lagging RTP** [PMID: 35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/). The literature is not silent on coordination—it is **easy to read one column and call it recovery**.
 
 This is the fourth piece in Foundation Stack. If pillar2-001 mapped protocol fragmentation, pillar2-002 mapped intensity without treadmills, and pillar2-003 mapped **time without superstition**, this one maps **staging without collapsing two checklists into one**.
 
@@ -429,4 +415,4 @@ The [RSS feed](../../index.xml) on the hub will notify readers when the next ins
 
 ---
 
-**Series:** Foundation Stack · **pillar2-004** · **Pillar:** methods (staging / deployability)
+**Series:** [Foundation Stack](/index.html) · **pillar2-004** · **Pillar:** methods (RTL/RTP dual-track staging)
