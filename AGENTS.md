@@ -146,6 +146,23 @@ Copy `posts/pillar2-001-six-protocols-comparison/` → `posts/pillar{N}-{seq}-{s
 
 （可选，作者本机）`qmd` collection `guanglab-fs` 与本地检索 UI 供人类用；Cursor Agent 不依赖。
 
+## GLP research tools (use when writing installments)
+
+**GLP** (`~/Projects/concussion-research-rag`) is the research backend that feeds FS writing. Flow is one-way — GLP → FS. Never add FS articles to the GLP RAG index.
+
+Activate GLP venv first: `cd ~/Projects/concussion-research-rag && source .venv/bin/activate`
+
+| Stage | Tool | Command |
+|-------|------|---------|
+| Evidence retrieval | RAG summarized (150 canonical PDFs) | `python scripts/ask.py --pack-summarized "session duration adolescent PPCS"` |
+| Precise counts / stats | Ask Data (NL→SQL, read-only) | `python scripts/ask_data.py "how many works measure session duration"` |
+| Pre-publish claim check | extraction_verify (three-state) | `python scripts/extraction_verify.py` |
+| Figure design reference | viz_inspiration refs | `python scripts/viz_inspiration_ingest.py --list` |
+
+**Source file discipline:** `.qmd` sources belong in this repo's `posts/` and GitHub only. Oracle `_site/` is rendered output — never treat it as source of truth. If a post exists live but has no local `.qmd`, the source is lost; reconstruct before next deploy.
+
+---
+
 ## RAG / knowledge base context (2026-06-16, updated)
 
 Jack wants this content searchable by his assistants. There are **two separate, unrelated RAG
