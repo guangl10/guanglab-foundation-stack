@@ -22,7 +22,7 @@ posts/pillar{N}-{seq}-{slug}/index.qmd   # e.g. pillar2-001-six-protocols-compar
 | What | Where |
 |------|--------|
 | Obsidian hub | `~/Documents/Obsidian/MyVault/research/foundation-stack/README.md` |
-| Workflow + registry | `.../WORKFLOW.md` · `.../_installments.md` |
+| Workflow + registry | `.../WORKFLOW.md` · `.../_installments.md` · `.../_writing-plan.md` · `.../_DOCUMENT-MAP.md` · `.../_tools.md` |
 | Drafts / research | `.../drafts/` · `.../research-notes/` |
 | Mirrored articles | `.../published/<slug>/article.qmd` |
 | Auto index | `.../published/_publish-index.md` (sync script) |
@@ -35,6 +35,8 @@ bash sync-to-obsidian.sh
 ```
 
 **Do not** edit `article.qmd` in Obsidian and treat it as the publish source.
+
+**English-only publish:** Obsidian drafts may include inline Chinese glosses in parentheses; Git `posts/**/index.qmd` must not contain CJK. Promote with `sync-draft-to-git.sh` (strips glosses). `deploy.sh` runs `scripts/verify-publish-english.sh` before render.
 
 ## Do not use
 

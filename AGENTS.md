@@ -20,7 +20,7 @@
 
 Problem → comparison table → disagreements → methods → SOP → limitations.
 
-YAML: `installment` (e.g. `pillar2-001`), `pillar` (`reproduce`|`methods`|`synth`|`sop`), `audience`, `date`, `title`, `description`.
+YAML: `installment` (e.g. `pillar2-001`), `pillar` (`reproduce`|`methods`|`synth`|`sop`), `date`, `title`, `description` (`audience` optional internal; not on hub listing).
 
 Folder naming: `posts/pillar{N}-{seq}-{slug}/` (e.g. `pillar2-001-six-protocols-comparison`).
 
@@ -84,7 +84,8 @@ Authors may keep Chinese glosses in Obsidian for drafting; public `fs.guanglab.o
 
 Hub: `.../research/foundation-stack/README.md`  
 Workflow: `.../research/foundation-stack/WORKFLOW.md`  
-Registry: `.../research/foundation-stack/_installments.md` (update on every publish)
+Registry: `.../research/foundation-stack/_installments.md` (update on every publish)  
+| 规划文档（Obsidian） | `.../research/foundation-stack/_writing-plan.md` · `_DOCUMENT-MAP.md` · `_tools.md`
 
 | Stage | Path |
 |-------|------|
@@ -131,6 +132,11 @@ Copy `posts/pillar2-001-six-protocols-comparison/` → `posts/pillar{N}-{seq}-{s
 | ggplot 共享主题 | `posts/_shared/fs-ggplot-theme.R` |
 | 站点 hub / about | `index.qmd` · `about.qmd` |
 | 内部草稿（勿公开链接） | `resources/pilot-measurement-summary.qmd`（`draft: true`） |
+| **Obsidian 长期知识库** | `~/Documents/Obsidian/MyVault/research/foundation-stack/knowledge-warehouse/` |
+| 入库协议 · master registry | `knowledge-warehouse/INTAKE-PROTOCOL.md` · `_master-registry.md` |
+| 数据集 raw + 分析脚本 | `resources/concussion-data/`（Git）；vault 内 `knowledge-warehouse/data-assets/` |
+
+**Agent 入库：** 作者投喂 raw 知识时，读 Obsidian `knowledge-warehouse/INTAKE-PROTOCOL.md`，按 wing + template 建档，更新 `_master-registry.md` 与 `_intake-log.md`。PROSPERO 未公开内容只进 vault。
 
 **对齐旧文口径：** 在 repo 内搜关键词（如 `PPCS adherence`、`HR_t`、`BCTT`、`80%`），打开对应 `posts/*/index.qmd` 读全文，再写新篇。
 
