@@ -1,18 +1,13 @@
 ---
 title: "When Do You Advance? Progression Rules After the First Prescription"
-description: "Three progression logics govern when to advance a concussion aerobic prescription: weekly BCTT retest, CISG step grammar (24h floor on sport steps; symptom-gated on school steps), and session-titrated ramps. This installment maps each logic to its source trial, then asks whether the rules hold when return-to-learn and return-to-sport are running simultaneously."
+description: "Three ways to advance an adolescent concussion aerobic prescription—weekly BCTT retest, CISG step rules (24h floor on sport steps only), or session ramps—and whether those rules still apply when return-to-learn and return-to-sport run together. Ideal-document minima are not expected recovery times."
 date: "2026-06-24"
-draft: true
 series: "Foundation Stack"
 installment: pillar2-005
 pillar: methods
-resources:
-  - data/cisg-grammar-audit.json
-  - data/putukian-pooling-context.json
-  - data/putukian-hunt-endpoint-coding.json
-  - data/scripts/run_cisg_grammar_audit.py
-  - data/scripts/README.md
 ---
+
+
 
 
 ::: {.callout-caution}
@@ -23,13 +18,21 @@ The prescription landed: walk at 65% age-predicted maximum heart rate, 20 minute
 
 The Leddy/Buffalo group answers: bring the athlete back to the treadmill at the end of the week. Run a BCTT. If the threshold rose, raise the ceiling [PMID: 30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/). Micay et al. answers: add approximately 5% HRmax next session, on schedule [PMID: 30018795](https://pubmed.ncbi.nlm.nih.gov/30018795/). The CISG consensus answers: for return-to-sport steps, a minimum of 24 hours per step; for return-to-learn steps, no equivalent time floor—only symptom threshold [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/). All three are in the adolescent SRC and PPCS literature. None has been compared head-to-head.
 
-That is not a minor omission. The rule that governs advancement determines whether a student returns to full sport in three weeks or eight. It determines whether a partial school day is a gate or a side note. And in the week when return-to-learn and return-to-sport are both active—a student running PE drills and sitting through exam accommodations—it determines which track holds when symptom load climbs.
+The advancement rule matters clinically: it influences whether a student returns to full sport in three weeks or eight. It determines whether a partial school day is a gate or a side note. And in the week when return-to-learn and return-to-sport are both active—a student running PE drills and sitting through exam accommodations—it determines which track holds when symptom load climbs.
 
 Three previous installments defined the prescription space: [*Six Protocols, One Condition*](../pillar2-001-six-protocols-comparison/index.html) mapped which protocols produce which intensity bands; [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) showed how to set a sub-symptom ceiling when treadmill access is unavailable; [*Twenty Minutes From Where?*](../pillar2-003-twenty-minutes-from-where/index.html) asked how much weekly volume fits a school schedule. [*Two Tracks, One Athlete*](../pillar2-004-school-vs-sport-staging/index.html) showed that the sport track and the school track are not running from the same document.
 
 This installment asks the question all four deferred: **what is the published rule for changing a prescription that is already running, and does it hold when both tracks are active?**
 
-**What this installment is—and is not.** This is a **methods** piece. It does not adjudicate which protocol produces better outcomes; no adolescent PPCS trial has randomized progression-rule type. It maps three published progression logics, **codes RTL/RTS grammar fields from Berlin and Amsterdam full-text PDFs** (reproducible [JSON audit](data/cisg-grammar-audit.json)), derives a rule-based minimum calendar bound with sensitivity bounds, and triangulates that bound against meta-analytic and cohort outcome estimates. Athletic trainers and school staff will find the [SOP table](#sop-dual-track) most actionable. Researchers and trainees will find the [grammar audit](#grammar-audit) and triangulation table in §3 most useful.
+::: {.callout-note}
+## Standalone summary (if you skipped installments 001–004)
+
+**Question:** HR and minutes are set—when may you increase them, and do school and sport follow the same rule?
+
+**In three lines:** (1) Published programs use **weekly treadmill retests**, **fixed session ramps**, or **CISG step checklists**—not one shared rule. (2) Berlin/Amsterdam place a **24 h minimum on sport steps only**; school steps are symptom-gated without that floor ([consensus table](#consensus-table-audit)). (3) No trial defines same-day school-plus-aerobic budgeting—the [SOP](#sop-dual-track) is explicit documentation practice.
+:::
+
+**What this installment is—and is not.** This is a **methods** piece. It does not pick a winning protocol—no adolescent PPCS trial has randomized progression-rule type. It maps three published ways to advance a prescription, then reads the return-to-learn and return-to-sport tables in the Berlin and Amsterdam consensus PDFs to show that **school and sport steps do not share the same timing rules**. Athletic trainers and school staff should start with the [SOP checklist](#sop-dual-track). Readers who want the document-level evidence will find the [consensus table audit](#consensus-table-audit) and Figure 2 in §3.
 
 ::: {.callout-tip}
 ## How to read this installment
@@ -39,7 +42,7 @@ This installment asks the question all four deferred: **what is the published ru
 | **Clinician** | [SOP checklist](#sop-dual-track) | Figure 2 (clocks) → Figure 3 (failure mode) |
 | **Researcher** | Callout table below → §1 | Figure 1 (three logics) → Figure 2 |
 
-**Three figures only:** Figure 1 is schematic (three advancement grammars). Figure 2 pairs audited grammar (panel A) with **three timing estimates** on separate layers—rule-derived minimum, Putukian mean (*I²* 99.3%), DeMatteo staged median. Figure 3 is chart-review data on premature return (Carson). Data supplements: [grammar audit JSON](data/cisg-grammar-audit.json), [Putukian pooling context](data/putukian-pooling-context.json), [hunt endpoint coding pilot](data/putukian-hunt-endpoint-coding.json).
+**Three figures only:** Figure 1 is schematic (three advancement paths—Logic B is **not** on the same scale as A/C; see caption). Figure 2 contrasts CISG step timing (panel A) with three published recovery-time estimates on **separate layers** (panel B—do not merge). Figure 3 is chart-review data on premature return (Carson).
 :::
 
 #### 1. Three progression logics: rules and origins
@@ -62,10 +65,12 @@ Logic B governs **steps**; A and C govern **prescription titration**. The figure
 
 ##### 1.1 Logic A — Weekly BCTT retest (Leddy / Buffalo)
 
-The Buffalo Concussion Treadmill Test (BCTT) was developed as both a diagnostic tool and a prescription anchor. In the foundational RCT [PMID: 30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/), Leddy et al. mandated weekly clinic returns:
+The Buffalo Concussion Treadmill Test (BCTT) was developed as both a diagnostic tool and a prescription anchor. In the foundational RCT [PMID: 30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/), Leddy et al. specified weekly physician follow-up and treadmill-based dose adjustment in the Methods section:
 
-> "Participants were seen every week to perform the BCTT and a new HR prescription was given until recovery."
-> "A new target heart rate was determined by weekly clinic BCTT performance for as long as the participant remained symptomatic."
+> "After a first visit, participants were followed up weekly by their physician until recovery or for 30 days."
+> "A new target HR was determined by weekly clinic BCTT performance for as long as the participant remained symptomatic."
+
+(*JAMA Pediatr.* 2019;173(4):319–325, Methods — aerobic exercise group.)
 
 The logic is **test-gated**: the ceiling does not move until physiologic evidence of readiness is measured. In that trial's context—weekly visits, treadmill access, research protocol—this is operationally clean. The prescription stays fixed for seven days, the test reruns, and the ceiling adjusts based on where the threshold now sits.
 
@@ -79,28 +84,28 @@ This is a **session-observed, test-lite** variant: it preserves the threshold lo
 
 **Where this logic fits:** clinic-based PPCS programs with scheduled weekly or biweekly visits; post-acute concussion with treadmill access; any setting where the clinician will see the patient again before the prescription changes.
 
-##### 1.2 Logic B — CISG step-advance grammar (Berlin, Amsterdam)
+##### 1.2 Logic B — CISG step rules (Berlin, Amsterdam)
 
 Logic B governs **return-step** advance in CISG graduated strategies—a different object from HR prescription titration, though RTS step 2 aerobic work often carries the prescription in practice (see scope note above).
 
 Berlin [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) and Amsterdam [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) pair four-stage return-to-school tables with six-step RTS protocols in the same documents. Both use a shared ≤2/10 for &lt;1 h mild-exacerbation threshold on advance. The clinically operative split is **temporal**: RTS tables state an explicit per-step time floor; RTL tables do not.
 
-The [grammar audit](#grammar-audit) below codes that asymmetry from full-text PDFs with a fixed schema (step count, whether ≥24 h/step appears, location in document, gate type). It is **reproducible**: [data/scripts/run_cisg_grammar_audit.py](data/scripts/run_cisg_grammar_audit.py) re-runs pattern checks against the same publisher PDFs ([PMID 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/), [PMID 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/)); output matches [cisg-grammar-audit.json](data/cisg-grammar-audit.json).
+The table below documents that asymmetry directly from Berlin and Amsterdam full text: for each document, it records step count, whether an explicit ≥24 h/step floor appears, where in the document the time rule is located, and the progression gate type. The same four fields were applied to both documents; the asymmetry replicates.
 
-NICE NG232 uses similar symptom-guided step logic without a stated per-step time minimum—consistent with CISG RTL grammar, not the RTS time floor.
+NICE NG232 uses similar symptom-guided step logic without a stated per-step time minimum—consistent with CISG school-step rules, not the sport-step time floor.
 
-##### Grammar audit — coded extraction from Berlin and Amsterdam PDFs {#grammar-audit}
+##### RTL and RTP advancement rules from Berlin and Amsterdam full text {#consensus-table-audit}
 
-Both CISG consensus PDFs ([PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/), [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/)) were read in full. Rows below match the [audit JSON](data/cisg-grammar-audit.json) (`pattern_checks_passed: true` on 2026-06-24).
+Both CISG consensus documents ([PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/), [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/)) were read in full. The four rows below cover every RTL and RTS table in both documents.
 
-| Document | Table | Steps | Explicit ≥24 h/step? | Location of time rule | Progression gate (coded) |
+| Document | Table | Steps | Explicit ≥24 h/step? | Location of time rule | Advancement gate |
 |----------|-------|------:|:--------------------:|-----------------------|--------------------------|
 | Amsterdam 2022 [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) | Table 1 (RTL) | 4 | **No** | Absent from title and footer | Symptom only — slow if &gt;mild/brief exacerbation |
 | Amsterdam 2022 [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) | Table 2 (RTS) | 6 | **Yes** | **Table title** + footnote | ≥24 h/step + ≤2/10 for &lt;1 h |
 | Berlin 2017 [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) | Table 2 (return-to-school) | 4 | **No** | Stage text only | Symptom recurrence at stage |
 | Berlin 2017 [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) | Table 1 (RTS) | 6 | **Yes** | NOTE below table | ≥24 h/step; step back if symptoms worsen |
 
-**Replication across documents:** 2/2 audited consensus PDFs place the explicit per-step time floor on the **sport** table only; neither RTL table carries an equivalent minimum.
+**Replication across documents:** Both consensus documents place the explicit per-step time floor on the **sport** table only; neither RTL table carries an equivalent minimum.
 
 Amsterdam — RTS table title (verbatim):
 
@@ -116,7 +121,7 @@ Berlin — RTS protocol NOTE (verbatim):
 
 Berlin return-to-school Table 2 lists four stages with symptom-based activity descriptions; **no parallel 24-hour sentence appears** in that table or its footnote [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/).
 
-**Where this logic fits:** community prescriptions, school-based programs, primary care, telehealth follow-up; any setting where weekly treadmill testing is impractical; the default grammar in CISG Berlin [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/), Amsterdam [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/), and NICE NG232.
+**Where this logic fits:** community prescriptions, school-based programs, primary care, telehealth follow-up; any setting where weekly treadmill testing is impractical; the default step rules in CISG Berlin [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/), Amsterdam [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/), and NICE NG232.
 
 ##### 1.3 Logic C — Session-titrated prescriptions (Micay 2018; Pittsburgh SE)
 
@@ -149,88 +154,90 @@ This is a **test-gated titration** like Logic A, but the progression metric is *
 library(ggplot2)
 
 fs_source_theme <- function() {
-  candidates <- c(
-    file.path(dirname(knitr::current_input(dir = TRUE)), "..", "_shared", "fs-ggplot-theme.R"),
-    file.path(dirname(knitr::current_input(dir = TRUE)), "..", "..", "_shared", "fs-ggplot-theme.R"),
-    "~/Documents/guanglab-foundation-stack/posts/_shared/fs-ggplot-theme.R"
-  )
-  path <- candidates[file.exists(candidates)][1]
-  if (!is.na(path)) source(path, local = parent.frame())
+ candidates <- c(
+ file.path(dirname(knitr::current_input(dir = TRUE)), "..", "_shared", "fs-ggplot-theme.R"),
+ file.path(dirname(knitr::current_input(dir = TRUE)), "..", "..", "_shared", "fs-ggplot-theme.R"),
+ "~/Documents/guanglab-foundation-stack/posts/_shared/fs-ggplot-theme.R"
+ )
+ path <- candidates[file.exists(candidates)][1]
+ if (!is.na(path)) source(path, local = parent.frame())
 }
 fs_source_theme()
 
 # Hypothetical 21-session (3-week) trajectory for a patient starting at 50% HRmax
 # Logic A: weekly BCTT — ceiling advances by ~7% each week after clinic visit
-# Logic B: CISG RTS step grammar (24h floor per RTS step) — schematic +2%/2 sessions (conservative RTS run)
+# Logic B: CISG RTS step rules (24h floor per RTS step) — schematic +2%/2 sessions (conservative RTS run)
 # Logic C: Micay fixed ramp — +5% per completed session, cap at 70%
 
 sessions <- 1:21
 
 bctt <- c(
-  rep(50, 5),   # week 1: 50% until BCTT retest
-  rep(57, 5),   # week 2: 57% after first BCTT
-  rep(65, 5),   # week 3: 65% after second BCTT
-  rep(65, 6)
+ rep(50, 5), # week 1: 50% until BCTT retest
+ rep(57, 5), # week 2: 57% after first BCTT
+ rep(65, 5), # week 3: 65% after second BCTT
+ rep(65, 6)
 )[1:21]
 
 stability <- c(
-  50, 50, 52, 52, 54,
-  54, 56, 56, 58, 58,
-  60, 60, 63, 63, 66,
-  66, 68, 68, 70, 70,
-  72
+ 50, 50, 52, 52, 54,
+ 54, 56, 56, 58, 58,
+ 60, 60, 63, 63, 66,
+ 66, 68, 68, 70, 70,
+ 72
 )[1:21]
 
 ramp <- pmin(50 + pmax(0, (seq_len(21) - 1)) * 1.25, 70)
 
 df_prog <- data.frame(
-  session = rep(sessions, 3),
-  intensity = c(bctt, stability, ramp),
-  logic = rep(c(
-    "Logic A — Weekly BCTT retest\n(Leddy/Buffalo 2019)",
-    "Logic B — CISG RTS step progression\n(24h floor/step; Amsterdam 2022)",
-    "Logic C — Fixed ramp +5%/session\n(Micay 2018)"
-  ), each = 21)
+ session = rep(sessions, 3),
+ intensity = c(bctt, stability, ramp),
+ logic = rep(c(
+ "Logic A — Weekly BCTT retest\n(Leddy/Buffalo 2019)",
+ "Logic B — CISG RTS step progression\n(24h floor/step; Amsterdam 2022)",
+ "Logic C — Fixed ramp +5%/session\n(Micay 2018)"
+ ), each = 21)
 )
 
 week_breaks <- c(5.5, 10.5, 15.5)
 
 ggplot(df_prog, aes(x = session, y = intensity, color = logic, linetype = logic)) +
-  geom_step(linewidth = 0.9) +
-  geom_vline(xintercept = week_breaks, linetype = "dotted", color = "#adb5bd", linewidth = 0.5) +
-  annotate("text", x = 2.8,  y = 74, label = "Wk 1", size = 3, color = FS_COL_MUTED) +
-  annotate("text", x = 7.8,  y = 74, label = "Wk 2", size = 3, color = FS_COL_MUTED) +
-  annotate("text", x = 12.8, y = 74, label = "Wk 3", size = 3, color = FS_COL_MUTED) +
-  scale_color_manual(values = c(
-    "Logic A — Weekly BCTT retest\n(Leddy/Buffalo 2019)"     = FS_COL_CONSERVATIVE,
-    "Logic B — CISG RTS step progression\n(24h floor/step; Amsterdam 2022)"  = FS_COL_PROGRESSIVE,
-    "Logic C — Fixed ramp +5%/session\n(Micay 2018)"         = FS_COL_MODERATE
-  )) +
-  scale_linetype_manual(values = c(
-    "Logic A — Weekly BCTT retest\n(Leddy/Buffalo 2019)"     = "solid",
-    "Logic B — CISG RTS step progression\n(24h floor/step; Amsterdam 2022)"  = "dashed",
-    "Logic C — Fixed ramp +5%/session\n(Micay 2018)"         = "dotdash"
-  )) +
-  scale_x_continuous(breaks = seq(1, 21, 2), minor_breaks = NULL) +
-  scale_y_continuous(limits = c(45, 78), breaks = seq(50, 75, 5),
-                     labels = function(x) paste0(x, "%")) +
-  labs(
-    title = "Three progression logics produce different three-week trajectories",
-    subtitle = "Schematic only — hypothetical patient starting at 50% HRmax, uncomplicated course",
-    x = "Session (numbered across weeks)",
-    y = "Prescribed intensity (% age-predicted HRmax)",
-    caption = paste0(
-      "Logic A: ceiling held until weekly BCTT; schematic +7%/wk after retest [PMID: 30715132].\n",
-      "Logic B: RTS step cadence with 24h floor (RTS table 2); schematic +2%/2 sessions. RTL has no equivalent floor—not plotted separately [PMID: 37316210].\n",
-      "Logic C: +5% HRmax per session, cap 70%, 8-session Micay protocol [PMID: 30018795].\n",
-      "Trajectories are illustrative. Real curves depend on symptom response and adherence."
-    )
-  ) +
-  theme_fs(base_size = 11) +
-  theme(legend.position = "bottom", legend.key.width = unit(1.6, "cm"))
+ geom_step(linewidth = 0.9) +
+ geom_vline(xintercept = week_breaks, linetype = "dotted", color = "#adb5bd", linewidth = 0.5) +
+ annotate("text", x = 2.8, y = 74, label = "Wk 1", size = 3, color = FS_COL_MUTED) +
+ annotate("text", x = 7.8, y = 74, label = "Wk 2", size = 3, color = FS_COL_MUTED) +
+ annotate("text", x = 12.8, y = 74, label = "Wk 3", size = 3, color = FS_COL_MUTED) +
+ scale_color_manual(values = c(
+ "Logic A — Weekly BCTT retest\n(Leddy/Buffalo 2019)" = FS_COL_CONSERVATIVE,
+ "Logic B — CISG RTS step progression\n(24h floor/step; Amsterdam 2022)" = FS_COL_PROGRESSIVE,
+ "Logic C — Fixed ramp +5%/session\n(Micay 2018)" = FS_COL_MODERATE
+ )) +
+ scale_linetype_manual(values = c(
+ "Logic A — Weekly BCTT retest\n(Leddy/Buffalo 2019)" = "solid",
+ "Logic B — CISG RTS step progression\n(24h floor/step; Amsterdam 2022)" = "dashed",
+ "Logic C — Fixed ramp +5%/session\n(Micay 2018)" = "dotdash"
+ )) +
+ scale_x_continuous(breaks = seq(1, 21, 2), minor_breaks = NULL) +
+ scale_y_continuous(limits = c(45, 78), breaks = seq(50, 75, 5),
+ labels = function(x) paste0(x, "%")) +
+ labs(
+ title = "Three progression logics produce different three-week trajectories",
+ subtitle = "Schematic only — hypothetical patient starting at 50% HRmax, uncomplicated course",
+ x = "Session (numbered across weeks)",
+ y = "Prescribed intensity (% age-predicted HRmax)",
+ caption = paste0(
+ "Logic A: ceiling held until weekly BCTT; schematic +7%/wk after retest [PMID: 30715132].\n",
+ "Logic B: RTS step cadence (24h floor); schematic only—not comparable HR% curve [PMID: 37316210].\n",
+ "Logic C: +5% HRmax per session, cap 70%, 8-session Micay protocol [PMID: 30018795].\n",
+ "Trajectories are illustrative. Real curves depend on symptom response and adherence."
+ )
+ ) +
+ theme_fs(base_size = 11) +
+ theme(legend.position = "bottom", legend.key.width = unit(1.6, "cm"))
 ```
 
-**Figure 1.** All three logics start at 50% HRmax; trajectories diverge by session 3. Logic A holds the ceiling flat until a weekly treadmill test; the step jumps at weekly clinic visits. Logic B (dashed) models **RTS step cadence** with a 24h floor per step; the RTL track has no equivalent time floor and is not plotted separately. Logic C (dash-dot) advances mechanically by session count. A patient in the **same condition** following different logics would sit at materially different intensity ceilings by week 3—not because the science differs, but because the advancement grammar does.
+**Figure 1 compares decision rhythm only—not physiological dose.** Logic A and C plot prescription intensity (% HRmax). Logic B plots a schematic sport-step cadence; it does not belong on the same y-axis as a heart-rate prescription curve.
+
+**Figure 1.** All three paths start at 50% HRmax for illustration only. Logic A and C plot **prescription intensity** (% HRmax). Logic B (dashed) plots a **schematic sport-step cadence** with a 24 h floor—it is **not** a heart-rate prescription curve and should not be read against the A/C y-axis as if it were. Logic C advances by session count. Trajectories diverge by week 3 because the **advancement rules** differ, not because the underlying physiology differs.
 
 #### 2. What drives the choice of progression logic?
 
@@ -241,84 +248,72 @@ No published trial has randomized progression logic type in adolescent PPCS. The
 | Weekly treadmill access | A (BCTT retest) | Designed for this workflow; prescription change requires test |
 | No treadmill; clinic seen biweekly | A fallback (5–10 bpm / 1–2 wk) or B | BCTT not available; symptom stability is observable without equipment |
 | Structured PT, defined session count | C (Micay or Kurowski duration titration) | Ramp is pre-written; fewer clinical judgment calls mid-program |
-| Home / school program only | B (CISG step grammar) | No treadmill; daily monitoring by parent or athlete; CISG / NICE NG232 |
+| Home / school program only | B (CISG step rules) | No treadmill; daily monitoring by parent or athlete; CISG / NICE NG232 |
 | PPCS (>28 d symptoms) | A or C (caution with B alone) | Symptom volatility makes step-by-step symptom gates harder to read day-to-day; structured reassessment preferable |
 
-The clinically dominant logic in North American published guidelines is **B (CISG step grammar)** because the Berlin and Amsterdam consensus documents [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) specify symptom-gated step advance and it requires no equipment. The Buffalo/Leddy group's original trial logic is **A** but the published clinical guide already softened it to a 1–2 week interval without mandatory BCTT. Micay's **C** is the only one with a fixed-ramp RCT design in adolescents, but the sample was 18 participants and the protocol was explicitly labeled a feasibility study.
+The clinically dominant logic in North American published guidelines is **B (CISG step rules)** because the Berlin and Amsterdam consensus documents [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) specify symptom-gated step advance and it requires no equipment. The Buffalo/Leddy group's original trial logic is **A** but the published clinical guide already softened it to a 1–2 week interval without mandatory BCTT. Micay's **C** is the only one with a fixed-ramp RCT design in adolescents, but the sample was 18 participants and the protocol was explicitly labeled a feasibility study.
 
 The takeaway is that the choice of progression logic is largely **determined by resource access and visit cadence**, not by evidence that one logic produces better outcomes. A practitioner who inherits a patient at 70% HRmax "because that's where the Micay ramp ended" and then holds that ceiling until a treadmill test is available is mixing Logic C for the ascent and Logic A for the hold—not an unreasonable clinical move, but one the literature has not studied as a hybrid.
 
-One additional constraint from the volume literature: Howell 2021 [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/) found that ≥160 min/week was the observational threshold separating symptomatic from asymptomatic students with 81% accuracy on ROC analysis. That is a volume target, not a progression trigger—but it implies that advancing intensity may matter less than reaching consistent weekly minutes within any safe intensity band. The CISG RTS step-grammar track's potential for faster ascent (no weekly test required) may not produce better outcomes if the weekly session count is low; RTL's absence of a time floor adds further variability to combined daily load estimates.
+One additional constraint from the volume literature: Howell 2021 [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/) found that ≥160 min/week was the observational threshold separating symptomatic from asymptomatic students with 81% accuracy on ROC analysis. That is a volume target, not a progression trigger—but it implies that advancing intensity may matter less than reaching consistent weekly minutes within any safe intensity band. The CISG RTS step-rule track's potential for faster ascent (no weekly test required) may not produce better outcomes if the weekly session count is low; RTL's absence of a time floor adds further variability to combined daily load estimates.
 
 #### 3. The dual-track layer: RTL and RTP do not share an advancement rule {#dual-track-advancement}
 
-[*Two Tracks, One Athlete*](../pillar2-004-school-vs-sport-staging/index.html) showed that RTL and RTP run from different checklists and that the literature seldom tracks combined daily load. The progression-logic question now adds a second dimension: **does the RTL track use the same advancement grammar as the RTP track?**
+*Terminology:* **RTL** = return to learn/school; **RTP** = return to sport. CISG documents use **RTS** for the sport table; this installment uses **RTP** in clinical prose to match [pillar2-004](../pillar2-004-school-vs-sport-staging/index.html).
 
-The [grammar audit](#grammar-audit) codes the answer: **same symptom threshold, different temporal rules**—replicated in both Berlin and Amsterdam full text.
+[*Two Tracks, One Athlete*](../pillar2-004-school-vs-sport-staging/index.html) showed that RTL and RTP run from different checklists and that the literature seldom tracks combined daily load. The progression question adds a second dimension: **does the school track use the same advancement timing as the sport track?**
+
+The [consensus table audit](#consensus-table-audit) shows the answer in Berlin and Amsterdam full text: **the same symptom threshold, different timing rules** on school vs sport tables.
 
 ##### Rule-derived minimum calendar (symptom-ideal scenario)
 
-From the audited tables, a **quantified lower bound** on calendar days can be derived without new patient data—only by applying each document's stated rules under a defined ideal:
+From the audited tables, a **document-only lower bound** on calendar days can be calculated by applying each consensus document's stated rules under ideal symptom stability:
 
 | Assumption | Value |
 |------------|-------|
 | Initial relative rest | 24–48 h before step 1 (both documents) |
 | Symptom course | No step-backs; ≤2/10 gate always satisfied |
 | RTL advance cadence | One step per calendar day permitted (no stated minimum dwell) |
-| RTS advance cadence | One step per **24 h** minimum (stated floor) |
+| RTP advance cadence | One step per **24 h** minimum (stated floor on sport table) |
 
 | Track | Steps (audited) | Rule-derived minimum days | Source |
 |-------|----------------:|--------------------------:|--------|
 | **RTL** | 4 | **4** | Amsterdam Table 1; Berlin Table 2 [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) |
-| **RTS** | 6 | **6** | Amsterdam Table 2 title; Berlin Table 1 NOTE [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) |
+| **RTP** | 6 | **6** | Amsterdam Table 2 title; Berlin Table 1 NOTE [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) |
 
-**Grammar-level RTS:RTL ratio = 6 ÷ 4 = 1.50.** This is a **document-derived lower bound** under the assumptions in the table—not a prognosis. Sensitivity: if RTL advances every **2** symptom-stable calendar days (still consistent with "no minimum dwell"), the bound becomes 8 d and the grammar ratio falls to **1.25**—still below Putukian's observed mean ratio (2.39), so the gap "RTL slower than grammar minimum" is robust to that perturbation.
+::: {.callout-warning}
+**Not a treatment timeline.** The 4-day / 6-day figures are a **thought experiment**: if every step could advance as fast as the document allows and symptoms never flare, how few days would the written rules permit? Real students step back, miss sessions, and wait on accommodations. Do not quote these minima as expected recovery times.
+:::
 
-**Triangulation with published outcomes** (different endpoints; do not merge into one timeline):
+**Document-level RTP:RTL ratio = 6 ÷ 4 = 1.50** under the assumptions above. If RTL advances every **2** symptom-stable calendar days instead, the bound becomes 8 d (ratio **1.25**)—still below Putukian's observed mean ratio (2.39), so the pattern "RTL slower in practice than the document minimum" is robust to that perturbation.
 
-| Estimate type | RTL | RTS | RTS:RTL | Notes |
+**Comparison with published recovery-time estimates** (different endpoints; do not merge into one timeline):
+
+| Estimate type | RTL | RTP | RTP:RTL | Notes |
 |---------------|----:|----:|--------:|-------|
-| Rule-derived minimum (ideal) | 4 d | 6 d | **1.50** | This section; CISG grammar only |
-| Putukian meta mean [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/) | 8.3 d (95% CI 5.6–11.1) | 19.8 d (95% CI 18.8–20.7) | **2.39** | *I²* 99.3% both outcomes; pooled study-specific definitions ([JSON](data/putukian-pooling-context.json)) |
-| Putukian proportion [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/) | **93%** full RTL by day 10 | — | — | Endpoint: full RTL without new academic support |
-| DeMatteo cohort median [31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/) | 35 d | 38 d | **1.09** | Youth *n*=139; **staged** full protocol — not a third "fast return" estimate |
+| Document minimum (thought experiment) | 4 d | 6 d | **1.50** | CISG text only; see warning above |
+| Putukian meta mean [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/) | 8.3 d (95% CI 5.6–11.1) | 19.8 d (95% CI 18.8–20.7) | **2.39** | *I²* 99.3% both outcomes; study-specific endpoints pooled as-is |
+| Putukian proportion [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/) | **93%** full RTL by day 10 | — | — | Full RTL without new academic support |
+| DeMatteo cohort median [31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/) | 35 d | 38 d | **1.09** | Youth *n*=139; staged full-protocol completion |
 
-The Putukian mean ratio (2.39) exceeds the grammar ratio (1.50): RTL in practice runs **slower than the document minimum** (8.3 d ≫ 4 d), while RTS means cluster nearer the grammar floor relative to six steps. *I²* 99.3% reflects that Putukian pooled **"days until RTL/RTS" as each study defined it**—not CISG step labels—across 278 studies [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/). See [putukian-pooling-context.json](data/putukian-pooling-context.json) for endpoint-alignment coding.
+Putukian's mean RTP:RTL ratio (2.39) exceeds the document ratio (1.50): RTL in practice runs **slower than the text minimum** (8.3 d ≫ 4 d). *I²* 99.3% reflects that pooled studies measured **"days until RTL/RTP" as each author defined it**—not CISG step labels [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/).
 
-##### Putukian pooling vs CISG grammar (why *I²* is not a precision problem you can fix with a mean)
-
-Putukian et al. asked how long athletes take to return to school and sport **as each included study operationalized those endpoints**—not as Amsterdam Table 1 step 4 or Table 2 step 6 [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/). The 93% full-RTL-by-day-10 figure uses a **full-return** construct ("without new academic support") that aligns partially with CISG RTL step 4; the meta-analytic **mean** RTL days (8.3) pools studies that mixed first partial return, clinician clearance, and full-day constructs. That mismatch—not sampling error alone—drives *I²* 99.3%.
+##### Why Putukian means and CISG steps measure different things
 
 | Construct | CISG Amsterdam anchor | Putukian pooled anchor | Alignment |
 |-----------|----------------------|------------------------|-----------|
 | RTL "done" | Step 4: full day, no accommodations [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) | Proportion: full RTL without new academic support by day 10; mean: study-specific "days until RTL" | Partial — proportion closer to step 4 than mean |
-| RTS "done" | Step 6: unrestricted sport [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) | Mean: study-specific "days until RTS" (clearance vs play) | Weak — not step-harmonized |
-| Advancement grammar | RTS ≥24 h/step; RTL no floor ([grammar audit](#grammar-audit)) | Not modeled in meta-analysis | N/A — different layer |
+| RTP "done" | Step 6: unrestricted sport [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) | Mean: study-specific "days until RTP/RTS" (clearance vs play) | Weak — not step-harmonized |
+| Step timing rules | RTP ≥24 h/step; RTL no floor ([consensus table](#consensus-table-audit)) | Not modeled in meta-analysis | Different question |
 
-DeMatteo's 35 / 38 d medians (ratio 1.09) belong on a **third layer**: youth **staged-protocol completion** in one cohort [31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/). Near-parallel medians are expected when both tracks are documented step-by-step to the end—not evidence against CISG temporal asymmetry at the grammar layer.
-
-##### Pilot study-level endpoint coding (23 hunt papers — scope boundary)
-
-Putukian's main text defines what the **meta-analysis aimed to pool**—not what each of its ~278 included studies actually measured:
-
-> "Days until RTL is defined as completion of the RTL strategy with return to pre-injury learning activities with no new academic support; days until full RTS is defined as completion of the RTS strategy with no symptoms … at rest and with maximal physical exertion." [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/)
-
-**This installment does not re-code Putukian's full included-study list** (online supplemental Table L). That per-study inventory is out of scope here; instead, **23 papers pinned for pillar2-005** were coded for RTL/RTS endpoint constructs against CISG Amsterdam anchors as a **fixed hunt pilot** ([JSON](data/putukian-hunt-endpoint-coding.json); `full_text_coded`: 19; `pending_pdf`: 4).
-
-| Pattern (pilot *n*=23) | Count | Implication for *I²* |
-|------------------------|------:|----------------------|
-| RTL construct aligns partially/strongly with CISG step 4 | 5 | Proportion endpoint (93% by day 10) is the better-aligned Putukian row |
-| RTL weak / not applicable (exercise or pathway papers) | 15 | Hunt set over-samples progression-logic trials, not RTL timing cohorts |
-| Reports days-to-RTL or days-to-RTS as primary | 3 each | Carson/DeMatteo/Grubenhoff anchor timing layers—not interchangeable |
-
-This pilot does **not** re-pool Putukian's meta-analysis and **does not replace** a full supplemental study list. It documents why grammar ratio (1.50) and pooled mean ratio (2.39) measure different construct layers.
+DeMatteo's 35 / 38 d medians (ratio 1.09) describe **youth staged-protocol completion** in one cohort [31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/)—a third layer, not a fast-return forecast. Near-parallel medians are expected when both tracks are documented to the end; they do not contradict the CISG timing asymmetry on the school vs sport tables.
 
 | Track | Time floor (audited) | Symptom gate | Source |
 |-------|---------------------|--------------|--------|
 | **RTL** | None stated | Slow if &gt;mild/brief exacerbation; ≤2/10 for &lt;1 h | Amsterdam Table 1 [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) |
-| **RTS** | ≥24 h typical per step | Same ≤2/10 / &lt;1 h rule | Amsterdam Table 2 [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) |
+| **RTP** | ≥24 h typical per step | Same ≤2/10 / &lt;1 h rule | Amsterdam Table 2 [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) |
 
-##### Figure 2 — Different clocks: grammar and completed timelines {#fig-dual-clocks}
+##### Figure 2 — Different clocks: step timing and completed timelines {#fig-dual-clocks}
 
 ```{r}
 #| label: fig-dual-clocks
@@ -331,149 +326,149 @@ This pilot does **not** re-pool Putukian's meta-analysis and **does not replace*
 library(ggplot2)
 
 fs_source_theme <- function() {
-  candidates <- c(
-    file.path(dirname(knitr::current_input(dir = TRUE)), "..", "_shared", "fs-ggplot-theme.R"),
-    file.path(dirname(knitr::current_input(dir = TRUE)), "..", "..", "_shared", "fs-ggplot-theme.R"),
-    "~/Documents/guanglab-foundation-stack/posts/_shared/fs-ggplot-theme.R"
-  )
-  path <- candidates[file.exists(candidates)][1]
-  if (!is.na(path)) source(path, local = parent.frame())
+ candidates <- c(
+ file.path(dirname(knitr::current_input(dir = TRUE)), "..", "_shared", "fs-ggplot-theme.R"),
+ file.path(dirname(knitr::current_input(dir = TRUE)), "..", "..", "_shared", "fs-ggplot-theme.R"),
+ "~/Documents/guanglab-foundation-stack/posts/_shared/fs-ggplot-theme.R"
+ )
+ path <- candidates[file.exists(candidates)][1]
+ if (!is.na(path)) source(path, local = parent.frame())
 }
 fs_source_theme()
 
 clock_df <- data.frame(
-  track = rep(c("RTL — symptom gate only", "RTS — ≥24 h per step"), each = 4),
-  step = rep(c("Step 1", "Step 2", "Step 3", "Step 4"), 2),
-  xmin = c(0.5, 1.5, 2.5, 4.5, 0.5, 2.5, 4.5, 6.5),
-  xmax = c(1.5, 2.5, 4.5, 7.5, 2.5, 4.5, 6.5, 7.5),
-  stringsAsFactors = FALSE
+ track = rep(c("RTL — symptom gate only", "RTS — ≥24 h per step"), each = 4),
+ step = rep(c("Step 1", "Step 2", "Step 3", "Step 4"), 2),
+ xmin = c(0.5, 1.5, 2.5, 4.5, 0.5, 2.5, 4.5, 6.5),
+ xmax = c(1.5, 2.5, 4.5, 7.5, 2.5, 4.5, 6.5, 7.5),
+ stringsAsFactors = FALSE
 )
 clock_df$track <- factor(
-  clock_df$track,
-  levels = c("RTL — symptom gate only", "RTS — ≥24 h per step")
+ clock_df$track,
+ levels = c("RTL — symptom gate only", "RTS — ≥24 h per step")
 )
 
 p_grammar <- ggplot(clock_df, aes(xmin = xmin, xmax = xmax, y = track, fill = step)) +
-  geom_rect(aes(ymin = as.numeric(track) - 0.35, ymax = as.numeric(track) + 0.35),
-            color = "white", linewidth = 0.6) +
-  scale_x_continuous(
-    breaks = 1:7,
-    labels = paste("Day", 1:7),
-    limits = c(0.5, 7.5),
-    expand = c(0, 0)
-  ) +
-  scale_fill_manual(
-    values = c(
-      "Step 1" = "#cfe2ff",
-      "Step 2" = "#9ec5fe",
-      "Step 3" = "#6ea8fe",
-      "Step 4" = "#084298"
-    )
-  ) +
-  labs(
-    title = "A — Temporal grammar on a symptom-stable week (schematic)",
-    subtitle = "RTL has no minimum dwell; RTS cannot advance faster than the 24 h floor",
-    x = NULL,
-    y = NULL,
-    fill = "Step"
-  ) +
-  theme_fs(base_size = 10) +
-  theme(
-    panel.grid.major.x = element_line(color = FS_COL_GRID, linewidth = 0.35),
-    panel.grid.major.y = element_blank(),
-    legend.position = "bottom"
-  )
+ geom_rect(aes(ymin = as.numeric(track) - 0.35, ymax = as.numeric(track) + 0.35),
+ color = "white", linewidth = 0.6) +
+ scale_x_continuous(
+ breaks = 1:7,
+ labels = paste("Day", 1:7),
+ limits = c(0.5, 7.5),
+ expand = c(0, 0)
+ ) +
+ scale_fill_manual(
+ values = c(
+ "Step 1" = "#cfe2ff",
+ "Step 2" = "#9ec5fe",
+ "Step 3" = "#6ea8fe",
+ "Step 4" = "#084298"
+ )
+ ) +
+ labs(
+ title = "A — Step timing on a symptom-stable week (schematic)",
+ subtitle = "RTL has no minimum dwell; RTS cannot advance faster than the 24 h floor",
+ x = NULL,
+ y = NULL,
+ fill = "Step"
+ ) +
+ theme_fs(base_size = 10) +
+ theme(
+ panel.grid.major.x = element_line(color = FS_COL_GRID, linewidth = 0.35),
+ panel.grid.major.y = element_blank(),
+ legend.position = "bottom"
+ )
 
 df_timeline <- data.frame(
-  track  = factor(rep(c("RTL", "RTS"), 3), levels = c("RTL", "RTS")),
-  days   = c(4, 6, 8.3, 19.8, 35, 38),
-  lo     = c(NA, NA, 5.6, 18.8, NA, NA),
-  hi     = c(NA, NA, 11.1, 20.7, NA, NA),
-  source = factor(
-    rep(c(
-      "Rule-derived minimum (ideal)",
-      "Putukian meta mean",
-      "DeMatteo median (full return)"
-    ), each = 2),
-    levels = c(
-      "Rule-derived minimum (ideal)",
-      "Putukian meta mean",
-      "DeMatteo median (full return)"
-    )
-  )
+ track = factor(rep(c("RTL", "RTS"), 3), levels = c("RTL", "RTS")),
+ days = c(4, 6, 8.3, 19.8, 35, 38),
+ lo = c(NA, NA, 5.6, 18.8, NA, NA),
+ hi = c(NA, NA, 11.1, 20.7, NA, NA),
+ source = factor(
+ rep(c(
+ "Document minimum (thought experiment)",
+ "Putukian meta mean",
+ "DeMatteo median (full return)"
+ ), each = 2),
+ levels = c(
+ "Document minimum (thought experiment)",
+ "Putukian meta mean",
+ "DeMatteo median (full return)"
+ )
+ )
 )
 
 p_data <- ggplot(df_timeline, aes(x = days, y = track, color = source, shape = source)) +
-  geom_point(size = c(3.8, 3.8, 4, 4, 3.2, 3.2)) +
-  geom_errorbarh(
-    data = subset(df_timeline, !is.na(lo)),
-    aes(xmin = lo, xmax = hi),
-    height = 0.15, linewidth = 0.7
-  ) +
-  scale_color_manual(
-    values = c(
-      "Rule-derived minimum (ideal)"     = FS_COL_MODERATE,
-      "Putukian meta mean"               = FS_COL_RTP,
-      "DeMatteo median (full return)"    = FS_COL_MUTED
-    ),
-    name = NULL
-  ) +
-  scale_shape_manual(
-    values = c(15, 16, 17),
-    name = NULL
-  ) +
-  scale_x_continuous(limits = c(0, 42), breaks = seq(0, 40, 10),
-                     labels = function(x) paste0(x, " d")) +
-  annotate(
-    "text", x = 10.5, y = 2.35,
-    label = "93% full RTL by day 10\n(Putukian proportion endpoint)",
-    size = 2.8, color = FS_COL_MUTED, hjust = 0, lineheight = 0.95
-  ) +
-  labs(
-    title = "B — Three estimates of RTL vs RTS timing (do not merge)",
-    subtitle = "Grammar minimum (ideal) · meta mean (I² 99.3%) · youth staged-protocol median",
-    x = "Days",
-    y = NULL
-  ) +
-  theme_fs(base_size = 10) +
-  theme(legend.position = "bottom", legend.key.width = unit(0.9, "cm"))
+ geom_point(size = c(3.8, 3.8, 4, 4, 3.2, 3.2)) +
+ geom_errorbarh(
+ data = subset(df_timeline, !is.na(lo)),
+ aes(xmin = lo, xmax = hi),
+ height = 0.15, linewidth = 0.7
+ ) +
+ scale_color_manual(
+ values = c(
+ "Document minimum (thought experiment)" = FS_COL_MODERATE,
+ "Putukian meta mean" = FS_COL_RTP,
+ "DeMatteo median (full return)" = FS_COL_MUTED
+ ),
+ name = NULL
+ ) +
+ scale_shape_manual(
+ values = c(15, 16, 17),
+ name = NULL
+ ) +
+ scale_x_continuous(limits = c(0, 42), breaks = seq(0, 40, 10),
+ labels = function(x) paste0(x, " d")) +
+ annotate(
+ "text", x = 10.5, y = 2.35,
+ label = "93% full RTL by day 10\n(Putukian proportion endpoint)",
+ size = 2.8, color = FS_COL_MUTED, hjust = 0, lineheight = 0.95
+ ) +
+ labs(
+ title = "B — Three estimates of RTL vs RTS timing (do not merge)",
+ subtitle = "Document minimum (thought experiment) · meta mean (I² 99.3%) · youth staged-protocol median",
+ x = "Days",
+ y = NULL
+ ) +
+ theme_fs(base_size = 10) +
+ theme(legend.position = "bottom", legend.key.width = unit(0.9, "cm"))
 
 if (requireNamespace("patchwork", quietly = TRUE)) {
-  library(patchwork)
-  p_grammar / p_data +
-    plot_layout(heights = c(1.35, 1)) +
-    plot_annotation(
-      title = "RTL and RTS use different advancement clocks",
-      subtitle = "Consensus grammar (panel A) triangulated against three published time estimates (panel B)",
-      caption = paste0(
-        "Panel A: schematic from audited Amsterdam tables [PMID: 37316210]. Not a clinical timeline.\n",
-        "Panel B — rule-derived: 4 RTL / 6 RTS days under ideal symptom course (§3). ",
-        "Putukian means: 8.3 / 19.8 d; I² 99.3% [PMID: 37316183]. ",
-        "93% full RTL by day 10 = proportion endpoint (same review). ",
-        "DeMatteo medians: 35 / 38 d full completion, youth cohort [PMID: 31396150]. ",
-        "RTS:RTL ratios: grammar 1.50 · Putukian 2.39 · DeMatteo 1.09 — endpoints differ."
-      ),
-      theme = theme(
-        plot.title = element_text(face = "bold", size = 12, color = FS_COL_INK),
-        plot.subtitle = element_text(size = 10, color = FS_COL_MUTED),
-        plot.caption = element_text(size = 8, color = FS_COL_MUTED, hjust = 0, lineheight = 1.25)
-      )
-    )
+ library(patchwork)
+ p_grammar / p_data +
+ plot_layout(heights = c(1.35, 1)) +
+ plot_annotation(
+ title = "RTL and RTS use different advancement clocks",
+ subtitle = "Consensus step timing (panel A) compared with three published time estimates (panel B)",
+ caption = paste0(
+ "Panel A: schematic from audited Amsterdam tables [PMID: 37316210]. Not a clinical timeline.\n",
+ "Panel B — document minimum: 4 RTL / 6 RTS days under ideal symptom course (§3). ",
+ "Putukian means: 8.3 / 19.8 d; I² 99.3% [PMID: 37316183]. ",
+ "93% full RTL by day 10 = proportion endpoint (same review). ",
+ "DeMatteo medians: 35 / 38 d full completion, youth cohort [PMID: 31396150]. ",
+ "RTS:RTL ratios: document 1.50 · Putukian 2.39 · DeMatteo 1.09 — endpoints differ."
+ ),
+ theme = theme(
+ plot.title = element_text(face = "bold", size = 12, color = FS_COL_INK),
+ plot.subtitle = element_text(size = 10, color = FS_COL_MUTED),
+ plot.caption = element_text(size = 8, color = FS_COL_MUTED, hjust = 0, lineheight = 1.25)
+ )
+ )
 } else if (requireNamespace("gridExtra", quietly = TRUE)) {
-  gridExtra::grid.arrange(
-    p_grammar, p_data, nrow = 2,
-    top = grid::textGrob(
-      "RTL and RTS use different advancement clocks",
-      gp = grid::gpar(fontface = "bold", fontsize = 12)
-    )
-  )
+ gridExtra::grid.arrange(
+ p_grammar, p_data, nrow = 2,
+ top = grid::textGrob(
+ "RTL and RTS use different advancement clocks",
+ gp = grid::gpar(fontface = "bold", fontsize = 12)
+ )
+ )
 } else {
-  print(p_grammar)
-  print(p_data)
+ print(p_grammar)
+ print(p_data)
 }
 ```
 
-**Figure 2.** Panel A illustrates the **audited grammar** (RTL: symptom gate only; RTS: 24 h floor). Panel B plots **three layers** on one axis (do not merge): rule-derived CISG minimum (ratio 1.50), Putukian pooled means (ratio 2.39; *I²* 99.3% — endpoint heterogeneity, see [JSON](data/putukian-pooling-context.json)), and DeMatteo staged-protocol medians (ratio 1.09 — full youth cohort completion, not fast return).
+**Figure 2.** Panel A shows **CISG step timing** (RTL: symptom gate only; RTP: 24 h floor)—schematic, not a patient timeline. Panel B plots **three separate estimates** (do not merge): document minimum under ideal symptoms, Putukian pooled means (*I²* 99.3%—endpoint definitions differ across studies), and DeMatteo youth medians (full staged-protocol completion).
 
 For **which steps may overlap** and the hard RTL-before-contact gate, see [*Two Tracks, One Athlete*](../pillar2-004-school-vs-sport-staging/index.html). This installment asks what happens to **advancement rules** when both tracks are active on the same calendar day.
 
@@ -485,7 +480,7 @@ In the early weeks of return—RTL steps 2–3 and RTP steps 1–2 simultaneousl
 
 The SOP section below proposes a practical default. Two publications provide indirect support:
 
-**Wingerson 2024** [PMID: 38109187](https://pubmed.ncbi.nlm.nih.gov/38109187/) found that concurrent school and exercise loads are associated with longer symptom duration in some subgroups, without identifying a safe combined budget. The signal is operational difficulty, not a specific rule.
+**Wingerson 2024** [PMID: 38109187](https://pubmed.ncbi.nlm.nih.gov/38109187/) reanalyzed the Leddy aerobic-exercise arm and reported that **greater self-reported adherence** and **longer average session duration** were associated with faster symptom resolution; lower baseline symptom severity also predicted shorter duration. The paper does **not** model return-to-school load or same-day school-plus-exercise budgeting—it supports documenting whether the aerobic prescription is actually being done, not a combined-load ceiling.
 
 **DeMatteo 2019** [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/) ran RTL (school) and RTA (activity) tracks simultaneously in stages 1–3 for 139 youth patients and found that RTA stage 6 (full contact) was appropriately deferred until full school reintegration. The stages overlapped safely in lower steps; the hold was at the high-contact end. That matches Amsterdam's explicit gate.
 
@@ -507,11 +502,11 @@ This gap sits at the intersection of the three logics:
 
 - If using **Logic A** (weekly BCTT), the treadmill test is unaffected by what happened at school that week—the prescription changes only if the BCTT threshold moved. School symptoms on Tuesday do not delay Friday's test. This is operationally clean but clinically incomplete: a student who is struggling through RTL step 3 with daily headaches is plausibly not a good candidate for a BCTT intensity bump, regardless of what the treadmill shows.
 
-- If using **Logic B** (CISG step grammar), the same-day cognitive load is invisible unless the clinician specifically asks. The student reports "the walk was fine," which is true. The clinician advances the RTP step. Nobody asked about the three-hour afternoon of screen-based schoolwork.
+- If using **Logic B** (CISG step rules), the same-day cognitive load is invisible unless the clinician specifically asks. The student reports "the walk was fine," which is true. The clinician advances the RTP step. Nobody asked about the three-hour afternoon of screen-based schoolwork.
 
 - If using **Logic C** (fixed ramp), session completion drives advancement automatically. The ramp schedule does not have a school-symptom input.
 
-What fills this gap is **clinical judgment and documentation practice**—specifically, a dual-column format that records school-side and sport-side status on the same day. [*Two Tracks, One Athlete*](../pillar2-004-school-vs-sport-staging/index.html) showed that most SRC discharge plans carry only one track's checklist; DeMatteo 2019 found that concurrent RTL and RTP stages were tracked separately in practice, with no single document recording combined daily load [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/). Until a trial reports combined daily load with preregistered advancement rules, the field's silence on this question should be acknowledged explicitly in the record, not papered over with a generic "advancing as tolerated" note.
+What fills this gap is **clinical judgment and documentation practice**—specifically, a dual-column format that records school-side and sport-side status on the same day. [*Two Tracks, One Athlete*](../pillar2-004-school-vs-sport-staging/index.html) showed that most SRC discharge plans carry only one track's checklist; DeMatteo 2019 reported that school and activity stages were often tracked on **separate pathways** in practice [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/). Until a trial reports combined daily load with preregistered advancement rules, the field's silence on this question should be acknowledged explicitly in the record, not papered over with a generic "advancing as tolerated" note.
 
 ##### Figure 3 — Premature return rates by track and era {#fig-carson-premature}
 
@@ -527,53 +522,53 @@ library(ggplot2)
 fs_source_theme()
 
 df_carson <- data.frame(
-  track  = rep(factor(c("RTS", "RTL"), levels = c("RTS", "RTL")), 2),
-  period = factor(
-    rep(c("2006–2011", "2011–2016"), each = 2),
-    levels = c("2006–2011", "2011–2016")
-  ),
-  pct = c(43.5, 44.7, 26.7, 42.6)
+ track = rep(factor(c("RTS", "RTL"), levels = c("RTS", "RTL")), 2),
+ period = factor(
+ rep(c("2006–2011", "2011–2016"), each = 2),
+ levels = c("2006–2011", "2011–2016")
+ ),
+ pct = c(43.5, 44.7, 26.7, 42.6)
 )
 
 ggplot(df_carson, aes(x = track, y = pct, fill = period)) +
-  geom_col(position = position_dodge(width = 0.7), width = 0.6) +
-  geom_text(aes(label = paste0(pct, "%")),
-            position = position_dodge(width = 0.7),
-            vjust = -0.4, size = 3.2, color = "#444444") +
-  scale_fill_manual(values = c(
-    "2006–2011" = FS_COL_CONSERVATIVE,
-    "2011–2016" = FS_COL_PROGRESSIVE
-  )) +
-  scale_y_continuous(limits = c(0, 55), breaks = seq(0, 50, 10),
-                     labels = function(x) paste0(x, "%")) +
-  labs(
-    title    = "Premature RTS improved; premature RTL did not",
-    subtitle = "% returning before completing all graduated-return steps — Canadian chart review",
-    x        = NULL,
-    y        = "Premature return (%)",
-    fill     = "Study period",
-    caption  = paste0(
-      "Carson et al. 2014 (n=202; 2006–2011) [PMID: 24925965]; ",
-      "Carson et al. 2022 (n=316; 2011–2016) [PMID: 35292472].\n",
-      "Premature return = returning before completing all graduated-return protocol steps. ",
-      "Canadian family practice chart review; protocol criteria consistent across both periods."
-    )
-  ) +
-  theme_fs(base_size = 11) +
-  theme(legend.position = "bottom")
+ geom_col(position = position_dodge(width = 0.7), width = 0.6) +
+ geom_text(aes(label = paste0(pct, "%")),
+ position = position_dodge(width = 0.7),
+ vjust = -0.4, size = 3.2, color = "#444444") +
+ scale_fill_manual(values = c(
+ "2006–2011" = FS_COL_CONSERVATIVE,
+ "2011–2016" = FS_COL_PROGRESSIVE
+ )) +
+ scale_y_continuous(limits = c(0, 55), breaks = seq(0, 50, 10),
+ labels = function(x) paste0(x, "%")) +
+ labs(
+ title = "Premature RTS improved; premature RTL did not",
+ subtitle = "% returning before completing all graduated-return steps — Canadian chart review",
+ x = NULL,
+ y = "Premature return (%)",
+ fill = "Study period",
+ caption = paste0(
+ "Carson et al. 2014 (n=202; 2006–2011) [PMID: 24925965]; ",
+ "Carson et al. 2022 (n=316; 2011–2016) [PMID: 35292472].\n",
+ "Premature return = returning before completing all graduated-return protocol steps. ",
+ "Canadian family practice chart review; protocol criteria consistent across both periods."
+ )
+ ) +
+ theme_fs(base_size = 11) +
+ theme(legend.position = "bottom")
 ```
 
-**Figure 3.** RTS premature return fell from 43.5% to 26.7% across the two Carson chart-review periods. RTL premature return was essentially unchanged (44.7% → 42.6%). The asymmetry mirrors Figure 2 panel B from the opposite direction: sport-track documentation improved; school-track documentation did not.
+**Figure 3.** RTP premature return fell from 43.5% to 26.7% across the two Carson chart-review periods. RTL premature return was essentially unchanged (44.7% → 42.6%). Sport-track documentation improved; school-track documentation did not.
 
 #### 5. Limitations
 
-1. **No head-to-head trial of progression logics in adolescent PPCS.** Logic A (BCTT) is derived from a trial that was not designed to compare progression rules; Logic C (Micay) was a feasibility RCT with *n* = 18. Logic B (CISG step grammar) is consensus-derived, not trial-derived.
+1. **No head-to-head trial of progression logics in adolescent PPCS.** Logic A (BCTT) is derived from a trial that was not designed to compare progression rules; Logic C (Micay) was a feasibility RCT with *n* = 18. Logic B (CISG step rules) is consensus-derived, not trial-derived.
 
-2. **RTL vs RTS temporal asymmetry is primary-document coded, not review-derived.** The [grammar audit](#grammar-audit) applies a fixed schema to full-text PDFs [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) and [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/), reproducible via [data/scripts/run_cisg_grammar_audit.py](data/scripts/run_cisg_grammar_audit.py). Putukian endpoint pooling is coded in [putukian-pooling-context.json](data/putukian-pooling-context.json); a **23-paper hunt pilot** (not Putukian's full supplemental study list) codes RTL/RTS constructs in [putukian-hunt-endpoint-coding.json](data/putukian-hunt-endpoint-coding.json). This installment does **not** report unpublished systematic-review screening counts or adherence-audit aggregates from other Guang Lab work.
+2. **RTL vs RTP temporal asymmetry is read from primary CISG PDFs, not from a systematic review.** The [table in §1.2](#consensus-table-audit) applies the same four fields to Berlin and Amsterdam return-to-school and return-to-sport tables [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/). Putukian endpoint alignment is summarized in §3. This installment does **not** report unpublished screening counts or adherence-audit aggregates from any ongoing review work.
 
-3. **Putukian meta-analytic means are not patient-level forecasts.** *I²* 99.3% for days-to-RTL and days-to-RTS [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/) reflects incompatible study endpoint definitions across ~278 pooled studies. We did **not** harmonize those study-level definitions against Putukian's full included-study list (BJSM online supplemental Table L [37316183]) — that per-study inventory is out of scope for this installment. The 93% full-RTL-by-day-10 proportion and DeMatteo youth medians are reported on separate layers—see §3 alignment table.
+3. **Putukian meta-analytic means are not patient-level forecasts.** *I²* 99.3% for days-to-RTL and days-to-RTP [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/) reflects incompatible study endpoint definitions across ~278 pooled studies—not a problem fixable by averaging. The 93% full-RTL-by-day-10 proportion and DeMatteo youth medians are reported on separate layers (see §3 alignment table).
 
-4. **Figures 1–2 include schematic or derived elements.** Figure 1 trajectories are illustrative. Figure 2 panel A is schematic; panel B includes **rule-derived** grammar minima (computable from audited tables, not empirical recovery curves) alongside published aggregates.
+4. **Figures 1–2 include schematic or derived elements.** Figure 1 trajectories are illustrative; Logic B is not on the same y-axis scale as A/C. Figure 2 panel A is schematic; panel B includes **document-derived** minima (ideal symptom course only) alongside published aggregates.
 
 5. **Yang 2024 is acute SRC, not PPCS.** The cognitive-activity finding (aHR 1.22) applies to post-acute return to learn in acutely concussed adolescents [PMID: 38346776](https://pubmed.ncbi.nlm.nih.gov/38346776/). Generalizability to PPCS—where symptom profiles differ—is not established.
 
@@ -585,13 +580,21 @@ ggplot(df_carson, aes(x = track, y = pct, fill = period)) +
 
 *Synthesizes three progression logics and CISG dual-track coordination rules for educational use only [PMID: 30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/) [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) [PMID: 30018795](https://pubmed.ncbi.nlm.nih.gov/30018795/) [PMID: 27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/) [PMID: 38346776](https://pubmed.ncbi.nlm.nih.gov/38346776/). Staging overlap rules: [004](../pillar2-004-school-vs-sport-staging/index.html).*
 
+::: {.callout-tip}
+## If you read one page
+
+1. **Pick a progression logic** at the first prescription (Buffalo weekly test, CISG step rules, or session ramp)—and **write it down**.
+2. **Record RTL step and RTP step on the same line** every visit; school and sport advance on different rules.
+3. **If either track flares >2/10 for >1 hour today**, hold **both** tracks tomorrow unless you document a clear one-off cause (e.g., exam day).
+:::
+
 ##### Step 0 — Assign a progression logic at first prescription
 
-| Setting | Default logic | Required at each reassessment |
-|---------|--------------|-------------------------------|
-| Clinic with weekly treadmill | Logic A (BCTT retest) | New BCTT threshold → new ceiling |
-| Structured PT, fixed program | Logic C (session ramp or duration titration) | Session completion + symptom log |
-| Community / school / telehealth | Logic B (CISG step grammar; RTS: ≥24h floor) | Daily symptom log; ≤2/10 gate |
+| Setting | Plain name | Logic | Required at each reassessment |
+|---------|------------|-------|-------------------------------|
+| Clinic with weekly treadmill | Buffalo / BCTT weekly | A | New BCTT threshold → new ceiling |
+| Structured PT, fixed program | PT session ramp | C | Session completion + symptom log |
+| Community / school / telehealth | CISG step checklist | B (RTP: ≥24 h/step) | Daily symptom log; ≤2/10 gate |
 
 Documenting which logic was assigned prevents the "advancing as tolerated" ambiguity from accumulating across handoffs.
 
@@ -599,8 +602,8 @@ Documenting which logic was assigned prevents the "advancing as tolerated" ambig
 
 | Track | Advance when | Hold when |
 |-------|-------------|-----------|
-| **RTP aerobic (step 1→2, 2A→2B)** | Previous session complete; symptoms ≤2/10 at peak, resolved <1h; **RTL gate not blocking** | >2/10 for >1h on any activity that session day; RTL step incomplete for age-appropriate contact level |
-| **RTL (step 1→2→3→4)** | Prior step tolerated without >mild exacerbation; academic support stable | Symptom escalation on same day as aerobic session, regardless of whether walk was symptom-free |
+| **RTP aerobic (steps 1→2, 2A→2B)** | Previous session complete; symptoms ≤2/10 at peak, resolved &lt;1 h; **not blocked by Step 3 contact gate** | &gt;2/10 for &gt;1 h on any activity that day; or RTP steps 4–6 before RTL step 4 (see Step 3) |
+| **RTL (steps 1→4)** | Prior step tolerated without &gt;mild exacerbation; academic support stable | Symptom escalation on the same day as an aerobic session, even if the walk was symptom-free |
 
 ##### Step 2 — Same-day combined-load rule (proposed default)
 
@@ -620,7 +623,7 @@ This is a hard gate in the published consensus. It cannot be waived by logic A (
 
 ##### Dual-track status line (copy to any communication)
 
-> **RTL: Step __ / 4** (e.g., partial day, __ accommodations active) · **RTP: Step __ / 6** · Progression logic: [BCTT weekly / CISG step grammar / session ramp] · Combined-load rule applied: [yes / no] · Next reassessment: __
+> **RTL: Step __ / 4** (e.g., partial day, __ accommodations active) · **RTP: Step __ / 6** · Progression logic: [BCTT weekly / CISG step rules / session ramp] · Combined-load rule applied: [yes / no] · Next reassessment: __
 
 The HR calculator from [*No Treadmill in the Room*](/tools/hr-calculator/) encodes intensity bands for RTP step 2. Apply within the step ceiling; do not use as permission to advance across step boundaries independently of RTL status.
 
@@ -630,11 +633,11 @@ The HR calculator from [*No Treadmill in the Room*](/tools/hr-calculator/) encod
 
 #### What this installment added
 
-Three progression logics are operating in the adolescent SRC and PPCS literature simultaneously: weekly BCTT retest (test-gated, clinic-dependent), CISG step grammar with a 24h floor for RTS steps (symptom-gated on both tracks; no equivalent time floor on RTL), and session-titrated ramps (calendar-gated, program-dependent). None has been compared head-to-head in adolescent PPCS. The choice in practice is determined primarily by setting constraints—treadmill access, visit cadence, supervision—not by evidence that one logic produces better outcomes.
+Three progression logics are operating in the adolescent SRC and PPCS literature simultaneously: weekly BCTT retest (test-gated, clinic-dependent), CISG step rules with a 24 h floor on **RTP** steps (symptom-gated on both tracks; no equivalent time floor on RTL), and session-titrated ramps (calendar-gated, program-dependent). None has been compared head-to-head in adolescent PPCS. The choice in practice is determined primarily by setting constraints—treadmill access, visit cadence, supervision—not by evidence that one logic produces better outcomes.
 
 When both return-to-learn and return-to-sport are active, the advancement rule used on one track does not automatically apply to the other. The macro coordination rules (full RTL before unrestricted RTP) are established. The daily combined-load question—what happens to advancement when school and sport both generate symptoms on the same day—is a gap in the published literature that clinical judgment currently fills.
 
-If [*Six Protocols, One Condition*](../pillar2-001-six-protocols-comparison/index.html) asked which protocol sets the first ceiling, [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) asked how to set that ceiling without a treadmill, [*Twenty Minutes From Where?*](../pillar2-003-twenty-minutes-from-where/index.html) asked how much volume fits a school week, and [*Two Tracks, One Athlete*](../pillar2-004-school-vs-sport-staging/index.html) asked what coordinates the two checklists—this installment asks what changes the ceiling once it is running. The answer is: it depends on which logic was assigned, and the assigned logic should be documented.
+[*Six Protocols, One Condition*](../pillar2-001-six-protocols-comparison/index.html) mapped six protocols for one condition to the intensity band each produces. [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) showed how to set a sub-symptom ceiling when treadmill access is unavailable. [*Twenty Minutes From Where?*](../pillar2-003-twenty-minutes-from-where/index.html) asked how much weekly volume fits within a school schedule. [*Two Tracks, One Athlete*](../pillar2-004-school-vs-sport-staging/index.html) showed that the sport and school tracks do not run from the same document. This installment asks what changes the ceiling once it is running. The answer depends on which of the three logics was assigned at first prescription—and that assignment is rarely documented.
 
 The [RSS feed](../../index.xml) on the hub will notify readers when the next installment publishes. The next installment works through a different unresolved problem in the same literature.
 
