@@ -403,7 +403,7 @@ Do not read the package as adjudicating between 50%, 60%, or 65% bands. It imple
 
 5. **Tool layer:** PPCSexRx illustrates encoding of published fallback logic; it is not regulated medical device software.
 
-6. **Adherence:** Trial supervision often exceeds what home programs achieve; this SOP does not solve unsupervised execution [PMID: 26838933](https://pubmed.ncbi.nlm.nih.gov/26838933/).
+6. **Adherence:** Trial supervision often exceeds what home programs achieve; this SOP does not solve unsupervised execution [PMID: 27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/).
 
 7. **Legal scope:** Educational synthesis only—not medical advice.
 

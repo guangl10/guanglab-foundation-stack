@@ -138,7 +138,7 @@ Howell’s **100 min/week** reflects what the trial **prescribed** (20 × 5). Th
 
 **Disagreement 3: Supervised trial volume vs home execution**
 
-Kurowski’s Pittsburgh SE trial reported **lower adherence in the aerobic arm than stretching** yet faster symptom improvement—reminding readers that **logged volume in trials still exceeds most home programs** [PMID: 26838933](https://pubmed.ncbi.nlm.nih.gov/26838933/). A weekly-dose framework helps only if someone measures volume honestly (diary, actigraphy, or structured school sessions)—not if “20 minutes” lives only on a discharge sheet.
+Kurowski’s Pittsburgh SE trial reported **lower adherence in the aerobic arm than stretching** yet faster symptom improvement—reminding readers that **logged volume in trials still exceeds most home programs** [PMID: 27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/). A weekly-dose framework helps only if someone measures volume honestly (diary, actigraphy, or structured school sessions)—not if “20 minutes” lives only on a discharge sheet.
 
 **What would settle disagreement 1?** A factorial trial: fixed weekly volume (e.g., 120 min/week) delivered as 15×8 versus 20×6 versus 30×4, with intensity held sub-symptom and adherence monitored equally.
 
@@ -230,7 +230,7 @@ Use it to compare schedules—for example, whether **15 minutes × 7 days** and 
 
 5. **Intensity unmeasured in volume bands:** Weekly minutes without sub-symptom intensity context can over-dose if walks are too fast or under-dose if sessions are symptom-limited but brief.
 
-6. **Adherence:** Wingerson 2024 links adherence and session duration to outcomes [PMID: 38109187](https://pubmed.ncbi.nlm.nih.gov/38109187/); a weekly-minute framework does not solve unsupervised execution—*Six Protocols, One Condition* limitation #5 still applies [PMID: 26838933](https://pubmed.ncbi.nlm.nih.gov/26838933/).
+6. **Adherence:** Wingerson 2024 links adherence and session duration to outcomes [PMID: 38109187](https://pubmed.ncbi.nlm.nih.gov/38109187/); a weekly-minute framework does not solve unsupervised execution—*Six Protocols, One Condition* limitation #5 still applies [PMID: 27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/).
 
 7. **Legal scope:** Educational synthesis only—not medical advice.
 
