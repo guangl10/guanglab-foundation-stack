@@ -33,14 +33,6 @@ website:
     right:
       - text: "RSS"
         href: index.xml
-  plausible-analytics: |
-    <!-- Privacy-friendly analytics by Plausible -->
-    <script async src="https://plausible.io/js/pa-bpHHTwogSyqkWYSnIZ6d7.js"></script>
-    <script>
-      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
-      plausible.init()
-    </script>
-
 format:
   html:
     theme:
@@ -56,6 +48,12 @@ format:
     include-in-header:
       - text: |
           <meta name="google-site-verification" content="2GHSzIXJ8C7iKHTpM5GkBQu5msSa3N2bAHD3P3lu8Ac" />
+          <!-- Privacy-friendly analytics by Plausible -->
+          <script async src="https://plausible.io/js/pa-bpHHTwogSyqkWYSnIZ6d7.js"></script>
+          <script>
+            window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+            plausible.init()
+          </script>
 
 execute:
   freeze: auto
