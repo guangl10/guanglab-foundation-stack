@@ -2,6 +2,7 @@
 title: "When Do You Advance? Progression Rules After the First Prescription"
 description: "Three progression logics govern when to advance a concussion aerobic prescription: weekly BCTT retest, CISG step grammar (24h floor on sport steps; symptom-gated on school steps), and session-titrated ramps. This installment maps each logic to its source trial, then asks whether the rules hold when return-to-learn and return-to-sport are running simultaneously."
 date: "2026-06-24"
+draft: true
 series: "Foundation Stack"
 installment: pillar2-005
 pillar: methods
