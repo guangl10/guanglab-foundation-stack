@@ -1,0 +1,164 @@
+{
+  "audit_version": "1.0",
+  "audit_date": "2026-06-24",
+  "installment": "pillar2-005",
+  "source_pdfs": {
+    "amsterdam_pmid": "37316210",
+    "berlin_pmid": "28446457"
+  },
+  "grammar_rows": [
+    {
+      "document": "Amsterdam 2022",
+      "pmid": "37316210",
+      "table_label": "Table 1 (RTL)",
+      "track": "RTL",
+      "steps": 4,
+      "explicit_24h_floor": false,
+      "time_rule_location": "Absent from title and footer",
+      "progression_gate": "Symptom only \u2014 slow if >mild/brief exacerbation",
+      "verification": {
+        "no_24h_in_rtl_table_block": true,
+        "rtl_footer_present": true
+      }
+    },
+    {
+      "document": "Amsterdam 2022",
+      "pmid": "37316210",
+      "table_label": "Table 2 (RTS)",
+      "track": "RTS",
+      "steps": 6,
+      "explicit_24h_floor": true,
+      "time_rule_location": "Table title + footnote",
+      "progression_gate": "\u226524 h/step + \u22642/10 for <1 h",
+      "verification": {
+        "rts_24h_in_title_or_table2": true,
+        "shared_symptom_threshold": true
+      }
+    },
+    {
+      "document": "Berlin 2017",
+      "pmid": "28446457",
+      "table_label": "Table 2 (return-to-school)",
+      "track": "RTL",
+      "steps": 4,
+      "explicit_24h_floor": false,
+      "time_rule_location": "Stage text only",
+      "progression_gate": "Symptom recurrence at stage",
+      "verification": {
+        "no_24h_each_step_in_rtl_block": true,
+        "four_stage_rtl": true
+      }
+    },
+    {
+      "document": "Berlin 2017",
+      "pmid": "28446457",
+      "table_label": "Table 1 (RTS)",
+      "track": "RTS",
+      "steps": 6,
+      "explicit_24h_floor": true,
+      "time_rule_location": "NOTE below table",
+      "progression_gate": "\u226524 h/step; step back if symptoms worsen",
+      "verification": {
+        "rts_at_least_24h_note": true
+      }
+    }
+  ],
+  "replication": {
+    "consensus_pdfs_audited": 2,
+    "rts_explicit_24h_floor_rows": 2,
+    "rtl_no_explicit_24h_floor_rows": 2,
+    "asymmetric_time_floor_replicated": true
+  },
+  "rule_derived_minimum": {
+    "assumptions": {
+      "initial_relative_rest_hours": "24-48",
+      "symptom_course": "ideal \u2014 no step-backs",
+      "rtl_advance": "one step per calendar day",
+      "rts_advance": "one step per 24 h minimum"
+    },
+    "bounds": [
+      {
+        "track": "RTL",
+        "steps": 4,
+        "minimum_days_ideal": 4,
+        "assumption": "One step per calendar day; no stated minimum dwell; symptom gate always satisfied"
+      },
+      {
+        "track": "RTS",
+        "steps": 6,
+        "minimum_days_ideal": 6,
+        "assumption": "One step per 24 h minimum; symptom gate always satisfied"
+      }
+    ],
+    "grammar_rts_rtl_ratio": 1.5
+  },
+  "verbatim_snippets": {
+    "amsterdam_rts_title": "Return-to-sport (RTS) strategy\u2014each step typically takes a minimum of 24 hours",
+    "amsterdam_rtl_footer": "Progression through the strategy for students should be slowed when there is more than a mild and brief symptom exacerbation",
+    "berlin_rts_note": "There should be at least 24 hours (or longer) for each step of the progression"
+  },
+  "pattern_checks_passed": true,
+  "pattern_checks": {
+    "37316210_RTL_no_24h_in_rtl_table_block": true,
+    "37316210_RTL_rtl_footer_present": true,
+    "37316210_RTS_rts_24h_in_title_or_table2": true,
+    "37316210_RTS_shared_symptom_threshold": true,
+    "28446457_RTL_no_24h_each_step_in_rtl_block": true,
+    "28446457_RTL_four_stage_rtl": true,
+    "28446457_RTS_rts_at_least_24h_note": true
+  },
+  "triangulation_literature": [
+    {
+      "estimate_type": "Putukian meta mean",
+      "pmid": "37316183",
+      "rtl_days": 8.3,
+      "rtl_ci": [
+        5.6,
+        11.1
+      ],
+      "rts_days": 19.8,
+      "rts_ci": [
+        18.8,
+        20.7
+      ],
+      "rts_rtl_ratio": 2.39,
+      "i2_approx": 0.99,
+      "notes": "278 studies; heterogeneous return definitions"
+    },
+    {
+      "estimate_type": "Putukian proportion",
+      "pmid": "37316183",
+      "rtl_pct_full_by_day_10": 0.93,
+      "notes": "Full RTL without new academic support by day 10"
+    },
+    {
+      "estimate_type": "DeMatteo cohort median",
+      "pmid": "31396150",
+      "rtl_days": 35,
+      "rts_days": 38,
+      "rts_rtl_ratio": 1.09,
+      "n": 139,
+      "notes": "Youth; full protocol completion"
+    },
+    {
+      "estimate_type": "Carson premature return",
+      "pmid": [
+        "24925965",
+        "35292472"
+      ],
+      "periods": [
+        {
+          "era": "2006-2011",
+          "rtl_pct": 44.7,
+          "rts_pct": 43.5
+        },
+        {
+          "era": "2011-2016",
+          "rtl_pct": 42.6,
+          "rts_pct": 26.7
+        }
+      ]
+    }
+  ],
+  "script": "scripts/run_cisg_grammar_audit.py"
+}

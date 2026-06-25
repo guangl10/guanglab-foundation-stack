@@ -1,0 +1,92 @@
+{
+  "installment": "pillar2-005",
+  "source": {
+    "pmid": "37316183",
+    "doi": "10.1136/bjsports-2022-106682",
+    "citation": "Putukian M et al. Br J Sports Med 2023",
+    "encoding_date": "2026-06-24",
+    "encoding_scope": "Published abstract, meta-analysis summary statistics, and Putukian main-text operational definitions (full text in GLP 2026-06-25). Per-study rows from fixed 23-paper hunt pilot only; Putukian supplemental included-study list (Table L) intentionally out of scope for this installment."
+  },
+  "included_studies": {
+    "n_total": 278,
+    "pct_cohort_design": 80.6,
+    "pct_north_america": 92.8,
+    "pct_high_risk_of_bias_excluded_from_meta": 23.0
+  },
+  "pooled_outcomes": [
+    {
+      "outcome": "days_until_symptom_free",
+      "mean_days": 14.0,
+      "ci_95": [12.7, 15.4],
+      "i2_pct": 98.0
+    },
+    {
+      "outcome": "days_until_RTL",
+      "mean_days": 8.3,
+      "ci_95": [5.6, 11.1],
+      "i2_pct": 99.3,
+      "putukian_operational_definition": "Days until return to school/learn as defined by each contributing study (not harmonized to CISG step labels in the meta-analysis)."
+    },
+    {
+      "outcome": "days_until_RTS",
+      "mean_days": 19.8,
+      "ci_95": [18.8, 20.7],
+      "i2_pct": 99.3,
+      "putukian_operational_definition": "Days until return to sport as defined by each contributing study (not harmonized to CISG step labels in the meta-analysis)."
+    },
+    {
+      "outcome": "proportion_full_RTL_by_day_10",
+      "value": 0.93,
+      "putukian_operational_definition": "Full RTL without new academic support by day 10."
+    }
+  ],
+  "putukian_review_operational_definitions": {
+    "pmid": "37316183",
+    "days_until_symptom_free": "Complete resolution of symptoms at rest associated with the current concussion.",
+    "days_until_RTL": "Completion of the RTL strategy with return to pre-injury learning activities with no new academic support.",
+    "days_until_full_RTS": "Completion of the RTS strategy with no symptoms and no clinical findings at rest or maximal exertion suggesting inability to return.",
+    "note": "Putukian pooled means across 278 studies still use each contributor's operationalization — this is the review team's harmonization target, not proof that included studies matched it."
+  },
+  "endpoint_alignment_with_cisg_amsterdam": [
+    {
+      "construct": "RTL completion",
+      "cisg_amsterdam_anchor": "RTL step 4 — full school day without accommodations [PMID 37316210]",
+      "putukian_pooled_anchor": "Full RTL without new academic support (proportion endpoint); mean days until RTL pools heterogeneous study definitions",
+      "alignment": "partial",
+      "note": "Putukian proportion endpoint is closer to CISG full RTL than to first return to class; mean RTL days mix early and full return definitions across 278 studies — primary driver of I² ≈ 99%."
+    },
+    {
+      "construct": "RTS completion",
+      "cisg_amsterdam_anchor": "RTS step 6 — unrestricted return to sport [PMID 37316210]",
+      "putukian_pooled_anchor": "Days until RTS — study-specific (may be medical clearance, non-contact, or full play)",
+      "alignment": "weak",
+      "note": "Without step-level harmonization, meta-analytic RTS mean is not interchangeable with CISG step-6 completion."
+    },
+    {
+      "construct": "Temporal grammar (24 h floor)",
+      "cisg_amsterdam_anchor": "RTS ≥24 h/step only; RTL no time floor [grammar audit]",
+      "putukian_pooled_anchor": "Not modeled — pooling aggregates outcomes, not advancement rules",
+      "alignment": "not_applicable",
+      "note": "Grammar ratio 1.50 (rule-derived) and Putukian mean ratio 2.39 measure different layers: document rules vs pooled heterogeneous endpoints."
+    }
+  ],
+  "interpretation_for_pillar2_005": {
+    "why_i2_is_high": "Putukian pooled 'days until RTL/RTS' without forcing a single CISG step definition across 278 studies.",
+    "why_grammar_ratio_differs_from_putukian_ratio": "Rule-derived 1.50 is an ideal CISG grammar bound; Putukian 2.39 reflects endpoint heterogeneity plus real-world step-backs and non-ideal courses.",
+    "dematteo_role": "Youth staged-protocol medians (35/38 d) track full step completion in one cohort — explains near-parallel tracks (ratio 1.09), not fast meta-analytic means."
+  },
+  "scope_boundary": {
+    "putukian_supplemental_table_l": "out_of_scope",
+    "rationale": "Foundation Stack methods installment; fixed 23-paper hunt pilot substitutes for full 278-study re-coding.",
+    "hunt_pilot_json": "putukian-hunt-endpoint-coding.json"
+  },
+  "future_glp_work": {
+    "optional_hunt_pdfs": [
+      "dematteo2019",
+      "grubenhoff2018_qol",
+      "grubenhoff2017_normal_q",
+      "reed2019_pem_patterns"
+    ],
+    "note": "Optional: complete hunt pilot to 23/23 full-text rows; does not require Table L."
+  }
+}
