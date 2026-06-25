@@ -20,9 +20,9 @@ The Leddy/Buffalo group answers: bring the athlete back to the treadmill at the 
 
 The advancement rule matters clinically: it influences whether a student returns to full sport in three weeks or eight. It determines whether a partial school day is a gate or a side note. And in the week when return-to-learn and return-to-sport are both active—a student running PE drills and sitting through exam accommodations—it determines which track holds when symptom load climbs.
 
-Three previous installments defined the prescription space: [*Six Protocols, One Condition*](../pillar2-001-six-protocols-comparison/index.html) mapped which protocols produce which intensity bands; [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) showed how to set a sub-symptom ceiling when treadmill access is unavailable; [*Twenty Minutes From Where?*](../pillar2-003-twenty-minutes-from-where/index.html) asked how much weekly volume fits a school schedule. [*Two Tracks, One Athlete*](../pillar2-004-school-vs-sport-staging/index.html) showed that the sport track and the school track are not running from the same document.
+The previous installments in this series established that six protocols assign materially different intensity bands to the same patient; that a sub-symptom ceiling can be set without treadmill access; that weekly volume may matter more than single-session length; and that return-to-learn and return-to-sport run from separate checklists that are rarely reconciled. *(Series index: [001](../pillar2-001-six-protocols-comparison/index.html) · [002](../pillar2-002-no-bctt-prescription-paths/index.html) · [003](../pillar2-003-twenty-minutes-from-where/index.html) · [004](../pillar2-004-school-vs-sport-staging/index.html))*
 
-This installment asks the question all four deferred: **what is the published rule for changing a prescription that is already running, and does it hold when both tracks are active?**
+**What none of them answered: once a prescription is running, what changes it—and does that rule still hold when school and sport are both active?**
 
 ::: {.callout-note}
 ## Standalone summary (if you skipped installments 001–004)
