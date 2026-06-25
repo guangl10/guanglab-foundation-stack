@@ -32,7 +32,7 @@ format:
 
 Long-form, citable resources on **adolescent PPCS aerobic prescription** — for clinicians, researchers, and families. Hosted at **fs.guanglab.org** as a dedicated public series (separate from personal site tools and any private research operations).
 
-**2 installments published · series ongoing**
+**5 installments published · series ongoing**
 
 Written by **Guang Li (Jack)** — graduate athletic training researcher; each installment is PMID-backed and clinician-facing. [About this series →](/about.html)
 :::
