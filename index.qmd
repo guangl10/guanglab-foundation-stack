@@ -8,14 +8,13 @@ listing:
     - "posts/*/index.qmd"
   sort: "date desc"
   type: table
-  fields: [installment, date, title, description, pillar, audience]
+  fields: [installment, date, title, description, pillar]
   field-display-names:
     installment: ID
     date: Published
     title: Title
     description: Summary
     pillar: Pillar
-    audience: Audience
   feed: true
   categories: false
   sort-ui: false
