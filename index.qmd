@@ -29,21 +29,21 @@ format:
 
 **One topic · four pillars · knowledge that compounds**
 
-Long-form, citable resources on **adolescent PPCS aerobic prescription** — for clinicians, researchers, and families. Hosted at **fs.guanglab.org** as a dedicated public series (separate from personal site tools and any private research operations).
+Long-form, PMID-backed installments on **adolescent PPCS aerobic exercise prescription** — how protocols set intensity, how measurement choices affect home delivery, and what clinicians can write on Monday morning.
 
-**5 installments published · series ongoing**
+**6 installments published · series ongoing** · Latest: [Wrist HR vs Chest Strap: What Community PPCS Prescription Assumes](posts/pillar2-006-wearable-hr-error-margins/index.html)
 
-Written by **Guang Li (Jack)** — graduate athletic training researcher; each installment is PMID-backed and clinician-facing. [About this series →](/about.html)
+Written by **Guang Li (Jack)** — graduate athletic training researcher. Primary audience: clinicians and researchers; parents can start from each installment’s **SOP** and plain-language notes. [About this series →](/about.html)
 :::
 
 ## Why this series exists
 
-In the AI era, short posts disappear; **depth with citations compounds**. Each installment adds PMID-supported tables and SOPs so this URL becomes the reference surface for the niche — portable for citation, teaching, and long-term portfolio evidence.
+Published protocols often disagree on **how hard**, **how long**, and **how to monitor** sub-symptom aerobic exercise after concussion. Community settings rarely match trial equipment or supervision. Each installment isolates one operational problem, puts the evidence in tables, and ends with an actionable SOP — so this URL stays a citable reference surface for teaching and practice, not a feed of disposable posts.
 
 ## Four pillars
 
-| Pillar | Code | Folder prefix | What you get |
-|--------|------|---------------|----------------|
+| Pillar | Code | Prefix | What you get |
+|--------|------|--------|----------------|
 | **Top-journal reproduction** | `reproduce` | `pillar1-` | Audit landmark RCTs: dose reported vs dose performed |
 | **Methods comparison** | `methods` | `pillar2-` | Protocol comparison, measurement, coding rules |
 | **Synthetic experiments** | `synth` | `pillar3-` | Priors, dashboards, dose–heterogeneity experiments |

@@ -6,11 +6,13 @@ title: "About Foundation Stack"
 
 **Foundation Stack** is a **continuously updated** publication on **aerobic exercise prescription for adolescents with persistent post-concussive symptoms (PPCS)**. Each installment follows the same structure: problem → comparison table → disagreements → methods → clinical SOP → limitations.
 
+It is a **dedicated public series** at [fs.guanglab.org](https://fs.guanglab.org/) — separate from personal-site tools on [guanglab.org](https://guanglab.org/) and from any private research operations.
+
 ## Who it is for
 
-- Athletic trainers and physical therapists  
-- Sport medicine and rehabilitation researchers  
-- Parents and athletes navigating prolonged recovery  
+- Athletic trainers and physical therapists (primary)  
+- Sport medicine and rehabilitation researchers (primary)  
+- Parents and athletes navigating prolonged recovery (start from each installment’s **SOP** and plain-language notes)  
 
 ## Four pillars
 
@@ -29,7 +31,7 @@ Installment folders: `posts/pillar{N}-{seq}-{slug}/`.
 
 ## Privacy note
 
-This site is **public**. Internal dissertation workflows, advisor materials, and restricted project hubs are **not** linked here.
+This site is **public**. Internal dissertation workflows, advisor materials, private research operations, and restricted project hubs are **not** linked here.
 
 ## Subscribe
 
