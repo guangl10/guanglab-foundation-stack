@@ -1,6 +1,6 @@
 -- Foundation Stack posts: Google Scholar meta, canonical URL, JSON-LD (ScholarlyArticle)
 
-local default_canonical_base = "https://guanglab.org/foundation-stack"
+local default_canonical_base = "https://fs.guanglab.org"
 local schema_keywords =
   "adolescent PPCS, aerobic exercise prescription, post-concussive symptoms"
 local description_phrase = "adolescent PPCS aerobic exercise prescription"

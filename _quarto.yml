@@ -3,12 +3,19 @@ project:
   output-dir: _site
   resources:
     - tools/_shared/**
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
+    - "tools/**/*.qmd"
+    - "!AGENTS.md"
+    - "!SITE_SOURCE.md"
+    - "!resources/pilot-measurement-summary.qmd"
 
 filters:
   - filters/fs-seo.lua
 
 fs-seo:
-  canonical-base: "https://guanglab.org/foundation-stack"
+  canonical-base: "https://fs.guanglab.org"
 
 website:
   title: "Foundation Stack"
