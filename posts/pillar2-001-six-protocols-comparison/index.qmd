@@ -147,16 +147,24 @@ The three-column format is intentional. Most published protocols are written for
 
 1. **Generalizability:** Evidence is drawn from adolescent PPCS. Children \<6 years, adults \>65 years, cervical spine injury, and severe anxiety are not validated here. BCTT requires a treadmill and is not applicable to wheelchair users [PMID: 31105634](https://pubmed.ncbi.nlm.nih.gov/31105634/).
 2. **Environment:** RCTs are largely room-temperature, low-altitude settings. For example, Pocatello (~1356 m) with winter ice near −20 °C lacks correction factors for HR~t~ drift [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).
-3. **Device error:** Wrist photoplethysmography (e.g., consumer wearables) may carry ±10 bpm error versus chest ECG used in BCTT; community devices risk overdosing intensity [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).
+3. **Device error:** Prescription trials that titrate to BCTT thresholds or %HR~max~ typically use **chest-strap** monitoring, not wrist photoplethysmography [PMID: 30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/). Wrist monitors rely on photoplethysmography and show **variable accuracy during aerobic exercise** [PMID: 28709155](https://pubmed.ncbi.nlm.nih.gov/28709155/); in one graded-intensity validation study, limits of agreement versus reference were **−20 to 19 bpm** for a wrist optical sensor [PMID: 33764310](https://pubmed.ncbi.nlm.nih.gov/33764310/). Worts 2019 discusses physiologically based, BCTT-anchored home exercise but **does not quantify wrist-device error** [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/). Community programs that read a wrist target as if it were trial-grade HR measurement may therefore **mis-rank intensity** relative to the evidence base.[^device-errata-001]
 4. **Long-term outcomes:** Endpoints are often symptom scales at 28–90 days. One-year academic performance and migraine recurrence are rarely reported [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).
 5. **Adherence:** Trial adherence often exceeds 80%; real-world parental supervision is often \<40%. This SOP does not solve unsupervised home exercise [PMID: 27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/).
 6. **Legal scope:** This is an educational synthesis, not medical advice. F-1 trainees must not provide remote clinical care.
+
+[^device-errata-001]: **Errata (2026-07-03), limitation #3.** The originally published sentence attributed a **±10 bpm** wrist-photoplethysmography margin to Worts et al. 2019 [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/). Full-text search of that review (Foundation Stack / GLP verification, 2026-07-03) did **not** recover that numeric claim or a PPG-versus-ECG accuracy statement. The clinical concern—that community wrist readouts may not match chest-strap or treadmill reference used in prescription evidence—remains; the **evidentiary anchor** has been corrected to device-validation studies [PMID: 28709155](https://pubmed.ncbi.nlm.nih.gov/28709155/), [PMID: 33764310](https://pubmed.ncbi.nlm.nih.gov/33764310/). Worts 2019 is retained only for prescription-framework context (BCTT / home exercise), not for optical error magnitude. Expanded comparison: [installment 006](../pillar2-006-wearable-hr-error-margins/index.html).
 
 ##### What these limitations mean in practice
 
 These limitations do not invalidate the protocols reviewed here. They describe the boundary conditions under which published evidence applies—and beyond which clinical judgment must fill the gap.
 
 The most practically significant limitation for community settings is the gap between trial conditions (supervised visits, structured follow-up) and what families can sustain at home. This is not a reason to withhold exercise prescription. It is a reason to calibrate expectations, build the SOP around what parents can realistically do, and document execution in clinical notes—not assume trial conditions apply by default.
+
+::: {.callout-note}
+## Changelog
+
+**2026-07-03 — Limitation #3 (device error).** Removed unsupported ±10 bpm attribution to Worts 2019 [30742254]. Wrist-PPG error is now cited from exercise-validation literature [28709155, 33764310]. See footnote [^device-errata-001] and [installment 006](../pillar2-006-wearable-hr-error-margins/index.html).
+:::
 
 ::: {.callout-caution}
 **Not medical advice. Educational use only. Data from published literature.**
