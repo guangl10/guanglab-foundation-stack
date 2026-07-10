@@ -82,11 +82,8 @@ The full working matrix — six dimensions, two priority interaction triangles, 
 
 **Finding 1 — the RTL/RTP gate is the sharpest stated-incompatible rule in the series**, confirmed independently against both Amsterdam and Berlin primary text: RTP steps 4–6 cannot proceed while RTL is below step 4, **regardless of whether advancement follows Logic A (weekly BCTT), Logic B (CISG symptom steps), or Logic C (session-count ramp).** [Figure 3](#fig-3-gate) shows the timing asymmetry: sport steps carry a published 24-hour minimum floor; school steps do not — but both tracks share one hard documentation veto at RTP 4–6.
 
-##### Figure 3 — Dual-track gate (RTL × RTP) {#fig-3-gate}
-
-::: {=html}
+```{=html}
 <figure id="fig-3-gate">
-<figcaption><strong>Figure 3.</strong> Schematic dual-track ladder (not a recovery timeline). <strong>Left:</strong> return-to-learn (RTL) steps — symptom-limited attendance through full school day without concussion accommodations. <strong>Right:</strong> return-to-sport (RTP) steps — consensus tables label sport steps RTS; this series uses RTP in clinical prose. Orange <strong>≥24 h</strong> marks the published minimum between <em>sport</em> steps only (Amsterdam + Berlin). RTL steps have no equivalent published floor. <strong>Red RTP boxes 4–6</strong> = stated-incompatible while RTL is still below step 4 (team drills / contact / unrestricted play before full school day). ● = dual-source primary receipt (37316210, 28446457).</figcaption>
 <svg viewBox="0 0 680 340" width="100%" style="max-width:38rem;font-family:system-ui,sans-serif;background:#fafafa;border:1px solid #ddd;border-radius:4px">
   <text x="12" y="16" font-size="10" fill="#e65100" font-weight="600">Sport track only: ≥24 h minimum between steps (not on school track)</text>
   <text x="170" y="36" text-anchor="middle" font-size="12" font-weight="600">RTL — school</text>
@@ -128,8 +125,9 @@ The full working matrix — six dimensions, two priority interaction triangles, 
   <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#c62828"/></marker></defs>
   <text x="12" y="332" font-size="10" fill="#444">Weekly BCTT retest, CISG steps, and session ramps cannot override this veto. Gate is documentation eligibility, not a ban on all same-day activity.</text>
 </svg>
+<figcaption><strong>Figure 3 — Dual-track gate (RTL × RTP).</strong> Schematic dual-track ladder (not a recovery timeline). <strong>Left:</strong> return-to-learn (RTL) steps — symptom-limited attendance through full school day without concussion accommodations. <strong>Right:</strong> return-to-sport (RTP) steps — consensus tables label sport steps RTS; this series uses RTP in clinical prose. Orange <strong>≥24 h</strong> marks the published minimum between <em>sport</em> steps only (Amsterdam + Berlin). RTL steps have no equivalent published floor. <strong>Red RTP boxes 4–6</strong> = stated-incompatible while RTL is still below step 4 (team drills / contact / unrestricted play before full school day). ● = dual-source primary receipt (37316210, 28446457).</figcaption>
 </figure>
-:::
+```
 
 **Reading Figure 3.** Tracks may run in parallel at lower steps (Amsterdam: RTL and RTS strategies can occur in parallel). The incompatibility is specific: **high-contact / unrestricted sport steps** (RTP 4–6) while **RTL is still below step 4** — not a ban on all simultaneous activity.
 
@@ -139,11 +137,8 @@ Two combinations this audit expected to find *stated* turned out to require the 
 
 **Paths (intensity + monitoring, read before Figure 1a).** **Path 1** = clinic BCTT sets the HR ceiling; **Path 2** = home %HR band adjudicated by chest strap; **Path 3** = wrist optical (ancillary only — cannot trust narrow HR bands); **Path 4** = symptom cap; **Path 5** = RPE band. **Logic A** = advance after weekly BCTT (or session-tolerant stage ladder variants); **Logic B** = advance CISG RTL/RTP steps when symptoms stay below the gate; **Logic C** = advance because the next session in a fixed ramp was completed (Micay +5%/session or Kurowski duration titration). [Figure 2](#fig-2-topology) shows how paths bundle with logics.
 
-##### Figure 1a — Triangle 1 grid: D1 × Path 1–5 × Logic {#fig-1a}
-
-::: {=html}
+```{=html}
 <figure id="fig-1a">
-<figcaption><strong>Figure 1a.</strong> Stated-compatible / stated-incompatible / silent only — no inferred-tension cells share this color language (see Figure 1b). "Pruned" cells are category mismatches (Path 1 presupposes BCTT), not stated incompatibilities. <strong>Verification badges:</strong> ● = primary-source receipt (PDF/PMC); ◎ = synthesis from two verified wearable-piece claims — wrist optical error band wider than prescription band blocks in-band adjudication under any logic that depends on home HR-zone completion.</figcaption>
 <svg viewBox="0 0 770 210" width="100%" style="max-width:44rem;font-family:system-ui,sans-serif;background:#fafafa;border:1px solid #ddd;border-radius:4px">
   <!-- grid: col_x = 100 + i*60, i=0..10; row0 y=35 h=42; row1 y=77 h=42 -->
   <!-- column headers -->
@@ -193,14 +188,12 @@ Two combinations this audit expected to find *stated* turned out to require the 
   <circle cx="108" cy="178" r="5" fill="white" stroke="#333" stroke-width="1.5"/><text x="122" y="182" font-size="11">● primary receipt</text>
   <circle cx="248" cy="178" r="5" fill="none" stroke="#333" stroke-width="1.5"/><text x="254" y="181" font-size="9">S</text><text x="268" y="182" font-size="11">◎ synthesis receipt</text>
 </svg>
+<figcaption><strong>Figure 1a — Triangle 1 grid (D1 × Path 1–5 × Logic).</strong> Stated-compatible / stated-incompatible / silent only — no inferred-tension cells share this color language (see Figure 1b). "Pruned" cells are category mismatches (Path 1 presupposes BCTT), not stated incompatibilities. <strong>Verification badges:</strong> ● = primary-source receipt (PDF/PMC); ◎ = synthesis from two verified wearable-piece claims — wrist optical error band wider than prescription band blocks in-band adjudication under any logic that depends on home HR-zone completion.</figcaption>
 </figure>
-:::
+```
 
-##### Figure 1c — Audited cell inventory {#fig-1c}
-
-::: {=html}
+```{=html}
 <figure id="fig-1c">
-<figcaption><strong>Figure 1c.</strong> Counts from the two priority triangles (Figure 1a: 19 non-pruned cells; dual-track grid: 5 cells). Silent cells dominate — the finding is the *absence* of cross-installment statements, not a scatter of incompatibilities.</figcaption>
 <svg viewBox="0 0 520 120" width="100%" style="max-width:32rem;font-family:system-ui,sans-serif;background:#fafafa;border:1px solid #ddd;border-radius:4px">
   <text x="10" y="22" font-size="12" font-weight="600">24 audited cells</text>
   <rect x="10" y="34" width="87" height="28" fill="#2e7d32"/><text x="53" y="52" text-anchor="middle" font-size="11" fill="white">SC 17%</text>
@@ -208,14 +201,12 @@ Two combinations this audit expected to find *stated* turned out to require the 
   <rect x="227" y="34" width="303" height="28" fill="#e0e0e0"/><text x="378" y="52" text-anchor="middle" font-size="11" fill="#333">SL 58% (14 cells)</text>
   <text x="10" y="88" font-size="11" fill="#444">Triangle 1 alone: 11/19 silent (58%). Triangle 2 (dual-track): 3/5 silent, 2/5 SI (RTP 4–6 gate).</text>
 </svg>
+<figcaption><strong>Figure 1c — Audited cell inventory.</strong> Counts from the two priority triangles (Figure 1a: 19 non-pruned cells; dual-track grid: 5 cells). Silent cells dominate — the finding is the <em>absence</em> of cross-piece statements, not a scatter of incompatibilities.</figcaption>
 </figure>
-:::
+```
 
-##### Figure 1b — Tension register (inferred, not stated) {#fig-1b}
-
-::: {=html}
+```{=html}
 <figure id="fig-1b">
-<figcaption><strong>Figure 1b.</strong> Inferred-tension entries. Dashed border, no fill color — deliberately not styled like Figure 1a's stated cells, so neither looks like a citation of the other.</figcaption>
 <svg viewBox="0 0 770 150" width="100%" style="max-width:44rem;font-family:system-ui,sans-serif;background:#fafafa;border:1px solid #ddd;border-radius:4px">
   <rect x="10" y="10" width="750" height="55" fill="#fff8ec" stroke="#c9971f" stroke-width="1.5" stroke-dasharray="6 3" rx="4"/>
   <text x="22" y="28" font-size="12" font-weight="600" fill="#7a5b00">T-001 — Logic C × Path 3 (wrist, ancillary-only)</text>
@@ -224,8 +215,9 @@ Two combinations this audit expected to find *stated* turned out to require the 
   <text x="22" y="96" font-size="12" font-weight="600" fill="#7a5b00">T-002 — Same-day RTL+RTP combined symptom load, any logic</text>
   <text x="22" y="113" font-size="11" fill="#444">Proposed default: if either school or sport track shows &gt;2/10 symptom rise for &gt;1 hour on a day, hold both tracks the next day — explicitly labeled unpublished in the progression piece. Adopted convention, not a finding.</text>
 </svg>
+<figcaption><strong>Figure 1b — Tension register (inferred, not stated).</strong> Dashed border, no fill color — deliberately not styled like Figure 1a's stated cells, so neither looks like a citation of the other.</figcaption>
 </figure>
-:::
+```
 
 ##### Figure 2 — Decision topology, pruned {#fig-2-topology}
 
@@ -267,11 +259,10 @@ flowchart TD
 | Amsterdam 2022 | "student-athletes should complete full RTL before unrestricted RTS" | Cross-track gate | [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) |
 | Berlin 2017 | "Children and adolescents should not return to sport until they have successfully returned to school" | Cross-track gate | [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) |
 
-##### Figure 4 — Progression logic ramp shapes (Table A) {#fig-4-ramps}
+[Figure 4](#fig-4-ramps) below visualizes the three intensity-shaped progression models in the Micay, Leddy 2021, and Kurowski rows.
 
-::: {=html}
+```{=html}
 <figure id="fig-4-ramps">
-<figcaption><strong>Figure 4.</strong> Small-multiples of the three <strong>intensity-shaped</strong> progression models located in Table A (not head-to-head comparable outcomes). <strong>A:</strong> Micay fixed %HR<sub>max</sub> ramp (+5%/session, cap 70%, 8 sessions). <strong>B:</strong> Leddy 2021 stage-ladder (%HR<sub>max</sub> steps on session tolerance; hold if symptoms +2; goal ≥80%). <strong>C:</strong> Kurowski duration titration (home dose = 80% of clinic symptom threshold duration; reassessed at 6 visits — <em>y-axis is duration index, not HR</em>). Logic B (CISG step rules) is omitted: sport-step cadence is not a %HR prescription curve. Buffalo weekly-BCTT Logic A is retest-gated, not a fixed ramp — also omitted.</figcaption>
 <svg viewBox="0 0 660 200" width="100%" style="max-width:42rem;font-family:system-ui,sans-serif;background:#fafafa;border:1px solid #ddd;border-radius:4px">
   <!-- Panel A — Micay -->
   <text x="110" y="18" text-anchor="middle" font-size="11" font-weight="600">A · Micay (Logic C)</text>
@@ -309,8 +300,9 @@ flowchart TD
   <text x="550" y="172" text-anchor="middle" font-size="8" fill="#666">clinic visit (illustrative)</text>
   <text x="330" y="192" text-anchor="middle" font-size="9" fill="#888">Schematic shapes from Table A quotes — not fitted patient data.</text>
 </svg>
+<figcaption><strong>Figure 4 — Progression logic ramp shapes (Table A).</strong> Small-multiples of the three <strong>intensity-shaped</strong> progression models located in Table A (not head-to-head comparable outcomes). <strong>A:</strong> Micay fixed %HR<sub>max</sub> ramp (+5%/session, cap 70%, 8 sessions). <strong>B:</strong> Leddy 2021 stage-ladder (%HR<sub>max</sub> steps on session tolerance; hold if symptoms +2; goal ≥80%). <strong>C:</strong> Kurowski duration titration (home dose = 80% of clinic symptom threshold duration; reassessed at 6 visits — <em>y-axis is duration index, not HR</em>). Logic B (CISG step rules) is omitted: sport-step cadence is not a %HR prescription curve. Buffalo weekly-BCTT Logic A is retest-gated, not a fixed ramp — also omitted.</figcaption>
 </figure>
-:::
+```
 
 **Reading Figure 4.** The three curves answer different questions: Micay prescribes a **pre-written HR% ladder**; Leddy 2021 prescribes **HR% stages gated by symptom response**; Kurowski prescribes **duration** relative to a bike-test symptom threshold. Writing them on one documentation line without naming which model is active is how silent cells become false compatibility.
 
