@@ -253,6 +253,53 @@ flowchart TD
 | Amsterdam 2022 | "student-athletes should complete full RTL before unrestricted RTS" | Cross-track gate | [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) |
 | Berlin 2017 | "Children and adolescents should not return to sport until they have successfully returned to school" | Cross-track gate | [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) |
 
+##### Figure 4 — Progression logic ramp shapes (Table A) {#fig-4-ramps}
+
+::: {=html}
+<figure id="fig-4-ramps">
+<figcaption><strong>Figure 4.</strong> Small-multiples of the three <strong>intensity-shaped</strong> progression models located in Table A (not head-to-head comparable outcomes). <strong>A:</strong> Micay fixed %HR<sub>max</sub> ramp (+5%/session, cap 70%, 8 sessions). <strong>B:</strong> Leddy 2021 stage-ladder (%HR<sub>max</sub> steps on session tolerance; hold if symptoms +2; goal ≥80%). <strong>C:</strong> Kurowski duration titration (home dose = 80% of clinic symptom threshold duration; reassessed at 6 visits — <em>y-axis is duration index, not HR</em>). Logic B (CISG step rules) is omitted: sport-step cadence is not a %HR prescription curve (005 Figure 1). Buffalo weekly-BCTT Logic A is retest-gated, not a fixed ramp — also omitted.</figcaption>
+<svg viewBox="0 0 660 200" width="100%" style="max-width:42rem;font-family:system-ui,sans-serif;background:#fafafa;border:1px solid #ddd;border-radius:4px">
+  <!-- Panel A — Micay -->
+  <text x="110" y="18" text-anchor="middle" font-size="11" font-weight="600">A · Micay (Logic C)</text>
+  <text x="110" y="30" text-anchor="middle" font-size="9" fill="#666">%HRmax · 8 sessions</text>
+  <line x1="30" y1="155" x2="200" y2="155" stroke="#999"/>
+  <line x1="30" y1="155" x2="30" y2="45" stroke="#999"/>
+  <text x="18" y="105" font-size="8" fill="#666" transform="rotate(-90 18 105)">%HRmax</text>
+  <text x="115" y="172" text-anchor="middle" font-size="8" fill="#666">session</text>
+  <text x="26" y="153" font-size="8" fill="#666">50</text>
+  <text x="26" y="68" font-size="8" fill="#666">70</text>
+  <polyline points="40,125 65,113 90,101 115,89 140,77 165,77 190,77 215,77" fill="none" stroke="#1565c0" stroke-width="2"/>
+  <circle cx="40" cy="125" r="3" fill="#1565c0"/><circle cx="140" cy="77" r="3" fill="#1565c0"/>
+  <text x="145" y="72" font-size="8" fill="#1565c0">cap 70%</text>
+  <!-- Panel B — Leddy 2021 -->
+  <text x="330" y="18" text-anchor="middle" font-size="11" font-weight="600">B · Leddy 2021 (Logic A)</text>
+  <text x="330" y="30" text-anchor="middle" font-size="9" fill="#666">%HRmax · symptom-tolerant steps</text>
+  <line x1="250" y1="155" x2="420" y2="155" stroke="#999"/>
+  <line x1="250" y1="155" x2="250" y2="45" stroke="#999"/>
+  <text x="246" y="153" font-size="8" fill="#666">50</text>
+  <text x="246" y="58" font-size="8" fill="#666">80</text>
+  <polyline points="260,125 290,113 320,101 350,89 380,77 410,65 440,53" fill="none" stroke="#6a1b9a" stroke-width="2" stroke-dasharray="4 2"/>
+  <circle cx="260" cy="125" r="3" fill="#6a1b9a"/><circle cx="440" cy="53" r="3" fill="#6a1b9a"/>
+  <text x="400" y="48" font-size="8" fill="#6a1b9a">goal ≥80%</text>
+  <text x="330" y="172" text-anchor="middle" font-size="8" fill="#666">stage (hold if +2 symptoms)</text>
+  <!-- Panel C — Kurowski -->
+  <text x="550" y="18" text-anchor="middle" font-size="11" font-weight="600">C · Kurowski (Logic C)</text>
+  <text x="550" y="30" text-anchor="middle" font-size="9" fill="#666">duration index · 6 visits</text>
+  <line x1="470" y1="155" x2="640" y2="155" stroke="#999"/>
+  <line x1="470" y1="155" x2="470" y2="45" stroke="#999"/>
+  <text x="466" y="153" font-size="8" fill="#666">80</text>
+  <text x="466" y="68" font-size="8" fill="#666">100</text>
+  <polyline points="490,77 530,77 530,70 570,70 570,63 610,63 610,56 650,56" fill="none" stroke="#2e7d32" stroke-width="2"/>
+  <circle cx="490" cy="77" r="3" fill="#2e7d32"/>
+  <text x="495" y="88" font-size="8" fill="#2e7d32">80% of threshold</text>
+  <text x="550" y="172" text-anchor="middle" font-size="8" fill="#666">clinic visit (illustrative)</text>
+  <text x="330" y="192" text-anchor="middle" font-size="9" fill="#888">Schematic shapes from Table A quotes — not fitted patient data.</text>
+</svg>
+</figure>
+:::
+
+**Reading Figure 4.** The three curves answer different questions: Micay prescribes a **pre-written HR% ladder**; Leddy 2021 prescribes **HR% stages gated by symptom response**; Kurowski prescribes **duration** relative to a bike-test symptom threshold. Writing them on one documentation line without naming which model is active is how silent cells become false compatibility.
+
 **What Table A does not include, and why:** a fallback variant of Logic A described in a 2013 clinical guide (adjusting target HR by 5–10 bpm every 1–2 weeks without weekly BCTT) is cited in installment 005 but was not independently located in primary text this pass — it is not asserted here as located, and does not appear in Table A. It remains a named blocker in the interaction-matrix receipt, not a silently-dropped citation.
 
 #### 4. Disagreements {#disagreements}
