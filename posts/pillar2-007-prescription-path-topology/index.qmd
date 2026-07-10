@@ -9,14 +9,9 @@ slug: prescription-path-topology
 draft: false
 ---
 
-<!-- Citations: research-notes/pillar2-007-interaction-matrix.md + GLP receipt (mini). -->
-
 ::: {.callout-caution}
 **Not medical advice. Educational use only. Data from published literature.**
 :::
-
-<!-- Opening hook: author-requested draft 2026-07-09 (post-006 gap angle; not a clinical vignette). -->
-
 
 Writing the wearable-monitoring piece, I kept coming back to one line in its own SOP checklist: *document which monitoring channel you used.* Good advice, sized to that piece's problem. It was only after six prior articles were live — what to test, how to anchor intensity without a treadmill, how much to dose, which track a session belongs to, when to advance, what device is allowed to adjudicate — that a less comfortable question showed up. Each SOP had told a clinician what to write down. None of them had said whether the things they were each asking to be written down were allowed to sit on the same page at all.
 
@@ -41,7 +36,7 @@ This is **installment 7** of the [Foundation Stack](/index.html) — a PMID-back
 
 #### 1. Problem
 
-The six prior pieces in this series each fixed exactly one prescription variable: which test to anchor intensity to, which fallback anchor to use without a treadmill, how much weekly volume to target, which staging track a session belongs to, which rule advances the prescription, and which device is allowed to adjudicate a heart-rate band (protocol comparison; no-treadmill prescribing; weekly volume; school vs sport staging; progression after first Rx; wearable monitoring — see callout table above). Read individually, each closes its own gap. Read together, none states whether a given combination of choices is one a clinician can actually write down and trust.
+The six prior pieces in this series each fixed exactly one prescription variable (see callout table above). Read individually, each closes its own gap. Read together, none states whether a given combination of choices is one a clinician can actually write down and trust.
 
 This article does not propose a new field to fill in. It audits the **interactions already implied by the six prior pieces' own text** — where the series has explicitly declared two choices compatible, where it has explicitly forbidden a combination, and where it has simply never addressed the combination at all. That third category turned out to be the largest, and its size is itself part of the finding: **a flat, all-fields-fillable documentation form would silently imply compatibility the series has never actually claimed.**
 
@@ -78,7 +73,7 @@ Every cell in the matrix below is one of four things, and the distinction is loa
 
 ##### What the audit found
 
-The full working matrix — six dimensions, two priority interaction triangles, a resolved set of provisional hypotheses, and a complete citation trail — was maintained as an internal audit record during drafting (not published as a separate page). Two findings from that audit carry the piece:
+Two findings carry the piece:
 
 **Finding 1 — the RTL/RTP gate is the sharpest stated-incompatible rule in the series**, confirmed independently against both Amsterdam and Berlin primary text: RTP steps 4–6 cannot proceed while RTL is below step 4, **regardless of whether advancement follows Logic A (weekly BCTT), Logic B (CISG symptom steps), or Logic C (session-count ramp).** [Figure 3](#fig-3-gate) shows the timing asymmetry: sport steps carry a published 24-hour minimum floor; school steps do not — but both tracks share one hard documentation veto at RTP 4–6.
 
@@ -125,15 +120,13 @@ The full working matrix — six dimensions, two priority interaction triangles, 
   <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#c62828"/></marker></defs>
   <text x="12" y="332" font-size="10" fill="#444">Weekly BCTT retest, CISG steps, and session ramps cannot override this veto. Gate is documentation eligibility, not a ban on all same-day activity.</text>
 </svg>
-<figcaption><strong>Figure 3 — Dual-track gate (RTL × RTP).</strong> Schematic dual-track ladder (not a recovery timeline). <strong>Left:</strong> return-to-learn (RTL) steps — symptom-limited attendance through full school day without concussion accommodations. <strong>Right:</strong> return-to-sport (RTP) steps — consensus tables label sport steps RTS; this series uses RTP in clinical prose. Orange <strong>≥24 h</strong> marks the published minimum between <em>sport</em> steps only (Amsterdam + Berlin). RTL steps have no equivalent published floor. <strong>Red RTP boxes 4–6</strong> = stated-incompatible while RTL is still below step 4 (team drills / contact / unrestricted play before full school day). ● = dual-source primary receipt (37316210, 28446457).</figcaption>
+<figcaption><strong>Figure 3 — Dual-track gate (RTL × RTP).</strong> Schematic dual-track ladder (not a recovery timeline). <strong>Left:</strong> return-to-learn (RTL) steps — symptom-limited attendance through full school day without concussion accommodations. <strong>Right:</strong> return-to-sport (RTP) steps — consensus tables label sport steps RTS; this series uses RTP in clinical prose. Orange <strong>≥24 h</strong> marks the published minimum between <em>sport</em> steps only (Amsterdam + Berlin). RTL steps have no equivalent published floor. <strong>Red RTP boxes 4–6</strong> = stated-incompatible while RTL is still below step 4 (team drills / contact / unrestricted play before full school day). ● = gate quote located in both consensus documents (37316210, 28446457).</figcaption>
 </figure>
 ```
 
 **Reading Figure 3.** Tracks may run in parallel at lower steps (Amsterdam: RTL and RTS strategies can occur in parallel). The incompatibility is specific: **high-contact / unrestricted sport steps** (RTP 4–6) while **RTL is still below step 4** — not a ban on all simultaneous activity.
 
 **Finding 2 — most cross-installment combinations are silent, not incompatible.** Of **24 audited cells** in the two priority triangles (19 in Figure 1a + 5 in the dual-track grid), **14 are silent (58%)**, **6 stated-incompatible (25%)**, and **4 stated-compatible (17%)** — see [Figure 1c](#fig-1c). No prior piece states whether, for example, a session-ramp progression (Logic C) is an appropriate way to advance a symptom-cap-primary prescription (Path 4 — stop on symptom rise, no HR device). Silence is not permission. A flat form that lets a clinician fill every box would imply validated compatibility the literature does not support — the same failure mode as treating a wrist watch as if it were a chest strap, but one layer up in the paperwork.
-
-Two combinations this audit expected to find *stated* turned out to require the opposite correction — worth naming plainly rather than quietly fixing: an early hypothesis assumed Logic A requires BCTT access by definition, when the progression piece already describes a published non-BCTT fallback (adjust target HR every 1–2 weeks without weekly treadmill); and an early hypothesis filed the RTL/RTP gate as *compatible* before re-reading confirmed it is the clearest *incompatibility* rule. **A colored cell is a documented claim only when it carries a verification badge in Figure 1a (see legend).**
 
 **Paths (intensity + monitoring, read before Figure 1a).** **Path 1** = clinic BCTT sets the HR ceiling; **Path 2** = home %HR band adjudicated by chest strap; **Path 3** = wrist optical (ancillary only — cannot trust narrow HR bands); **Path 4** = symptom cap; **Path 5** = RPE band. **Logic A** = advance after weekly BCTT (or session-tolerant stage ladder variants); **Logic B** = advance CISG RTL/RTP steps when symptoms stay below the gate; **Logic C** = advance because the next session in a fixed ramp was completed (Micay +5%/session or Kurowski duration titration). [Figure 2](#fig-2-topology) shows how paths bundle with logics.
 
@@ -185,10 +178,10 @@ Two combinations this audit expected to find *stated* turned out to require the 
   <rect x="280" y="140" width="16" height="16" fill="#c62828"/><text x="302" y="152" font-size="11">stated-incompatible</text>
   <rect x="470" y="140" width="16" height="16" fill="#e0e0e0"/><text x="492" y="152" font-size="11">silent</text>
   <rect x="560" y="140" width="16" height="16" fill="white" stroke="#bbb" stroke-dasharray="3 2"/><text x="582" y="152" font-size="11">pruned (n/a)</text>
-  <circle cx="108" cy="178" r="5" fill="white" stroke="#333" stroke-width="1.5"/><text x="122" y="182" font-size="11">● primary receipt</text>
-  <circle cx="248" cy="178" r="5" fill="none" stroke="#333" stroke-width="1.5"/><text x="254" y="181" font-size="9">S</text><text x="268" y="182" font-size="11">◎ synthesis receipt</text>
+  <circle cx="108" cy="178" r="5" fill="white" stroke="#333" stroke-width="1.5"/><text x="122" y="182" font-size="11">● primary source</text>
+  <circle cx="248" cy="178" r="5" fill="none" stroke="#333" stroke-width="1.5"/><text x="254" y="181" font-size="9">S</text><text x="268" y="182" font-size="11">◎ synthesis</text>
 </svg>
-<figcaption><strong>Figure 1a — Triangle 1 grid (D1 × Path 1–5 × Logic).</strong> Stated-compatible / stated-incompatible / silent only — no inferred-tension cells share this color language (see Figure 1b). "Pruned" cells are category mismatches (Path 1 presupposes BCTT), not stated incompatibilities. <strong>Verification badges:</strong> ● = primary-source receipt (PDF/PMC); ◎ = synthesis from two verified wearable-piece claims — wrist optical error band wider than prescription band blocks in-band adjudication under any logic that depends on home HR-zone completion.</figcaption>
+<figcaption><strong>Figure 1a — Triangle 1 grid (D1 × Path 1–5 × Logic).</strong> Stated-compatible / stated-incompatible / silent only — no inferred-tension cells share this color language (see Figure 1b). "Pruned" cells are category mismatches (Path 1 presupposes BCTT), not stated incompatibilities. <strong>Badges:</strong> ● = located in primary text; ◎ = synthesis from two verified wearable-piece claims — wrist optical error band wider than prescription band blocks in-band adjudication under any logic that depends on home HR-zone completion.</figcaption>
 </figure>
 ```
 
@@ -237,15 +230,11 @@ flowchart TD
   class P3,DEAD dead;
 ```
 
-**Reading Figure 2.** Solid arrows are stated-compatible bundles from Table A; the dashed arrow into Path 3 marks wrist optical as stated-incompatible for in-band HR adjudication under Logic A or C. The P1→P2 arrow traces the Leddy-trial sequence (clinic BCTT, then home Polar strap) — **not** an exclusive dependency: when no treadmill exists, **non-BCTT anchors** (age-predicted %HRmax, symptom cap, or RPE from the no-treadmill prescribing piece) can still pair with a home chest strap without ever passing through Path 1. **Not shown as a tree branch:** the RTL/RTP cross-track gate ([Figure 3](#fig-3-gate)) — RTP steps 4–6 cannot be documented while RTL is below step 4, regardless of which bundle above was chosen. That gate applies *after* a bundle is running, not at initial path selection.
-
-::: {.callout-caution}
-**Not medical advice. Educational use only. Data from published literature.**
-:::
+**Reading Figure 2.** Solid arrows are stated-compatible bundles from Table A; the dashed arrow into Path 3 marks wrist optical as stated-incompatible for in-band HR adjudication under Logic A or C. The P1→P2 arrow traces the Leddy-trial sequence (clinic BCTT, then home Polar strap) — **not** an exclusive dependency: when no treadmill exists, **non-BCTT anchors** (age-predicted %HRmax, symptom cap, or RPE from the no-treadmill prescribing piece) can still pair with a home chest strap without ever passing through Path 1. Kurowski's Pittsburgh program titrates bike-session **duration** at clinic visits (Logic C), not BCTT retest — so Path 1 × Logic C stays silent by design. **Not shown as a tree branch:** the RTL/RTP cross-track gate ([Figure 3](#fig-3-gate)) — RTP steps 4–6 cannot be documented while RTL is below step 4, regardless of which bundle above was chosen. That gate applies *after* a bundle is running, not at initial path selection.
 
 #### 3. Comparison: what the primary text specifies {#comparison-table-a}
 
-*Table A only — claims this audit independently located in primary text (PMC full text or local PDF), not claims inferred or reconstructed from a prior series piece's paraphrase alone. Per the documentation-epistemology rule established in the interaction matrix, nothing "not located" or inferential appears in this table — see [Disagreements](#disagreements) for that material, presented separately and in prose.*
+*Table A — claims independently located in primary text (PMC full text or local PDF). Inferential material appears in [Disagreements](#disagreements), not here.*
 
 **Design key:** **RCT** = randomized trial methods text; **Feasibility RCT** = Micay adolescent SRC feasibility study; **RCT (pilot)** = Kurowski Pittsburgh SE pilot; **Consensus** = CISG consensus document tables (not trial outcomes); **Management protocol** = published clinical management paper (session-tolerant Logic A variant); **Clinical review** = narrative review with explicit prescription algorithm (not trial methods).
 
@@ -307,13 +296,9 @@ flowchart TD
 </figure>
 ```
 
-**Reading Figure 4.** The three curves answer different questions: Micay prescribes a **pre-written HR% ladder**; Leddy 2021 prescribes **HR% stages gated by symptom response**; Kurowski prescribes **duration** relative to a bike-test symptom threshold. Writing them on one documentation line without naming which model is active is how silent cells become false compatibility.
-
-**Cadence note (Logic A fallback).** The progression piece paraphrases Leddy 2013 as "every 1–2 weeks"; the located primary text in Table A specifies **every 2 wk** (athletes up to 10 bpm; nonathletes 5 bpm every **2–3 wk**). Documentation should quote the located wording, not the paraphrase.
-
 #### 4. Disagreements {#disagreements}
 
-The disagreements below are not a head-to-head debate between named camps — the six prior pieces mostly do not talk to each other on these specific questions. They are the audit's silent and inferred-tension cells, presented as prose rather than as table rows, per the same epistemology rule that kept Table A located-only.
+The disagreements below are not a head-to-head debate between named camps — the six prior pieces mostly do not talk to each other on these specific questions. They are the audit's silent and inferred-tension cells, presented as prose rather than as table rows.
 
 **Disagreement 1 — does progression logic interact with monitoring channel at all?** The progression piece defines three advancement rules without saying which device reads the heart-rate band; the wearable piece argues a wrist-optical channel cannot adjudicate a narrow band regardless of intensity anchor. No prior piece states whether Logic C's mechanism — advance because "the next session was completed" — depends on the session actually having been confirmed in-band. If that confirmation came from a wrist reading with reported disagreement wider than the prescribed band, "completed in zone" is a soft claim, not a documented one. This is this audit's own inference (Tension register T-001), not a finding either source states, and it is not presented with the same weight as the two gate quotes in Table A.
 
@@ -369,19 +354,6 @@ When published, the path-locked one-page prescription note and the `prescription
 
 3. **Triangle 2 scoped to dual-track.** The school-vs-sport staging piece defines two parallel step ladders — **return-to-learn (RTL)**: symptom-limited attendance through full school day without concussion accommodations; **return-to-sport (RTP)**: light aerobic work through unrestricted play. The progression piece applies advancement rules across both ladders at once, including the cross-track gate that blocks sport steps 4–6 until RTL reaches step 4. This matrix audits RTL × RTP × Logic combinations only when **both tracks are active**. Athletes recovering on a single track (e.g., a non-athlete with no sport ladder) are not given separate matrix rows here — an editorial prune to keep the grid finite, not a claim that single-track care does not exist.
 
-4. **Judgment calls resolved during drafting; one narrow citation receipt remains open.**
-   - **Path 1 vs Path 2:** **Path 1** is the one-time clinic event where BCTT sets the heart-rate ceiling; **Path 2** is the ongoing home channel where a chest strap reads %HR against that ceiling. Figure 2 shows the Leddy trial sequence (clinic test → home Polar strap) as one documented bundle, **not** a universal prerequisite — when no treadmill exists, the no-treadmill piece's fallback anchors (age-predicted %HRmax, symptom cap, RPE) can still pair with home chest-strap monitoring without ever passing through Path 1.
-   - **Kurowski vs Path 1:** Kurowski's Pittsburgh program advances by titrating bike-session **duration** at clinic visits, not by repeating BCTT — classified as **Logic C** (visit-completion ramp), not Path 1. The Path 1 × Logic C matrix cell stays silent by design, not by oversight.
-   - **Leddy 2013 BCTT review (PMID 24225521):** **Closed 2026-07-10.** Canonical PDF `leddy2013_bctt.pdf` (GLP `papers/_pdf_hunt_410/`). Primary text supports a non-weekly-BCTT Logic A fallback: raise target HR **5–10 bpm every 2 wk** by phone/email (athletes 10 bpm/2 wk; nonathletes 5 bpm/2–3 wk) — now in Table A. The progression piece's "every 1–2 weeks" is a paraphrase; document the located cadence.
+4. **Inferred tensions are not evidence.** T-001 and T-002 (Disagreements 1–2) are audit inferences or the progression piece's explicitly unpublished defaults. They belong in documentation design discourse, not in Table A.
 
-5. **Inferred tensions are not evidence.** T-001 and T-002 (Disagreements 1–2) are audit inferences or the progression piece's explicitly unpublished defaults. They belong in documentation design discourse, not in Table A.
-
-6. **No new trial comparisons.** This article does not claim one Path × Logic bundle produces better outcomes — only whether the series' own text permits writing the combination down without contradiction.
-
-7. **Paired pillar4 not required for this piece.** This methods article published when the matrix and epistemology sections were author-confirmed; the printable one-page note and path-picker tool may follow in a separate pillar4 deploy.
-
-::: {.callout-caution}
-**Not medical advice. Educational use only. Data from published literature.**
-:::
-
-<!-- Closing / RSS: generic series line only until pillar4 live. -->
+5. **No new trial comparisons.** This article does not claim one Path × Logic bundle produces better outcomes — only whether the series' own text permits writing the combination down without contradiction.

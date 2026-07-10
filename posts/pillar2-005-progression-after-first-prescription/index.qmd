@@ -56,7 +56,7 @@ One scope note before the map: Logic A and Logic C describe **when to change an 
 
 | Logic | Object | Advance when | Typical setting | Key source |
 |-------|--------|--------------|-----------------|------------|
-| **A** | HR ceiling | Weekly BCTT (or 1–2 wk clinic visit) | Treadmill clinic | [PMID: 30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/) |
+| **A** | HR ceiling | Weekly BCTT; outpatient fallback every 2 wk [24225521](https://pubmed.ncbi.nlm.nih.gov/24225521/) | Treadmill clinic | [PMID: 30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/) |
 | **B** | CISG return **step** | ≤2/10, &lt;1 h; RTS also ≥24 h/step | School / community | [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) |
 | **C** | Session dose | Next session completed (+ symptom log) | Structured PT / home ramp | [PMID: 30018795](https://pubmed.ncbi.nlm.nih.gov/30018795/) [PMID: 27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/) |
 
@@ -74,13 +74,17 @@ The Buffalo Concussion Treadmill Test (BCTT) was developed as both a diagnostic 
 
 The logic is **test-gated**: the ceiling does not move until physiologic evidence of readiness is measured. In that trial's context—weekly visits, treadmill access, research protocol—this is operationally clean. The prescription stays fixed for seven days, the test reruns, and the ceiling adjusts based on where the threshold now sits.
 
-The 2013 clinical guide from the same group [PMID: 24225521](https://pubmed.ncbi.nlm.nih.gov/24225521/) softened the frequency requirement for outpatient settings: "The target HR is increased by 5 to 10 beats/min every 1 to 2 weeks, depending on how fast the patient is responding." That is still a **test-gated** or **time-gated** rule—no session-by-session titration—but at a practical cadence for clinics without weekly treadmill time.
+The 2013 BCTT review from the same group [PMID: 24225521](https://pubmed.ncbi.nlm.nih.gov/24225521/) softened the retest frequency for outpatient settings:
+
+> "increase the exercise HR target by 5 to 10 bpm every 2 wk (via phone call or email)"
+
+The same article specifies **10 bpm every 2 wk** for athletes and **5 bpm every 2–3 wk** for nonathletes, with optional BCTT repeat every 2 wk for a more precise target. That remains a **time-gated** rule—no session-by-session titration—but at a cadence clinics without weekly treadmill time can follow.
 
 Leddy 2021 [PMID: 34817719](https://pubmed.ncbi.nlm.nih.gov/34817719/) described a stage-ladder fallback for settings between full BCTT access and no structure:
 
 > "Patients who exercise for at least 20 min at 50% of HRmax without symptom exacerbation may advance to the next stage (55% of HRmax). If patients experience some worsening of symptoms during exercise at any stage (defined as a 1- or 2-point increase on a 0–10 pain scale compared with their pre-exercise value), they remain at the current stage until they can exercise without symptoms worsening. If patients experience significant worsening (3-point or more increase), the exercise intensity is reduced. Patients are encouraged to keep a diary to monitor their recovery and to be re-evaluated every 1–2 weeks. The goal is to exercise at 80% or more of HRmax without symptom exacerbation."
 
-This is a **session-observed, test-lite** variant: it preserves the threshold logic but allows the previous session's tolerance to stand in for a formal BCTT. The re-evaluation cadence (every 1–2 weeks) aligns with the clinical guide interval rather than the weekly RCT visit schedule.
+This is a **session-observed, test-lite** variant: it preserves the threshold logic but allows the previous session's tolerance to stand in for a formal BCTT. Re-evaluation every 1–2 weeks is stated in Leddy 2021 itself—a slightly different cadence from the 2013 review's every-2-wk HR-target bump—and both are slower than the weekly RCT visit schedule.
 
 **Where this logic fits:** clinic-based PPCS programs with scheduled weekly or biweekly visits; post-acute concussion with treadmill access; any setting where the clinician will see the patient again before the prescription changes.
 
@@ -246,12 +250,12 @@ No published trial has randomized progression logic type in adolescent PPCS. The
 | Constraint | Logic that fits | Why |
 |-----------|----------------|-----|
 | Weekly treadmill access | A (BCTT retest) | Designed for this workflow; prescription change requires test |
-| No treadmill; clinic seen biweekly | A fallback (5–10 bpm / 1–2 wk) or B | BCTT not available; symptom stability is observable without equipment |
+| No treadmill; clinic seen biweekly | A fallback (5–10 bpm / 2 wk; nonathletes 5 bpm/2–3 wk) [24225521](https://pubmed.ncbi.nlm.nih.gov/24225521/) or B | BCTT not available; symptom stability is observable without equipment |
 | Structured PT, defined session count | C (Micay or Kurowski duration titration) | Ramp is pre-written; fewer clinical judgment calls mid-program |
 | Home / school program only | B (CISG step rules) | No treadmill; daily monitoring by parent or athlete; CISG / NICE NG232 |
 | PPCS (>28 d symptoms) | A or C (caution with B alone) | Symptom volatility makes step-by-step symptom gates harder to read day-to-day; structured reassessment preferable |
 
-The clinically dominant logic in North American published guidelines is **B (CISG step rules)** because the Berlin and Amsterdam consensus documents [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) specify symptom-gated step advance and it requires no equipment. The Buffalo/Leddy group's original trial logic is **A** but the published clinical guide already softened it to a 1–2 week interval without mandatory BCTT. Micay's **C** is the only one with a fixed-ramp RCT design in adolescents, but the sample was 18 participants and the protocol was explicitly labeled a feasibility study.
+The clinically dominant logic in North American published guidelines is **B (CISG step rules)** because the Berlin and Amsterdam consensus documents [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) specify symptom-gated step advance and it requires no equipment. The Buffalo/Leddy group's original trial logic is **A** but the 2013 BCTT review [PMID: 24225521](https://pubmed.ncbi.nlm.nih.gov/24225521/) already softened it to a **2 wk** (nonathletes **2–3 wk**) HR-target interval without mandatory weekly BCTT. Micay's **C** is the only one with a fixed-ramp RCT design in adolescents, but the sample was 18 participants and the protocol was explicitly labeled a feasibility study.
 
 The takeaway is that the choice of progression logic is largely **determined by resource access and visit cadence**, not by evidence that one logic produces better outcomes. A practitioner who inherits a patient at 70% HRmax "because that's where the Micay ramp ended" and then holds that ceiling until a treadmill test is available is mixing Logic C for the ascent and Logic A for the hold—not an unreasonable clinical move, but one the literature has not studied as a hybrid.
 
