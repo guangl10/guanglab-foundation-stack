@@ -75,42 +75,47 @@ The full working matrix — six dimensions, two priority interaction triangles, 
 
 ::: {=html}
 <figure id="fig-3-gate">
-<figcaption><strong>Figure 3.</strong> Schematic dual-track ladder (not a recovery timeline). <strong>Left:</strong> return-to-learn (RTL) steps. <strong>Right:</strong> return-to-sport (RTP) steps — consensus tables label sport steps RTS; this series uses RTP in clinical prose ([004](/posts/pillar2-004-school-vs-sport-staging/)). Amber ticks = published ≥24 h minimum <em>between sport steps only</em> (Amsterdam + Berlin). Red RTP steps 4–6 = <strong>stated-incompatible</strong> with RTL &lt; 4 (team drills / contact / unrestricted play before full school day without accommodations). ● = dual-source primary receipt ([37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/), [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/)).</figcaption>
-<svg viewBox="0 0 620 300" width="100%" style="max-width:36rem;font-family:system-ui,sans-serif;background:#fafafa;border:1px solid #ddd;border-radius:4px">
-  <text x="20" y="18" font-size="10" fill="#e65100">RTP only: ≥24 h min between steps</text>
-  <text x="155" y="22" text-anchor="middle" font-size="13" font-weight="600">RTL (school)</text>
-  <text x="465" y="22" text-anchor="middle" font-size="13" font-weight="600">RTP (sport)</text>
-  <!-- step rows y: 40 + i*38, i=0..5 step 1 top -->
-  <!-- RTL steps 1-6 -->
-  <rect x="80" y="40" width="150" height="28" fill="#e8eaf6" stroke="#5c6bc0" rx="3"/><text x="155" y="58" text-anchor="middle" font-size="11">RTL 1 — symptom-limited</text>
-  <rect x="80" y="78" width="150" height="28" fill="#e8eaf6" stroke="#5c6bc0" rx="3"/><text x="155" y="96" text-anchor="middle" font-size="11">RTL 2 — partial day</text>
-  <rect x="80" y="116" width="150" height="28" fill="#e8eaf6" stroke="#5c6bc0" rx="3"/><text x="155" y="134" text-anchor="middle" font-size="11">RTL 3 — reduced load</text>
-  <rect x="80" y="154" width="150" height="28" fill="#c5cae9" stroke="#3949ab" stroke-width="2" rx="3"/><text x="155" y="172" text-anchor="middle" font-size="11" font-weight="600">RTL 4 — full day, no accom.</text>
-  <rect x="80" y="192" width="150" height="28" fill="#e8eaf6" stroke="#5c6bc0" rx="3"/><text x="155" y="210" text-anchor="middle" font-size="11">RTL 5–6 — full return</text>
-  <text x="155" y="238" text-anchor="middle" font-size="10" fill="#666">no published 24 h floor between RTL steps</text>
-  <!-- RTP steps 1-3 OK -->
-  <rect x="390" y="40" width="150" height="28" fill="#e8f5e9" stroke="#43a047" rx="3"/><text x="465" y="58" text-anchor="middle" font-size="11">RTP 1 — light aerobic</text>
-  <text x="360" y="66" font-size="9" fill="#e65100">≥24h</text>
-  <rect x="390" y="78" width="150" height="28" fill="#e8f5e9" stroke="#43a047" rx="3"/><text x="465" y="96" text-anchor="middle" font-size="11">RTP 2 — sport-specific</text>
-  <text x="360" y="104" font-size="9" fill="#e65100">≥24h</text>
-  <rect x="390" y="116" width="150" height="28" fill="#e8f5e9" stroke="#43a047" rx="3"/><text x="465" y="134" text-anchor="middle" font-size="11">RTP 3 — non-contact drills</text>
-  <text x="360" y="142" font-size="9" fill="#e65100">≥24h</text>
-  <!-- RTP 4-6 gated -->
-  <rect x="390" y="154" width="150" height="28" fill="#ffcdd2" stroke="#c62828" stroke-width="2" rx="3"/><text x="465" y="172" text-anchor="middle" font-size="11" font-weight="600">RTP 4 — team drills</text>
-  <rect x="390" y="192" width="150" height="28" fill="#ffcdd2" stroke="#c62828" stroke-width="2" rx="3"/><text x="465" y="210" text-anchor="middle" font-size="11" font-weight="600">RTP 5 — contact</text>
-  <rect x="390" y="230" width="150" height="28" fill="#ffcdd2" stroke="#c62828" stroke-width="2" rx="3"/><text x="465" y="248" text-anchor="middle" font-size="11" font-weight="600">RTP 6 — unrestricted play</text>
-  <!-- parallel OK bracket steps 1-3 -->
-  <path d="M 235 54 L 280 54 L 280 130 L 235 130" fill="none" stroke="#90a4ae" stroke-dasharray="4 3"/>
-  <text x="257" y="95" text-anchor="middle" font-size="10" fill="#546e7a">parallel</text>
-  <text x="257" y="108" text-anchor="middle" font-size="10" fill="#546e7a">OK</text>
-  <!-- gate line RTL 4 to RTP 4-6 -->
-  <line x1="230" y1="168" x2="385" y2="168" stroke="#c62828" stroke-width="2"/>
-  <line x1="230" y1="168" x2="230" y2="244" stroke="#c62828" stroke-width="2" stroke-dasharray="5 3"/>
-  <line x1="230" y1="244" x2="385" y2="244" stroke="#c62828" stroke-width="2"/>
-  <text x="307" y="162" text-anchor="middle" font-size="10" fill="#b71c1c" font-weight="600">SI — hard gate</text>
-  <text x="307" y="260" text-anchor="middle" font-size="10" fill="#b71c1c">while RTL &lt; 4</text>
-  <circle cx="248" cy="156" r="4" fill="white" stroke="#1b5e20" stroke-width="1.5"/>
-  <text x="20" y="290" font-size="10" fill="#444">Logic A/B/C cannot override this veto (005 §Step 3).</text>
+<figcaption><strong>Figure 3.</strong> Schematic dual-track ladder (not a recovery timeline). <strong>Left:</strong> return-to-learn (RTL) steps. <strong>Right:</strong> return-to-sport (RTP) steps — consensus tables label sport steps RTS; this series uses RTP in clinical prose (004). Orange <strong>≥24 h</strong> marks the published minimum between <em>sport</em> steps only (Amsterdam + Berlin). RTL steps have no equivalent published floor. <strong>Red RTP boxes 4–6</strong> = stated-incompatible while RTL is still below step 4 (team drills / contact / unrestricted play before full school day without accommodations). ● = dual-source primary receipt (37316210, 28446457).</figcaption>
+<svg viewBox="0 0 680 340" width="100%" style="max-width:38rem;font-family:system-ui,sans-serif;background:#fafafa;border:1px solid #ddd;border-radius:4px">
+  <text x="12" y="16" font-size="10" fill="#e65100" font-weight="600">Sport track only: ≥24 h minimum between steps (not on school track)</text>
+  <text x="170" y="36" text-anchor="middle" font-size="12" font-weight="600">RTL — school</text>
+  <text x="510" y="36" text-anchor="middle" font-size="12" font-weight="600">RTP — sport</text>
+  <!-- row baseline: y = 48 + row*44, rows 0-5 -->
+  <!-- RTL column x=40 w=200, RTP x=400 w=200 -->
+  <!-- Row 0 -->
+  <rect x="70" y="48" width="200" height="32" fill="#e8eaf6" stroke="#5c6bc0" rx="3"/><text x="170" y="68" text-anchor="middle" font-size="10">RTL 1 — symptom-limited</text>
+  <rect x="400" y="48" width="200" height="32" fill="#e8f5e9" stroke="#43a047" rx="3"/><text x="500" y="68" text-anchor="middle" font-size="10">RTP 1 — light aerobic</text>
+  <text x="378" y="68" font-size="9" fill="#e65100">≥24h</text>
+  <!-- Row 1 -->
+  <rect x="70" y="92" width="200" height="32" fill="#e8eaf6" stroke="#5c6bc0" rx="3"/><text x="170" y="112" text-anchor="middle" font-size="10">RTL 2 — partial day</text>
+  <rect x="400" y="92" width="200" height="32" fill="#e8f5e9" stroke="#43a047" rx="3"/><text x="500" y="112" text-anchor="middle" font-size="10">RTP 2 — sport-specific</text>
+  <text x="378" y="112" font-size="9" fill="#e65100">≥24h</text>
+  <!-- Row 2 -->
+  <rect x="70" y="136" width="200" height="32" fill="#e8eaf6" stroke="#5c6bc0" rx="3"/><text x="170" y="156" text-anchor="middle" font-size="10">RTL 3 — reduced load</text>
+  <rect x="400" y="136" width="200" height="32" fill="#e8f5e9" stroke="#43a047" rx="3"/><text x="500" y="156" text-anchor="middle" font-size="10">RTP 3 — non-contact drills</text>
+  <text x="378" y="156" font-size="9" fill="#e65100">≥24h</text>
+  <!-- parallel bracket rows 0-2 -->
+  <path d="M 285 56 L 310 56 L 310 168 L 285 168" fill="none" stroke="#78909c" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <path d="M 360 56 L 385 56 L 385 168 L 360 168" fill="none" stroke="#78909c" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <text x="335" y="118" text-anchor="middle" font-size="10" fill="#546e7a">may run</text>
+  <text x="335" y="132" text-anchor="middle" font-size="10" fill="#546e7a">in parallel</text>
+  <!-- Row 3 — RTL 4 threshold -->
+  <rect x="70" y="180" width="200" height="32" fill="#c5cae9" stroke="#3949ab" stroke-width="2.5" rx="3"/><text x="170" y="200" text-anchor="middle" font-size="10" font-weight="600">RTL 4 — full day, no accom. ●</text>
+  <rect x="400" y="180" width="200" height="32" fill="#ffcdd2" stroke="#c62828" stroke-width="2" rx="3"/><text x="500" y="200" text-anchor="middle" font-size="10" font-weight="600">RTP 4 — team drills</text>
+  <text x="378" y="200" font-size="9" fill="#e65100">≥24h</text>
+  <!-- Row 4 -->
+  <rect x="70" y="224" width="200" height="32" fill="#e8eaf6" stroke="#5c6bc0" rx="3"/><text x="170" y="244" text-anchor="middle" font-size="10">RTL 5 — progressing return</text>
+  <rect x="400" y="224" width="200" height="32" fill="#ffcdd2" stroke="#c62828" stroke-width="2" rx="3"/><text x="500" y="244" text-anchor="middle" font-size="10" font-weight="600">RTP 5 — contact</text>
+  <!-- Row 5 -->
+  <rect x="70" y="268" width="200" height="32" fill="#e8eaf6" stroke="#5c6bc0" rx="3"/><text x="170" y="288" text-anchor="middle" font-size="10">RTL 6 — full return</text>
+  <rect x="400" y="268" width="200" height="32" fill="#ffcdd2" stroke="#c62828" stroke-width="2" rx="3"/><text x="500" y="288" text-anchor="middle" font-size="10" font-weight="600">RTP 6 — unrestricted play</text>
+  <!-- Gate: red band on RTP 4-6 + condition arrow from RTL 4 -->
+  <rect x="392" y="176" width="216" height="132" fill="none" stroke="#c62828" stroke-width="2" stroke-dasharray="6 4" rx="6"/>
+  <text x="500" y="318" text-anchor="middle" font-size="11" fill="#b71c1c" font-weight="600">SI — hard gate: RTP 4–6 only if RTL ≥ 4</text>
+  <path d="M 272 196 L 392 196" fill="none" stroke="#c62828" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="332" y="188" text-anchor="middle" font-size="9" fill="#b71c1c">threshold</text>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#c62828"/></marker></defs>
+  <text x="12" y="332" font-size="10" fill="#444">Logic A / B / C cannot override (005 §Step 3). Gate is on documentation eligibility, not a ban on all same-day activity.</text>
 </svg>
 </figure>
 :::
