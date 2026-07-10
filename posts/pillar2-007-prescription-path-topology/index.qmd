@@ -31,12 +31,12 @@ This is **installment 7** of the [Foundation Stack](/index.html) — a PMID-back
 
 | Topic | Plain-language scope |
 |-------|----------------------|
-| Protocol comparison | How hard and how long six published adolescent trials prescribed aerobic exercise |
-| No-treadmill prescribing | Fallback intensity anchors when BCTT is unavailable — age-predicted %HRmax, symptom cap, RPE band |
-| Weekly volume | Whether “20 minutes” means per session, per week, or cumulative dose |
-| School vs sport staging | Separate stepwise checklists for return-to-learn (classes) and return-to-sport (play) |
-| Progression after first Rx | Three advancement rules — weekly BCTT retest (Logic A), CISG symptom-gated steps (Logic B), session-count ramps (Logic C) |
-| Wearable monitoring | Five “paths” that couple an intensity anchor with a device class — clinic BCTT, home chest strap, wrist optical, symptom cap, or RPE |
+| [Protocol comparison](/posts/pillar2-001-six-protocols-comparison/) | How hard and how long six published adolescent trials prescribed aerobic exercise |
+| [No-treadmill prescribing](/posts/pillar2-002-no-bctt-prescription-paths/) | Fallback intensity anchors when BCTT is unavailable — age-predicted %HRmax, symptom cap, RPE band |
+| [Weekly volume](/posts/pillar2-003-twenty-minutes-from-where/) | Whether “20 minutes” means per session, per week, or cumulative dose |
+| [School vs sport staging](/posts/pillar2-004-school-vs-sport-staging/) | Separate stepwise checklists for return-to-learn (classes) and return-to-sport (play) |
+| [Progression after first Rx](/posts/pillar2-005-progression-after-first-prescription/) | Three advancement rules — weekly BCTT retest (Logic A), CISG symptom-gated steps (Logic B), session-count ramps (Logic C) |
+| [Wearable monitoring](/posts/pillar2-006-wearable-hr-error-margins/) | Five “paths” that couple an intensity anchor with a device class — clinic BCTT, home chest strap, wrist optical, symptom cap, or RPE |
 :::
 
 #### 1. Problem
