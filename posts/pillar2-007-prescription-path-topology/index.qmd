@@ -1,0 +1,258 @@
+---
+title: "When Installments Disagree: A Cross-Path Topology for PPCS Aerobic Documentation"
+description: "Six installments each fixed one prescription variable — testing, intensity anchor, weekly dose, staging track, progression logic, monitoring channel. None specifies which combinations of those choices are mutually compatible. This installment audits the interactions directly."
+date: "2026-07-09"
+series: "Foundation Stack"
+installment: pillar2-007
+pillar: methods
+slug: prescription-path-topology
+draft: false
+---
+
+<!-- Citations: research-notes/pillar2-007-interaction-matrix.md + GLP receipt (mini). -->
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+<!-- Opening hook: author-requested draft 2026-07-09 (post-006 gap angle; not a clinical vignette). -->
+
+
+Writing installment 006, I kept coming back to one line in its own SOP checklist: *document which monitoring channel you used.* Good advice, sized to that installment's problem. It was only after six installments were live — what to test, how to anchor intensity without a treadmill, how much to dose, which track a session belongs to, when to advance, what device is allowed to adjudicate — that a less comfortable question showed up. Each SOP had told a clinician what to write down. None of them had said whether the things they were each asking to be written down were allowed to sit on the same page at all.
+
+#### 1. Problem
+
+Installments [001](../pillar2-001-six-protocols-comparison/index.html) through [006](../pillar2-006-wearable-hr-error-margins/index.html) each fixed exactly one prescription variable: which test to anchor intensity to, which fallback anchor to use without a treadmill, how much weekly volume to target, which staging track a session belongs to, which rule advances the prescription, and which device is allowed to adjudicate a heart-rate band. Read individually, each installment closes its own gap. Read together, none of them says whether a given combination of choices is one a clinician can actually write down and trust.
+
+This installment does not propose a new field to fill in. It audits the **interactions already implied by 001–006's own text** — where the series has explicitly declared two choices compatible, where it has explicitly forbidden a combination, and where it has simply never addressed the combination at all. That third category turned out to be the largest, and its size is itself part of the finding: **a flat, all-fields-fillable documentation form would silently imply compatibility the series has never actually claimed.**
+
+The single clearest exception — the one incompatibility this audit found stated outright, twice, in primary text — anchors the rest of the piece:
+
+> "While the RTL and RTS strategies can occur in parallel, student-athletes should complete full RTL before unrestricted RTS." — Amsterdam 2022 [PMID: 37316210]
+
+> "Children and adolescents should not return to sport until they have successfully returned to school." — Berlin 2017 [PMID: 28446457]
+
+[installment 005](../pillar2-005-progression-after-first-prescription/index.html) already names this as a hard gate that **neither** BCTT-retest progression (Logic A) **nor** session-count progression (Logic C) can override. This installment adds: it is not just a gate on progression *logic* — it is a gate on **which path/logic combinations are eligible to appear on the same documentation bundle at all** once RTP steps 4–6 are in play.
+
+**What this installment is not:** it does not run a new trial, and it does not invent a validated documentation standard. It maps literature already established across 001–006 into an explicit compatibility record, and separates what the series has *stated* from what this audit *infers* — a distinction Section [Methods](#methods-the-interaction-matrix) keeps visually and structurally separate throughout, not just in a footnote.
+
+#### 2. Methods: the interaction matrix {#methods-the-interaction-matrix}
+
+Six decision dimensions recur across 001–006:
+
+| ID | Dimension | Anchor installment(s) |
+|----|-----------|------------------------|
+| D1 | BCTT/treadmill threshold available at prescription? | 001, 002 |
+| D2+D3 | Intensity anchor + monitoring channel (coupled — see note below) | 002, 006 |
+| D4 | RTL / RTP staging, dual-track or single | 004 |
+| D5 | Progression logic (A: weekly BCTT · B: CISG step rules · C: session ramp) | 005 |
+| D6 | Weekly volume framing | 003 |
+
+D2 and D3 are treated as one coupled axis, not two: 006's five documented paths (BCTT-anchored monitor · %HR chest strap · %HR wrist · symptom cap · RPE) already bundle an intensity anchor with a monitoring channel, and installment 002's symptom-cap and RPE anchors do not raise a separate monitoring-channel question the way HR-band anchors do. Auditing D2 and D3 as independent columns would have manufactured combinations 006 never described.
+
+Every cell in the matrix below is one of four things, and the distinction is load-bearing, not decorative:
+
+- **Stated-compatible** — 001–006 explicitly describe this combination working together.
+- **Stated-incompatible** — 001–006 explicitly forbid or bandwidth-argue against this combination.
+- **Silent** — no installment addresses this combination, in either direction.
+- **Inferred tension** — this audit's own inference from combining two separately-stated rules; not a claim any installment makes, and never presented with the same visual weight as the first two categories.
+
+##### What the audit found
+
+The full working matrix — six dimensions, two priority interaction triangles, a resolved set of provisional hypotheses, and a complete citation trail — lives in `research-notes/pillar2-007-interaction-matrix.md`, with a formal verification receipt at `exports/fs-handoff/pillar2-007-interaction-matrix.json`. Two findings from that audit carry the piece:
+
+**Finding 1 — the RTL/RTP gate is the sharpest stated-incompatible rule in the series**, confirmed independently against both Amsterdam and Berlin primary text (not just re-read from installment 005's prose): RTP steps 4–6 cannot proceed while RTL is below step 4, **regardless of which progression logic (A, B, or C) governs the rest of the prescription.** Any documentation format this series produces has to make that combination impossible to check off, not just discouraged in prose.
+
+**Finding 2 — most cross-installment combinations are silent, not incompatible.** Of the cells audited in the two priority triangles (D1×D2+D3×D5 and D4×D5×D6), the majority resolved to "silent": no installment states whether, for example, a session-ramp progression (Logic C) is an appropriate way to advance a symptom-cap-primary prescription (006 Path 4). Silence is not permission. A documentation format that lets a clinician fill in any combination without flagging the silent ones would manufacture an appearance of validated compatibility the literature does not support — the same failure mode installment 006 described for wrist-optical heart rate, one layer up, in the paperwork rather than the sensor.
+
+Two combinations this audit expected to find *stated* turned out to require the opposite correction — worth naming plainly rather than quietly fixing: an early hypothesis assumed BCTT-anchored weekly retesting (Logic A) requires BCTT access by definition, when installment 005's own text describes a published non-BCTT fallback variant of Logic A; and an early hypothesis filed the RTL/RTP gate as *compatible* documentation practice before re-reading confirmed it is, precisely, the series' clearest *incompatibility* rule. Getting the axis right and the direction wrong is its own lesson for how this audit should be read: **a provisional cell in this matrix is a question, not an answer, until it carries an `author-confirmed` or `glp-receipt` tag.**
+
+##### Figure 1a — Triangle 1 grid: D1 × (006 Path 1–5) × Logic {#fig-1a}
+
+::: {=html}
+<figure id="fig-1a">
+<figcaption><strong>Figure 1a.</strong> Stated-compatible / stated-incompatible / silent only — no inferred-tension cells share this color language (see Figure 1b). "Pruned" cells are category mismatches (Path 1 presupposes BCTT), not stated incompatibilities.</figcaption>
+<svg viewBox="0 0 770 190" width="100%" style="max-width:44rem;font-family:system-ui,sans-serif;background:#fafafa;border:1px solid #ddd;border-radius:4px">
+  <!-- grid: col_x = 100 + i*60, i=0..10; row0 y=35 h=42; row1 y=77 h=42 -->
+  <!-- column headers -->
+  <text x="130" y="25" text-anchor="middle" font-size="11" font-weight="600">P1×A</text>
+  <text x="190" y="25" text-anchor="middle" font-size="11" font-weight="600">P1×B</text>
+  <text x="250" y="25" text-anchor="middle" font-size="11" font-weight="600">P1×C</text>
+  <text x="310" y="25" text-anchor="middle" font-size="11" font-weight="600">P2×A</text>
+  <text x="370" y="25" text-anchor="middle" font-size="11" font-weight="600">P2×B</text>
+  <text x="430" y="25" text-anchor="middle" font-size="11" font-weight="600">P2×C</text>
+  <text x="490" y="25" text-anchor="middle" font-size="11" font-weight="600">P3×A</text>
+  <text x="550" y="25" text-anchor="middle" font-size="11" font-weight="600">P3×C</text>
+  <text x="610" y="25" text-anchor="middle" font-size="11" font-weight="600">P4×B</text>
+  <text x="670" y="25" text-anchor="middle" font-size="11" font-weight="600">P4×C</text>
+  <text x="730" y="25" text-anchor="middle" font-size="11" font-weight="600">P5×C</text>
+  <!-- row labels -->
+  <text x="50" y="60" text-anchor="middle" font-size="11">BCTT yes</text>
+  <text x="50" y="102" text-anchor="middle" font-size="11">BCTT no</text>
+  <!-- row0: BCTT yes -->
+  <rect x="100" y="35" width="60" height="42" fill="#2e7d32"/><text x="130" y="60" text-anchor="middle" font-size="12" fill="white" font-weight="600">SC</text>
+  <rect x="160" y="35" width="60" height="42" fill="#e0e0e0"/><text x="190" y="60" text-anchor="middle" font-size="12" fill="#333">SL</text>
+  <rect x="220" y="35" width="60" height="42" fill="#e0e0e0"/><text x="250" y="60" text-anchor="middle" font-size="12" fill="#333">SL</text>
+  <rect x="280" y="35" width="60" height="42" fill="#e0e0e0"/><text x="310" y="60" text-anchor="middle" font-size="12" fill="#333">SL</text>
+  <rect x="340" y="35" width="60" height="42" fill="#e0e0e0"/><text x="370" y="60" text-anchor="middle" font-size="12" fill="#333">SL</text>
+  <rect x="400" y="35" width="60" height="42" fill="#e0e0e0"/><text x="430" y="60" text-anchor="middle" font-size="12" fill="#333">SL</text>
+  <rect x="460" y="35" width="60" height="42" fill="#c62828"/><text x="490" y="60" text-anchor="middle" font-size="12" fill="white" font-weight="600">SI</text>
+  <rect x="520" y="35" width="60" height="42" fill="#c62828"/><text x="550" y="60" text-anchor="middle" font-size="12" fill="white" font-weight="600">SI</text>
+  <rect x="580" y="35" width="60" height="42" fill="#e0e0e0"/><text x="610" y="60" text-anchor="middle" font-size="12" fill="#333">SL</text>
+  <rect x="640" y="35" width="60" height="42" fill="#e0e0e0"/><text x="670" y="60" text-anchor="middle" font-size="12" fill="#333">SL</text>
+  <rect x="700" y="35" width="60" height="42" fill="#e0e0e0"/><text x="730" y="60" text-anchor="middle" font-size="12" fill="#333">SL</text>
+  <!-- row1: BCTT no -->
+  <rect x="100" y="77" width="60" height="42" fill="white" stroke="#bbb" stroke-dasharray="3 2"/><text x="130" y="102" text-anchor="middle" font-size="12" fill="#999">—</text>
+  <rect x="160" y="77" width="60" height="42" fill="white" stroke="#bbb" stroke-dasharray="3 2"/><text x="190" y="102" text-anchor="middle" font-size="12" fill="#999">—</text>
+  <rect x="220" y="77" width="60" height="42" fill="white" stroke="#bbb" stroke-dasharray="3 2"/><text x="250" y="102" text-anchor="middle" font-size="12" fill="#999">—</text>
+  <rect x="280" y="77" width="60" height="42" fill="#e0e0e0"/><text x="310" y="102" text-anchor="middle" font-size="12" fill="#333">SL</text>
+  <rect x="340" y="77" width="60" height="42" fill="#e0e0e0"/><text x="370" y="102" text-anchor="middle" font-size="12" fill="#333">SL</text>
+  <rect x="400" y="77" width="60" height="42" fill="#e0e0e0"/><text x="430" y="102" text-anchor="middle" font-size="12" fill="#333">SL</text>
+  <rect x="460" y="77" width="60" height="42" fill="#c62828"/><text x="490" y="102" text-anchor="middle" font-size="12" fill="white" font-weight="600">SI</text>
+  <rect x="520" y="77" width="60" height="42" fill="#c62828"/><text x="550" y="102" text-anchor="middle" font-size="12" fill="white" font-weight="600">SI</text>
+  <rect x="580" y="77" width="60" height="42" fill="#2e7d32"/><text x="610" y="102" text-anchor="middle" font-size="12" fill="white" font-weight="600">SC</text>
+  <rect x="640" y="77" width="60" height="42" fill="#2e7d32"/><text x="670" y="102" text-anchor="middle" font-size="12" fill="white" font-weight="600">SC</text>
+  <rect x="700" y="77" width="60" height="42" fill="#2e7d32"/><text x="730" y="102" text-anchor="middle" font-size="12" fill="white" font-weight="600">SC</text>
+  <!-- legend -->
+  <rect x="100" y="140" width="16" height="16" fill="#2e7d32"/><text x="122" y="152" font-size="11">stated-compatible</text>
+  <rect x="280" y="140" width="16" height="16" fill="#c62828"/><text x="302" y="152" font-size="11">stated-incompatible</text>
+  <rect x="470" y="140" width="16" height="16" fill="#e0e0e0"/><text x="492" y="152" font-size="11">silent</text>
+  <rect x="560" y="140" width="16" height="16" fill="white" stroke="#bbb" stroke-dasharray="3 2"/><text x="582" y="152" font-size="11">pruned (n/a)</text>
+</svg>
+</figure>
+:::
+
+##### Figure 1b — Tension register (inferred, not stated) {#fig-1b}
+
+::: {=html}
+<figure id="fig-1b">
+<figcaption><strong>Figure 1b.</strong> Inferred-tension entries. Dashed border, no fill color — deliberately not styled like Figure 1a's stated cells, so neither looks like a citation of the other.</figcaption>
+<svg viewBox="0 0 770 150" width="100%" style="max-width:44rem;font-family:system-ui,sans-serif;background:#fafafa;border:1px solid #ddd;border-radius:4px">
+  <rect x="10" y="10" width="750" height="55" fill="#fff8ec" stroke="#c9971f" stroke-width="1.5" stroke-dasharray="6 3" rx="4"/>
+  <text x="22" y="28" font-size="12" font-weight="600" fill="#7a5b00">T-001 — Logic C × 006 Path 3 (wrist, ancillary-only)</text>
+  <text x="22" y="45" font-size="11" fill="#444">"Session completed" (005 Logic C trigger) is a soft claim if in-band status came from a wrist reading with R&gt;1 (006). No installment states this combination.</text>
+  <rect x="10" y="78" width="750" height="55" fill="#fff8ec" stroke="#c9971f" stroke-width="1.5" stroke-dasharray="6 3" rx="4"/>
+  <text x="22" y="96" font-size="12" font-weight="600" fill="#7a5b00">T-002 — Same-day RTL+RTP combined symptom load, any logic</text>
+  <text x="22" y="113" font-size="11" fill="#444">005 §3.1 proposes a hold-both-tracks default and states in the same sentence that "this rule has no published source." Adopted convention, not a finding.</text>
+</svg>
+</figure>
+:::
+
+##### Figure 2 — Decision topology, pruned {#fig-2-topology}
+
+*Three open judgment calls resolved 2026-07-09: Path 1 and Path 2 (006) are kept distinct — Path 1 is the clinic threshold-setting event, Path 2 the ongoing home monitoring channel, not the same object; Kurowski (005 §1.3) is classified as a Logic C variant, not merged into Path 1, since it is bike-based duration-titration rather than BCTT; the Leddy 2013 fallback citation (PMID 24225521) remains an open receipt blocker but is scoped narrowly — it does not block this topology or promotion, only the "Logic A × BCTT-unavailable" cell's upgrade to `glp-receipt`.*
+
+```{mermaid}
+flowchart TD
+  A{BCTT available at prescription?}
+  A -->|Yes| P1["006 Path 1<br/>BCTT sets threshold (clinic)"]
+  P1 --> P2["006 Path 2<br/>home chest-strap, %HR band"]
+  P2 --> LA["Logic A<br/>weekly BCTT retest"]
+  A -->|No| P45["006 Path 4/5<br/>symptom cap or RPE, no device"]
+  P45 --> LB["Logic B<br/>CISG step rules"]
+  P45 --> LC["Logic C<br/>session ramp / duration (Kurowski, Micay)"]
+  A -.->|either| P3["006 Path 3<br/>wrist, ancillary only"]
+  P3 -.-> DEAD["DEAD — R(wrist) > 1<br/>blocks in-band adjudication under Logic A or C"]
+
+  classDef dead fill:#fdecea,stroke:#c62828,stroke-dasharray: 4 3,color:#7a1f1f;
+  class P3,DEAD dead;
+```
+
+**Reading Figure 2.** Solid arrows are stated-compatible bundles from Table A; the dashed arrow into Path 3 marks the one branch this audit found stated-incompatible regardless of which logic governs it. The P1→P2 arrow traces the Leddy-trial-documented sequence specifically — it is not an exclusive dependency. Installment 002's non-BCTT anchors can also feed Path 2's chest-strap monitoring without ever passing through Path 1; no installment states that BCTT is a prerequisite for choosing a chest-strap channel. **Not shown as a tree branch, because it is not a bundle-selection rule:** the RTL/RTP cross-track gate (Table A, Amsterdam + Berlin) — RTP steps 4–6 cannot proceed while RTL is below step 4, regardless of which node above was chosen. That gate applies *after* a bundle is running, at the advancement decision, not at initial path selection — conflating the two would misrepresent what kind of rule it is.
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+#### 3. Comparison: what the primary text specifies {#comparison-table-a}
+
+*Table A only — claims this audit independently located in primary text (PMC full text or local PDF), not claims inferred or reconstructed from a prior installment's paraphrase alone. Per the documentation-epistemology rule established in the interaction matrix, nothing "not located" or inferential appears in this table — see [Disagreements](#disagreements) for that material, presented separately and in prose.*
+
+| Source | What the primary text specifies | Documentation element | PMID |
+|--------|----------------------------------|------------------------|------|
+| Leddy/Buffalo RCT | "a provided Polar H7 Bluetooth Heart Rate Sensor and Fitness Tracker to monitor HR" | Monitoring device class | [30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/) |
+| Leddy/Buffalo RCT | New target HR set by weekly clinic BCTT for as long as participant remained symptomatic | Progression logic (A) | [30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/) |
+| Leddy 2021 stage-ladder | Advance on session tolerance; re-evaluate every 1–2 weeks; goal 80%+ HRmax without exacerbation | Progression logic (A, session-observed variant) | [34817719](https://pubmed.ncbi.nlm.nih.gov/34817719/) |
+| Kurowski / Pittsburgh SE | Cycling program 5–6 days/week at 80% of the duration that exacerbated symptoms; dose reassessed at each of 6 clinic visits | Progression logic (C, duration-titrated variant) | [27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/) |
+| Micay fixed ramp | 8 fixed sessions; intensity +5% age-predicted HRmax per session until 70%, no clinician adjustment mid-ramp | Progression logic (C, fixed-ramp variant) | [30018795](https://pubmed.ncbi.nlm.nih.gov/30018795/) |
+| Amsterdam 2022 | RTS table: "each step typically takes a minimum of 24 hours"; RTL table carries no equivalent floor | Progression logic (B) — asymmetric time floor by track | [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) |
+| Berlin 2017 | RTS: "at least 24 hours (or longer) for each step... go back to the previous step" if symptoms worsen; no parallel sentence on the RTL table | Progression logic (B) — same asymmetry, prior consensus | [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) |
+| Amsterdam 2022 | "student-athletes should complete full RTL before unrestricted RTS" | Cross-track gate | [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) |
+| Berlin 2017 | "Children and adolescents should not return to sport until they have successfully returned to school" | Cross-track gate | [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) |
+
+**What Table A does not include, and why:** a fallback variant of Logic A described in a 2013 clinical guide (adjusting target HR by 5–10 bpm every 1–2 weeks without weekly BCTT) is cited in installment 005 but was not independently located in primary text this pass — it is not asserted here as located, and does not appear in Table A. It remains a named blocker in the interaction-matrix receipt, not a silently-dropped citation.
+
+#### 4. Disagreements {#disagreements}
+
+The disagreements below are not a head-to-head debate between named camps — 001–006 mostly do not talk to each other on these specific questions. They are the audit's silent and inferred-tension cells, presented as prose rather than as table rows, per the same epistemology rule that kept Table A located-only.
+
+**Disagreement 1 — does progression logic interact with monitoring channel at all?** Installment 005 defines three progression logics without reference to which device reads the heart-rate band; installment 006 argues a wrist-optical channel cannot adjudicate a narrow band regardless of intensity anchor. No installment states whether Logic C's mechanism — advance because "the next session was completed" — depends on the session actually having been confirmed in-band. If that confirmation came from a wrist reading with reported disagreement wider than the prescribed band, "completed in zone" is a soft claim, not a documented one. This is this audit's own inference (Tension register T-001), not a finding either installment states, and it is not presented with the same weight as the two gate quotes in Table A.
+
+**Disagreement 2 — is the same-day combined-load rule a finding or a convention?** Installment 005 proposes, in its own words, that a symptom escalation on either the school or sport track should hold advancement on both tracks the next day — and states in the same passage that "this rule has no published source." Any documentation format this series produces will need that rule somewhere. It should appear labeled exactly as 005 labeled it: an adopted clinical-judgment default, not a citation (Tension register T-002).
+
+**Disagreement 3 — is silence permission?** Most of the interaction matrix's audited cells — combinations of intensity anchor, staging track, progression logic, and weekly-volume framing — returned no cross-reference in 001–006 at all. That is the largest category in the audit, not a residual one. A documentation format that lets a clinician check any box in any combination treats that silence as if it had been resolved in the combination's favor. The literature has not resolved it either way. **What would settle this disagreement?** A published protocol that states, for a given progression logic and monitoring channel pairing, whether the combination was deliberately chosen or merely co-occurred in one trial's design — a distinction no installment's source material currently makes explicit.
+
+#### 5. SOP: before you write the note {#sop-documentation-grammar}
+
+*This is a **methods** SOP — documentation grammar, not a printable clinic form. The one-page prescription note and path-picker tool are reserved for the paired pillar4 installment; link there when live.*
+
+**Step 1 — Declare the bundle, not the fields.** Before any line is written, record two labels that 005 and 006 already use but rarely appear together on the same sheet:
+
+| Label | Allowed values | Source |
+|-------|----------------|--------|
+| **006 Path** | 1–5 (coupled intensity + monitoring) | [006](../pillar2-006-wearable-hr-error-margins/index.html) |
+| **Logic** | A · B · C | [005](../pillar2-005-progression-after-first-prescription/index.html) |
+
+If the pair is **stated-incompatible** in the interaction matrix (e.g., 006 Path 3 with HR-band adjudication), do not proceed — change Path or change the control variable, per [006](../pillar2-006-wearable-hr-error-margins/index.html).
+
+**Step 2 — Record shared context (same meaning on every path).**
+
+| Field | What to write |
+|-------|----------------|
+| RTL step / RTP step | Current step number on each track ([004](../pillar2-004-school-vs-sport-staging/index.html)) |
+| Logic label | A, B, or C — which advancement rule is active |
+| Reassessment | Date + responsible clinician/AT |
+
+**Step 3 — Apply the cross-track gate before RTP steps 4–6.** Table A rows for Amsterdam and Berlin are not background reading — they are a **hard documentation veto**: if RTL is below step 4, RTP steps 4–6 cannot be checked off, **regardless of Logic A, B, or C** ([005](../pillar2-005-progression-after-first-prescription/index.html) §Step 3). A form that allows both is worse than no form.
+
+**Step 4 — Fork path-specific items inside the module, not in a shared header.**
+
+| Topic | Why it forks |
+|-------|----------------|
+| Same-day combined-load hold | Operational definition differs when the session stop rule is HR-band vs symptom-cap ([005](../pillar2-005-progression-after-first-prescription/index.html) §3.1 — label as **adopted convention**, not Table A finding; see Disagreement 2) |
+| Device class / HR ceiling | Only for Paths 1–3; Paths 4–5 use symptom/RPE primacy |
+
+**Step 5 — Flag silent combinations.** If the chosen Path × Logic × staging × weekly-volume pairing has **no** SC/SI cell in the matrix, write **"combination not addressed in 001–006"** on the note — do not leave the boxes filled as if validated.
+
+**Wrist + HR-band adjudication (editorial scope, 2026-07-09):** For this installment's matrix, **006 Path 3 is stated-incompatible with using a wrist readout to adjudicate narrow HR-band membership under any Logic that depends on in-band completion** — not Logic C alone. Logic A's weekly BCTT retest does not remove the bandwidth problem for home sessions read from a wrist sensor.
+
+::: {.callout-tip}
+## Printable note (pillar4)
+
+When published, the path-locked one-page prescription note and [`prescription-record`](https://fs.guanglab.org/tools/prescription-record/) tool will implement Steps 1–5 in layout (mutually exclusive modules). Until then, use this section as the documentation grammar only.
+:::
+
+#### 6. Limitations
+
+1. **Hypothesized gap, not field-tested.** The problem statement — that six installments do not compose into one mutually compatible record — is an internal audit diagnosis. No clinic usability study or reader survey has validated that clinicians experience this as a barrier.
+
+2. **Matrix scope.** Two priority triangles (D1×006 Path×Logic; D4×Logic×D6) do not exhaust every pairwise interaction across six dimensions. Remaining pairs are backlog or genuinely silent.
+
+3. **Triangle 2 scoped to dual-track.** Installments [004](../pillar2-004-school-vs-sport-staging/index.html) and [005](../pillar2-005-progression-after-first-prescription/index.html) analyze RTL and RTP as a **pair**. RTP-only or RTL-only scenarios are not modeled as separate matrix rows in this installment — an editorial prune, not a claim that single-track care does not exist.
+
+4. **Judgment calls resolved 2026-07-09; one remains a narrow receipt blocker.**
+   - **Path 1 vs Path 2 (006):** Kept distinct — Path 1 is the clinic threshold-setting event, Path 2 the ongoing home monitoring channel. Figure 2 shows the Leddy-trial sequence between them as one documented path, not an exclusive dependency: installment 002's non-BCTT anchors can feed Path 2 without passing through Path 1.
+   - **Kurowski vs Path 1:** Resolved as a Logic C variant (duration-titrated), not merged into Path 1 — consistent with how installment 005 itself already classifies it. The matrix's P1×C cell remains silent by design, not by oversight.
+   - **Leddy 2013 fallback (PMID 24225521):** Still an open receipt blocker — cited in 005 for a non-weekly-BCTT Logic A variant, primary PDF not independently located this pass. Scope is narrow: it blocks only the "Logic A × BCTT unavailable" cell's upgrade to `glp-receipt`. It does not block Figure 2, Table A, or promotion of this installment.
+
+5. **Inferred tensions are not evidence.** T-001 and T-002 (Disagreements 1–2) are audit inferences or 005's explicitly unpublished defaults. They belong in documentation design discourse, not in Table A.
+
+6. **No new trial comparisons.** This installment does not claim one Path × Logic bundle produces better outcomes — only whether the series' own text permits writing the combination down without contradiction.
+
+7. **Paired pillar4 not required for 007.** This methods piece may publish when the matrix and epistemology sections are author-confirmed; the printable note and tool may follow in a separate deploy.
+
+::: {.callout-caution}
+**Not medical advice. Educational use only. Data from published literature.**
+:::
+
+<!-- Closing / RSS: generic series line only until pillar4 live. -->

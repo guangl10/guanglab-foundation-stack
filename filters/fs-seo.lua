@@ -61,8 +61,28 @@ local function article_description(meta)
   return desc
 end
 
+local function is_draft(meta)
+  local d = meta and meta.draft
+  if d == nil then
+    return false
+  end
+  if d == true then
+    return true
+  end
+  local s = meta_string(d):lower()
+  return s == "true" or s == "1"
+end
+
 function Pandoc(doc)
   if not is_fs_post() then
+    return doc
+  end
+
+  if is_draft(doc.meta) then
+    quarto.doc.add_html_dependency({
+      name = "fs-draft-noindex",
+      meta = { robots = "noindex, nofollow" },
+    })
     return doc
   end
 

@@ -31,7 +31,7 @@ format:
 
 Long-form, PMID-backed installments on **adolescent PPCS aerobic exercise prescription** — how protocols set intensity, how measurement choices affect home delivery, and what clinicians can write on Monday morning.
 
-**6 installments published · series ongoing** · Latest: [Wrist HR vs Chest Strap: What Community PPCS Prescription Assumes](posts/pillar2-006-wearable-hr-error-margins/index.html)
+**7 installments published · series ongoing** · Latest: [When Installments Disagree: A Cross-Path Topology for PPCS Aerobic Documentation](posts/pillar2-007-prescription-path-topology/index.html)
 
 Written by **Guang Li (Jack)** — graduate athletic training researcher. Primary audience: clinicians and researchers; parents can start from each installment’s **SOP** and plain-language notes. [About this series →](/about.html)
 :::

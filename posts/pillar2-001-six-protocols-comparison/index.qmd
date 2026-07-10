@@ -152,7 +152,7 @@ The three-column format is intentional. Most published protocols are written for
 5. **Adherence:** Trial adherence often exceeds 80%; real-world parental supervision is often \<40%. This SOP does not solve unsupervised home exercise [PMID: 27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/).
 6. **Legal scope:** This is an educational synthesis, not medical advice. F-1 trainees must not provide remote clinical care.
 
-[^device-errata-001]: **Errata (2026-07-03), limitation #3.** The originally published sentence attributed a **±10 bpm** wrist-photoplethysmography margin to Worts et al. 2019 [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/). Full-text search of that review (Foundation Stack / GLP verification, 2026-07-03) did **not** recover that numeric claim or a PPG-versus-ECG accuracy statement. The clinical concern—that community wrist readouts may not match chest-strap or treadmill reference used in prescription evidence—remains; the **evidentiary anchor** has been corrected to device-validation studies [PMID: 28709155](https://pubmed.ncbi.nlm.nih.gov/28709155/), [PMID: 33764310](https://pubmed.ncbi.nlm.nih.gov/33764310/). Worts 2019 is retained only for prescription-framework context (BCTT / home exercise), not for optical error magnitude. Expanded comparison: [installment 006](../pillar2-006-wearable-hr-error-margins/index.html).
+[^device-errata-001]: **Errata (2026-07-03), limitation #3.** The originally published sentence attributed a **±10 bpm** wrist-photoplethysmography margin to Worts et al. 2019 [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/). Full-text search of that review (Foundation Stack / GLP verification, 2026-07-03) did **not** recover that numeric claim or a PPG-versus-ECG accuracy statement. The clinical concern—that community wrist readouts may not match chest-strap or treadmill reference used in prescription evidence—remains; the **evidentiary anchor** has been corrected to device-validation studies [PMID: 28709155](https://pubmed.ncbi.nlm.nih.gov/28709155/), [PMID: 33764310](https://pubmed.ncbi.nlm.nih.gov/33764310/). Worts 2019 is retained only for prescription-framework context (BCTT / home exercise), not for optical error magnitude. Expanded comparison: [installment 006](/posts/pillar2-006-wearable-hr-error-margins/).
 
 ##### What these limitations mean in practice
 
@@ -163,7 +163,7 @@ The most practically significant limitation for community settings is the gap be
 ::: {.callout-note}
 ## Changelog
 
-**2026-07-03 — Limitation #3 (device error).** Removed unsupported ±10 bpm attribution to Worts 2019 [30742254]. Wrist-PPG error is now cited from exercise-validation literature [28709155, 33764310]. See footnote [^device-errata-001] and [installment 006](../pillar2-006-wearable-hr-error-margins/index.html).
+**2026-07-03 — Limitation #3 (device error).** Removed unsupported ±10 bpm attribution to Worts 2019 [30742254]. Wrist-PPG error is now cited from exercise-validation literature [28709155, 33764310]. See footnote [^device-errata-001] and [installment 006](/posts/pillar2-006-wearable-hr-error-margins/).
 :::
 
 ::: {.callout-caution}

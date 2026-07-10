@@ -12,6 +12,7 @@ project:
     - "!resources/pilot-measurement-summary.qmd"
 
 filters:
+  - filters/fs-crosslinks.lua
   - filters/fs-seo.lua
 
 fs-seo:
