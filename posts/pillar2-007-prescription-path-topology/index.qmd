@@ -247,12 +247,13 @@ flowchart TD
 
 *Table A only — claims this audit independently located in primary text (PMC full text or local PDF), not claims inferred or reconstructed from a prior series piece's paraphrase alone. Per the documentation-epistemology rule established in the interaction matrix, nothing "not located" or inferential appears in this table — see [Disagreements](#disagreements) for that material, presented separately and in prose.*
 
-**Design key:** **RCT** = randomized trial methods text; **Feasibility RCT** = Micay adolescent SRC feasibility study; **RCT (pilot)** = Kurowski Pittsburgh SE pilot; **Consensus** = CISG consensus document tables (not trial outcomes); **Management protocol** = published clinical management paper (session-tolerant Logic A variant).
+**Design key:** **RCT** = randomized trial methods text; **Feasibility RCT** = Micay adolescent SRC feasibility study; **RCT (pilot)** = Kurowski Pittsburgh SE pilot; **Consensus** = CISG consensus document tables (not trial outcomes); **Management protocol** = published clinical management paper (session-tolerant Logic A variant); **Clinical review** = narrative review with explicit prescription algorithm (not trial methods).
 
 | Source | Design | What the primary text specifies | Documentation element | PMID |
 |--------|--------|----------------------------------|------------------------|------|
 | Leddy/Buffalo RCT | RCT | "a provided Polar H7 Bluetooth Heart Rate Sensor and Fitness Tracker to monitor HR" | Monitoring device class | [30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/) |
 | Leddy/Buffalo RCT | RCT | New target HR set by weekly clinic BCTT for as long as participant remained symptomatic | Progression logic (A) | [30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/) |
+| Leddy 2013 BCTT review | Clinical review | "increase the exercise HR target by 5 to 10 bpm every 2 wk (via phone call or email)"; athletes 10 bpm/2 wk, nonathletes 5 bpm/2–3 wk; optional BCTT repeat every 2 wk for precision | Progression logic (A, non-weekly-BCTT fallback) | [24225521](https://pubmed.ncbi.nlm.nih.gov/24225521/) |
 | Leddy 2021 stage-ladder | Management protocol | Advance on session tolerance; re-evaluate every 1–2 weeks; goal 80%+ HRmax without exacerbation | Progression logic (A, session-observed variant) | [34817719](https://pubmed.ncbi.nlm.nih.gov/34817719/) |
 | Kurowski / Pittsburgh SE | RCT (pilot) | Cycling program 5–6 days/week at 80% of the duration that exacerbated symptoms; dose reassessed at each of 6 clinic visits | Progression logic (C, duration-titrated variant) | [27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/) |
 | Micay fixed ramp | Feasibility RCT | 8 fixed sessions; intensity +5% age-predicted HRmax per session until 70%, no clinician adjustment mid-ramp | Progression logic (C, fixed-ramp variant) | [30018795](https://pubmed.ncbi.nlm.nih.gov/30018795/) |
@@ -308,7 +309,7 @@ flowchart TD
 
 **Reading Figure 4.** The three curves answer different questions: Micay prescribes a **pre-written HR% ladder**; Leddy 2021 prescribes **HR% stages gated by symptom response**; Kurowski prescribes **duration** relative to a bike-test symptom threshold. Writing them on one documentation line without naming which model is active is how silent cells become false compatibility.
 
-**What Table A does not include, and why:** a fallback variant of Logic A in Leddy et al.'s 2013 clinical review (PMID [24225521](https://pubmed.ncbi.nlm.nih.gov/24225521/) — *Current Sports Medicine Reports*; DOI 10.1249/JSR.0000000000000008: adjusting target HR by 5–10 bpm every 1–2 weeks without weekly BCTT) is cited in the progression piece but was **not independently located in primary text** this pass. The GLP corpus holds other Leddy 2013 pilot PDFs (fMRI / PCS treatment), not this review article; the publisher full text is paywalled. It is not asserted here as located, does not appear in Table A, and remains the one documented receipt exception for the "Logic A when BCTT unavailable" matrix cell (see Limitations §4).
+**Cadence note (Logic A fallback).** The progression piece paraphrases Leddy 2013 as "every 1–2 weeks"; the located primary text in Table A specifies **every 2 wk** (athletes up to 10 bpm; nonathletes 5 bpm every **2–3 wk**). Documentation should quote the located wording, not the paraphrase.
 
 #### 4. Disagreements {#disagreements}
 
@@ -371,7 +372,7 @@ When published, the path-locked one-page prescription note and the `prescription
 4. **Judgment calls resolved during drafting; one narrow citation receipt remains open.**
    - **Path 1 vs Path 2:** **Path 1** is the one-time clinic event where BCTT sets the heart-rate ceiling; **Path 2** is the ongoing home channel where a chest strap reads %HR against that ceiling. Figure 2 shows the Leddy trial sequence (clinic test → home Polar strap) as one documented bundle, **not** a universal prerequisite — when no treadmill exists, the no-treadmill piece's fallback anchors (age-predicted %HRmax, symptom cap, RPE) can still pair with home chest-strap monitoring without ever passing through Path 1.
    - **Kurowski vs Path 1:** Kurowski's Pittsburgh program advances by titrating bike-session **duration** at clinic visits, not by repeating BCTT — classified as **Logic C** (visit-completion ramp), not Path 1. The Path 1 × Logic C matrix cell stays silent by design, not by oversight.
-   - **Leddy 2013 fallback (PMID 24225521):** A non-weekly-BCTT variant of Logic A (adjust target HR every 1–2 weeks without treadmill) is cited in the progression piece. **Closure attempt 2026-07-10:** local corpus has Leddy 2013 *pilot* PDFs, not the *Current Sports Medicine Reports* review (DOI 10.1249/JSR.0000000000000008); publisher full text is paywalled; quote not refuted, only unverified. This blocks upgrading the "Logic A when BCTT unavailable" cell to primary-source receipt — it does not block Figure 2, Table A, or this article.
+   - **Leddy 2013 BCTT review (PMID 24225521):** **Closed 2026-07-10.** Canonical PDF `leddy2013_bctt.pdf` (GLP `papers/_pdf_hunt_410/`). Primary text supports a non-weekly-BCTT Logic A fallback: raise target HR **5–10 bpm every 2 wk** by phone/email (athletes 10 bpm/2 wk; nonathletes 5 bpm/2–3 wk) — now in Table A. The progression piece's "every 1–2 weeks" is a paraphrase; document the located cadence.
 
 5. **Inferred tensions are not evidence.** T-001 and T-002 (Disagreements 1–2) are audit inferences or the progression piece's explicitly unpublished defaults. They belong in documentation design discourse, not in Table A.
 
