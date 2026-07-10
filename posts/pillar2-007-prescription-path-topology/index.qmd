@@ -23,11 +23,11 @@ Writing the wearable-monitoring piece, I kept coming back to one line in its own
 ::: {.callout-note}
 ## New to this series?
 
-This is **installment 7** of the [Foundation Stack](/index.html) — a PMID-backed methods series on adolescent **PPCS** (prolonged post-concussive symptoms) aerobic exercise prescription. If you have not read installments [001](/posts/pillar2-001-six-protocols-comparison/)–[006](/posts/pillar2-006-wearable-hr-error-margins/), start at the [Series Hub](/index.html) or skim the [decision tree](#fig-2-topology) first; this page audits how those six pieces fit together, not a standalone clinical protocol.
+This is **installment 7** of the [Foundation Stack](/index.html) — a PMID-backed methods series on adolescent **PPCS** (prolonged post-concussive symptoms) aerobic exercise prescription. If this is your first visit, start at the [Series Hub](/index.html) or skim the [decision tree](#fig-2-topology) below; the table summarizes what the six prior pieces each established. This page audits how those pieces combine — not a standalone clinical protocol.
 
 **Abbreviations used here:** **BCTT** = Buffalo Concussion Treadmill Test; **RTL** / **RTP** = return to learn / return to sport (consensus documents often label sport steps **RTS**); **CISG** = Concussion in Sport Group consensus staging.
 
-**What the six prior installments each fixed (this page audits how they combine):**
+**What the six prior pieces each fixed (this page audits how they combine):**
 
 | Topic | Plain-language scope |
 |-------|----------------------|
@@ -41,7 +41,7 @@ This is **installment 7** of the [Foundation Stack](/index.html) — a PMID-back
 
 #### 1. Problem
 
-Installments [001](../pillar2-001-six-protocols-comparison/index.html) through [006](../pillar2-006-wearable-hr-error-margins/index.html) each fixed exactly one prescription variable (see callout table): which test to anchor intensity to, which fallback anchor to use without a treadmill, how much weekly volume to target, which staging track a session belongs to, which rule advances the prescription, and which device is allowed to adjudicate a heart-rate band. Read individually, each closes its own gap. Read together, none states whether a given combination of choices is one a clinician can actually write down and trust.
+The six prior pieces in this series each fixed exactly one prescription variable: which test to anchor intensity to, which fallback anchor to use without a treadmill, how much weekly volume to target, which staging track a session belongs to, which rule advances the prescription, and which device is allowed to adjudicate a heart-rate band (protocol comparison; no-treadmill prescribing; weekly volume; school vs sport staging; progression after first Rx; wearable monitoring — see callout table above). Read individually, each closes its own gap. Read together, none states whether a given combination of choices is one a clinician can actually write down and trust.
 
 This article does not propose a new field to fill in. It audits the **interactions already implied by the six prior pieces' own text** — where the series has explicitly declared two choices compatible, where it has explicitly forbidden a combination, and where it has simply never addressed the combination at all. That third category turned out to be the largest, and its size is itself part of the finding: **a flat, all-fields-fillable documentation form would silently imply compatibility the series has never actually claimed.**
 
