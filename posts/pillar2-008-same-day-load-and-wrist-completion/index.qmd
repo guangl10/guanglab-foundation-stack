@@ -20,7 +20,7 @@ Closing out installment 7's interaction matrix, two rows sat differently from th
 ::: {.callout-note}
 ## New to this series?
 
-This is **installment 8** of the [Foundation Stack](/index.html) — a PMID-backed methods series on adolescent **PPCS** (prolonged post-concussive symptoms) aerobic exercise prescription. This piece is short and narrow by design: it does not re-explain the whole series. If you have not read [installment 7](/posts/pillar2-007-prescription-path-topology/), the two questions below will make more sense with that context; skim its interaction-matrix summary first if you have five minutes.
+This is **installment 8** of the [Foundation Stack](/index.html) — a PMID-backed methods series on adolescent **PPCS** (prolonged post-concussive symptoms) aerobic exercise prescription. This piece is narrow by design: it does not re-explain the whole series. If you have not read [installment 7](/posts/pillar2-007-prescription-path-topology/), the two questions below will make more sense with that context; skim its interaction-matrix summary first if you have five minutes.
 
 **Two terms this piece is entirely about, in plain language:**
 
@@ -36,15 +36,17 @@ Installment 7 could not find either question answered by any of the series' firs
 
 #### 1. Problem
 
-Installment 7 audited how the series' first six pieces fit together, and found two places where it could not locate a stated rule — it could only combine two separately-documented facts into an inference of its own. It labeled both **inferred tension**, not a finding, and set them aside for exactly this reason: an audit of the series' own prior text is not the same thing as a search of primary literature.
+Installment 7 audited how the series' first six pieces fit together and found two places where it could not locate a stated rule; it could only combine two separately-documented facts into its own inference. It labeled both **inferred tension** and set them aside, because auditing the series' own prior text is a different exercise from searching primary literature.
 
-**The result, stated up front:** a dated, disclosed search of primary literature — not just a re-read of the prior six pieces — still did not locate either rule. Both come back **checked silence**, not a new resolution. This is not a disappointing result to report quietly; it is a stronger epistemic status than installment 7 could claim on its own, and it changes what a clinician can honestly write on a documentation note today.
+**The result, stated up front:** a dated, disclosed primary-literature search still did not locate either rule. Both remain **checked silence**, and that upgrade matters on its own terms: it changes what a clinician can honestly write on a documentation note today, from an inference the series made about itself to an absence someone actually went and checked.
 
 **T-001, in full.** [Installment 5](https://fs.guanglab.org/posts/pillar2-005-progression-after-first-prescription/) describes three ways to authorize the next increase in a prescription — one of them, **Logic C**, advances a session-dose prescription once the next scheduled session or clinic visit is completed. Installment 5 groups two variants under this logic (Micay's fixed percentage ramp and Kurowski's duration-titration protocol), but in both the trigger is the same event: a session marked complete. [Installment 6](https://fs.guanglab.org/posts/pillar2-006-wearable-hr-error-margins/) separately argues that a wrist-worn optical heart-rate reading disagrees with a reference reading by more than most prescribed heart-rate bands are wide — too wide to trust for confirming a session stayed inside a narrow band. Neither piece states whether those two facts combine: does a Logic C completion trigger depend on the session having been confirmed in-band, and does that confirmation's reliability change depending on which device did the reading? Installment 7 could only infer that it might.
 
 **T-002, in full.** [Installment 4](https://fs.guanglab.org/posts/pillar2-004-school-vs-sport-staging/) describes two parallel step-ladders — one for returning to school, one for returning to sport — and installment 5 proposes, in its own words, that if either track generates a symptom escalation of more than 2/10 lasting more than an hour on a given day, advancement on *both* tracks should be deferred the next day. Installment 5 states in the same passage that this specific rule "has no published source." It is a proposed clinical-judgment default, not a citation.
 
-**What this piece is not:** it does not run a new trial, and it does not overturn any already-settled part of installment 7's interaction matrix — in particular, the wrist-optical channel's exclusion from in-band adjudication (already stated-incompatible in installment 7's Figure 1a) is untouched. This piece asks a narrower, different question about each tension and reports what a real search found.
+**Why these two.** Installment 7's audit found that most cross-installment combinations (58% of the cells it checked) were simply silent, with no source addressing them in either direction. T-001 and T-002 stood out because installment 7 could point to a concrete mechanism linking two separately-documented facts, not just an unaddressed pairing in a grid. That specificity is what made them worth a dated search.
+
+This piece runs two targeted, dated searches on those tensions and reports the result, while leaving installment 7's already-settled cells unchanged (including the wrist-optical channel's stated-incompatible status for in-band adjudication in Figure 1a).
 
 #### 2. Methods — search protocol {#methods-search-protocol}
 
@@ -54,20 +56,24 @@ Two independent search questions were run as their own literature-scout cycle (s
 |-------|-------|
 | Corpus | GLP research-assistant corpus (`concussion-research-rag`), queried via its RAG CLI |
 | Model | `google/gemini-2.5-flash` for answer synthesis; near-miss chunks inspected directly |
-| Independent check | Direct full-text keyword scan (`pypdf`) of the Amsterdam and Berlin consensus statements — not RAG retrieval alone |
+| Independent check | Direct full-text keyword scan (`pypdf`) of the Amsterdam and Berlin consensus statements, alongside RAG retrieval |
 | Not claimed | An exhaustive PubMed/Embase systematic review; grey literature or offline guideline supplements were not searched |
+
+This search used RAG (retrieval-augmented generation) over a working corpus: a vector index retrieves the most relevant text chunks for a query, then a model summarizes what those chunks say. It is fast enough to run twice for a short methods piece, but it is still narrower than a multi-database systematic-review search with a multi-string, multi-reviewer audit trail. For context, the underlying corpus covers several hundred concussion and PPCS aerobic-exercise papers; each query below returned only 8–10 chunks worth inspecting, which reflects how sparse this specific corner of the literature actually is.
 
 **T-001 query (verbatim):** *Does any adolescent PPCS or sport-related concussion aerobic exercise trial or consensus statement condition session-completion or progression-advancement decisions on the monitoring device class used to confirm in-band heart rate (wrist optical vs. chest strap)? Explicitly look for any paper that links wearable/device type to progression logic.* Searched deliberately beyond the four papers installment 7's own synthesis claim already used to establish the wrist-reliability argument.
 
 **T-002 query (verbatim):** *Does any concussion consensus statement or aerobic exercise protocol give an explicit same-day rule for combined return-to-learn and return-to-sport symptom load — for example holding advancement on both tracks the next day if either shows symptom escalation? Beyond the high-level rule that full return-to-learn must precede unrestricted return-to-sport.* The Amsterdam and Berlin consensus documents were checked directly by keyword scan for this specific question, since both already supply the return-to-learn/return-to-sport sequencing gate itself (installment 7's Table A) but had not been searched for a same-day combined-load rule specifically.
 
-Every PMID this search touched was independently re-verified rather than relayed from a prior receipt — the series' standing identifier-hygiene rule, adopted after installment 6 found a real PMID mismatch in its own source material by not skipping this step. No new PMID issues surfaced this pass.
+A second, broader query was run to catch near-misses the first, narrowly-phrased question might miss: *wrist optical heart rate monitor progression OR advancement OR session completion concussion OR PPCS OR BCTT chest strap Polar.* This is what surfaced the Leddy/Buffalo Polar H7 detail and the Mercier, Del Rossi, Henke, and Chizuk near-misses listed in Table A below.
+
+Every PMID this search touched was independently re-verified rather than relayed from a prior receipt — the series' standing identifier-hygiene rule, adopted after installment 6 found a real PMID mismatch in its own source material by not skipping this step. **A concrete example of that re-verification in practice:** the T-001 search's closest near-miss initially returned two candidate Mercier papers sharing the same last name — PMID 32024486, a 2020 trial protocol, and PMID 39427780, a 2024 completed-trial report from the same research group. Only the 2020 protocol's abstract matched the specific 70–80%-of-symptom-exacerbation-heart-rate detail this search was checking; the 2024 paper is a later, different publication and was excluded. Table A cites only the verified match. No other PMID issues surfaced this pass.
 
 **Continuity with installment 5's earlier combined-load scout.** Installment 5's own literature note already flagged the same-day RTL+RTP micro-rule as unpublished (Yang 2024 and Wingerson 2024 discuss related loads, not the hold-both-tracks rule). Those papers are not re-listed in Table A below — this piece re-checks the consensus primaries with an explicit same-day search string rather than repeating that earlier partial scout as table rows.
 
 #### 3. Comparison — what a dated search located, and what it does not settle {#comparison-near-miss-audit}
 
-*This table is not a positive-citation table like installment 7's Table A. Every source below was located; none of them settles either question — that "No" is this table's finding, not a footnote to it.*
+*Eight candidate sources were examined across both tensions (five for T-001, three for T-002), and 0/8 settles either question. Table A is therefore a near-miss audit: every source below was located, and every one resolves to "No."*
 
 | Tension | Source (PMID) | Claim tested | What the source actually says | Classification | Settles? |
 |---------|----------------|--------------|--------------------------------|-----------------|----------|
@@ -82,9 +88,9 @@ Every PMID this search touched was independently re-verified rather than relayed
 
 #### 4. Disagreements {#disagreements}
 
-Both tensions land on the same outcome, so there is one line, not a branch for each: **a dated, disclosed search found nothing that states either combination, in either direction.** That upgrades both from installment 7's *inferred tension* (an audit-only guess) to a **checked silence** (a searched, dated, and still-empty result) — a real epistemic gain, even though the content of the finding is "no." Neither promotes to installment 7's Figure 1a grid: that grid is reserved for combinations a source explicitly states as compatible or incompatible, and nothing here clears that bar.
+Both tensions land on the same outcome: **as of 2026-07-15, a dated, disclosed search found nothing that states either combination, in either direction.** That upgrades both from installment 7's *inferred tension* to **checked silence**. It does not promote either into installment 7's Figure 1a grid, because that grid is reserved for combinations a source explicitly states as compatible or incompatible.
 
-This search deliberately extended beyond the four papers installment 7's own synthesis claim already used to establish the wrist-reliability argument — the question here is different (does any source condition the *advancement trigger* on device class), not a re-run of the wrist-reliability meta-picture. Installment 7's existing finding — that a wrist reading cannot adjudicate a narrow heart-rate band under any progression logic — stands untouched; this piece only checked whether any source separately ties that reliability question to *which* logic is running, and found nothing that does either way.
+For T-001, this search extended beyond the four papers installment 7 used for its wrist-reliability synthesis and asked a different question: whether any source conditions an *advancement trigger* on device class. It found none, and installment 7's existing wrist-band adjudication finding stands unchanged.
 
 ```{=html}
 <figure id="fig-tension-closure">
@@ -103,23 +109,27 @@ This search deliberately extended beyond the four papers installment 7's own syn
 
 #### 5. SOP — what to write now {#sop-documentation-grammar}
 
-*Sections 2–4 are deliberately short: there is no new citation to build a case around. What changes for practice is here.*
+*Sections 2–4 are short by design; the practice-relevant change is here.* Both worked examples below are meant to be copied onto an actual note, not paraphrased.
 
 **1. Logic C sessions.** Record which path (per installment 6's device-class labels) supplied the heart-rate reading for each session, alongside the progression logic in force. A wrist-optical reading still cannot serve as evidence that a session was completed in-band — installment 6's bandwidth argument stands, and this search found no exception clause anywhere in primary literature for any progression logic. Nothing changes about what to do; what changes is that "no exception exists in the literature" is now a checked claim, not a guess.
 
-**2. Same-day RTL+RTP hold.** Keep using installment 5's proposed rule — if either track generates a symptom escalation of more than 2/10 lasting more than an hour on a given day, defer advancement on both tracks the next day. The label on the documentation note must say **adopted clinical-judgment convention**, not a citation, exactly as installment 5 itself said. Add one line pointing to this piece's **Methods search date (2026-07-15)** so a reader can see the absence was checked, not assumed — not a private machine path, and not a citation pretending the rule has a PMID.
+**What this looks like on a note:** `Path 3 (wrist, ancillary) · Logic C · session 4/8 complete · in-band status: not verifiable per installment 6/7 — do not use to confirm zone completion.`
+
+**2. Same-day RTL+RTP hold.** Keep using installment 5's proposed rule — if either track generates a symptom escalation of more than 2/10 lasting more than an hour on a given day, defer advancement on both tracks the next day. The label on the documentation note must say **adopted clinical-judgment convention**, not a citation, exactly as installment 5 itself said. Add one line pointing to this piece's **Methods search date (2026-07-15)** — a search-trail reference, not a private machine path or a citation the rule doesn't actually have.
+
+**What this looks like on a note:** `[Date] RTL step 3, RTP step 2 — symptom escalation >2/10 for 90 min on the sport track (meets the >1 h threshold) → hold advancement on both tracks per adopted convention (installment 5 §Step 2; search trail: pillar2-008, 2026-07-15). Reassess [date].` The parenthetical is a dated search-trail reference, not a PMID.
 
 **3. Do not invent a new checkbox.** A confirmed-absent result is not grounds to add a new stated-incompatible cell to installment 7's matrix, or a new field to any documentation form. Silence stays silence; checking it more carefully does not turn it into a rule.
 
 #### 6. Limitations
 
-1. **Confirmed-absent is corpus-bound and dated, not proof of universal non-existence.** This search covered the GLP corpus plus a direct scan of the Amsterdam and Berlin consensus documents. It did not search grey literature, conference abstracts, or guideline supplements held offline. A future search could still find something this one did not.
+1. **Confirmed-absent is corpus-bound and dated, not proof of universal non-existence.** This search covered the GLP corpus plus a direct scan of the Amsterdam and Berlin consensus documents. It did not search grey literature, conference abstracts, or guideline supplements held offline. A future search could still find something this one did not. A search that wanted to close this gap more definitively would need at least three things this pass did not do: a formal multi-database search (Embase and Medline, not just this corpus) with a documented string and date; a hand search of the CISG consensus statements' companion systematic-review papers (Berlin 2017 states each consensus question was "the subject of a specific formal systematic review, which is published concurrently with this summary statement"); and a check of clinic-level quality-improvement or registry data, where a same-day combined-load convention might be documented operationally without ever appearing in a peer-reviewed source.
 
 2. **Scope stays narrow.** This piece checks exactly the two tensions installment 7 named — T-001 and T-002 — and no others. It does not reopen any already-resolved cell in installment 7's interaction matrix, and it does not address the narrow Leddy-2013 citation blocker installment 7 already scoped as non-urgent.
 
 3. **Installment 7's live text is not being retroactively edited, and needs no errata.** Its Figure 1b only ever stated that these two tensions exist — it never displayed a confidence-tier label on the public page. Nothing installment 7 said has gone stale; only the private working matrix's internal confidence label was upgraded. Correcting a public claim and updating a private audit trail are not the same action, and only the first would require a visible erratum.
 
-4. **No new trial comparisons.** This piece does not test whether device class actually affects outcomes, or whether a same-day combined-load hold changes recovery time. It only checks whether the published literature has ever stated a rule for either — and reports, honestly, that it has not.
+4. **No new trial comparisons.** This piece does not test whether device class actually affects outcomes, or whether a same-day combined-load hold changes recovery time. It only checks whether the published literature has ever stated a rule for either, and reports that it has not.
 
 ---
 
