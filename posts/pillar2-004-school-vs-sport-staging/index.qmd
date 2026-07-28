@@ -14,9 +14,7 @@ pillar: methods
 
 Pulling return-to-learn and return-to-sport checklists side by side, I expected one timeline. I found two vocabularies—**RTS means school in one Canadian protocol and sport in Berlin**—two median clocks (35 vs 38 days in one youth cohort), and chart data saying we still release **both** tracks too early, often on different schedules [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/) [PMID: 24925965](https://pubmed.ncbi.nlm.nih.gov/24925965/).
 
-That is the problem this installment maps.
-
-**What this installment is—and is not.** This is a **methods** piece in the Foundation Stack series. It does **not** replace CISG appendices or your district’s return-to-play law. It maps **two parallel staging checklists** (RTL and RTP), shows where they attach to [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) intensity and [*Twenty Minutes From Where?*](../pillar2-003-twenty-minutes-from-where/index.html) volume, and flags **when published recovery numbers cannot be compared**. Athletic trainers and school staff will find the most actionable material in [Section 4](#resource-limited-settings) and the [dual-track SOP](#sop-checklist-dual-track). Researchers and trainees will find the endpoint and chart-review critique in [Section 3](#how-to-read-the-recovery-numbers-without-merging-the-tracks)—skippable on first read if you only need staging labels for tomorrow’s clinic.
+This is a methods piece, not a replacement for CISG appendices or your district’s return-to-play law. It maps **two parallel staging checklists** (RTL and RTP), shows where they attach to [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) intensity and [*Twenty Minutes From Where?*](../pillar2-003-twenty-minutes-from-where/index.html) volume, and flags **when published recovery numbers cannot be compared**. Athletic trainers and school staff will find the most actionable material in [Section 4](#resource-limited-settings) and the [dual-track SOP](#sop-checklist-dual-track); researchers and trainees will find the endpoint and chart-review critique in [Section 3](#how-to-read-the-recovery-numbers-without-merging-the-tracks)—skippable on first read if you only need staging labels for tomorrow’s clinic.
 
 The [second installment](../pillar2-002-no-bctt-prescription-paths/index.html) asked how to set a sub-symptom heart-rate band when there is no treadmill. The [third](../pillar2-003-twenty-minutes-from-where/index.html) asked how many minutes and sessions fit a school week. Both assumed the **staging question** was mostly settled: once symptoms allow, you advance. In clinic, the adolescent often carries **two** advance rules at once—what the school will permit and what the sport program will permit—and those rules are not written in the same document.
 
@@ -109,7 +107,7 @@ Section 2 lists steps; the literature quantifying those steps uses **different r
 | **43.5% / 44.7% returned too soon** (chart review) [PMID: 24925965](https://pubmed.ncbi.nlm.nih.gov/24925965/) | **Marginal** proportion of all cases judged premature on RTP / RTL | “If we advance sport, 43% relapse” (not supported without a 2×2 table) |
 | **26.7% / 42.6% premature with relapse** (later chart review) [PMID: 35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/) | **Marginal** counts of cases where premature RTP / RTL **and** relapse co-occur in chart documentation | Confused with **P(relapse \| premature)** |
 
-**Takeaway:** Means from meta-analyses, medians from single cohorts, and percentages from chart reviews answer **different questions** on **different endpoints**. Collapsing them into one “recovery timeline” is a methods error—not a disagreement among experts.
+Means from meta-analyses, medians from single cohorts, and percentages from chart reviews answer **different questions** on **different endpoints**. Collapsing them into one “recovery timeline” is a methods error, not a disagreement among experts.
 
 ##### Figure 1 — Recovery clocks measure different endpoints {#fig-recovery-clocks}
 
@@ -255,18 +253,18 @@ Document **both coordinates**. “Cleared to exercise” without an RTL label is
 
 ##### Three operational disagreements (expanded)
 
-**Disagreement 1 — Sequence:** Consensus text emphasizes **school success before unrestricted sport** [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/). DeMatteo’s cohort shows **simultaneous early-stage progression** is common and can be safe for non-contact phases [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/). Chart data suggest **RTP structured before RTL** in many offices [PMID: 35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/). The disagreement is not “school first vs parallel ever”—it is **where the hard gate sits** (contact sport vs any activity) and **who documents the school leg**.
+**Disagreement 1 — Sequence:** Consensus text emphasizes **school success before unrestricted sport** [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/) [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/). DeMatteo’s cohort shows **simultaneous early-stage progression** is common and can be safe for non-contact phases [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/). Chart data suggest **RTP structured before RTL** in many offices [PMID: 35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/). What is actually contested is not “school first vs parallel ever” but **where the hard gate sits** (contact sport vs any activity) and **who documents the school leg**.
 
 **Disagreement 2 — Clocks:** Meta means (~8 d RTL, ~20 d RTS) describe **aggregated study endpoints** in athletes [PMID: 37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/). Youth medians (~35 / ~38 d) describe **full protocol completion** in one prospective sample [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/). Quoting the fast number to reassure families while the school still runs a six-week accommodation plan misaligns expectations.
 
 **Disagreement 3 — Prescription attachment:** Sub-symptom **%HRmax** (*No Treadmill in the Room*) and **minutes × days / weekly volume** (*Twenty Minutes From Where?*’s **~100 min/wk** vs **≥160 min/wk** bands [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/)) attach naturally to **RTP step 2**. **Screen limits, exam deferrals, and partial days** attach to **RTL**. If only the sport prescription is updated at follow-up, the family may **stack** cognitive and aerobic load on the same afternoon—symptoms spike, and both tracks blame the wrong lever.
 
-**What would settle disagreement 1?** Pragmatic trials comparing coordinated dual-track documentation vs single-track RTP-focused follow-up, with **same-day** symptom and adherence reporting on **both** legs—not only sport clearance.
+Pragmatic trials comparing coordinated dual-track documentation with single-track RTP-focused follow-up—same-day symptom and adherence reporting on both legs, not only sport clearance—would test the first disagreement.
 
-**What would settle disagreement 2?** Standardized reporting in cohort studies: **date of RTL step 1–4** and **RTP step 1–6** in the same row, with **symptom scores after combined daily load**—not separate sport-only exertion tests.
+Cohort studies would help the second if they reported RTL step 1–4 and RTP step 1–6 dates in the same row, with symptom scores after combined daily load rather than separate sport-only exertion tests.
 
 
-#### 4. If your setting looks like this {#resource-limited-settings}
+#### 4. School, clinic, and home coordination {#resource-limited-settings}
 
 [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) asked how to set **intensity** without BCTT. [*Twenty Minutes From Where?*](../pillar2-003-twenty-minutes-from-where/index.html) asked how to log **weekly minutes**. This installment asks what happens when the **school checklist** and **sport checklist** are updated by different adults on different days.
 
@@ -319,9 +317,9 @@ A **15-year-old JV guard** took an elbow to the head under the basket **18 days*
 
 **Wednesday:** She completes a **solo 18-minute walk** after school (symptoms **2/10 → 3/10**, acceptable). That evening she makes up a **biology lab write-up** (~50 minutes, laptop, bright screen)—symptoms **3/10 → 6/10** until bedtime. Thursday AM fog is worse; she sits out conditioning. Coach says she “failed RTP”; teacher notes she “was fine in class until she overdid exercise.”
 
-The failure mode is **siloed narratives**, not a stopwatch error. Amsterdam’s mild-exacerbation rule applies to **each activity class**—but families experience **one cumulative day** [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/). DeMatteo’s cohort reported **64%** with school problems during recovery and **31%** with grade drops even as activity stages advanced [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/)—the vignette pattern is common, not exotic.
+Siloed narratives caused this, not a stopwatch error. Amsterdam’s mild-exacerbation rule applies to **each activity class**—but families experience **one cumulative day** [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/). DeMatteo’s cohort reported **64%** with school problems during recovery and **31%** with grade drops even as activity stages advanced [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/)—the vignette pattern is common, not exotic.
 
-**Decision sequence:**
+Work through the plan in order.
 
 1. **Write both coordinates on one line:** RTL **3** (full day + accommodations) · RTP **2A** (solo light aerobic, **not** team conditioning yet)—not “stage 2” in isolation.
 
@@ -331,7 +329,7 @@ The failure mode is **siloed narratives**, not a stopwatch error. Amsterdam’s 
 
 4. **One communication touchpoint:** AT, counselor, and parent receive the **same sentence** (see §5 template)—not three incompatible summaries.
 
-**Parent-facing translation:** “The walk after school was fine. The lab on the laptop was too much **the same day**. We are not failing sport—we are **pausing both tracks** until a day tolerates **walk + normal homework** without a late spike. Team practice waits.”
+What to tell the family: “The walk after school was fine. The lab on the laptop was too much **the same day**. We are **pausing both tracks**, not failing sport, until a day tolerates **walk + normal homework** without a late spike. Team practice waits.”
 
 **Clinician note:** Purcell et al. list symptom burden, rest, age/grade, and **course load** as core return-to-school factors [PMID: 29500251](https://pubmed.ncbi.nlm.nih.gov/29500251/). Halstead emphasizes school environmental adjustments, not only attendance status [PMID: 24163302](https://pubmed.ncbi.nlm.nih.gov/24163302/). Aerobic prescription without those variables is a **single-track note**.
 
@@ -400,18 +398,18 @@ Optional intensity helper: the standalone [HR calculator](/tools/hr-calculator/)
 
 6. **Aerobic PPCS evidence still sport-track weighted:** Leddy-style subsymptom trials enroll exercise arms without parallel school-load manipulation [PMID: 30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/)—*No Treadmill in the Room* / *Twenty Minutes From Where?* prescriptions may outpace RTL documentation.
 
-7. **Legal scope:** Educational synthesis only—not medical advice.
+7. **Scope:** Staging synthesis for documentation—not a substitute for school board policy or medical clearance.
 
 ##### What these limitations mean in practice
 
-The most actionable gap is not missing a seventh RTP stage—it is missing a **shared row** in the chart. Until trials report **both** tracks with **combined daily symptoms**, clinics should treat dual-track staging as a **documentation and communication** problem first, and a **prescription** problem second. That is where *No Treadmill in the Room*’s bands and *Twenty Minutes From Where?*’s weekly minutes actually attach: inside labeled RTP steps, gated by RTL tolerance—not floating alone on a discharge sheet.
+The most actionable gap is a missing **shared row** in the chart, not a missing seventh RTP stage. Until trials report **both** tracks with **combined daily symptoms**, clinics should treat dual-track staging as a **documentation and communication** problem first, and a **prescription** problem second. That is where *No Treadmill in the Room*’s bands and *Twenty Minutes From Where?*’s weekly minutes actually attach: inside labeled RTP steps, gated by RTL tolerance—not floating alone on a discharge sheet.
 
 
-Berlin paired **four RTL steps** with **six RTP steps** in one consensus document [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/). Amsterdam refined the symptom rules and made the parallel-track logic explicit [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/). Canadian charts still show **both** tracks released too early, with **RTL improvements lagging RTP** [PMID: 35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/). The literature is not silent on coordination—it is **easy to read one column and call it recovery**.
+Berlin paired **four RTL steps** with **six RTP steps** in one consensus document [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/). Amsterdam refined the symptom rules and made the parallel-track logic explicit [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/). Canadian charts still show **both** tracks released too early, with **RTL improvements lagging RTP** [PMID: 35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/). The literature does address coordination; the trouble is how **easy it is to read one column and call it recovery**.
 
-This is the fourth piece in Foundation Stack. If [*Six Protocols, One Condition*](../pillar2-001-six-protocols-comparison/index.html) mapped protocol fragmentation, [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) mapped intensity without treadmills, and [*Twenty Minutes From Where?*](../pillar2-003-twenty-minutes-from-where/index.html) mapped **time without superstition**, this one maps **staging without collapsing two checklists into one**.
+Once school and sport are on separate ladders, the next question is **how the aerobic dose advances** when both tracks are moving—[installment 005](../pillar2-005-progression-after-first-prescription/index.html) maps the three progression logics that answer that in different ways.
 
-The [RSS feed](../../index.xml) on the hub will notify readers when the next installment publishes. The next installment works through a different unresolved problem in the same literature.
+The [RSS feed](../../index.xml) on the hub will notify readers when the next installment—on progressing a prescription after the first check-in—publishes.
 
 ---
 
