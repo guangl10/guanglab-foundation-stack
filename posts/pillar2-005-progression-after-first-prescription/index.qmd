@@ -20,9 +20,9 @@ The Leddy/Buffalo group answers: bring the athlete back to the treadmill at the 
 
 The advancement rule matters clinically: it influences whether a student returns to full sport in three weeks or eight. It determines whether a partial school day is a gate or a side note. And in the week when return-to-learn and return-to-sport are both active—a student running PE drills and sitting through exam accommodations—it determines which track holds when symptom load climbs.
 
-This piece assumes you already have a running prescription (intensity, weekly volume, school/sport steps). The [series topic table in installment 007](../pillar2-007-prescription-path-topology/index.html) lists where each of those was covered, if you need a map. **What none of those pieces answered:** once a prescription is running, what changes it—and does that rule still hold when school and sport are both active?
+This piece assumes you already have a running prescription—intensity, weekly volume, and school/sport steps. **What that still leaves open:** once a prescription is running, what changes it—and does that rule still hold when school and sport are both active?
 
-No trial defines same-day school-plus-aerobic budgeting, so the [SOP checklist](#sop-dual-track) below relies on clinical judgment rather than a published rule. No adolescent PPCS trial has randomized progression-rule type either. This piece maps three published ways to advance a prescription, then reads the Berlin and Amsterdam consensus PDFs to show that school and sport steps do not share the same timing rules ([consensus table audit](#consensus-table-audit); Figure 2).
+No trial defines same-day school-plus-aerobic budgeting, so the [SOP checklist](#sop-dual-track) below relies on clinical judgment rather than a published rule. No adolescent PPCS trial has randomized progression-rule type either. Three published ways to advance a prescription are mapped below, then checked against the Berlin and Amsterdam consensus PDFs, which show that school and sport steps do not share the same timing rules ([consensus table audit](#consensus-table-audit); Figure 2).
 
 #### 1. Three progression logics: rules and origins
 
@@ -242,9 +242,9 @@ One additional constraint from the volume literature: Howell 2021 [PMID: 3385686
 
 #### 3. The dual-track layer: RTL and RTP do not share an advancement rule {#dual-track-advancement}
 
-*Terminology:* **RTL** = return to learn/school; **RTP** = return to sport. CISG documents use **RTS** for the sport table; this installment uses **RTP** in clinical prose to match [pillar2-004](../pillar2-004-school-vs-sport-staging/index.html).
+*Terminology:* **RTL** = return to learn/school; **RTP** = return to sport. CISG documents use **RTS** for the sport table; this piece uses **RTP** in clinical prose.
 
-[*Two Tracks, One Athlete*](../pillar2-004-school-vs-sport-staging/index.html) showed that RTL and RTP run from different checklists and that the literature seldom tracks combined daily load. The progression question adds a second dimension: **does the school track use the same advancement timing as the sport track?**
+RTL and RTP run from different checklists, and the literature seldom tracks combined daily load. The progression question adds a second dimension: **does the school track use the same advancement timing as the sport track?**
 
 The [consensus table audit](#consensus-table-audit) shows the answer in Berlin and Amsterdam full text: **the same symptom threshold, different timing rules** on school vs sport tables.
 
@@ -279,7 +279,7 @@ The 4-day / 6-day figures are a **thought experiment, not a treatment timeline**
 | Putukian proportion [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/) | **93%** full RTL by day 10 | — | — | Full RTL without new academic support |
 | DeMatteo cohort median [31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/) | 35 d | 38 d | **1.09** | Youth *n*=139; staged full-protocol completion |
 
-Putukian’s pooled RTL mean (**8.3 d**) sits above the CISG thought-experiment minimum (**4 d**)—a coarse reminder that real-world “days until RTL” in ~278 pooled studies is not the same construct as Amsterdam step labels. **Do not treat Putukian’s RTP:RTL ratio (2.39) as a harmonized dual-track statistic:** *I²* 99.3% means numerator and denominator came from study-specific endpoints never step-mapped to CISG tables. For whether RTL documentation **lags** RTP in practice, Carson’s dual-track chart review ([004](../pillar2-004-school-vs-sport-staging/index.html)—RTL premature return unchanged while RTP improved) and DeMatteo’s youth medians (**35 vs 38 d** on full staged-protocol completion) are the cleaner read.
+Putukian’s pooled RTL mean (**8.3 d**) sits above the CISG thought-experiment minimum (**4 d**)—a coarse reminder that real-world “days until RTL” in ~278 pooled studies is not the same construct as Amsterdam step labels. **Do not treat Putukian’s RTP:RTL ratio (2.39) as a harmonized dual-track statistic:** *I²* 99.3% means numerator and denominator came from study-specific endpoints never step-mapped to CISG tables. For whether RTL documentation **lags** RTP in practice, Carson’s dual-track chart review (RTL premature return unchanged while RTP improved across eras [PMID: 35292472](https://pubmed.ncbi.nlm.nih.gov/35292472/) [PMID: 24925965](https://pubmed.ncbi.nlm.nih.gov/24925965/)) and DeMatteo’s youth medians (**35 vs 38 d** on full staged-protocol completion) are the cleaner read.
 
 ##### Why Putukian means and CISG steps measure different things
 
@@ -453,7 +453,7 @@ if (requireNamespace("patchwork", quietly = TRUE)) {
 
 **Figure 2.** Panel A shows **CISG step timing** (RTL: symptom gate only; RTP: 24 h floor)—schematic, not a patient timeline. Panel B plots **three separate estimates** (do not merge): document minimum under ideal symptoms, Putukian pooled means (*I²* 99.3%—endpoint definitions differ across studies), and DeMatteo youth medians (full staged-protocol completion).
 
-For **which steps may overlap** and the hard RTL-before-contact gate, see [*Two Tracks, One Athlete*](../pillar2-004-school-vs-sport-staging/index.html). This installment asks what happens to **advancement rules** when both tracks are active on the same calendar day.
+Amsterdam and Berlin both state that full return-to-learn should precede unrestricted return-to-sport—a **hard gate** on RTP steps 4–6 while RTL is still below step 4. This piece asks what happens to **advancement rules** when both tracks are active on the same calendar day.
 
 No published protocol addresses same-day symptom budgeting directly. The macro rule is clear—Amsterdam: "student-athletes should complete full RTL before unrestricted RTS" [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/); Berlin: "children and adolescents should not return to sport until they have successfully returned to school" [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/)—but those are **track-completion gates**, not same-day combined-load rules.
 
@@ -479,7 +479,7 @@ A student who is advancing well on RTP step 2 aerobic sessions while sitting in 
 
 #### 4. The combined-load progression gap {#combined-load-gap}
 
-A review of the published concussion literature found **no protocol that specifies a combined RTL + RTP load budget for progression decisions**. Figure 3 shows one documented consequence: premature RTL return did not improve across two Canadian chart-review eras while RTS did. The macro coordination rules (RTL before unrestricted RTP; symptom-gated step advance) are established in the CISG consensus [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/). The session-level question—if school and aerobic exercise both provoke symptoms on the same day, which track's advancement rule governs?—is not addressed in any trial or consensus document reviewed for this installment.
+A review of the published concussion literature found **no protocol that specifies a combined RTL + RTP load budget for progression decisions**. Figure 3 shows one documented consequence: premature RTL return did not improve across two Canadian chart-review eras while RTS did. The macro coordination rules (RTL before unrestricted RTP; symptom-gated step advance) are established in the CISG consensus [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) [PMID: 28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/). The session-level question—if school and aerobic exercise both provoke symptoms on the same day, which track's advancement rule governs?—is not addressed in any trial or consensus document reviewed for this piece.
 
 This gap sits at the intersection of the three logics:
 
@@ -489,7 +489,7 @@ This gap sits at the intersection of the three logics:
 
 - If using **Logic C** (fixed ramp), session completion drives advancement automatically. The ramp schedule does not have a school-symptom input.
 
-What fills this gap is **clinical judgment and documentation practice**—specifically, a dual-column format that records school-side and sport-side status on the same day. [*Two Tracks, One Athlete*](../pillar2-004-school-vs-sport-staging/index.html) showed that most SRC discharge plans carry only one track's checklist; DeMatteo 2019 reported that school and activity stages were often tracked on **separate pathways** in practice [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/). Until a trial reports combined daily load with preregistered advancement rules, the field's silence on this question should be acknowledged explicitly in the record, not papered over with a generic "advancing as tolerated" note.
+What fills this gap is **clinical judgment and documentation practice**—specifically, a dual-column format that records school-side and sport-side status on the same day. Most SRC discharge plans carry only one track's checklist; DeMatteo 2019 reported that school and activity stages were often tracked on **separate pathways** in practice [PMID: 31396150](https://pubmed.ncbi.nlm.nih.gov/31396150/). Until a trial reports combined daily load with preregistered advancement rules, the field's silence on this question should be acknowledged explicitly in the record, not papered over with a generic "advancing as tolerated" note.
 
 ##### Figure 3 — Premature return rates by track and era {#fig-carson-premature}
 
@@ -547,7 +547,7 @@ ggplot(df_carson, aes(x = track, y = pct, fill = period)) +
 
 1. **No head-to-head trial of progression logics in adolescent PPCS.** Logic A (BCTT) is derived from a trial that was not designed to compare progression rules; Logic C (Micay) was a feasibility RCT with *n* = 18. Logic B (CISG step rules) is consensus-derived, not trial-derived.
 
-2. **RTL vs RTP temporal asymmetry is read from primary CISG PDFs, not from a systematic review.** The [table in §1.2](#consensus-table-audit) applies the same four fields to Berlin and Amsterdam return-to-school and return-to-sport tables [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/). Putukian endpoint alignment is summarized in §3. This installment does **not** report unpublished screening counts or adherence-audit aggregates from any ongoing review work.
+2. **RTL vs RTP temporal asymmetry is read from primary CISG PDFs, not from a systematic review.** The [table in §1.2](#consensus-table-audit) applies the same four fields to Berlin and Amsterdam return-to-school and return-to-sport tables [37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) [28446457](https://pubmed.ncbi.nlm.nih.gov/28446457/). Putukian endpoint alignment is summarized in §3. This piece does **not** report unpublished screening counts or adherence-audit aggregates from any ongoing review work.
 
 3. **Putukian meta-analytic means are not patient-level forecasts.** *I²* 99.3% for days-to-RTL and days-to-RTP [37316183](https://pubmed.ncbi.nlm.nih.gov/37316183/) reflects incompatible study endpoint definitions across ~278 pooled studies—not a problem fixable by averaging. The 93% full-RTL-by-day-10 proportion and DeMatteo youth medians are reported on separate layers (see §3 alignment table).
 
@@ -561,7 +561,7 @@ ggplot(df_carson, aes(x = track, y = pct, fill = period)) +
 
 #### 6. SOP: dual-track progression decision checklist {#sop-dual-track}
 
-*Synthesizes three progression logics and CISG dual-track coordination rules for educational use only [PMID: 30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/) [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) [PMID: 30018795](https://pubmed.ncbi.nlm.nih.gov/30018795/) [PMID: 27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/) [PMID: 38346776](https://pubmed.ncbi.nlm.nih.gov/38346776/). Staging overlap rules: [004](../pillar2-004-school-vs-sport-staging/index.html).*
+*Synthesizes three progression logics and CISG dual-track coordination rules for educational use only [PMID: 30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/) [PMID: 37316210](https://pubmed.ncbi.nlm.nih.gov/37316210/) [PMID: 30018795](https://pubmed.ncbi.nlm.nih.gov/30018795/) [PMID: 27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/) [PMID: 38346776](https://pubmed.ncbi.nlm.nih.gov/38346776/).*
 
 ::: {.callout-tip}
 ## Three things to write down
@@ -608,7 +608,7 @@ This is a hard gate in the published consensus. It cannot be waived by logic A (
 
 > **RTL: Step __ / 4** (e.g., partial day, __ accommodations active) · **RTP: Step __ / 6** · Progression logic: [BCTT weekly / CISG step rules / session ramp] · Combined-load rule applied: [yes / no] · Next reassessment: __
 
-The HR calculator from [*No Treadmill in the Room*](/tools/hr-calculator/) encodes intensity bands for RTP step 2. Apply within the step ceiling; do not use as permission to advance across step boundaries independently of RTL status.
+The [HR calculator](/tools/hr-calculator/) encodes intensity bands for RTP step 2. Apply within the step ceiling; do not use as permission to advance across step boundaries independently of RTL status.
 
 ::: {.callout-important}
 **Educational use only.** Progression rules summarized here are derived from published trials and consensus statements. They do not replace individualized medical assessment, local return-to-play law, or school board policy.
@@ -620,8 +620,6 @@ Three progression logics are operating in the adolescent SRC and PPCS literature
 
 When both return-to-learn and return-to-sport are active, the advancement rule used on one track does not automatically apply to the other. The macro coordination rules (full RTL before unrestricted RTP) are established. The daily combined-load question—what happens to advancement when school and sport both generate symptoms on the same day—is a gap in the published literature that clinical judgment currently fills.
 
-The next installment turns to the monitoring channel itself: whether a wrist optical heart-rate reading can substitute for the chest strap these prescriptions were built on. The [RSS feed](../../index.xml) on the hub will notify readers when it publishes.
-
 ---
 
-**Series:** [Foundation Stack](/index.html) · **pillar2-005** · **Pillar:** methods (progression rules; dual-track advancement)
+**Series:** [Foundation Stack](/index.html) · methods · progression rules; dual-track advancement

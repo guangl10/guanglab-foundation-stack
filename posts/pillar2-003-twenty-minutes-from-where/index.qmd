@@ -1,6 +1,6 @@
 ---
 title: "Twenty Minutes From Where? Why Session Duration Is the Wrong Unit for Adolescent PPCS Prescription"
-description: "Twenty minutes appears on every adolescent PPCS handout—but the number circulates by citation, not experiment. This methods installment maps that history, then where observational weekly-volume work comes closest to an answer."
+description: "Twenty minutes appears on every adolescent PPCS handout—but the number circulates by citation, not experiment. This methods piece maps that history, then where observational weekly-volume work comes closest to an answer."
 date: "2026-06-17"
 series: "Foundation Stack"
 installment: pillar2-003
@@ -12,11 +12,11 @@ pillar: methods
 **Not medical advice. Educational use only. Data from published literature.**
 :::
 
-Every adolescent PPCS protocol I opened while writing the [first two Foundation Stack installments](../pillar2-001-six-protocols-comparison/index.html) agreed on one surface detail: **aerobic exercise should happen in bounded sessions**—often around twenty minutes, often most days of the week. None of the papers I traced could answer the question a parent actually asks: *Why twenty? Why not fifteen? Why not thirty?*
+Every adolescent PPCS protocol I opened agreed on one surface detail: **aerobic exercise should happen in bounded sessions**—often around twenty minutes, often most days of the week. None of the papers I traced could answer the question a parent actually asks: *Why twenty? Why not fifteen? Why not thirty?*
 
 That parent question is where the handout starts to look arbitrary.
 
-The [six-protocol comparison](../pillar2-001-six-protocols-comparison/index.html) showed fragmentation in **testing** and **intensity anchors**. The [no-BCTT installment](../pillar2-002-no-bctt-prescription-paths/index.html) showed the same fragmentation when treadmills disappear. Both pieces still assumed that once intensity is chosen, the prescription sheet will say something like “**20 minutes, 5 days per week**”—as if that pair were evidence-derived rather than inherited.
+Published protocols already fragment on **testing** and **intensity anchors**—treadmill thresholds, age-predicted %HR bands, RPE, symptom caps. Even after intensity is chosen, the prescription sheet still usually says something like “**20 minutes, 5 days per week**”—as if that pair were evidence-derived rather than inherited.
 
 The “20 minutes” line on most handouts is thinner evidence than it looks. This piece traces how that number circulated, then follows observational work on **weekly aerobic volume** (minutes × frequency)—still imperfect, but closer to what the literature actually measures. Clinicians who need a schedule today should start with [Section 4](#resource-limited-settings) and the [SOP](#sop-checklist-and-weekly-dose-tool).
 
@@ -27,7 +27,7 @@ The useful question is not *“What is the magic number?”* but *“What variab
 
 Buffalo-style subsymptom-threshold prescription pairs an individualized heart-rate target with a **duration target**—commonly about twenty minutes per day at sub-threshold intensity [PMID: 31105634](https://pubmed.ncbi.nlm.nih.gov/31105634/). Leddy et al.’s adolescent trials specify **at least 20 minutes daily** of subsymptom-threshold aerobic exercise for up to four weeks after injury [PMID: 30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/) [PMID: 34600629](https://pubmed.ncbi.nlm.nih.gov/34600629/). Howell et al.’s YMCA branching-bike work instructs **5 days per week** at prescribed intensity [PMID: 35489100](https://pubmed.ncbi.nlm.nih.gov/35489100/).
 
-Those numbers look precise. They are also **rarely experimentally compared** against alternative session lengths in adolescent PPCS. No trial in this series’ library randomizes 15 versus 20 versus 30 minutes while holding weekly volume constant. Duration is assumed, not tested.
+Those numbers look precise. They are also **rarely experimentally compared** against alternative session lengths in adolescent PPCS. No trial in the literature reviewed here randomizes 15 versus 20 versus 30 minutes while holding weekly volume constant. Duration is assumed, not tested.
 
 Montreal active-rehabilitation protocols cap supervised aerobic work at **15 minutes** per session in the 50–60% target zone [PMID: 29058559](https://pubmed.ncbi.nlm.nih.gov/29058559/) [PMID: 25735821](https://pubmed.ncbi.nlm.nih.gov/25735821/). Kurowski’s Pittsburgh SE trial individualized duration as **80% of the time that provoked symptoms during testing**, up to **30 minutes**, on **five to six days per week** [PMID: 27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/). Micay’s fixed-bike protocol began at **10 minutes** and progressed toward **20 minutes** over the first week, on a **two-days-on, one-day-off** schedule [PMID: 30305924](https://pubmed.ncbi.nlm.nih.gov/30305924/). Chrisman et al.’s MSTEP protocol starts youth at **10 minutes per day** and advances toward **60 minutes per day** of moderate-to-vigorous activity to meet U.S. federal MVPA recommendations [PMID: 35473570](https://pubmed.ncbi.nlm.nih.gov/35473570/).
 
@@ -37,7 +37,7 @@ Chrisman et al. justify advancing toward **60 minutes per day** by citing **U.S.
 
 Howell et al. (2021) make the circularity visible in a single sentence when explaining their **100 min/week** grouping:
 
-> *“This classification was done based on our prescription to the intervention group to exercise 20 min/d for 5 d/wk, consistent with prior studies.”* [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/)
+> *“This classification was done based on our prescription to the intervention group to exercise 20 min/d for 5 d/wk, consistent with previous studies.”* [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/)
 
 They immediately add that while prior work suggests **100 minutes per week** may suffice for adolescents who already have persistent symptoms, **the dose necessary for beneficial effects in acute and subacute phases remains unknown**—the same paper that later reports **≥160 min/week** as a stronger discriminatory threshold for symptom resolution at one month.
 
@@ -153,20 +153,20 @@ Reporting standards that require both prescribed and achieved weekly minutes in 
 
 Section 1 showed that “twenty minutes” is **conventional**, not experimentally chosen. Section 2 showed that when outcomes are stratified at all, they stratify on **weekly aerobic volume**—imperfectly and associatively, but consistently enough to matter clinically.
 
-The single most useful takeaway for prescribers is **Disagreement 2** from Section 2: **100 min/week** is what Howell *prescribed* (20 × 5, “consistent with prior studies” [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/)); **160 min/week** is what *separated* symptom-free adolescents in the same paper’s post hoc analysis. Those are not interchangeable targets—and collapsing them is how families inherit stopwatch guilt over a digit the literature never validated session-by-session.
+The single most useful takeaway for prescribers is **Disagreement 2** from Section 2: **100 min/week** is what Howell *prescribed* (20 × 5, “consistent with previous studies” [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/)); **160 min/week** is what *separated* symptom-free adolescents in the same paper’s post hoc analysis. Those are not interchangeable targets—and collapsing them is how families inherit stopwatch guilt over a digit the literature never validated session-by-session.
 
-That distinction does not replace intensity rules from [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html). It does mean the negotiable unit becomes **minutes × days per week**, logged honestly, with symptom caps intact. Section 4 walks through what that looks like when a parent texts *”We failed the protocol.”*
+That distinction does not replace intensity rules—age-predicted %HR, RPE, or a **≥2/10** symptom rise stop. It does mean the negotiable unit becomes **minutes × days per week**, logged honestly, with symptom caps intact. Section 4 walks through what that looks like when a parent texts *”We failed the protocol.”*
 
 
 #### 4. Applying the volume reframe at home {#resource-limited-settings}
 
-[*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) asked how to set **intensity** without BCTT. This installment asks how to set **volume** without worshipping a single session template—especially when *No Treadmill in the Room*’s Setting A (school AT) and Setting C (home / primary care) face different scheduling realities.
+Intensity without BCTT is one problem; **volume** without worshipping a single session template is another—especially when school athletic trainers and home / primary-care supervision face different scheduling realities.
 
 ##### Vignette
 
 A **14-year-old ninth grader** has headache and fatigue **six weeks** after a header in practice. Both parents work until 6 p.m. No treadmill at school; the athlete walks the family dog **alone after school**—about twenty minutes on most weekdays, unsupervised. The discharge sheet says “20 minutes aerobic exercise, 5 days per week.” Last Tuesday the walk was **eighteen minutes** because the dog stopped early; the mother texted the school nurse: *“We failed the protocol.”*
 
-This patient matches the **Setting C** scenario from [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) (home / primary care supervision). Intensity was never BCTT-anchored; the family uses a **symptom cap** (stop if headache or fog rises **≥2/10** from walk start) and brisk walking pace—full sentences, no breathlessness.
+This is a **home / primary-care** supervision setting. Intensity was never BCTT-anchored; the family uses a **symptom cap** (stop if headache or fog rises **≥2/10** from walk start) and brisk walking pace—full sentences, no breathlessness.
 
 **Volume reframe applied:**
 
@@ -192,28 +192,28 @@ What to tell the family: “We care about **roughly a hundred minutes this week*
 
 The table is **arithmetical**, not outcome-proven. It shows why a family that can only supervise **three after-school walks** might need **longer sessions** to approach observational bands—not because thirty minutes is magic, but because **100–160 min/week is a product**.
 
-For parents, the translation shifts from *“Was it exactly twenty minutes?”* to *“Did we accumulate roughly a hundred minutes this week without symptom spikes—and did every session stay sub-symptom?”* That pairs naturally with *No Treadmill in the Room*’s **≤2/10 stop rule** and 24-hour advancement logic.
+For parents, the translation shifts from *“Was it exactly twenty minutes?”* to *“Did we accumulate roughly a hundred minutes this week without symptom spikes—and did every session stay sub-symptom?”* That pairs naturally with a **≤2/10 stop rule** and 24-hour advancement logic.
 
 
 #### 5. SOP checklist and weekly-dose tool {#sop-checklist-and-weekly-dose-tool}
 
 ##### One-page SOP (volume-aware community default)
 
-*Synthesizes Howell 2021 volume findings, Neely 2023 session-frequency data, and [*Six Protocols, One Condition*](../pillar2-001-six-protocols-comparison/index.html) / [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) symptom caps for education only [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/) [PMID: 36580488](https://pubmed.ncbi.nlm.nih.gov/36580488/) [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).*
+*Synthesizes Howell 2021 volume findings, Neely 2023 session-frequency data, and symptom-cap stop rules for education only [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/) [PMID: 36580488](https://pubmed.ncbi.nlm.nih.gov/36580488/) [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).*
 
 | Clinician | Parent | Adolescent |
 |-----------|--------|------------|
 | □ Document **minutes × days/week** achieved, not only “compliant yes/no” | □ Log **each session’s duration** and peak symptoms | □ Rate symptoms 0–10 before and after every walk or bike session |
-| □ Pair volume with **intensity path** from [*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) (%, RPE, or symptom cap) | □ Weekly total matters more than one “failed” short session | □ Stop if symptoms +2/10 from session start—do not extend minutes to “hit twenty” |
+| □ Pair volume with an **intensity path** (%, RPE, or symptom cap) | □ Weekly total matters more than one “failed” short session | □ Stop if symptoms +2/10 from session start—do not extend minutes to “hit twenty” |
 | □ Discuss **100 vs 160 min/wk** as observational bands, not guarantees | □ Shorter daily walks can equal one long Buffalo-style session across the week | □ Missing a day → recover schedule without doubling duration same day |
 | □ Use diary or wearable if available; actigraphy studies used objective totals [PMID: 36580488](https://pubmed.ncbi.nlm.nih.gov/36580488/) | □ Report **sessions >15 min** when updating clinician (Neely threshold) | □ School days count—commute walks can add volume if sub-symptom |
 | □ Revisit prescription if <100 min/wk persists two weeks with stalled symptoms | □ Ask whether fatigue is from **under-dosing** or **over-intensity**, not wrong clock time | □ No contact sport without written clearance |
 
 ##### Weekly-dose helper (educational tool)
 
-[*No Treadmill in the Room*](../pillar2-002-no-bctt-prescription-paths/index.html) deliberately did **not** embed a calculator: that installment’s claim was that **%HRmax bands do not converge**. This installment’s claim is different—**weekly totals may have observational thresholds** even when session length does not. The standalone [weekly dose helper](/tools/dose-calculator/) multiplies minutes per session by sessions per week and maps the product to published bands (Howell **100** and **160** min/week; sleep-related **150** min/week flagged separately).
+Published **%HRmax** fallback bands do not converge on one intensity number. This piece’s claim is different—**weekly totals may have observational thresholds** even when session length does not. The standalone [weekly dose helper](/tools/dose-calculator/) multiplies minutes per session by sessions per week and maps the product to published bands (Howell **100** and **160** min/week; sleep-related **150** min/week flagged separately).
 
-Use it to compare schedules—for example, whether **15 minutes × 7 days** and **20 minutes × 5 days** land in the same weekly band—not to override symptom caps or intensity rules from prior installments.
+Use it to compare schedules—for example, whether **15 minutes × 7 days** and **20 minutes × 5 days** land in the same weekly band—not to override symptom caps or intensity rules.
 
 ::: {.callout-important}
 **Educational use only.** Thresholds come from observational secondary analyses and actigraphy cohorts—not from a preregistered dose-finding RCT in adolescent PPCS.
@@ -224,15 +224,15 @@ Use it to compare schedules—for example, whether **15 minutes × 7 days** and 
 
 1. **No session-length RCT:** The library lacks a trial that manipulates only per-session duration while holding weekly volume constant in adolescent PPCS.
 
-2. **Circular prescription history:** The 20-minute convention propagates by citation [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/); this piece maps that history but cannot invent a derivation that the literature never reported.
+2. **Circular prescription history:** The 20-minute convention propagates by citation [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/); no derivation exists in the literature to invent.
 
 3. **Retrospective volume analyses:** Howell 2021’s **160 min/week** ROC and Neely 2023’s session counts are associative; directionality (exercise → symptoms vs symptoms → exercise) remains ambiguous.
 
-4. **Acute vs persistent populations:** Howell 2021 enrolled within **14 days** of injury; extrapolation to slow PPCS at six weeks requires caution—overlap with *No Treadmill in the Room*’s audience but not identical evidence.
+4. **Acute vs persistent populations:** Howell 2021 enrolled within **14 days** of injury; extrapolation to slow PPCS at six weeks requires caution—overlapping clinical audience, not identical evidence.
 
 5. **Intensity unmeasured in volume bands:** Weekly minutes without sub-symptom intensity context can over-dose if walks are too fast or under-dose if sessions are symptom-limited but brief.
 
-6. **Adherence:** Wingerson 2024 links adherence and session duration to outcomes [PMID: 38109187](https://pubmed.ncbi.nlm.nih.gov/38109187/); a weekly-minute framework does not solve unsupervised execution—*Six Protocols, One Condition* limitation #5 still applies [PMID: 27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/).
+6. **Adherence:** Wingerson 2024 links adherence and session duration to outcomes [PMID: 38109187](https://pubmed.ncbi.nlm.nih.gov/38109187/); a weekly-minute framework does not solve unsupervised execution—trial adherence often exceeds what home programs achieve [PMID: 27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/).
 
 7. **Scope:** Weekly-volume synthesis for education—not a substitute for individualized medical assessment or preregistered dose-manipulation trials.
 
@@ -243,12 +243,8 @@ Treating **20 minutes** as folklore rather than physics does not mean **volume i
 
 Session duration is the most copied number in adolescent PPCS aerobic prescription—and the least defended. Montreal caps at fifteen minutes; Buffalo and Leddy ask for twenty; Kurowski permits up to thirty; MSTEP aims for sixty on a public-health timeline [PMID: 29058559](https://pubmed.ncbi.nlm.nih.gov/29058559/) [PMID: 31105634](https://pubmed.ncbi.nlm.nih.gov/31105634/) [PMID: 27120294](https://pubmed.ncbi.nlm.nih.gov/27120294/) [PMID: 35473570](https://pubmed.ncbi.nlm.nih.gov/35473570/). Observational dose work suggests the **weekly integral** may matter as much as any single session’s stopwatch reading [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/) [PMID: 36580488](https://pubmed.ncbi.nlm.nih.gov/36580488/).
 
-The field inherited both numbers the same way Howell admitted grouping them: *“20 min/d for 5 d/wk, consistent with prior studies.”* [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/) Session length circulated by citation; the weekly product followed. Volume observational work does not close that ring—it names what to **measure** until dose-manipulation trials exist.
-
-Once weekly volume replaces session folklore as the unit you track, the next question is **where two different checklists attach to that volume**—return-to-learn and return-to-sport rarely live on the same form.
-
-The [RSS feed](../../index.xml) on the hub will notify readers when the next installment—on return-to-school and return-to-sport staging—publishes.
+The field inherited both numbers the same way Howell admitted grouping them: *“20 min/d for 5 d/wk, consistent with previous studies.”* [PMID: 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/) Session length circulated by citation; the weekly product followed. Volume observational work does not close that ring—it names what to **measure** until dose-manipulation trials exist.
 
 ---
 
-**Series:** [Foundation Stack](/index.html) · **pillar2-003** · **Pillar:** methods (exercise dose / weekly volume)
+**Series:** [Foundation Stack](/index.html) · methods · exercise dose / weekly volume

@@ -18,7 +18,7 @@ They are thinking: *the number on the watch is the number from the trial.*
 
 Kitchen math and trial math are not the same problem.
 
-Community notes often copy trial heart-rate targets without copying trial measurement class. Validation studies report wrist–reference disagreement **tens of bpm wide**—often wider than a typical written band (Figures 1–7 below). Earlier series pieces flagged that risk in protocol comparison and no-treadmill prescribing; **this installment supplies the numbers.**
+Community notes often copy trial heart-rate targets without copying trial measurement class. Validation studies report wrist–reference disagreement **tens of bpm wide**—often wider than a typical written band (Figures 1–7 below).
 
 The narrower question is whether a wrist optical readout is statistically compatible with the chest-strap channel the evidence actually used, once the prescription is written as a heart-rate band. A school athletic trainer whose athletes all wear watches faces that every week. So does a community pediatrician who wrote “keep HR under 140” and assumes the family’s Apple Watch will enforce it, or a parent who advances the session because the watch “looked fine” while symptoms creep up the next morning.
 
@@ -38,7 +38,7 @@ That swap is easy to miss because the interface looks scientific. A glowing digi
 
 Sub-symptom aerobic exercise is no longer fringe in adolescent concussion care. In community settings the open question is usually how hard to go, and how anyone knows. When the answer is written as a heart-rate band, the monitoring channel becomes part of the prescription—whether or not the note says so.
 
-When there is no treadmill, clinicians fall back to bike tests, age-predicted bands, RPE, and symptom caps—and should prefer a chest strap on any %HR~max~ path. What those approaches could not yet quantify—because the wearable validation panel had not been assembled—is **how wide** wrist–reference disagreement can be, or how often “acceptable” average error coexists with a corridor too wide for a narrow band. The figures below supply that measurement layer.
+When there is no treadmill, clinicians fall back to bike tests, age-predicted bands, RPE, and symptom caps—and should prefer a chest strap on any %HR~max~ path. What those approaches could not yet quantify—because the wearable validation panel had not been assembled—is **how wide** wrist–reference disagreement can be, or how often “acceptable” average error coexists with a corridor too wide for a narrow band—that measurement layer follows in Figures 1–7.
 
 Two clinicians can both “use heart rate” and still disagree in practice. One issues a Polar-class strap and treats the number as a ceiling. Another assumes the family’s watch is close enough and advances dose because the log “looked green.” The adolescent hears the same diagnosis and the same written percentage, then lives two different real intensities. Families get blamed for noncompliance when the real problem is often **unmeasured channel error**.
 
@@ -49,7 +49,7 @@ Two clinicians can both “use heart rate” and still disagree in practice. One
 | **Prescription evidence** | What device did the *clinical evidence* use? | Leddy home **Polar H7 chest strap** |
 | **Validation studies** | How wide is wrist–reference disagreement? | Bias, LOA, \(W_{\mathrm{LOA}}\), \(R\) in Figures 1–7 |
 
-The prescription literature answers what the evidence assumed you could measure. Validation studies answer how wrong a consumer wrist reading can be relative to a reference. Mixing them produced the error in installment 001 limitation #3: a validation-style **±10 bpm** margin was attributed to Worts et al. 2019, but full-text search does not recover that claim (**refuted** in the GLP handoff verification). Worts still matters for prescription framing—BCTT-anchored programming at 80% of provocation HR [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/)—and supplies none of the validation literature’s numeric corridor.
+The prescription literature answers what the evidence assumed you could measure. Validation studies answer how wrong a consumer wrist reading can be relative to a reference. Mixing them produced a published error: a validation-style **±10 bpm** margin was attributed to Worts et al. 2019, but full-text search does not recover that claim (**refuted** in the GLP handoff verification). Worts still matters for prescription framing—BCTT-anchored programming at 80% of provocation HR [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/)—and supplies none of the validation literature’s numeric corridor.
 
 The clinical concern survives the errata: community wrist readouts may not match trial chest-strap conditions, so intensity can be mis-ranked. Only the evidentiary anchor changes—from an unsupported Worts margin to the validation panel plotted below.
 
@@ -91,7 +91,7 @@ The source panel below is the single numeric ledger for every figure. If a numbe
 
 ::: {.callout-note}
 ## Identifier correction (Muggeridge / Sun–Fizzo rows)
-GLP `identifier_warnings` flagged that database PMID tags for these two rows might not match PubMed titles. Independent PubMed DOI lookup confirmed the tags had been **swapped with each other and with an unrelated third paper**: the Muggeridge Polar OH1/Fitbit Charge 3 study's correct identifier is **PMID 33764310** (JMIR Mhealth Uhealth 2021;9(3):e25313), and the Sun/Liu Fizzo PE-lessons study's correct identifier is **PMID 32663136** (JMIR Mhealth Uhealth 2020;8(8):e17699). The previously-referenced PMID 34957939 belongs to an unrelated Apple Watch 6/Polar Vantage V/Fitbit Sense validation study (Hajj-Boutros et al.) and does not appear in this installment. Quotes and numbers were PDF-verified independent of this labeling error and are unaffected; only the citation identifiers changed.
+GLP `identifier_warnings` flagged that database PMID tags for these two rows might not match PubMed titles. Independent PubMed DOI lookup confirmed the tags had been **swapped with each other and with an unrelated third paper**: the Muggeridge Polar OH1/Fitbit Charge 3 study's correct identifier is **PMID 33764310** (JMIR Mhealth Uhealth 2021;9(3):e25313), and the Sun/Liu Fizzo PE-lessons study's correct identifier is **PMID 32663136** (JMIR Mhealth Uhealth 2020;8(8):e17699). The previously-referenced PMID 34957939 belongs to an unrelated Apple Watch 6/Polar Vantage V/Fitbit Sense validation study (Hajj-Boutros et al.) and does not appear in this piece. Quotes and numbers were PDF-verified independent of this labeling error and are unaffected; only the citation identifiers changed.
 :::
 
 | Device / setting | Bias | LOA (bpm) | \(W\) | Source (PDF-verified) |
@@ -235,7 +235,7 @@ GLP `identifier_warnings` flagged that database PMID tags for these two rows mig
 
 ::: {=html}
 <figure id="fig-r">
-<figcaption><strong>Figure 4.</strong> Illustrative bandwidth ratio R = W_LOA / W_Rx with example W_Rx = 15 bpm (not a universal clinical cut-point). Red dashed line at R = 1. Illustrative rule used in this installment: if R &gt; 1, the channel cannot default as adjudicator of that example band.</figcaption>
+<figcaption><strong>Figure 4.</strong> Illustrative bandwidth ratio R = W_LOA / W_Rx with example W_Rx = 15 bpm (not a universal clinical cut-point). Red dashed line at R = 1. Illustrative rule used in this piece: if R &gt; 1, the channel cannot default as adjudicator of that example band.</figcaption>
 <svg viewBox="0 0 520 240" width="100%" style="max-width:36rem;font-family:system-ui,sans-serif;background:#fafafa;border:1px solid #ddd;border-radius:4px">
   <line x1="140" y1="210" x2="500" y2="210" stroke="#333"/>
   <!-- R=1 at x=140+40=180 if 40px per unit R, max R=9 → 360px -->
@@ -396,7 +396,7 @@ Work through the plan in order. The control variable is a HR band, as written. I
 What to tell the family:  
 “The clinic wrote a heart-rate ceiling because the test used heart rate. At home that means the **chest strap** we showed you—not the watch—if we are going to use the number. If the strap is not on, ignore the watch for go/stop and use the symptom and talk-test lines on the plan (full sentences, RPE about 11–14). The watch can stay on for motivation; it does not decide the session.”
 
-The symptom/talk-test stop rule follows the same operational convention used elsewhere in this series; it is outside this installment’s verified HR-agreement panel.
+The symptom/talk-test stop rule is an operational convention (about **+2 points** on a 0–10 scale is common in community prescribing); it is outside this piece’s verified HR-agreement panel.
 
 #### 5. Five monitoring paths {#five-monitoring-paths}
 
@@ -414,7 +414,7 @@ Paths 1–2 preserve the chest-strap measurement class the prescription evidence
 
 1. Rate concussion-related symptoms **0–10** at session start (or the clinic’s usual scale).  
 2. Recheck during aerobic exercise.  
-3. **Stop** when symptoms rise beyond the clinic’s written symptom-limited allow-band (this series’ installments 001–002 often operationalize that as about **+2 points** on a 0–10 scale—an **operational convention carried from those installments**, outside this installment’s GLP verified HR-agreement panel).  
+3. **Stop** when symptoms rise beyond the clinic’s written symptom-limited allow-band (community prescribing often operationalizes that as about **+2 points** on a 0–10 scale—an **operational convention**, outside this piece’s GLP verified HR-agreement panel).  
 4. No heart-rate device is required.
 
 Symptoms make a rough intensity meter at best. When HR agreement is too wide, a **symptom-gated stop rule** is still an explicit, teachable control that does not pretend to deliver trial-grade %HR accuracy. Prescription-facing reviews discuss symptom-limited and home-exercise frameworks alongside HR-based programming [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/), without supplying a wrist-PPG accuracy margin.
@@ -448,13 +448,13 @@ Short version for parents:
 
 ##### Tie-in to progression logic
 
-Some programs advance dose when **the next scheduled session is completed** (a session-ramp rule—**Logic C** in installment 005’s naming). That logic **assumes the readout you trust**. If the readout is a wrist digit with \(R>1\), “completed in zone” is a soft claim. Either attach a strap-class channel or define completion with symptoms/RPE.
+Some programs advance dose when **the next scheduled session is completed** (a **session-ramp** rule—call it **Logic C** here: each completed session authorizes the next dose step). That logic **assumes the readout you trust**. If the readout is a wrist digit with \(R>1\), “completed in zone” is a soft claim. Either attach a strap-class channel or define completion with symptoms/RPE.
 
-#### 7. Errata — installment 001 limitation #3
+#### 7. Errata — Worts ±10 bpm attribution
 
-**Originally published:** wrist PPG “may carry **±10 bpm** error versus chest ECG used in BCTT,” attributed to Worts et al. [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).
+**Originally published elsewhere in this series:** wrist PPG “may carry **±10 bpm** error versus chest ECG used in BCTT,” attributed to Worts et al. [PMID: 30742254](https://pubmed.ncbi.nlm.nih.gov/30742254/).
 
-**Correction:** that numeric attribution is **refuted** on full text. Worts supports BCTT-anchored **80% provocation-HR** programming (prescription evidence). Device-error magnitudes come from validation LOA/bias—Figures 1–7 in this installment.
+**Correction:** that numeric attribution is **refuted** on full text. Worts supports BCTT-anchored **80% provocation-HR** programming (prescription evidence). Device-error magnitudes come from validation LOA/bias—Figures 1–7 in this piece.
 
 | Layer | After correction |
 |-------|------------------|
@@ -462,7 +462,7 @@ Some programs advance dose when **the next scheduled session is completed** (a s
 | ±10 bpm from Worts | **Removed** |
 | Replacement anchors | Figures 1–7 (Gillinov mechanism; Muggeridge / Sun–Fizzo / Sartor / Horton agreement stats) |
 
-The series publishes corrections instead of silent replacement. When installment 001 is updated on the live site, limitation #3 should be rewritten with these anchors and a dated errata footnote; this page already states the correction in full.
+This page states the correction in full.
 
 #### 8. Limitations
 
@@ -470,8 +470,8 @@ The series publishes corrections instead of silent replacement. When installment
 2. **No pooled meta-LOA.** Rows are study-specific; devices, protocols, and populations differ. Descriptive min/median/max language is not a random-effects summary.  
 3. **Population mismatch.** Validation samples are largely healthy adults or school PE cohorts, not adolescent PPCS trials. Small mean biases may not transfer; LOA **widths** do.  
 4. **Identifier correction.** GLP's database had swapped PMID tags across three papers (Muggeridge; Sun/Liu; and an unrelated Hajj-Boutros et al. Apple Watch 6 study). Verified by PubMed DOI lookup: Muggeridge = PMID 33764310; Sun/Liu = PMID 32663136. Quotes and derived numbers were PDF-verified independent of this labeling error and are unaffected.
-5. **Symptom cap / RPE.** Different error models (subjective scales). The “about +2 points” allow-band is an **operational convention from earlier protocol-comparison pieces**; it does not appear in this installment’s verified HR-agreement panel.
-6. **Example band width.** \(W_{\mathrm{Rx}}=15\) bpm and the \(R>1\) threshold are **illustrative decision aids** for this installment, not validated clinical cut-points. A wider written band changes \(R\) (see sensitivity table in §1.3); it does not make wrist and chest channels interchangeable.
+5. **Symptom cap / RPE.** Different error models (subjective scales). The “about +2 points” allow-band is an **operational convention** in community prescribing; it does not appear in this piece’s verified HR-agreement panel.
+6. **Example band width.** \(W_{\mathrm{Rx}}=15\) bpm and the \(R>1\) threshold are **illustrative decision aids** for this piece, not validated clinical cut-points. A wider written band changes \(R\) (see sensitivity table in §1.3); it does not make wrist and chest channels interchangeable.
 
 7. **Figure panel.** Figures 1–7 derive from one verified source table (~7 device arms). Multiple views restate the same LOA widths—interval, schematic, bar, ratio, bias scatter, lab→field, cross-device—useful for different reader entry points, not seven independent datasets.
 
@@ -480,4 +480,8 @@ The series publishes corrections instead of silent replacement. When installment
 Community PPCS care often copies **trial heart-rate targets** without copying **trial heart-rate measurement class**. The flagship adolescent RCT monitored home sessions with a **chest strap** [PMID: 30715132](https://pubmed.ncbi.nlm.nih.gov/30715132/). Once you plot the validation panel, optical agreement under exercise and field conditions turns out to be **wide, device-specific, and scene-dependent**—LOA widths from lab-like **~12 bpm** to progressive-exercise **~136 bpm**; same-study Fitbit width **79 bpm** with **−7 bpm** mean bias; PE field width **~73 bpm** despite near-zero bias; overall MAPE “&lt;5%” sitting beside those widths.
 
 Use a **chest strap** when the written plan is a heart-rate band. When only a wrist device is available, rewrite the plan around symptoms and effort, and treat the watch digit as ancillary—not as the number that decides the session.
+
+---
+
+**Series:** [Foundation Stack](/index.html) · methods · wearable HR error margins
 
