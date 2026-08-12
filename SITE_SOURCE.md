@@ -9,7 +9,7 @@
 | Live site | https://fs.guanglab.org/ |
 | Oracle static HTML | `alpha-x:/home/ubuntu/projects/guanglab/foundation-stack/_site/` |
 | Nginx `root` | same `_site/` path |
-| Deploy | `quarto render` → `bash deploy.sh` (rsync `_site/` only; no `.qmd` on server) |
+| Deploy | rsync changed `posts/**/index.qmd` to alpha-x → `ssh alpha-x` → `quarto render` **on alpha-x itself** (no local Quarto install; `deploy.sh`'s "render locally then rsync `_site/`" is stale, do not follow it) → `bash fix-sitemap.sh` on alpha-x (normalizes `sitemap.xml` to match canonical URLs — Quarto's own sitemap generator uses `.../index.html`, every page's canonical tag uses `.../`; skipping this step reintroduces the Search Console "duplicate, no canonical" warning) |
 
 ## Posts layout (publish repo)
 
