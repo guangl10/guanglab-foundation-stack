@@ -6,6 +6,7 @@ page-layout: full
 listing:
   contents:
     - "hr-calculator/index.qmd"
+    - "dose-calculator/index.qmd"
   sort: "title asc"
   type: table
   fields: [title, description, tool_status, related_installments]

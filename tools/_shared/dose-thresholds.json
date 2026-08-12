@@ -1,0 +1,24 @@
+{
+  "xmin": 0,
+  "xmax": 220,
+  "lines": [
+    {
+      "value": 100,
+      "label": "Howell 100 min/wk (prescribed)",
+      "color": "#c92a2a",
+      "dashed": false
+    },
+    {
+      "value": 160,
+      "label": "Howell 160 min/wk (symptom ROC, observational)",
+      "color": "#862e2e",
+      "dashed": false
+    },
+    {
+      "value": 150,
+      "label": "Howell & Wingerson 150 min/wk (sleep outcome, different paper)",
+      "color": "#495057",
+      "dashed": true
+    }
+  ]
+}

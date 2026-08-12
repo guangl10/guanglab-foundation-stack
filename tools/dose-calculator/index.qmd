@@ -1,0 +1,79 @@
+---
+title: "Weekly dose helper"
+description: "Minutes per session × sessions per week → weekly total; see where it falls against Howell 2021's published volume lines."
+tool: true
+tool_status: beta
+related_installments: [pillar2-003]
+date: "2026-08-12"
+---
+
+::: {.callout-important}
+## Read this first
+
+**Not medical advice. Educational use only.**
+
+- This helper adds up **weekly minutes** — it does not set intensity. Pair it with the [HR helper](/tools/hr-calculator/index.html) or a symptom cap for the "how hard" question.
+- **100 min/week** is what Howell 2021 actually **prescribed** (20 min × 5 d/wk). It is a documented prescription line, not a proven minimum dose.
+- **160 min/week** is a **post hoc, observational** cutoff from the same paper — it discriminated symptom-free vs symptomatic adolescents at one month. It is not a second prescription target.
+- **150 min/week** is from a **different paper, different outcome** (Howell & Wingerson 2024, sleep quality) — shown for reference only. Do not treat it as interchangeable with the 160-minute symptom line.
+:::
+
+## Why this exists
+
+The installment [Twenty minutes from where?](/posts/pillar2-003-twenty-minutes-from-where/index.html) argues that session length is the wrong unit — the literature's actual signal is in the **weekly total**, not any single session's stopwatch reading. This page does the arithmetic so a family or clinician can see where their week actually lands.
+
+**Related reading:** [Disagreement 2 — prescribed vs. observed](/posts/pillar2-003-twenty-minutes-from-where/index.html) · [Howell 2021 volume analysis, PMID 33856860](https://pubmed.ncbi.nlm.nih.gov/33856860/)
+
+::: {#fs-dose-calculator .fs-tool-wrap}
+
+<div class="fs-tool-panel">
+<div class="fs-tool-controls">
+<label class="fs-tool-field">
+<span class="fs-tool-label">Minutes per session</span>
+<input type="range" id="fs-dose-min" min="5" max="40" step="1" value="20">
+<output id="fs-dose-min-out" class="fs-tool-value">20</output>
+</label>
+<label class="fs-tool-field">
+<span class="fs-tool-label">Sessions per week</span>
+<input type="range" id="fs-dose-freq" min="1" max="7" step="1" value="5">
+<output id="fs-dose-freq-out" class="fs-tool-value">5</output>
+</label>
+</div>
+<div class="fs-tool-results" aria-live="polite">
+<div class="fs-tool-stat fs-tool-stat-primary">
+<strong>Weekly total</strong>
+<span id="fs-dose-total">—</span>
+</div>
+<div class="fs-tool-stat">
+<strong>Vs. Howell 100 min/wk (prescribed)</strong>
+<span id="fs-dose-vs100">—</span>
+</div>
+<div class="fs-tool-stat">
+<strong>Vs. Howell 160 min/wk (symptom ROC, observational)</strong>
+<span id="fs-dose-vs160">—</span>
+</div>
+</div>
+</div>
+
+<div class="fs-tool-chart-wrap">
+<svg id="fs-dose-chart" class="fs-tool-chart" role="img" aria-label="Weekly total against published volume lines"></svg>
+</div>
+
+<p class="fs-tool-foot">Dashed line at 150 min/wk = Howell &amp; Wingerson 2024 sleep-outcome band, a different paper and a different outcome — reference only, not a second symptom threshold.</p>
+
+:::
+
+## Boundaries
+
+| Topic | What this tool does / does not do |
+|-------|-----------------------------------|
+| **Intensity** | Not covered here — pair with the [HR helper](/tools/hr-calculator/index.html) or a symptom cap. |
+| **100 vs 160** | Two different constructs from the same paper (prescribed line vs. post hoc observational cutoff). This tool labels them separately on purpose — see the installment's Disagreement 2. |
+| **150 min/wk** | A different paper, a different outcome (sleep, not symptoms). Shown for reference, not merged with the 160-minute line. |
+| **Session-length guilt** | Uneven session lengths that still hit the weekly total are not a protocol failure — see the installment's Pattern A. |
+
+[← All tools](/tools/index.html) · [Series hub](/index.html)
+
+::: {=html}
+<script src="../_shared/fs-dose-tools.js" defer></script>
+:::
